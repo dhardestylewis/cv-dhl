@@ -1,0 +1,270 @@
+\documentclass[letterpaper, 10pt,colorlinks,linkcolor=cyan]{moderncv}
+  \usepackage{lmodern}
+  \usepackage[english]{babel}
+  \usepackage{courier}
+  \hyphenpenalty=100000
+  \hbadness=99999
+%% Themes
+  \moderncvstyle{casual}
+  \moderncvcolor{red}
+  \nopagenumbers{}
+%% Encoding
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+%% Margins
+  \usepackage[scale=0.85]{geometry}
+  \setlength{\hintscolumnwidth}{2.81cm}
+%% Data
+  \firstname{\textsc{Daniel}}
+  \familyname{\textsc{Hardesty Lewis}}
+  \address{\textsc{155~Claremont~Ave}}{\textsc{New~York,~NY~10027}}{\textsc{United~States}}
+  \phone[mobile]{+1~(713)~371-7875}
+  \email{daniel@summitgeospatial.com}
+  % \homepage{tacc.utexas.edu/about/directory/daniel-lewis}
+  \social[linkedin]{dhardestylewis}
+  \social[github]{dhardestylewis}
+  \social[gitlab]{dhl}
+  \extrainfo{\url{researchgate.net/profile/Daniel-Hardesty-Lewis}}
+%% Define \cvdoublecolumn
+  \newcommand{\cvdoublecolumn}[2]{
+    \cvitem[0.75em]{}{
+      \begin{minipage}[t]{\listdoubleitemcolumnwidth}#1\end{minipage}
+      \hfill
+      \begin{minipage}[t]{\listdoubleitemcolumnwidth}#2\end{minipage}
+    }
+  }
+
+\begin{document}
+  \definecolor{links}{HTML}{0645AD}
+  \hypersetup{urlcolor=links}
+  \makecvtitle
+
+  \section{\textsc{Education}}
+    \cventry{expected 2026}{M.S., Urban Planning}{Columbia University}{New York City,~NY}{}{}
+    \cventry{2017}{B.S., Pure Mathematics}{University of Texas}{Austin,~TX}{}{}
+    \cventry{2017}{Certificate, Scientific~Computation}{University of Texas}{Austin,~TX}{}{}
+  
+  \section{\textsc{Experience}}
+  \subsection{\textsc{Professional}}
+    \cventry{Apr. 2025 -- Present}{Co-founder}{Properlytic}{New York, NY}{}{
+    Targetting the last blue ocean in consumer real estate technology: individual home price forecasting
+    \begin{itemize}
+        \item Here's our \href{https://docs.google.com/presentation/d/1HL2zPTLxuGdq9k12Z6J_RQA4Dt64ZKEsSVrTQpbQuNA/edit?usp=sharing}{pitch}
+        \item Built out a current home price prediction ML model, achieving 12\% MAPE against Zillow's 8.4\% in the hardest US market to do it: Manhattan
+        \item That model stack is identical to some of the recent cutting-edge physics foundation models, using a Variational AutoEncoder (VAE) approach
+        \item Uses a data-driven approach to auto-configure the vast majority of hyperparameters and even some of the model architecture, trains in under 7 min
+        \item Interest from a16z \& MetaProp
+     \end{itemize}}
+
+    \cventry{Nov. 2024 -- Present}{Co-founder}{PoliBOM}{Seattle, WA}{}{
+    Top-5\% YC entrant, KPMG rolled out their \href{https://kpmg.com/us/en/capabilities-services/tax-services/international-tax-trade-and-transfer-pricing/trade-customs/kpmg-tariff-modeler.html}{Tariff Modeller} after we put \href{https://polibom.com}{polibom.com} in front of them
+    \begin{itemize}
+        \item Now targetting early stage investment
+    \end{itemize}}
+
+    \cventry{Nov. 2023 -- Present}{Founder}{Summit Geospatial}{New York, NY}{}{
+    Developed the highest quality seamless elevation data for Texas, \href{https://summitgeospatial.com}{summitgeospatial.com}
+    \begin{itemize}
+        \item Now targetting recent interest received to license to AI labs such as OpenAI \& Cohere
+    \end{itemize}}
+
+    \cventry{Aug. 2021 -- Aug. 2023}{Senior Data Scientist \& Technical Lead}{Texas Advanced Computing Center (TACC)}{Austin, TX}{}{
+    \begin{itemize}
+        \item Spun out Summit Geospatial alongside UT's VPs of IP
+        \item Led a principal project of the \$40M Texas Disaster Information System (TDIS) disaster resiliency initiative
+        \item Contributed research towards Paola Passalacqua's 2022 EGU Bagnold Medal, one of geomorphology's highest honors
+        \item Scaled climate and flood models on world-leading supercomputers, utilizing millions of dollars in computational resources and million-node jobs
+        \item Evaluated and accepted tens of millions of dollars in compute requests
+        \item Managed relationships and developed projects with federal, state agencies, and universities including NOAA, NSF, US Army Corps of Engineers, Texas General Land Office, USC, UT, A\&M
+    \end{itemize}}
+    
+    \cventry{Feb. 2018 -- Jul. 2021}{Data Scientist \& Research Engineer}{Texas Advanced Computing Center (TACC)}{Austin, TX}{}{
+    \begin{itemize}
+        \item Competed in DARPA World Modelers program, focusing on disaster resiliency in East Africa
+        \item Research received a mention from President of AAAI Yolanda Gil during her farewell speech
+        \item Helped teach Petrobras deep learning on HPC
+    \end{itemize}}
+
+  \subsection{\textsc{Research}}
+
+    \cventry{May 2025 -- Present}{Research assistant to Dir. Electrical Engineering Zoran Kostic}{Columbia University}{New York, NY}{}{Targetting theory publications to DeepSeek's GRPO algorithm}
+
+    \cventry{Jan. 2025 -- Present}{Research assistant to Dir. Financial Engineering Ali Hirsa}{Columbia University}{New York, NY}{}{Achieved better than  \href{https://www.arcana.io/}{commercial \(R^2\)} on backtested holdout prediction of daily mutual fund returns on a variety of asset classes
+    \begin{itemize}
+        \item Using a DL latent factor model to produce better factors than our benchmark: Fama-French's 5-factor model
+        \item Now targetting SHAP explainability publication
+    \end{itemize}}
+    
+    \cventry{July 2019 -- Aug. 2019}{Summer research intern to Pres. AAAI Yolanda Gil}{University of Southern California}{Los Angeles, CA}{}{Integrated hydrological models into team's DARPA-supported scientific model orchestration portal}
+
+  \subsection{\textsc{Teaching}}
+
+    \cventry{Jan. 2018 -- Dec. 2020}{Co-instructor}{The University of Texas at Austin}{Austin, TX}{}{Helped teach graduate-level courses: \emph{Machine Learning for the Geosciences}, \emph{Intelligent Systems for the Geosciences}, and \emph{Scientific Computation}, including C++, CUDA, HPC, \& optimization}
+
+  \section{\textsc{Key Projects}}
+    \cvitem{oppsAlert}{Developed the first property- and owner-level ML model of NIMBYism, using 15+ years of 15000+ points of individual homeowner protest data provided by the City of Austin}
+    \cvitem{Stealth, RegTech}{\textit{Seeking PE investment:} Teaming up with a top-proptech operator for a very large opportunity to aid cities achieve permitting compliance via simple pipeline collating publicly available imagery against permitting data}
+    \cvitem{Flood Hazard Assessment}{Partnered with the US Army Corps of Engineers to statistically model compound flood hazards in coastal Texas, integrating high-resolution topographic data with hydrological models.}
+    \cvitem{Texas Disaster Information System (\textsc{TDIS})}{Led development of the core elevation data layer for a web-based spatial data system that supports resilient decision-making at the state and local levels.}
+    \cvitem{Real-Time Inundation Mapping}{Developed computationally efficient methods to produce high-resolution (1m) flood inundation maps from National Water Model outputs for emergency response personnel.}
+
+  \section{\textsc{Technology Skills}}
+    \cvdoubleitem{Programming Languages}{\raggedright Python, Bash, PL/pgSQL, Fortran, Perl, C++}{Operating Systems}{\raggedright \textsc{gnu}/Linux, mac\textsc{os}, Windows}
+    \cvdoubleitem{Libraries \& Frameworks}{\raggedright \textsc{gdal}, \textsc{cuda}, GeoPandas, RasterIO, NumPy, Plotly, Dash}{Database Systems}{\raggedright PostgreSQL, Redis, Supabase, PostGIS}
+    \cvdoubleitem{Scientific Software}{\raggedright \textsc{modflow}, \textsc{hand}, \textsc{hec-ras}, \textsc{mesa}}{Cloud \& Virtualization}{\raggedright AWS, Azure, Docker, Singularity}
+    \cvdoubleitem{AI tooling}{\raggedright ChatGPT, Claude, Gemini, VSCode, v0.dev}{ML}{\raggedright \textsc{vae}, Tree-based models}
+    \cvdoubleitem{Clustering techniques \& metrics}{\raggedright \textsc{dbscan}, Hierarchical, Silhouette score, Calinski-Harabasz, Davies-Bouldin}{Statistical \& ML metrics}{\raggedright 
+     \(R^2\), \textsc{mape}, \textsc{rmse}, KL-div, Reconstruction loss}
+
+  \section{\textsc{Peer-reviewed~articles}}
+    \cvitem{2021~July}{Gil,~Y., D.~Garijo, D.~Khider, C.~A.~Knoblock, M.~Osorio, H.~Vargas, M.~Pham, J.~Pujara, B.~Shbita, B.~Vu, Y.~Chiang, D.~Feldman, Y.~Lin, H.~Song, V.~Kumar, A.~Khandelwal, M.~Steinbach, K.~Tayal, S.~Xu, S.~A.~Pierce, L.~Pearson, \emph{D.~Hardesty~Lewis}, E.~Deelman, R.~F.~da~Silva, R.~Mayani, A.~R.~Kemanian, Y.~Shi, L.~Leonard, S.~.D.~Peckham, M.~Stoica, K.~M.~Cobourn, Z.~Zhang, C.~Duffy, L.~Shu. "Artificial Intelligence for Modeling Complex Systems: Taming the Complexity of Expert Models to Improve Decision Making". {\small The ACM Transactions on Interactive Intelligent Systems 11(2):11.}}
+  \section{\textsc{Conference~papers}}
+    \cvitem{2019~Mar.}{Garijo,~D., J.~Pujara, B.~Vu, D.~Feldman, R.~Mayani, K.~Cobourn, C.~Duffy, A.~R.~Kemanian, L.~Shu, V.~Kumar, A.~Khandelwal, D.~Khider, K.~Tayal, S.~D.~Peckham, M.~Stoica, A.~Dabrowski, \emph{D.~Hardesty~Lewis}, S.~A.~Pierce, V.~Ratnakar, Y.~Gil, E.~Deelman, R.~F.~da~Silva, C.~Knoblock, Y.~Chiang, M.~Pham. "An intelligent interface for integrating climate, hydrology, agriculture, and socioeconomic models". {\small ACM 24th International Conference on Intelligent User Interfaces (IUI'19).}}
+    \cvitem{2018~June}{Garijo,~D., D.~Khider, Y.~Gil, L.~A.~M.~C.~Carvalho, B.~T.~Essawy, S.~A.~Pierce, \emph{D.~Hardesty~Lewis}, V.~Ratnakar, S.~D.~Peckham, C.~Duffy, J.~L.~Goodall. "A Semantic Model Catalog to Support Comparison and Reuse". {\small 9th International Congress on Environmental Modelling and Software.}}
+  \section{\textsc{Technical~reports}}
+    \cvitem{2021~Mar.}{Sun,~A., M.~H.~Young, S.~A.~Pierce, J.~Thompson, \emph{D.~Hardesty~Lewis}, B.~R.~Scanlon. "Development of a Framework of Data Interpolation, Scaling, and Homogenization (DISH) for Mapping Natural Resources and Socioeconomic Data in Texas".}
+    \cvitem{2019~Oct.}{Khider,~D., Y.~Gil, D.~Garijo, K.~M.~Cobourn, C.~Duffy, A.~R.~Kemanian, S.~D.~Peckham, B.~Watkins, A.~Campion, C.~Preager, S.~A.~Pierce, \emph{D.~Hardesty~Lewis}, A.~Dabrowski, C.~H.~Porter, M.~Landsfeld, M.~Puma, B.~Schauberger, A.~Sliva, C.~T.~Morrison. "Towards a Shared Modeling Terminology and Problem Specification Framework".}
+  \section{\textsc{Presentations}}
+    \cvitem{2021~May}{Passalacqua,~P., F.~R.~Salas, R.~Schomp, A.~Carruthers, \emph{D.~Hardesty~Lewis}. "Estimating Inundation Extent and Depth from National Water Model Outputs and High Resolution Topographic Data". {\small Presented to the National Oceanographic and Atmospheric Administration.}}
+    \cvitem{2020~Dec.}{Sun,~A., J.~Thompson, \emph{D.~Hardesty~Lewis}, J.~Powell, M.~H.~Young, B.~R.~Scanlon, S.~A.~Pierce. "Development of a Framework of Data Interpolation, Scaling, and Homogenization (DISH) for Mapping Natural Resources in Texas". {\small Presented at the 2020 annual Fall Research Showcase of Planet Texas 2050.}}
+    \cvitem{2020~Sep.}{Passalacqua,~P., D.~R.~Maidment, D.~Arctur, H.~Evans, C.~Thies, A.~Carruthers, R.~Schomp, \emph{D.~Hardesty~Lewis}, S.~A.~Pierce. "From Rain Forecasts to Stream Flow to Flood Modelling". {\small Presented at the 2020 annual Fall Research Showcase of Planet Texas 2050.}}
+    \cvitem{2020~Aug.}{\emph{Hardesty~Lewis,~D.}. "Vector and Raster GIS Processing with Python in Jupyter Notebooks". {\small Presented at the 2020 annual TACC Institute of Planet Texas 2050.}}
+    \cvitem{2019~Sep.}{\emph{Hardesty~Lewis,~D.}, A.~Dabrowski, J.~Powell, S.~A.~Pierce. "DataX and MINT Overview". {\small Presented at the 2019 annual Fall Research Showcase of Planet Texas 2050.}}
+  \section{\textsc{Posters}}
+    \cvitem{2019~Dec.}{Khider,~D., Y.~Gil, K.~M.~Cobourn, E.~Deelman, C.~Duffy, R.~F.~da~Silva, A.~R.~Kemanian, C.~A.~Knoblock, V.~Kumar, S.~D.~Peckham, Y.~Chiang, D.~Feldman, D.~Garijo, \emph{D.~Hardesty~Lewis}, A.~Khandelwal, R.~Mayani, M.~Osorio, M.~Pham, S.~A.~Pierce, J.~Pujara, V.~Ratnakar, L.~Shu, H.~J.~Song, B.~Shbita, M.~Stoica, B.~Vu, L.~Pearson. "MINT: An intelligent interface for understanding the impacts of climate change on hydrological, agricultural and economic systems". {\small Poster presented at the 2019 annual fall meeting of the American Geophysical Union.}}
+    \cvitem{2019~June}{\emph{Hardesty~Lewis,~D.}, J.~C.Thompson, E.~Pease, Q.~Yang, M.~H.~Young, S.~A.~Pierce. "A unified data representation of Texas water resources". {\small Poster presented at the 2019 annual meeting of the Earthcube community.}}
+    \cvitem{2019~June}{Pierce,~S.~A., J.~Powell, A.~Karpatne, D.~Garijo, J.~Martin, \emph{D.~Hardesty~Lewis}, P.~Marchetto, S.~Cleveland, M.~Daniels, I.~Athanasiadis, P.~Keys, I.~Demir, D.~Fuka, S.~Peckham, M.~Hill, I.~Ebert-Uphoff, D.~Pennington, G.~Jacobs, Y.~Gil. "Intelligent Systems and Geosciences". {\small Poster presented at the 2019 annual meeting of the Earthcube community.}}
+    \cvitem{2019~June}{Powell~J., A.~Karpatne, D.~Garijo, J.~Martin, \emph{D.~Hardesty~Lewis}, P.~Marchetto, S.~Cleveland, M.~Daniels, I.~N.~Athanasiadis, P.~W.~Keys, I.~Demir, S.~D.~Peckham, M.~Hill, I.~Ebert-Uphoff, D.~Pennington, G.~Jacobs, Y.~Gil, S.~A.~Pierce. "Creating Sustainable Knowledge Centric Communities with Artificial Intelligence Applications to Earth Science Problems". {\small Poster presented at the 2019 annual meeting of the Earthcube community.}}
+    \cvitem{2019~June}{Pease,~E., J.~C.~Thompson, \emph{D.~Hardesty~Lewis}, Q.~Yang, S.~A.~Pierce, M.~H.~Young. "Integrated Modeling of Texas Water Resources". {\small Poster presented at the 2019 annual meeting of the \textsc{modflow} and More conference series.}}
+    \cvitem{2018~Dec.}{Pease,~E., A.~Pfeil, V.~Ibarra, S.~Siddique, F.~Apango, O.~Ramirez, E.~Collado, \emph{D.~Hardesty~Lewis}, N.~Freed, S.~A.~Pierce. "Groundwater Modeling with Informatics and Automated Workflows for Water Resource Management: A Case Study from the Northern Trinity Aquifer". {\small Poster presented at the 2018 annual fall meeting of the American Geophysicial Union.}}
+    \cvitem{2018~Sep.}{Martin,~J., \emph{D.~Hardesty~Lewis}, N.~Freed, S.~A.~Pierce. "The IS-GEO Gateway: A community portal to facilitate AI and knowledge centered earth discoveries". {\small Poster presented at the 13\textsuperscript{th} annual conference of Gateway Computing Environments.}}
+    \cvitem{2018~June}{Martin,~J., D.~Garijo, N.~Freed, S.~A.~Pierce, Y.~Gil, D.~R.~Thompson, I.~Demir, I.~Ebert-Uphoff, D.~Pennington, \emph{D.~Hardesty~Lewis}, M.~Hill, D.~Fuka. "IS-GEO: A Research Coordination Network on Intelligent Systems Research to Support he Geosciences". {\small Poster presented at the 2018 annual meeting of the EarthCube community.}}
+    \cvitem{2017~Dec.}{\emph{D.~Hardesty~Lewis}, S.~A.~Pierce. "From \textsc{modflow}-96 to \textsc{modflow}-2005, \textsc{ParFlow}, and Others". {\small Poster presented at the 2017 annual fall meeting of the American Geophysical Union.}}
+    \cvitem{2017~Dec.}{Kejriwal,~M., S.~A.~Pierce, P.~I.~Q.~Houser, S.~D.~Peckham, Z.~Stanko, \emph{D.~Hardesty~Lewis}. "Semi-automatic Data Integration using Karma". {\small Poster presented at the 2017 annual fall meeting of the American Geophysical Union.}}
+    \cvitem{2016~July}{Cantu,~A., S.~A.~Pierce, O.~Rivera, A.~Ramirez, \emph{D.~Hardesty~Lewis}, J.~Gentle, G.~Fuentes-Pineda. "Big Data Analysis for Determining Sustainable Yield and Negotiation Space for an Aquifer System". {\small Poster presented at the 51\textsuperscript{st} annual meeting of the South-Central Section of the Geological Society of America.}}
+    \cvitem{2016~Apr.}{\emph{Hardesty~Lewis,~D.} "On smoothness and Poisson's Equation". {\small Presented at the 2016 annual DRP Undergraduate Project Symposium at the University of Texas at Austin.}}
+  \section{\textsc{Academic projects}}
+    \cvitem{2022~June -- 2023~Aug.}{Advanced compound flood hazard assessment science  \newline{}
+      {\small Partner with US Army Corps of Engineers to statistically model flood hazards in Texas's coastal region}}
+    \cvitem{2021~Oct. -- 2023~Aug.}{Texas Disaster Information System (\textsc{TDIS})  \newline{}
+      {\small Provide analytical web-based spatial data system to support more resilient decision-making at the state level}}
+    \cvitem{2020~Dec. -- 2023~Aug.}{Museum of South Texas History Sunday Speaker Series  \newline{}
+      {\small Provide Dash-enabled website to facilitate geolocation of archival imagery by museum visitors}}
+    \cvitem{2020~Nov. -- 2023~Aug.}{Networks for Hazard Preparedness and Response  \newline{}
+      {\small Overlay new, finely tuned flood maps over specially designed building and social vulnerability maps}}
+    \cvitem{2020~Sep. -- 2023~Aug.}{Real-time flood inundation mapping to improve community resilience  \newline{}
+      {\small Provide simple, computationally efficient, high-resolution flood inundation maps to emergency response personnel}}
+    \cvitem{2020~Jan. -- 2023~Aug.}{Estimating Inundation Extent and Depth from National Water Model Outputs and High Resolution Topographic Data  \newline{}
+      {\small Improving the accuracy of flood inundation estimation products from 10m to 1m resolution}}
+    \cvitem{2017~Dec. -- 2023~Aug.}{MINT: Model INTegration Through Knowledge-Rich Data and Process Composition  \newline{}
+      {\small Integrate geoscience models \textsc{modflow}, \textsc{hand}, \& \textsc{swat} with models from widely separate disciplines including agriculture, economics, and social sciences}}
+    \cvitem{2016~Aug. -- 2023~Aug.}{Intelligent Systems for Geosciences  \newline{}
+      {\small Used natural~language processing and ETL pipelines to capture geoscientific variables' metadata to integrate with intelligent systems}}
+    \cvitem{2019~Sep. -- 2020~Aug.}{Improving the Estimation of Inundation Extent and Depth with High Resolution Terrain Data Over the State of Texas  \newline{}
+      {\small Provided utilities to scale up the flood modelling toolset, GeoFlood, to statewide applicability across Texas}}
+    \cvitem{2018~July -- 2019~Dec.}{Optimal Averaging of Water Resources in Texas  \newline{}
+      {\small Indentified Texas water data sources, described their spatio-temporal scales and locations, estimated volume of all water in Texas its uncertainty, determined best methods to up-/down-scale all date to a common resolution and grid and minimise error}}
+    \cvitem{2017~May -- 2017~Aug.}{From \textsc{modflow}-96 to \textsc{modflow}-2005, \textsc{ParFlow}, and Others  \newline{}
+      {\small Brought a common groundwater flow model to scale on a supercomputer by updating its own Fortran code, using Perl natural~language processing to extract and transform useful metadata from its user manual, and helping to get that metadata incorporated into a widely used scientific ontology}}
+    \cvitem{2016~July}{Big~Data Analysis for Determining Sustainable~Yield and Negotiation~Space for an Aquifer~System  \newline{}
+      {\small Developed some Perl transformation routines between input file~formats of groundwater models, \textsc{modflow}-96 and \textsc{ParFlow}}}
+    \cvitem{2014~Oct. -- 2014~Dec.}{Stochastic Differential~Equations and Monte~Carlo Simulation  \newline{}
+      {\small Drafted Fortran routine that could run arbitrary equations of this type with arbitrary parameters}}
+    \cvitem{2013~May -- 2013~Dec.}{Region of Calculated Existence for O/Ne-Core~Stars with H/He~Envelopes  \newline{}
+	{\small Verified known observations, discovering that \textsc{mesa} accurately models this type of star under its default parameters}}%implemented particular parameters in \textsc{mesa} that confirmed that it simulates accurately these types of stars
+  \section{\textsc{Professional projects}}
+%%%    \cventry{2014~Sep. -- 2018 Aug.}{Maintenance \& technology officers}{Avalon\emph{, }Helios\emph{, then} Royal Co-operatives\emph{, }\textsc{icc}}{Austin,~United~States}{}{Redeveloped the internet infrastructures for these co-operative houses  \newline{}
+    \cventry{2019~Nov. -- 2024~Dec.}{Board member}{Austin Community Reinvestment Cooperative (ACRC)}{Austin,~United~States}{}{Helped establish cooperative real estate investment firm  \leavevmode\newline{}
+      Detailed accomplishments:
+      \begin{itemize}
+	\item {\small Shaped bylaws and business plan, having consulted with advisors who've had 40+ years in cooperative development experience}
+	\item {\small Provide GIS maps of specific properties to follow for a potential purchase, having selected them from criteria applied across parcel-level data}
+	\item {\small Provide heat maps to help determine the best neighborhoods for investment based on parcel-level zoning, existing building characteristics, and simple Python pro formas}
+	\item {\small Develop fully detailed real estate development pro formas for specific properties}
+	\item {\small Develop and maintain relationships with Central Austin property owners interested in a collaboration}
+	\item {\small Develop and submit options-to-purchase to interested property owners}
+      \end{itemize}}
+%%%    \cventry{2019~Nov. -- Present}{Board member}{Austin Community Reinvestment Cooperative (ACRC)}{Austin,~United~States}{}{  \newline{}
+    \cventry{2019~May -- Present}{Member-owner}{Hardy Cooperative}{Austin,~United~States}{}{Helped establish Central Austin affordable housing cooperative  \leavevmode\newline{}
+      Detailed accomplishments:
+      \begin{itemize}
+	\item {\small Helped establish affordable housing cooperative of 7+ households in Central Austin, generating \$60,000+ in annual revenue while providing rents 35\% more affordable than nearby alternatives}
+	\item {\small Collaborated with Dave Sullivan, former long-time chair of Austin planning commission, to determine that we met all zoning requirements for our use}
+	\item {\small Secured 3 guarantors willing to front \$40,000-\$80,000 in liability for our commercial lease and new venture}
+	\item {\small Drafted and implemented business prospectus, operational pro forma, resident lease applications, resident lease agreements, guarantor agreements, loan agreements, etc}
+	\item {\small Maintained good relationships with 2 separate pro bono attorneys who have extensively reviewed, provided feedback, and largely rubber-stamped the contracts I have written}
+	\item {\small Secured \$30,000+ in lending, as well as conditional approval for another \$40,000}
+	\item {\small Received 150+ applicants for only 7 spaces in just 2 years of operation}
+	\item {\small Established and maintained relationships with a 20+-year old housing coop and the ACRC in order to secure the long-term future of this venture}
+      \end{itemize}}
+%%%    \cventry{2019~May -- Present}{Member-owner}{Hardy Cooperative}{Austin,~United~States}{}{  \newline{}
+    \cventry{2019~May -- 2020 Apr.}{Member, housing committee}{Austin Cooperative Business Association}{Austin,~United~States}{}{Austin Land Development Code (LDC) Revision  \leavevmode\newline{}
+      Detailed accomplishments:
+      \begin{itemize}
+	\item {\small Reviewed cumulative 3000+ pages of 6 different Austin LDCs (1972, 1984, current, and LDC drafts 1, 2, \& 3)}
+	\item {\small Developed ACBA policy positions from understanding of these codes}
+	\item {\small Distributed GIS maps depicting impact of each proposed LDC draft and our proposed LDC amendments on current and future affordable housing cooperative development}
+	\item {\small Secured meeting with Mayor Steve Adler}
+	\item {\small Advocated ACBA's position in direct meetings with Mayor Steve Adler, CM Greg Casar, CM Harper-Madison's policy director, CM Leslie Pool's chief of staff, and City Staff LDC drafters}
+	\item {\small Notified co-ops impacted by potential code changes and put them in touch with relevant City Council and City Staff members}
+	\item {\small Helped advance ACBA positions through different City Councilmember offices and conducted vote-counts of each position before and after each vote}
+	\item {\small Succeeded in getting amendments adopted into draft LDC}
+      \end{itemize}}
+  \section{\textsc{Review committees}}
+    \cvitem{2023~Mar. -- 2023~Apr.}{Frontera Fellows applications  \newline{}
+      {\small Helped TACC determine the most qualified doctoral fellows' projects on one of the largest supercomputers in the world}}
+    \cvitem{2022 Aug.}{TACC's Frontera Pathways \& Large-Scale Community Partnerships applications  \newline{}
+      {\small Helped approved/deny millions of dollars in computing resources to multimillion-dollar projects}}
+  \section{\textsc{Students mentored}}
+    \cvitem{2021~Aug. -- 2023~Aug.}{Khushboo Agarwal  \newline{}
+      {\small MS Energy and Earth Resources, the University of Texas at Austin (expected 2023)}}
+    \cvitem{2020~Aug. -- 2023~Aug.}{Mark Wang  \newline{}
+      {\small PhD Civil Engineering, the University of Texas at Austin (expected 2025)}  \newline{}
+      {\small MS Environmental and Water Resources Engineering, the University of Texas at Austin (2022)}}
+    \cvitem{2019~Aug. -- 2021~May}{Robert Schomp  \newline{}
+      {\small MS Environmental and Water Resources Engineering, the University of Texas at Austin (2021)}}
+    \cvitem{2019~Aug. -- 2020~May}{Alec Carruthers  \newline{}
+      {\small MS Environmental Engineering Technology / Environmental Technology, the University of Texas at Austin (2020)}}
+  \section{\textsc{Pertinent coursework}}
+    \cvlistitem{\emph{Mathematics} {\small Advanced~Calculus~for~Applications, Linear~Algebra~and~Matrix~Theory, Differential~Equations, Real~Analysis~I, Probability~I, Partial~Differential~Equations~and~Applications, Topology~I, Algebraic~Structures~I, Complex~Analysis, Vector~Calculus}}
+    \cvlistitem{\emph{Scientific computing} {\small Introduction~to~Scientific~\&~Technical~Computing, Artificial~Intelligence~\emph{(audited)}, Mathematical~Modelling~in~Science~and~Engineering, Introduction~to~Stochastic~Processes, Applied~Statistics}}
+    \cvlistitem{\emph{Political and social sciences} {\small \emph{(2019 ICPSR Summer Program, University of Michigan)} Intro~to~Network~Analysis, Machine~Learning, Math~for~Social~Sciences~III}}
+  \section{\textsc{Professional~affiliations}}
+    \cvlistitem{\emph{Mathematical Association of America} {\small Member}}
+    \cvlistitem{\emph{North American Students of Cooperation} {\small Member}}
+%%%		Member during 2013/07-Present
+    \cvlistitem{\emph{American Geophysical Union} {\small Member}}
+  \section{\textsc{Extracurricular~activities}}
+    \cvlistitem{\emph{Austin Transportation Equity Analysis Zones Advisory Team} {\small Member, one of 30 members selected from a pool of 177 applicants to advise Austin Transportation on equitable geographic allocation of Project Connect's anti-displacement bond}}
+%%%		Member during 2021/05-2021/07
+    \cvlistitem{\emph{Austin Community Reinvestment Cooperative (ACRC)} {\small Board member}}
+%%%		Member during 2019/11-Present
+    \cvlistitem{\emph{Austin Cooperative Business Assocation (ACBA)} {\small Member, Development committee}}
+%%%		Member during 2019/11-Present
+    \cvlistitem{\emph{Evolve Austin} {\small Member, affiliate organization}}
+%%%		Member during 2019/10-Present
+    \cvlistitem{\emph{AURA} {\small Member}}
+%%%		Member during 2019/10-Present
+    \cvlistitem{\emph{Brentwood Neighborhood Association} {\small Member, provided PIR of full set of Affordability Unlocked applications}}
+%%%		Member during 2019/08-Present
+    \cvlistitem{\emph{Hardy Cooperative} {\small Founder, member-owner}}
+%%%		Member during 2019/08-Present
+    \cvlistitem{\emph{Austin Cooperative Business Assocation (ACBA)} {\small Member, Housing committee}}
+%%%		Member during 2018/04-Present
+    \cvlistitem{\emph{Mission~Interuniversitaire de Coordination~Échanges Franco-Américains} {\small Foreign~exchange}}
+%%%		Member during 2016/08-2017/01
+    \cvlistitem{\emph{Directed~Reading Program} {\small Graduate mathematical readings under individual guidance of doctoral~students}}
+%%%     Mentee during XXXXXXXXXXXXXXX [Fill in.]
+%%%		Mentee during 2016/01-2016/05
+    \cvlistitem{\emph{Mathematics Club} {\small Attended student- and professor-led talks}}
+%%%		Member during 2014/08-2016/05
+    \cvlistitem{\emph{Inter-Cooperative Council (ICC) Austin} {\small Member}}
+%%%		Member during 2014/01-2018/07
+    \cvlistitem{\emph{College Houses Cooperatives} {\small Member}}
+%%%		Member during 2013/07-2013/12
+    \cvlistitem{\emph{Emerging~Scholars Program, Calculus} {\small Explored calculus outside of course~material}}
+%%%		Member during 2012/08-2013/05
+  \section{\textsc{Languages}}
+    \cvdoubleitem{French}{Professional working}{Spanish}{Native}
+
+\end{document}
