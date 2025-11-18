@@ -1,0 +1,686 @@
+\documentclass[letterpaper,10pt,colorlinks,linkcolor=cyan]{moderncv}
+  \usepackage{lmodern}
+  \usepackage[english]{babel}
+  %\usepackage{hyperref}
+  %\usepackage{url}
+  \usepackage{courier}
+  \hyphenpenalty=100000
+  \hbadness=99999
+%% Themes
+  \moderncvstyle{casual}
+  \moderncvcolor{red}
+  \nopagenumbers{}
+%% Encoding
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+  \usepackage{fontawesome5}
+  \usepackage[verbose]{newunicodechar}
+%  \newunicodechar{\faHandPointRight[regular]}{\faHandPointRight[regular]}
+%% Margins
+  \usepackage[scale=0.85]{geometry}
+  \setlength{\hintscolumnwidth}{2.81cm}
+%% Data
+  \firstname{\textsc{Daniel}}
+  \familyname{\textsc{Hardesty Lewis}}
+  \address{\textsc{1915~Santa~Clara~st}}{\textsc{Austin,~TX 78757}}{\textsc{United~States}}
+  \phone[mobile]{+1~(713)~371-7875}
+  \email{daniel@summitgeospatial.com}
+%  \homepage{tacc.utexas.edu/about/directory/daniel-lewis}
+  \social[linkedin]{dhardestylewis}
+  \social[github]{dhardestylewis}
+  \social[gitlab]{dhl}
+  \extrainfo{\url{researchgate.net/profile/Daniel-Hardesty-Lewis}}
+%% Define \cvdoublecolumn
+  \newcommand{\cvdoublecolumn}[2]{
+    \cvitem[0.75em]{}{
+      \begin{minipage}[t]{\listdoubleitemcolumnwidth}#1\end{minipage}
+      \hfill
+      \begin{minipage}[t]{\listdoubleitemcolumnwidth}#2\end{minipage}
+    }
+  }
+%% Define \cvreference
+  \newcommand{\cvreference}[7]{
+    \textbf{#1}\newline
+    \ifthenelse{\equal{#2}{}}{}{\addresssymbol~#2\newline}
+    \ifthenelse{\equal{#3}{}}{}{#3\newline}
+    \ifthenelse{\equal{#4}{}}{}{#4\newline}
+    \ifthenelse{\equal{#5}{}}{}{#5\newline}
+    \ifthenelse{\equal{#6}{}}{}{\emailsymbol~\texttt{#6}\newline}
+    \ifthenelse{\equal{#7}{}}{}{\phonesymbol~#7}
+  }
+\begin{document}
+  \definecolor{links}{HTML}{0645AD}
+  \hypersetup{urlcolor=links}
+  \makecvtitle
+%%%-----     letter     -----
+%%% recipient data
+  \recipient{Recipient}{Naresh Gambirapuram\\Data Affect\\20130 Lakeview Center Plz\\Ashburn VA 20147\\United States}
+  \date{December 6, 2023}
+  \opening{To whom it may concern,}
+  \closing{Sincerely,}
+  \enclosure[Attached]{curriculum vit\ae{}}
+  \makelettertitle
+%
+Scale, performance, and reliability define my work experience at the Texas Advanced Computer Center. 
+Leading a team of myself alone, I designed and scaled a terrain aggregation pipeline toprovide Texas's first seamless elevation raster product, one of the principal products of a \$40M disaster resiliency initiative and a project which led to millions of dollars in contracts with the State of Texas and the US Army Corps of Engineers.
+This necessitated maxing out 800,000 nodes on one of the top-5 largest computers in the world, authorizing and spending close to \$1M in public funds on this project. 
+Recognizing the immense commercial value of this work from its earliest stages, I created a commercialization and licensing strategy and pitched this strategy to UT's director of IP, and gained approval with no substantive changes. 
+I then led a team to design and implement a sales portal to provide this data to energy, civil engineering, and architecture firms across the state of Texas:
+
+\href{https://summitgeospatial.com}{summitgeospatial.com}
+
+How did I do it?
+
+using the full suite of skills this job requires:\\
+\faHandPointRight[regular] ingesting gigabytes of shapefile input\\
+\faHandPointRight[regular] outputting gigs of geojson and gdb files\\
+\faHandPointRight[regular] querying in PostGIS at the largest possible scales\\
+\faHandPointRight[regular] against metadatabase tables of millions of complex polygons\\
+\faHandPointRight[regular] and sometimes, for performance, manipulating these polygons at the WKT level\\
+\faHandPointRight[regular] ingesting terabytes of img, dem, \& tif and outputting TBs of gtiff files\\
+\faHandPointRight[regular] executing perhaps some of the largest scale GDAL/OGR pipelines ever run\\
+\faHandPointRight[regular] including Python-based spatial libraries where needed\\
+\faHandPointRight[regular] and validating my results in Q throughout
+
+misc skills that may be of value for this work:\\
+\faHandPointRight[regular] parallel and distributed cloud computing at the highest level\\
+\faHandPointRight[regular] Dockerized workflow orchestration on the supercomputing equivalent of Airflow\\
+\faHandPointRight[regular] mentoring of grad, PhD students, and professionals on their own data engineering projects\\
+\faHandPointRight[regular] deep understanding of commercialization and licensing strategies\\
+\faHandPointRight[regular] and a keen sense of where the business value of geospatial products might be
+
+If you are interested, feel free to reach out: (713) 371-7875.
+
+%%  I am writing to express my strong interest in the Computational Scientist - GIS position.
+%%  As a highly skilled professional with a strong background in scaling GIS analyses on some of the world's most powerful supercomputers, I am confident in my ability to thrive in this role and make valuable contributions to your team.
+%%
+%%  Some of the data I have produced is considered the prime technical contributions to multi-million dollar disaster resiliency initiatives.
+%%  I single-handedly developed a raster map of the best available elevation data for all of Texas.
+%%  In order to accomplish this, I created a PostgreSQL database of Texas's entire 20-year collection of terrain data, and I achieved a 20x performance improvement over the most commonly used geospatial library, \textsc{gdal}, even maxing out available supercomputing resources massively parallelizing aspects of this library.
+%%  The results of the \href{https://github.com/dhardestylewis/terrain\_aggregator/}{\texttt{terrain\_aggregator}} have been impressive enough to strike up the interest of UT's Office of Technology Commercialization and local partners in venture capital.
+%%
+%%  In addition to my technical skills, I have a passion for teaching and training others.
+%%  I have taught undergrads thru postdocs from the University of Texas, Texas A\&M, and the University of Cambridge how to scale geospatial analyses.
+%%  I have extensive experience working at the intersection of academic study and industry need, translating research into practical results.
+%%  I have negotiated between the needs of the public, engineers, state agencies, and academics, and I regularly facilitate requests from engineers in Texas's disaster mitigation community.
+%%
+%%  I am excited about the opportunity to join the RCC-GIS initiative and bring my technical expertise and collaboration skills to the team.
+%%  My background in GIS software and spatial analysis methods make me an ideal candidate for this position.
+%%  Thank you for considering my application.
+%%  I look forward to the opportunity to contribute to the RCC and further advance my career at the University of Chicago.
+%
+%%  Cornell Tech’s programs provide students the opportunity to build something meaningful and innovative with a cross-disciplinary team and test it with real users and industry experts. Many of our students have prior software development experience. Have you ever developed a complete software application (i.e., an end-to-end user interface application, one or more web services, a database, etc.)? If so, describe that application and your experience developing it.
+%
+%  I would like for my research to have an impact far beyond the lab.
+%  Now that technology that I have developed at the Texas Advanced Computing Center is mature enough to generate interest from the University of Texas's Office of Technology Commercialization and local venture capital partners, I am seeking runways to scale this technology beyond academia.
+%  Columbia GSAPP is an excellent space to be while bringing this tech to market: there are few better academic settings in which to find new applications and collaborations and reach a national audience.
+%  But, while I am sure that Columbia's \textsc{ms} in Urban Planning can help me identify target markets and connect with capital, even more importantly it will provide me with one of the best lens from which to ensure that this research has a \textit{positive} impact.
+%
+%%  lengthy experience working in a research lab
+%%  have experience training domain specialists at the graduate level without prior experience in programming
+%
+%  I single-handedly developed a map of the best available elevation data for all of Texas.
+%  This product is considered one of the prime technical contributions to a multi-million dollar disaster resiliency initiative, the \href{https://recovery.texas.gov/planning-studies/tdis/index.html}{Texas Disaster Information System (\textsc{tdis})}.
+%  To create this, I developed a scalable seamless terrain aggregator, the \href{https://github.com/dhardestylewis/terrain\_aggregator/}{\texttt{terrain\_aggregator}}, and applied it to Texas's entire 2-decade collection of elevation data.
+%  This technology identifies and provides the best available terrain data at any given location.
+%  Developed in open source, this is the first published publicly available source code describing how to conduct best-available terrain aggregation rapidly and at scale.
+%  In order to accomplish this for Texas, I achieved a 20x performance improvement over the most commonly used geospatial library, using one of the world's most powerful supercomputers to massively parallelize aspects of this library - even maxing out the available supercomputing resources.
+%  One of my prime motivations in developing this data has been to further democratize the use of this kind of data: further reducing the cost of high quality topography data at scale will enable smaller or less-established stakeholders to take greater advantage of this data.
+%
+%%  my work is at the intersection of academic study and industry
+%%  highest quality imagery more accessible to the general public and to smaller engineering firms
+%%  experience translating research to practical results
+%
+%%  to produce tiled web maps.
+%%  I discovered that 10\% of the topography data provided for the state of Texas has metadata that is incompatible with the most commonly used geospatial library.
+%%  This required devising and publishing an algorithm for determining the best available data at any given location.
+%%  improves the efficiency of the site design process by further enabling the entire process to be undertaken completely remotely, thus reducing the need to hire a costly surveyor
+%
+%  Complementing my technology experience, I have founded and grown a business and have been deeply involved in local and national urban policy.
+%  I helped establish a 14-unit housing cooperative in Austin, participating in site selection, developing business pro forma, and negotiating as well as guaranteeing a 4-year commercial lease.
+%  This involved acting on the expertise of Austin's cooperative development community and a former chair of the planning commission, as well as developing a positive relationship with the local neighborhood association.
+%  We have just wrapped up an expansion effort that developed the property from 9 to 14 units, significantly increasing the amount of affordable housing this property provides in an otherwise single-family upper middle-class neighborhood.
+%  I have personally guaranteed more than \$400,000 in loans and commercial leases in order to help facilitate this property development.
+%  In the spirit of community development, a significant portion of our lending was generated from local neighbors acting as micro-lenders.
+%
+%  I was actively involved in Austin's most recent attempt to completely overhaul its land development code.
+%  Familiarising myself with over 3000 pages of Austin's 1972, 1984, current, and proposed zoning codes, I quickly gained a reputation for thoroughly understanding these rules, even receiving requests for consulting work from local housing developers.
+%  My advocacy led to direct meetings with some of the most central actors in Austin's urban politics, including the mayor and city councilmembers.
+%  One point of pride from my involvement in local politics: I developed the idea for scaling the preservation bonus in multifamily zones - increasing proposed bonus units in such zones from 1 to half of the maximum dwelling units - and the language that I provided ended up being included in the draft rewrite.
+%  At the height of the pandemic eviction crisis, I also rose to a relatively high position in national urban advocacy, serving as a steering committee member for the Democratic Socialists of America's national housing commission.
+%  With my housing coop experience, I brought a unique perspective to the committee, and brought a vision for a potential outcome to their tenants union work.
+%  Between my business and advocacy experience, I possess a wider understanding of the workings of urban planning than the usual technologist, making me uniquely suited to take advantage of this master's program.
+%
+%%  advocacy experience and familiarity with housing and urban policymaking
+%%  experience in business through active involvement guaranteeing and helping to expand this housing coop: 4-year commercial lease, development of business pro forma to project revenues and expenses, \$400,000 in liability between lease and loan guarantees
+%
+%  GSAPP's emphasis on equitable and sustainable impact makes it a uniquely attractive setting to realize the public benefits of \href{https://github.com/dhardestylewis/terrain\_aggregator/}{\texttt{terrain\_aggregator}} as I scale this tool.
+%  In addition, having the opportunity to be advised by such leaders as Anthony Vanky, who was so deeply involved in the curricular development of \textsc{mit} DesignX, makes Columbia GSAPP particularly suited for this entrepreneurial endeavor.
+%  With my extensive experience collaborating with practitioners to scale \textsc{gis} analyses on some of the world's most powerful supercomputers, I am particularly qualified to advance GSAPP's research and mission.
+%  I am excited to work with the Columbia's urban innovation leaders, and to find points of collaboration where I can help scale your technologies and significantly widen their impact.
+%  I am confident that Columbia's MS in Urban Planning is the ideal accelerator my career growth.
+%
+  \makeletterclosing
+  \clearpage
+  \section{\textsc{Education}}
+%    \cventry{expected 2025~May}{M.S., Urban Planning}{Columbia University}{New York City,~United~States}{}{}%Topology I
+    \cventry{2017~Dec.}{B.S., Mathematics}{University of Texas}{Austin,~United~States}{}{}%Topology I
+    \cventry{2017~Dec.}{Certificate, Scientific~Computation}{University of Texas}{Austin,~United~States}{}{}%Topology I
+  \section{\textsc{Experience}}
+  \subsection{\textsc{Professional}}
+    \cventry{2023~Nov. -- Present}{Founder}{Summit Geospatial}{Austin,~United~States}{}{%  \newline{}
+      Detailed accomplishments:
+      \begin{itemize}
+	\item Led a team that developed \href{http://dash.summitgeospatial.com}{web sales portal} of the highest quality seamless terrain data in Texas
+      \end{itemize}}
+    \cventry{2021~Aug. -- 2023~Aug.}{Engineering scientist associate}{Texas Advanced Computing Center}{Austin,~United~States}{}{%  \newline{}
+      Detailed accomplishments:
+      \begin{itemize}
+	\item Principal developer of the \href{http://www.summitgeospatial.com}{highest quality seamless terrain data in Texas}
+        \item Lead of a principal project of a \$40M disaster resiliency initiative
+        \item Validated data from top State hydrologists and eminent UT engineers
+	\item Developed the licensing \& commercialization strategy for this data, secured approval of these strategy from director of IP without substantive changes
+	\item Achieved a 14\% click-through rate (CTR) with key audiences
+	\item Helped secure multi-million dollar contracts with the State of Texas and the US Army Corps of Engineers
+	\item Teach undergrads, grads, post-docs, professional researchers from UT Austin, University of Cambridge, \& Texas A\&M - Galveston
+      \end{itemize}}
+%%%     The Texas Institute for Discovery Education in Science of my
+%%%     university's College of Natural Sciences funded, through a generous
+%%%     fellowship, my summer's work at the supercomputing centre, TACC. By
+%%%     updates rectifying long-standing limitations and bugs in the Fortran
+%%%     codebase of the flow model, MODFLOW-96, and by improvements to an
+%%%     ontology garnered through natural~language processing techniques, I
+%%%     have laid the foundations of a generic interoperator between
+%%%     groundwater simulators.
+%%%     40 hours per week for 10 weeks
+%%%     2017 May 31 -- Present
+%%%     Texas Advanced Computing Center
+%%%     Undergraduate Research Assistant
+%%%     Doctor Suzanne A. Pierce
+%%%     spierce@tacc.utexas.edu
+%%%     +1 (512) 475-9411
+%%%     TEXAS ADVANCED COMPUTING CENTER
+%%%     ADVANCED COMPUTING BUILDING (ACB)
+%%%     J.J. PICKLE RESEARCH CAMPUS, BUILDING 205
+%%%     2305 BURNET RD (R8700)
+%%%     AUSTIN, TX 78758-4497
+%%%     TRAVIS
+%%%     UNITED STATES
+%    \cventry{2019~July -- 2019~Aug.}{Research intern}{Information Sciences Institute, University of Southern California}{Marina~del~Rey,~United~States}{}{%  \newline{}
+%      Detailed accomplishments:
+%      \begin{itemize}
+%	\item Advanced collaboration on DARPA-funded Model Integration (MINT) project
+%        \item Supported implementation of surface and subsurface hydro models in Texas and Ethiopia
+%      \end{itemize}}
+%%%     The Texas Institute for Discovery Education in Science of my
+%%%     university's College of Natural Sciences funded, through a generous
+%%%     fellowship, my summer's work at the supercomputing centre, TACC. By
+%%%     updates rectifying long-standing limitations and bugs in the Fortran
+%%%     codebase of the flow model, MODFLOW-96, and by improvements to an
+%%%     ontology garnered through natural~language processing techniques, I
+%%%     have laid the foundations of a generic interoperator between
+%%%     groundwater simulators.
+%%%     40 hours per week for 10 weeks
+%%%     2017 May 31 -- Present
+%%%     Texas Advanced Computing Center
+%%%     Undergraduate Research Assistant
+%%%     Doctor Suzanne A. Pierce
+%%%     spierce@tacc.utexas.edu
+%%%     +1 (512) 475-9411
+%%%     TEXAS ADVANCED COMPUTING CENTER
+%%%     ADVANCED COMPUTING BUILDING (ACB)
+%%%     J.J. PICKLE RESEARCH CAMPUS, BUILDING 205
+%%%     2305 BURNET RD (R8700)
+%%%     AUSTIN, TX 78758-4497
+%%%     TRAVIS
+%%%     UNITED STATES
+    \cventry{2018~Feb. -- 2021~July}{Research engineering / scientist associate I}{Texas Advanced Computing Center}{Austin,~United~States}{}{%  \newline{}
+      Detailed accomplishments:
+      \begin{itemize}
+        \item Contributed research in integrated modelling and water resource management in Texas and abroad
+        \item Collaborated to aggregate data of Texas's water resources for integrated hydrology modellers
+      \end{itemize}}
+%%%     The Texas Institute for Discovery Education in Science of my
+%%%     university's College of Natural Sciences funded, through a generous
+%%%     fellowship, my summer's work at the supercomputing centre, TACC. By
+%%%     updates rectifying long-standing limitations and bugs in the Fortran
+%%%     codebase of the flow model, MODFLOW-96, and by improvements to an
+%%%     ontology garnered through natural~language processing techniques, I
+%%%     have laid the foundations of a generic interoperator between
+%%%     groundwater simulators.
+%%%     40 hours per week for 10 weeks
+%%%     2017 May 31 -- Present
+%%%     Texas Advanced Computing Center
+%%%     Undergraduate Research Assistant
+%%%     Doctor Suzanne A. Pierce
+%%%     spierce@tacc.utexas.edu
+%%%     +1 (512) 475-9411
+%%%     TEXAS ADVANCED COMPUTING CENTER
+%%%     ADVANCED COMPUTING BUILDING (ACB)
+%%%     J.J. PICKLE RESEARCH CAMPUS, BUILDING 205
+%%%     2305 BURNET RD (R8700)
+%%%     AUSTIN, TX 78758-4497
+%%%     TRAVIS
+%%%     UNITED STATES
+%    \cventry{2017~May -- 2017~Aug.}{Undergraduate research~assistant}{Texas Advanced Computing Center}{Austin,~United~States}{}{Equipped with a fellowship from the University of Texas's College of Natural Sciences, improved interoperability amongst groundwater flow models using high-performance computing methods  \newline{}
+%      Detailed accomplishments:
+%      \begin{itemize}
+%        \item Updated decades-old groundwater modelling software's data conversion utilities in their original languages, Fortran 66 and 90
+%        \item Retrieved matching variables between groundwater modelling softwares using term frequency - inverse document frequency (\textsc{tf-idf})
+%        \item Led a workshop on modern programming technologies for grounwater modelling
+%      \end{itemize}}
+%%%     The Texas Institute for Discovery Education in Science of my
+%%%     university's College of Natural Sciences funded, through a generous
+%%%     fellowship, my summer's work at the supercomputing centre, TACC. By
+%%%     updates rectifying long-standing limitations and bugs in the Fortran
+%%%     codebase of the flow model, MODFLOW-96, and by improvements to an
+%%%     ontology garnered through natural~language processing techniques, I
+%%%     have laid the foundations of a generic interoperator between
+%%%     groundwater simulators.
+%%%     40 hours per week for 10 weeks
+%%%     2017 May 31 -- Present
+%%%     Texas Advanced Computing Center
+%%%     Undergraduate Research Assistant
+%%%     Doctor Suzanne A. Pierce
+%%%     spierce@tacc.utexas.edu
+%%%     +1 (512) 475-9411
+%%%     TEXAS ADVANCED COMPUTING CENTER
+%%%     ADVANCED COMPUTING BUILDING (ACB)
+%%%     J.J. PICKLE RESEARCH CAMPUS, BUILDING 205
+%%%     2305 BURNET RD (R8700)
+%%%     AUSTIN, TX 78758-4497
+%%%     TRAVIS
+%%%     UNITED STATES
+%    \cventry{2016~June -- 2016~July}{Foreign~exchange student}{Intelligent~Systems in Geosciences}{San~Miguel~de~Allende,~Mexico\emph{; }Mexico~City,~Mexico\emph{; then }Austin,~United~States}{}{Developed conversion utilities between groundwater flow models  \newline{}
+%      Detailed accomplishments:
+%      \begin{itemize}
+%        \item Developed a data conversion API in Perl for the groundwater modelling software, MODFLOW-96
+%        \item Used regular expressions to parse these variables
+%        \item Independently developed similar functionality to the then-unreleased Python package for MODFLOW data conversion, FloPy
+%      \end{itemize}}
+%%%     40 hours per week for 02 weeks
+%%%     2016 June 11 -- 2016 July 24
+%%%     Intelligent Systems for Geosciences RCN
+%%%     Foreign Exchange Student
+%%%     Doctor Suzanne A. Pierce
+%%%     spierce@tacc.utexas.edu
+%%%     +1 (512) 475-9411
+%%%     TEXAS ADVANCED COMPUTING CENTER
+%%%     ADVANCED COMPUTING BUILDING (ACB)
+%%%     J.J. PICKLE RESEARCH CAMPUS, BUILDING 205
+%%%     2305 BURNET RD (R8700)
+%%%     AUSTIN, TX 78758-4497
+%%%     TRAVIS
+%%%     UNITED STATES
+%    \cventry{2013~May -- 2013~Dec.}{Undergraduate research~assistant}{Dept.~of~Astronomy, University~of~Texas}{Austin,~United~States}{}{Tested boundaries of the stellar~evolution code, \textsc{mesa}, by extensive simulation  \newline{}
+%      Detailed accomplishments:
+%        \begin{itemize}
+%          \item Discovered that \textsc{mesa} successfully simulated O/Ne white dwarf stellar evolution
+%          \item Found the model's bounds for such stellar evolution
+%          \item Demonstrated the accuracy of these simulations against peer-reviewed observations of similar stars
+%        \end{itemize}}
+%%%     Prof. Mike Montgomery tasked me with the “next-to-impossible” problem
+%%%     to determine whether the stellar evolution code, Modules for
+%%%     Experiments in Stellar Astrophysics, natively and normally simulates
+%%%     a particular class of stars. Upon a probing literature review and
+%%%     some familiarisation with the underlying Fortran code, that this is the
+%%%     case, I discovered.
+%%%		10 hours per week
+%%%     2013 May 31 -- 2013 Dec. 17
+%%%     UT Austin, Dept. of Astronomy
+%%%     Undergrad. Research Assistant
+%%%     Professor Michael H. Montgomery
+%%%     mikemon@astro.as.utexas.edu
+%%%     +1 (512) 471-3451
+%%%     THE UNIVERSITY OF TEXAS AT AUSTIN
+%%%     DEPARTMENT OF ASTRONOMY
+%%%     2515 SPEEDWAY, RLM 16.304
+%%%     AUSTIN, TX 78712-1205
+%%%     TRAVIS
+%%%     UNITED STATES
+  \subsection{\textsc{Teaching}}
+     \cventry{2020~Aug. -- 2020~Dec.}{Co-instructor}{University of Texas}{Austin,~United~States}{}{\emph{Scientific computation} Consulted with students for their homework and class projects}%}{  \newline{}
+%      Detailed accomplishments:
+%      \begin{itemize}
+%	 \item
+%        \item
+%        \item
+%      \end{itemize}}
+%%%     The Texas Institute for Discovery Education in Science of my
+%%%     university's College of Natural Sciences funded, through a generous
+%%%     fellowship, my summer's work at the supercomputing centre, TACC. By
+%%%     updates rectifying long-standing limitations and bugs in the Fortran
+%%%     codebase of the flow model, MODFLOW-96, and by improvements to an
+%%%     ontology garnered through natural~language processing techniques, I
+%%%     have laid the foundations of a generic interoperator between
+%%%     groundwater simulators.
+%%%     40 hours per week for 10 weeks
+%%%     2017 May 31 -- Present
+%%%     Texas Advanced Computing Center
+%%%     Undergraduate Research Assistant
+%%%     Doctor Suzanne A. Pierce
+%%%     spierce@tacc.utexas.edu
+%%%     +1 (512) 475-9411
+%%%     TEXAS ADVANCED COMPUTING CENTER
+%%%     ADVANCED COMPUTING BUILDING (ACB)
+%%%     J.J. PICKLE RESEARCH CAMPUS, BUILDING 205
+%%%     2305 BURNET RD (R8700)
+%%%     AUSTIN, TX 78758-4497
+%%%     TRAVIS
+%%%     UNITED STATES
+    \cventry{2018~June -- 2018~Aug.}{Teaching assistant}{Texas Advanced Computing Center}{Austin,~United~States}{}{\emph{Machine learning for the geosciences} Recommended high performance optimisations for Petrobras's code}%}{  \newline{}
+%      Detailed accomplishments:
+%      \begin{itemize}
+%	 \item
+%        \item
+%        \item
+%      \end{itemize}}
+%%%     The Texas Institute for Discovery Education in Science of my
+%%%     university's College of Natural Sciences funded, through a generous
+%%%     fellowship, my summer's work at the supercomputing centre, TACC. By
+%%%     updates rectifying long-standing limitations and bugs in the Fortran
+%%%     codebase of the flow model, MODFLOW-96, and by improvements to an
+%%%     ontology garnered through natural~language processing techniques, I
+%%%     have laid the foundations of a generic interoperator between
+%%%     groundwater simulators.
+%%%     40 hours per week for 10 weeks
+%%%     2017 May 31 -- Present
+%%%     Texas Advanced Computing Center
+%%%     Undergraduate Research Assistant
+%%%     Doctor Suzanne A. Pierce
+%%%     spierce@tacc.utexas.edu
+%%%     +1 (512) 475-9411
+%%%     TEXAS ADVANCED COMPUTING CENTER
+%%%     ADVANCED COMPUTING BUILDING (ACB)
+%%%     J.J. PICKLE RESEARCH CAMPUS, BUILDING 205
+%%%     2305 BURNET RD (R8700)
+%%%     AUSTIN, TX 78758-4497
+%%%     TRAVIS
+%%%     UNITED STATES
+    \cventry{2018~Feb. -- 2018~May}{Co-instructor}{University of Texas}{Austin,~United~States}{}{\emph{Data informatics and intelligent systems for the geosciences} Designed and instructed the technical half of this graduate course: intermediate programming techniques, Linux, and introductory high-performance computing}%}{  \newline{}
+%      Detailed accomplishments:
+%      \begin{itemize}
+%	 \item
+%        \item
+%        \item
+%      \end{itemize}}
+%%%     The Texas Institute for Discovery Education in Science of my
+%%%     university's College of Natural Sciences funded, through a generous
+%%%     fellowship, my summer's work at the supercomputing centre, TACC. By
+%%%     updates rectifying long-standing limitations and bugs in the Fortran
+%%%     codebase of the flow model, MODFLOW-96, and by improvements to an
+%%%     ontology garnered through natural~language processing techniques, I
+%%%     have laid the foundations of a generic interoperator between
+%%%     groundwater simulators.
+%%%     40 hours per week for 10 weeks
+%%%     2017 May 31 -- Present
+%%%     Texas Advanced Computing Center
+%%%     Undergraduate Research Assistant
+%%%     Doctor Suzanne A. Pierce
+%%%     spierce@tacc.utexas.edu
+%%%     +1 (512) 475-9411
+%%%     TEXAS ADVANCED COMPUTING CENTER
+%%%     ADVANCED COMPUTING BUILDING (ACB)
+%%%     J.J. PICKLE RESEARCH CAMPUS, BUILDING 205
+%%%     2305 BURNET RD (R8700)
+%%%     AUSTIN, TX 78758-4497
+%%%     TRAVIS
+%%%     UNITED STATES
+% \subsection{\textsc{Professional}}
+%    \cventry{2014~Sep. -- 2020~Aug.}{Systems designer}{Inter-Cooperative Council}{Austin,~United~States}{}{Completely redesigned internet infrastructures for 9 buildings housing 115 students  \newline{}
+%      Detailed accomplishments:
+%      \begin{itemize}
+%        \item Completely gutted and redesigned from scratch their internet infrastructures
+%        \item Analysed each house's floor-plans and building materials to best locate the new high-speed wireless access points
+%        \item Trained organization staff in the new information technology, so they could continue to maintain it themselves to the present day
+%      \end{itemize}}
+%%%%     BUILDINGS INCLUDED, in reverse order:
+%%%%     Ruth Schultz, New Guild, Royal, Helios, Avalon
+%%%%     Careful review of the current habits of usage and limitations of the
+%%%%     proprietary database employed by this organisation provoked the
+%%%%     conclusion that a switch was both timely and necessary. I developed a
+%%%%     workflow in Bash which interweaves existing conversion technologies in
+%%%%     such a manner as to produce an up-to-date SQL database with a single
+%%%%     click.
+%%%%     07 hours per week
+%%%%     2016 Oct. 05 -- 2017 Jan. 11
+%%%%     Mission~Interuniversitaire de Coordination~Échanges Franco-Américains (MICEFA)
+%%%%     Information Technology Intern
+%%%%     Professor Jean-Marc Chamot
+%%%%     academicdirector@micefa.org
+%%%%     +33 (0)1 40 51 76 96
+%%%%     MICEFA
+%%%%     26 RUE DU FAUBOURG SAINT JACQUES
+%%%%     75014 PARIS, ÎLE-DE-FRANCE
+%%%%     FRANCE
+%    \cventry{2016~Oct. -- 2017~Jan.}{Information~technology intern}{Mission~Interuniversitaire de Coordination~Échanges \mbox{Franco-Américains}}{Paris,~France}{}{Developed Bash workflow that transforms antiquated, proprietary database into contemporary, SQL one}%  \newline{}
+%%      Detailed accomplishments:
+%%      \begin{itemize}
+%%        \item
+%%        \item
+%%        \item
+%%      \end{itemize}}
+%%%%     Careful review of the current habits of usage and limitations of the
+%%%%     proprietary database employed by this organisation provoked the
+%%%%     conclusion that a switch was both timely and necessary. I developed a
+%%%%     workflow in Bash which interweaves existing conversion technologies in
+%%%%     such a manner as to produce an up-to-date SQL database with a single
+%%%%     click.
+%%%%     07 hours per week
+%%%%     2016 Oct. 05 -- 2017 Jan. 11
+%%%%     Mission~Interuniversitaire de Coordination~Échanges Franco-Américains (MICEFA)
+%%%%     Information Technology Intern
+%%%%     Professor Jean-Marc Chamot
+%%%%     academicdirector@micefa.org
+%%%%     +33 (0)1 40 51 76 96
+%%%%     MICEFA
+%%%%     26 RUE DU FAUBOURG SAINT JACQUES
+%%%%     75014 PARIS, ÎLE-DE-FRANCE
+%%%%     FRANCE
+%    \cventry{2015~June -- 2018 Aug.}{Conflict mediator}{Inter-Cooperative Council}{Austin,~United~States}{}{Fairly enforced contracts as neutral arbiter between members and their respective cooperative houses  \newline{}
+%      Detailed accomplishments:
+%      \begin{itemize}
+%        \item Familiar with all of the relevant house policies and the housing cooperative's by-laws
+%        \item On-call to mediate when conflicts between members arose
+%        \item Brought parties to mutually agreed-upon solutions
+%      \end{itemize}}
+%%%%     To provide for a space in which members of this cooperative housing
+%%%%     system may air grievances against others or his or her particular house
+%%%%     stands as my duty. I must embody this system's rigorous process of
+%%%%     conflict mediation, all while minding the unique policies of the house
+%%%%     in question. It is my hope - and my aim - to uphold fairness and
+%%%%     neutrality in so doing.
+%%%%		06 hours as needed
+%%%%     2015 June 17 -- Present
+%%%%     Inter-Cooperative Council
+%%%%     Conflict Mediator
+%%%%     Ashleigh Lassiter
+%%%%     ashleigh@iccaustin.coop
+%%%%     +1 (512) 476-1957
+%%%%     INTER-COOPERATIVE COUNCIL
+%%%%     2305 NUECES ST
+%%%%     AUSTIN, TX 78705-5207
+%%%%     TRAVIS
+%%%%     UNITED STATES
+%    \cventry{2014~Sep. -- 2018 Aug.}{Maintenance \& technology officers}{Avalon\emph{, }Helios\emph{, then} Royal Co-operatives\emph{, }\textsc{icc}}{Austin,~United~States}{}{Redeveloped the internet infrastructures for these co-operative houses  \newline{}
+%      Detailed accomplishments:
+%      \begin{itemize}
+%        \item Implemented SFTP server accessible remotely by house's residents
+%        \item Made multiple GNU/Linux desktop computers available for residents' use
+%        \item Laid ethernet wire and installed routers and access points tailored with OpenWRT
+%      \end{itemize}}
+%%%     No aspect of the pre-existing information technology infrastructure was
+%%%     left unexamined. In the several years spent at the Avalon Co-operative,
+%%%     I rewired the Ethernet connection to most of the more than two dozen
+%%%     quarters of the house. Along with replacements of nearly every router,
+%%%     switch, and access point, available bandwidth, by wire and by wireless,
+%%%     increased by an order of magnitude.
+%%%		02 hours per week
+%%%     2014 Sep. 1 -- Present
+%%%     Inter-Cooperative Council
+%%%     Maintenance Officer
+%%%     Billy Thogersen
+%%%     billy@iccaustin.coop
+%%%     +1 (512) 476-1957
+%%%     INTER-COOPERATIVE COUNCIL
+%%%     2305 NUECES ST
+%%%     AUSTIN, TX 78705-5207
+%%%     TRAVIS
+%%%     UNITED STATES
+  \section{\textsc{Peer-reviewed~articles}}
+    \cvitem{2021~July}{Gil,~Y., D.~Garijo, D.~Khider, C.~A.~Knoblock, M.~Osorio, H.~Vargas, M.~Pham, J.~Pujara, B.~Shbita, B.~Vu, Y.~Chiang, D.~Feldman, Y.~Lin, H.~Song, V.~Kumar, A.~Khandelwal, M.~Steinbach, K.~Tayal, S.~Xu, S.~A.~Pierce, L.~Pearson, \emph{D.~Hardesty~Lewis}, E.~Deelman, R.~F.~da~Silva, R.~Mayani, A.~R.~Kemanian, Y.~Shi, L.~Leonard, S.~.D.~Peckham, M.~Stoica, K.~M.~Cobourn, Z.~Zhang, C.~Duffy, L.~Shu. "Artificial Intelligence for Modeling Complex Systems: Taming the Complexity of Expert Models to Improve Decision Making". {\small The ACM Transactions on Interactive Intelligent Systems 11(2):11.}}
+%  \section{\textsc{Conference~papers}}
+%    \cvitem{2019~Mar.}{Garijo,~D., J.~Pujara, B.~Vu, D.~Feldman, R.~Mayani, K.~Cobourn, C.~Duffy, A.~R.~Kemanian, L.~Shu, V.~Kumar, A.~Khandelwal, D.~Khider, K.~Tayal, S.~D.~Peckham, M.~Stoica, A.~Dabrowski, \emph{D.~Hardesty~Lewis}, S.~A.~Pierce, V.~Ratnakar, Y.~Gil, E.~Deelman, R.~F.~da~Silva, C.~Knoblock, Y.~Chiang, M.~Pham. "An intelligent interface for integrating climate, hydrology, agriculture, and socioeconomic models". {\small ACM 24th International Conference on Intelligent User Interfaces (IUI'19).}}
+%    \cvitem{2018~June}{Garijo,~D., D.~Khider, Y.~Gil, L.~A.~M.~C.~Carvalho, B.~T.~Essawy, S.~A.~Pierce, \emph{D.~Hardesty~Lewis}, V.~Ratnakar, S.~D.~Peckham, C.~Duffy, J.~L.~Goodall. "A Semantic Model Catalog to Support Comparison and Reuse". {\small 9th International Congress on Environmental Modelling and Software.}}
+%  \section{\textsc{Technical~reports}}
+%    \cvitem{2021~Mar.}{Sun,~A., M.~H.~Young, S.~A.~Pierce, J.~Thompson, \emph{D.~Hardesty~Lewis}, B.~R.~Scanlon. "Development of a Framework of Data Interpolation, Scaling, and Homogenization (DISH) for Mapping Natural Resources and Socioeconomic Data in Texas".}
+%    \cvitem{2019~Oct.}{Khider,~D., Y.~Gil, D.~Garijo, K.~M.~Cobourn, C.~Duffy, A.~R.~Kemanian, S.~D.~Peckham, B.~Watkins, A.~Campion, C.~Preager, S.~A.~Pierce, \emph{D.~Hardesty~Lewis}, A.~Dabrowski, C.~H.~Porter, M.~Landsfeld, M.~Puma, B.~Schauberger, A.~Sliva, C.~T.~Morrison. "Towards a Shared Modeling Terminology and Problem Specification Framework".}
+%  \section{\textsc{Presentations}}
+%    \cvitem{2021~May}{Passalacqua,~P., F.~R.~Salas, R.~Schomp, A.~Carruthers, \emph{D.~Hardesty~Lewis}. "Estimating Inundation Extent and Depth from National Water Model Outputs and High Resolution Topographic Data". {\small Presented to the National Oceanographic and Atmospheric Administration.}}
+%    \cvitem{2020~Dec.}{Sun,~A., J.~Thompson, \emph{D.~Hardesty~Lewis}, J.~Powell, M.~H.~Young, B.~R.~Scanlon, S.~A.~Pierce. "Development of a Framework of Data Interpolation, Scaling, and Homogenization (DISH) for Mapping Natural Resources in Texas". {\small Presented at the 2020 annual Fall Research Showcase of Planet Texas 2050.}}
+%    \cvitem{2020~Sep.}{Passalacqua,~P., D.~R.~Maidment, D.~Arctur, H.~Evans, C.~Thies, A.~Carruthers, R.~Schomp, \emph{D.~Hardesty~Lewis}, S.~A.~Pierce. "From Rain Forecasts to Stream Flow to Flood Modelling". {\small Presented at the 2020 annual Fall Research Showcase of Planet Texas 2050.}}
+%    \cvitem{2020~Aug.}{\emph{Hardesty~Lewis,~D.}. "Vector and Raster GIS Processing with Python in Jupyter Notebooks". {\small Presented at the 2020 annual TACC Institute of Planet Texas 2050.}}
+%    \cvitem{2019~Sep.}{\emph{Hardesty~Lewis,~D.}, A.~Dabrowski, J.~Powell, S.~A.~Pierce. "DataX and MINT Overview". {\small Presented at the 2019 annual Fall Research Showcase of Planet Texas 2050.}}
+%  \section{\textsc{Posters}}
+%    \cvitem{2019~Dec.}{Khider,~D., Y.~Gil, K.~M.~Cobourn, E.~Deelman, C.~Duffy, R.~F.~da~Silva, A.~R.~Kemanian, C.~A.~Knoblock, V.~Kumar, S.~D.~Peckham, Y.~Chiang, D.~Feldman, D.~Garijo, \emph{D.~Hardesty~Lewis}, A.~Khandelwal, R.~Mayani, M.~Osorio, M.~Pham, S.~A.~Pierce, J.~Pujara, V.~Ratnakar, L.~Shu, H.~J.~Song, B.~Shbita, M.~Stoica, B.~Vu, L.~Pearson. "MINT: An intelligent interface for understanding the impacts of climate change on hydrological, agricultural and economic systems". {\small Poster presented at the 2019 annual fall meeting of the American Geophysical Union.}}
+%    \cvitem{2019~June}{\emph{Hardesty~Lewis,~D.}, J.~C.Thompson, E.~Pease, Q.~Yang, M.~H.~Young, S.~A.~Pierce. "A unified data representation of Texas water resources". {\small Poster presented at the 2019 annual meeting of the Earthcube community.}}
+%    \cvitem{2019~June}{Pierce,~S.~A., J.~Powell, A.~Karpatne, D.~Garijo, J.~Martin, \emph{D.~Hardesty~Lewis}, P.~Marchetto, S.~Cleveland, M.~Daniels, I.~Athanasiadis, P.~Keys, I.~Demir, D.~Fuka, S.~Peckham, M.~Hill, I.~Ebert-Uphoff, D.~Pennington, G.~Jacobs, Y.~Gil. "Intelligent Systems and Geosciences". {\small Poster presented at the 2019 annual meeting of the Earthcube community.}}
+%    \cvitem{2019~June}{Powell~J., A.~Karpatne, D.~Garijo, J.~Martin, \emph{D.~Hardesty~Lewis}, P.~Marchetto, S.~Cleveland, M.~Daniels, I.~N.~Athanasiadis, P.~W.~Keys, I.~Demir, S.~D.~Peckham, M.~Hill, I.~Ebert-Uphoff, D.~Pennington, G.~Jacobs, Y.~Gil, S.~A.~Pierce. "Creating Sustainable Knowledge Centric Communities with Artificial Intelligence Applications to Earth Science Problems". {\small Poster presented at the 2019 annual meeting of the Earthcube community.}}
+%    \cvitem{2019~June}{Pease,~E., J.~C.~Thompson, \emph{D.~Hardesty~Lewis}, Q.~Yang, S.~A.~Pierce, M.~H.~Young. "Integrated Modeling of Texas Water Resources". {\small Poster presented at the 2019 annual meeting of the \textsc{modflow} and More conference series.}}
+%    \cvitem{2018~Dec.}{Pease,~E., A.~Pfeil, V.~Ibarra, S.~Siddique, F.~Apango, O.~Ramirez, E.~Collado, \emph{D.~Hardesty~Lewis}, N.~Freed, S.~A.~Pierce. "Groundwater Modeling with Informatics and Automated Workflows for Water Resource Management: A Case Study from the Northern Trinity Aquifer". {\small Poster presented at the 2018 annual fall meeting of the American Geophysicial Union.}}
+%    \cvitem{2018~Sep.}{Martin,~J., \emph{D.~Hardesty~Lewis}, N.~Freed, S.~A.~Pierce. "The IS-GEO Gateway: A community portal to facilitate AI and knowledge centered earth discoveries". {\small Poster presented at the 13\textsuperscript{th} annual conference of Gateway Computing Environments.}}
+%    \cvitem{2018~June}{Martin,~J., D.~Garijo, N.~Freed, S.~A.~Pierce, Y.~Gil, D.~R.~Thompson, I.~Demir, I.~Ebert-Uphoff, D.~Pennington, \emph{D.~Hardesty~Lewis}, M.~Hill, D.~Fuka. "IS-GEO: A Research Coordination Network on Intelligent Systems Research to Support he Geosciences". {\small Poster presented at the 2018 annual meeting of the EarthCube community.}}
+%    \cvitem{2017~Dec.}{\emph{D.~Hardesty~Lewis}, S.~A.~Pierce. "From \textsc{modflow}-96 to \textsc{modflow}-2005, \textsc{ParFlow}, and Others". {\small Poster presented at the 2017 annual fall meeting of the American Geophysical Union.}}
+%    \cvitem{2017~Dec.}{Kejriwal,~M., S.~A.~Pierce, P.~I.~Q.~Houser, S.~D.~Peckham, Z.~Stanko, \emph{D.~Hardesty~Lewis}. "Semi-automatic Data Integration using Karma". {\small Poster presented at the 2017 annual fall meeting of the American Geophysical Union.}}
+%    \cvitem{2016~July}{Cantu,~A., S.~A.~Pierce, O.~Rivera, A.~Ramirez, \emph{D.~Hardesty~Lewis}, J.~Gentle, G.~Fuentes-Pineda. "Big Data Analysis for Determining Sustainable Yield and Negotiation Space for an Aquifer System". {\small Poster presented at the 51\textsuperscript{st} annual meeting of the South-Central Section of the Geological Society of America.}}
+%    \cvitem{2016~Apr.}{\emph{Hardesty~Lewis,~D.} "On smoothness and Poisson's Equation". {\small Presented at the 2016 annual DRP Undergraduate Project Symposium at the University of Texas at Austin.}}
+  \section{\textsc{Technology~skills}}
+    \cvdoubleitem{Languages}{\raggedright Python, Bash shell, Fortran, Perl}{Operating Systems}{\raggedright \textsc{gnu}/Linux, mac\textsc{os}, Windows}
+    \cvdoubleitem{Virtualization}{\raggedright Docker, Singularity}{Databases}{\raggedright PostgreSQL}
+    \cvdoubleitem{Scientific models}{\raggedright \textsc{modflow}, \textsc{hand}, \textsc{hec-ras}}{Libraries}{\raggedright \textsc{gdal/ogr}, \textsc{geos}, NumPy, GeoPandas, RasterIO, Matplotlib, Plotly, Dash}
+    \cvdoubleitem{Cloud}{\raggedright \textsc{AWS}, Azure}{Source code management}{\raggedright Git, GitLab, SVN}
+%    \cvdoubleitem{Computer Algebra Systems}{\raggedright Maxima, Mathematica}{Word Processors}{\raggedright \LaTeX, LibreOffice}
+  \section{\textsc{Review committees}}
+    \cvitem{2023~Mar. -- 2023~Apr.}{Frontera Fellows applications  \newline{}
+      {\small Helped TACC determine the most qualified doctoral fellows' projects on one of the largest supercomputers in the world}}
+    \cvitem{2022 Aug.}{TACC's Frontera Pathways \& Large-Scale Community Partnerships applications  \newline{}
+      {\small Helped approved/deny millions of dollars in computing resources to multimillion-dollar projects}}
+  \section{\textsc{Students mentored}}
+    \cvitem{2021~Aug. -- Present}{Khushboo Agarwal  \newline{}
+      {\small MS Energy and Earth Resources, the University of Texas at Austin (expected 2023)}}
+    \cvitem{2020~Aug. -- Present}{Mark Wang  \newline{}
+      {\small PhD Civil Engineering, the University of Texas at Austin (expected 2025)}  \newline{}
+      {\small MS Environmental and Water Resources Engineering, the University of Texas at Austin (2022)}}
+    \cvitem{2019~Aug. -- 2021~May}{Robert Schomp  \newline{}
+      {\small MS Environmental and Water Resources Engineering, the University of Texas at Austin (2021)}}
+    \cvitem{2019~Aug. -- 2020~May}{Alec Carruthers  \newline{}
+      {\small MS Environmental Engineering Technology / Environmental Technology, the University of Texas at Austin (2020)}}
+  \section{\textsc{Academic projects}}
+    \cvitem{2022~June -- 2023~Aug.}{Advanced compound flood hazard assessment science  \newline{}
+      {\small Partner with US Army Corps of Engineers to statistically model flood hazards in Texas's coastal region}}
+    \cvitem{2021~Oct. -- 2023~Aug.}{Texas Disaster Information System (\textsc{TDIS})  \newline{}
+      {\small Provide analytical web-based spatial data system to support more resilient decision-making at the state level}}
+    \cvitem{2020~Dec. -- 2023~Aug.}{Museum of South Texas History Sunday Speaker Series  \newline{}
+      {\small Provide Dash-enabled website to facilitate geolocation of archival imagery by museum visitors}}
+    \cvitem{2020~Nov. -- 2023~Aug.}{Networks for Hazard Preparedness and Response  \newline{}
+      {\small Overlay new, finely tuned flood maps over specially designed building and social vulnerability maps}}
+    \cvitem{2020~Sep. -- 2023~Aug.}{Real-time flood inundation mapping to improve community resilience  \newline{}
+      {\small Provide computationally efficient, high-resolution flood inundation maps to emergency response personnel}}
+    \cvitem{2020~Jan. -- 2023~Aug.}{Estimating Inundation Extent and Depth from National Water Model Outputs and High Resolution Topographic Data  \newline{}
+      {\small Improving the accuracy of flood inundation estimation products 100-fold, from 10m to 1m resolution}}
+%    \cvitem{2017~Dec. -- 2023~Aug.}{MINT: Model INTegration Through Knowledge-Rich Data and Process Composition  \newline{}
+%      {\small Integrate geoscience models \textsc{modflow}, \textsc{hand}, \& \textsc{swat} with models from widely separate disciplines including agriculture, economics, and social sciences}}
+%    \cvitem{2016~Aug. -- 2023~Aug.}{Intelligent Systems for Geosciences  \newline{}
+%      {\small Used natural~language processing and ETL pipelines to capture geoscientific variables' metadata to integrate with intelligent systems}}
+%    \cvitem{2019~Sep. -- 2020~Aug.}{Improving the Estimation of Inundation Extent and Depth with High Resolution Terrain Data Over the State of Texas  \newline{}
+%      {\small Provided utilities to scale up the flood modelling toolset, GeoFlood, to statewide applicability across Texas}}
+%    \cvitem{2018~July -- 2019~Dec.}{Optimal Averaging of Water Resources in Texas  \newline{}
+%      {\small Indentified Texas water data sources, described their spatio-temporal scales and locations, estimated volume of all water in Texas its uncertainty, determined best methods to up-/down-scale all date to a common resolution and grid and minimise error}}
+%    \cvitem{2017~May -- 2017~Aug.}{From \textsc{modflow}-96 to \textsc{modflow}-2005, \textsc{ParFlow}, and Others  \newline{}
+%      {\small Brought a common groundwater flow model to scale on a supercomputer by updating its own Fortran code, using Perl natural~language processing to extract and transform useful metadata from its user manual, and helping to get that metadata incorporated into a widely used scientific ontology}}
+%    \cvitem{2016~July}{Big~Data Analysis for Determining Sustainable~Yield and Negotiation~Space for an Aquifer~System  \newline{}
+%      {\small Developed some Perl transformation routines between input file~formats of groundwater models, \textsc{modflow}-96 and \textsc{ParFlow}}}
+%    \cvitem{2014~Oct. -- 2014~Dec.}{Stochastic Differential~Equations and Monte~Carlo Simulation  \newline{}
+%      {\small Drafted Fortran routine that could run arbitrary equations of this type with arbitrary parameters}}
+%    \cvitem{2013~May -- 2013~Dec.}{Region of Calculated Existence for O/Ne-Core~Stars with H/He~Envelopes  \newline{}
+%	{\small Verified known observations, discovering that \textsc{mesa} accurately models this type of star under its default parameters}}%implemented particular parameters in \textsc{mesa} that confirmed that it simulates accurately these types of stars
+%  \section{\textsc{Professional projects}}
+%%%    \cventry{2014~Sep. -- 2018 Aug.}{Maintenance \& technology officers}{Avalon\emph{, }Helios\emph{, then} Royal Co-operatives\emph{, }\textsc{icc}}{Austin,~United~States}{}{Redeveloped the internet infrastructures for these co-operative houses  \newline{}
+%    \cventry{2019~Nov. -- Present}{Board member}{Austin Community Reinvestment Cooperative (ACRC)}{Austin,~United~States}{}{Helped establish cooperative real estate investment firm  \leavevmode\newline{}
+%      Detailed accomplishments:
+%      \begin{itemize}
+%	\item {\small Shaped bylaws and business plan, having consulted with advisors who've had 40+ years in cooperative development experience}
+%	\item {\small Provide GIS maps of specific properties to follow for a potential purchase, having selected them from criteria applied across parcel-level data}
+%	\item {\small Provide heat maps to help determine the best neighborhoods for investment based on parcel-level zoning, existing building characteristics, and simple Python pro formas}
+%	\item {\small Develop fully detailed real estate development pro formas for specific properties}
+%	\item {\small Develop and maintain relationships with Central Austin property owners interested in a collaboration}
+%	\item {\small Develop and submit options-to-purchase to interested property owners}
+%      \end{itemize}}
+%%%%    \cventry{2019~Nov. -- Present}{Board member}{Austin Community Reinvestment Cooperative (ACRC)}{Austin,~United~States}{}{  \newline{}
+%    \cventry{2019~May -- Present}{Member-owner}{Hardy Cooperative}{Austin,~United~States}{}{Helped establish Central Austin affordable housing cooperative  \leavevmode\newline{}
+%      Detailed accomplishments:
+%      \begin{itemize}
+%	\item {\small Helped establish affordable housing cooperative of 7+ households in Central Austin, generating \$60,000+ in annual revenue while providing rents 35\% more affordable than nearby alternatives}
+%	\item {\small Collaborated with Dave Sullivan, former long-time chair of Austin planning commission, to determine that we met all zoning requirements for our use}
+%	\item {\small Secured 3 guarantors willing to front \$40,000-\$80,000 in liability for our commercial lease and new venture}
+%	\item {\small Drafted and implemented business prospectus, operational pro forma, resident lease applications, resident lease agreements, guarantor agreements, loan agreements, etc}
+%	\item {\small Maintained good relationships with 2 separate pro bono attorneys who have extensively reviewed, provided feedback, and largely rubber-stamped the contracts I have written}
+%	\item {\small Secured \$30,000+ in lending, as well as conditional approval for another \$40,000}
+%	\item {\small Received 150+ applicants for only 7 spaces in just 2 years of operation}
+%	\item {\small Established and maintained relationships with a 20+-year old housing coop and the ACRC in order to secure the long-term future of this venture}
+%      \end{itemize}}
+%%%%    \cventry{2019~May -- Present}{Member-owner}{Hardy Cooperative}{Austin,~United~States}{}{  \newline{}
+%    \cventry{2019~May -- 2020 Apr.}{Member, housing committee}{Austin Cooperative Business Association}{Austin,~United~States}{}{Austin Land Development Code (LDC) Revision  \leavevmode\newline{}
+%      Detailed accomplishments:
+%      \begin{itemize}
+%	\item {\small Reviewed cumulative 3000+ pages of 6 different Austin LDCs (1972, 1984, current, and LDC drafts 1, 2, \& 3)}
+%	\item {\small Developed ACBA policy positions from understanding of these codes}
+%	\item {\small Distributed GIS maps depicting impact of each proposed LDC draft and our proposed LDC amendments on current and future affordable housing cooperative development}
+%	\item {\small Secured meeting with Mayor Steve Adler}
+%	\item {\small Advocated ACBA's position in direct meetings with Mayor Steve Adler, CM Greg Casar, CM Harper-Madison's policy director, CM Leslie Pool's chief of staff, and City Staff LDC drafters}
+%	\item {\small Notified co-ops impacted by potential code changes and put them in touch with relevant City Council and City Staff members}
+%	\item {\small Helped advance ACBA positions through different City Councilmember offices and conducted vote-counts of each position before and after each vote}
+%	\item {\small Succeeded in getting amendments adopted into draft LDC}
+%      \end{itemize}}
+%  \section{\textsc{Pertinent coursework}}
+%    \cvlistitem{\emph{Mathematics} {\small Advanced~Calculus~for~Applications, Linear~Algebra~and~Matrix~Theory, Differential~Equations, Real~Analysis~I, Probability~I, Partial~Differential~Equations~and~Applications, Topology~I, Algebraic~Structures~I, Complex~Analysis, Vector~Calculus}}
+%    \cvlistitem{\emph{Scientific computing} {\small Introduction~to~Scientific~\&~Technical~Computing, Artificial~Intelligence~\emph{(audited)}, Mathematical~Modelling~in~Science~and~Engineering, Introduction~to~Stochastic~Processes, Applied~Statistics}}
+%    \cvlistitem{\emph{Political and social sciences} {\small \emph{(2019 ICPSR Summer Program, University of Michigan)} Intro~to~Network~Analysis, Machine~Learning, Math~for~Social~Sciences~III}}
+%  \section{\textsc{Professional~affiliations}}
+%    \cvlistitem{\emph{Mathematical Association of America} {\small Member}}
+%    \cvlistitem{\emph{North American Students of Cooperation} {\small Member}}
+%%%%		Member during 2013/07-Present
+%    \cvlistitem{\emph{American Geophysical Union} {\small Member}}
+%  \section{\textsc{Extracurricular~activities}}
+%    \cvlistitem{\emph{Austin Transportation Equity Analysis Zones Advisory Team} {\small Member, one of 30 members selected from a pool of 177 applicants to advise Austin Transportation on equitable geographic allocation of Project Connect's anti-displacement bond}}
+%%%%		Member during 2021/05-2021/07
+%    \cvlistitem{\emph{Austin Community Reinvestment Cooperative (ACRC)} {\small Board member}}
+%%%%		Member during 2019/11-Present
+%    \cvlistitem{\emph{Austin Cooperative Business Assocation (ACBA)} {\small Member, Development committee}}
+%%%%		Member during 2019/11-Present
+%    \cvlistitem{\emph{Evolve Austin} {\small Member, affiliate organization}}
+%%%%		Member during 2019/10-Present
+%    \cvlistitem{\emph{AURA} {\small Member}}
+%%%%		Member during 2019/10-Present
+%    \cvlistitem{\emph{Brentwood Neighborhood Association} {\small Member, provided PIR of full set of Affordability Unlocked applications}}
+%%%%		Member during 2019/08-Present
+%    \cvlistitem{\emph{Hardy Cooperative} {\small Founder, member-owner}}
+%%%%		Member during 2019/08-Present
+%    \cvlistitem{\emph{Austin Cooperative Business Assocation (ACBA)} {\small Member, Housing committee}}
+%%%%		Member during 2018/04-Present
+%    \cvlistitem{\emph{Mission~Interuniversitaire de Coordination~Échanges Franco-Américains} {\small Foreign~exchange}}
+%%%%		Member during 2016/08-2017/01
+%    \cvlistitem{\emph{Directed~Reading Program} {\small Graduate mathematical readings under individual guidance of doctoral~students}}
+%%%%     Mentee during XXXXXXXXXXXXXXX [Fill in.]
+%%%%		Mentee during 2016/01-2016/05
+%    \cvlistitem{\emph{Mathematics Club} {\small Attended student- and professor-led talks}}
+%%%%		Member during 2014/08-2016/05
+%    \cvlistitem{\emph{Inter-Cooperative Council (ICC) Austin} {\small Member}}
+%%%%		Member during 2014/01-2018/07
+%    \cvlistitem{\emph{College Houses Cooperatives} {\small Member}}
+%%%%		Member during 2013/07-2013/12
+%    \cvlistitem{\emph{Emerging~Scholars Program, Calculus} {\small Explored calculus outside of course~material}}
+%%%		Member during 2012/08-2013/05
+  \section{\textsc{Languages}}
+    \cvdoubleitem{French}{Professional working}{Spanish}{Native}
+\end{document}
