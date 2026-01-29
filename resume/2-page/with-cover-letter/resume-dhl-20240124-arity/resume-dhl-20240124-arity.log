@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  28 JAN 2026 21:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  28 JAN 2026 21:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -868,8 +868,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 51.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 51.
-
-No file resume-dhl-20240124-arity.aux.
+ (resume-dhl-20240124-arity.aux)
 \openout1 = `resume-dhl-20240124-arity.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
@@ -970,6 +969,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 51.
+(resume-dhl-20240124-arity.out) (resume-dhl-20240124-arity.out)
 \@outlinefile=\write4
 \openout4 = `resume-dhl-20240124-arity.out'.
 
@@ -1106,24 +1106,15 @@ L3 programming layer <2025-09-02>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `resume-dhl-20240124-arity.out' has change
-d.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume-dhl-20240124-arity.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  ABBAFD86F1F2314EC3CE08FE9AF26EFB;1157.
+Package rerunfilecheck Info: File `resume-dhl-20240124-arity.out' has not chang
+ed.
+(rerunfilecheck)             Checksum: ABBAFD86F1F2314EC3CE08FE9AF26EFB;1157.
  ) 
 Here is how much of TeX's memory you used:
- 27734 strings out of 468081
- 536035 string characters out of 5426756
- 967635 words of memory out of 5000000
- 55809 multiletter control sequences out of 15000+600000
+ 27753 strings out of 468081
+ 536653 string characters out of 5426756
+ 967570 words of memory out of 5000000
+ 55822 multiletter control sequences out of 15000+600000
  704405 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,14n,129p,1024b,733s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1140,9 +1131,9 @@ sers/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users
 hl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/dhl/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on resume-dhl-20240124-arity.pdf (4 pages, 333238 bytes).
+Output written on resume-dhl-20240124-arity.pdf (4 pages, 336325 bytes).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
+ 186 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)
- 45581 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 45661 words of extra memory for PDF output out of 51595 (max. 10000000)
 
