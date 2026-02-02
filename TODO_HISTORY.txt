@@ -1,0 +1,99 @@
+﻿commit f3c546d7674557b41dde310dc94fe5ea19884c15
+Author: Daniel Hardesty Lewis <DanielHardestyLewis@gmail.com>
+Date:   Sun Feb 1 20:02:57 2026 -0500
+
+    docs: Final sync of PROMPTS-LOG and TODO with bullet guidance
+
+diff --git a/TODO.md b/TODO.md
+index 61dd1f7..14a7e09 100644
+--- a/TODO.md
++++ b/TODO.md
+@@ -1,6 +1,8 @@
+ - [ ] Correctly allocate space to each experience (UNREVIEWED) [Added: 2026-02-01 20:00]
++    - *Guidance: Principal (Properlytic/PoliBOM) 4-5, TACC Lead 4, Earlier 3, Research 2 per PI*
+ - [ ] Structure bullet points with consistent ordering and structure (UNREVIEWED) [Added: 2026-02-01 20:00]
+ - [ ] Include select publications section (UNREVIEWED) [Added: 2026-02-01 20:00]
++    - *Suggestion: Snip lowest-impact bullet from 2018-2021 TACC role to make room*
+ - [ ] Reduce widows and hangers in the document layout (UNREVIEWED) [Added: 2026-02-01 20:00]
+ - [ ] Check for word-level repetitions (e.g., "tariff simulation") (UNREVIEWED) [Added: 2026-02-01 20:00]
+ - [ ] Fix browser `$HOME` variable issue <!-- id: 31 --> (FAILED - System Environment Error)
+
+commit 0a695c12cc50aab3bf4ea0c5252241f58bcdcc8e
+Author: Daniel Hardesty Lewis <DanielHardestyLewis@gmail.com>
+Date:   Sun Feb 1 20:01:52 2026 -0500
+
+    docs: Sync PROMPTS-LOG and TODO with recent conversation and tasks
+
+diff --git a/TODO.md b/TODO.md
+index d5f06de..61dd1f7 100644
+--- a/TODO.md
++++ b/TODO.md
+@@ -1,4 +1,7 @@
+-# TODO
+-
++- [ ] Correctly allocate space to each experience (UNREVIEWED) [Added: 2026-02-01 20:00]
++- [ ] Structure bullet points with consistent ordering and structure (UNREVIEWED) [Added: 2026-02-01 20:00]
++- [ ] Include select publications section (UNREVIEWED) [Added: 2026-02-01 20:00]
++- [ ] Reduce widows and hangers in the document layout (UNREVIEWED) [Added: 2026-02-01 20:00]
++- [ ] Check for word-level repetitions (e.g., "tariff simulation") (UNREVIEWED) [Added: 2026-02-01 20:00]
+ - [ ] Fix browser `$HOME` variable issue <!-- id: 31 --> (FAILED - System Environment Error)
+ - [ ] Open JobRight in browser <!-- id: 32 --> (BLOCKED)
+
+commit 829329f477e16d6d0ee335f7f152c724f03ec4b1
+Author: Daniel Hardesty Lewis <DanielHardestyLewis@gmail.com>
+Date:   Sun Feb 1 16:01:10 2026 -0500
+
+    chore: Remove old resume versions
+
+diff --git a/TODO.md b/TODO.md
+index 3ec9574..d5f06de 100644
+--- a/TODO.md
++++ b/TODO.md
+@@ -1,3 +1,4 @@
+ # TODO
+ 
+-All tasks completed. See TODO-COMPLETED.md for history.
++- [ ] Fix browser `$HOME` variable issue <!-- id: 31 --> (FAILED - System Environment Error)
++- [ ] Open JobRight in browser <!-- id: 32 --> (BLOCKED)
+
+commit 24a92124ef050a5d1e1c8976cd360ade97ba0ed3
+Author: Daniel Hardesty Lewis <DanielHardestyLewis@gmail.com>
+Date:   Wed Jan 28 21:34:39 2026 -0500
+
+    Complete TODO: Update archive and clear active tasks
+
+diff --git a/TODO.md b/TODO.md
+index bf36dca..3ec9574 100644
+--- a/TODO.md
++++ b/TODO.md
+@@ -1,8 +1,3 @@
+ # TODO
+ 
+-- [ ] (UNREVIEWED) Correct date of cv_dhl_20260128 to 20230831 [Added: 2026-01-28 21:22]
+-- [ ] (UNREVIEWED) Correct date of cv_dhl_20240523 to 20230331 [Added: 2026-01-28 21:22]
+-- [ ] (UNREVIEWED) Ensure naming schema uses hyphens not underscores [Added: 2026-01-28 21:22]
+-- [ ] (UNREVIEWED) Compile resume-dhl-20240124-arity [Added: 2026-01-28 21:21]
+-- [ ] (UNREVIEWED) Verify DataAffect resume modification [Added: 2026-01-28 21:21]
+-- [ ] (UNREVIEWED) Final verification of folder structure [Added: 2026-01-28 21:21]
++All tasks completed. See TODO-COMPLETED.md for history.
+
+commit c9deedf75eee1625ec63d2874a90cb93e7838c01
+Author: Daniel Hardesty Lewis <DanielHardestyLewis@gmail.com>
+Date:   Wed Jan 28 21:23:24 2026 -0500
+
+    Compliance: Add GUIDELINES, TODO, PROMPTS-LOG; Organize CVs and Resumes
+
+diff --git a/TODO.md b/TODO.md
+new file mode 100644
+index 0000000..bf36dca
+--- /dev/null
++++ b/TODO.md
+@@ -0,0 +1,8 @@
++# TODO
++
++- [ ] (UNREVIEWED) Correct date of cv_dhl_20260128 to 20230831 [Added: 2026-01-28 21:22]
++- [ ] (UNREVIEWED) Correct date of cv_dhl_20240523 to 20230331 [Added: 2026-01-28 21:22]
++- [ ] (UNREVIEWED) Ensure naming schema uses hyphens not underscores [Added: 2026-01-28 21:22]
++- [ ] (UNREVIEWED) Compile resume-dhl-20240124-arity [Added: 2026-01-28 21:21]
++- [ ] (UNREVIEWED) Verify DataAffect resume modification [Added: 2026-01-28 21:21]
++- [ ] (UNREVIEWED) Final verification of folder structure [Added: 2026-01-28 21:21]

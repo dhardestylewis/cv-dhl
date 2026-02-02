@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  1 FEB 2026 19:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  1 FEB 2026 20:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1009,31 +1009,31 @@ LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
 
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 113.
+nput line 110.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
 free2.fd)
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-13.
+10.
  (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 113.
+nput line 110.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
 free1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 113.
+ input line 110.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
 brands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 113.
+n input line 110.
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 11
-3.
+0.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1058,10 +1058,6 @@ s/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/dhl
 /AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Us
 ers/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.e
 nc}{C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/9'.
-(microtype)             Ignoring protrusion settings for this character.
-
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -1070,7 +1066,13 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 
 [2{C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
 {C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
-(resume-dhl-20260201-fullstack-mle.aux)
+
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 45.47952pt, for example:
+(fancyhdr)                \setlength{\footskip}{45.47952pt}.
+
+[3] (resume-dhl-20260201-fullstack-mle.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1079,16 +1081,26 @@ L3 programming layer <2025-09-02>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `resume-dhl-20260201-fullstack-mle.out' has n
-ot changed.
-(rerunfilecheck)             Checksum: 31C66E35BD71B2A2A31802E25B35A081;893.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `resume-dhl-20260201-fullstack-mle.out' ha
+s changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `resume-dhl-20260201-fullstack-mle.o
+ut':
+(rerunfilecheck)             Before: 31C66E35BD71B2A2A31802E25B35A081;893
+(rerunfilecheck)             After:  FAB478E5D43F783B2CA982AE1A1C2698;1026.
  ) 
 Here is how much of TeX's memory you used:
- 27702 strings out of 468081
- 535704 string characters out of 5426756
+ 27711 strings out of 468081
+ 535760 string characters out of 5426756
  982670 words of memory out of 5000000
- 55787 multiletter control sequences out of 15000+600000
- 694042 words of font info for 123 fonts, out of 8000000 for 9000
+ 55785 multiletter control sequences out of 15000+600000
+ 691674 words of font info for 127 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,13n,129p,1032b,640s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/F
@@ -1097,19 +1109,18 @@ ontAwesome5Brands-Regular.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts
 ocal/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb
 ><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><
 C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/
-Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/U
-sers/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/U
-sers/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/User
-s/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/d
-hl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/dhl/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/dhl/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb><C:/Users/dhl/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on resume-dhl-20260201-fullstack-mle.pdf (2 pages, 345788 bytes)
+Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/
+Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Use
+rs/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/
+dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/dhl/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/dhl/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb><C:/Users/dhl/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb>
+Output written on resume-dhl-20260201-fullstack-mle.pdf (3 pages, 334839 bytes)
 .
 PDF statistics:
- 180 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 39509 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 185 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
+ 37461 words of extra memory for PDF output out of 42996 (max. 10000000)
 

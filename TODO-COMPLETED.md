@@ -9,3 +9,8 @@
 - [x] (UNREVIEWED) Restructure resumes to pages/type/name hierarchy [Added: 2026-01-28 21:28] (Completed: 2026-01-28 21:33)
 - [x] (UNREVIEWED) Deduplicate DataAffect resumes [Added: 2026-01-28 21:29] (Completed: 2026-01-28 21:33)
 - [x] (UNREVIEWED) Move Arity to correct 2-page/with-cover-letter location [Added: 2026-01-28 21:33] (Completed: 2026-01-28 21:33)
+- [x] Correctly allocate space to each experience (Completed: 2026-02-01 20:10)
+- [x] Structure bullet points with consistent ordering and structure (Completed: 2026-02-01 20:10)
+- [x] Include select publications section (Completed: 2026-02-01 20:10)
+- [x] Reduce widows and hangers in the document layout (Completed: 2026-02-01 20:10)
+- [x] Check for word-level repetitions (e.g., "tariff simulation") (Completed: 2026-02-01 20:10)

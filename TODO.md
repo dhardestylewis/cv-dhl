@@ -1,12 +1,5 @@
 ﻿# TODO
 
 - [ ] **CRITICAL**: Review GUIDELINES.md before modifying any repository files, including this TODO file (UNREVIEWED) [Added: 2026-02-01 20:05]
-- [ ] Correctly allocate space to each experience (UNREVIEWED) [Added: 2026-02-01 20:00]
-    - *Guidance: Principal (Properlytic/PoliBOM) 4-5, TACC Lead 4, Earlier 3, Research 2 per PI*
-- [ ] Structure bullet points with consistent ordering and structure (UNREVIEWED) [Added: 2026-02-01 20:00]
-- [ ] Include select publications section (UNREVIEWED) [Added: 2026-02-01 20:00]
-    - *Suggestion: Snip lowest-impact bullet from 2018-2021 TACC role to make room*
-- [ ] Reduce widows and hangers in the document layout (UNREVIEWED) [Added: 2026-02-01 20:00]
-- [ ] Check for word-level repetitions (e.g., "tariff simulation") (UNREVIEWED) [Added: 2026-02-01 20:00]
 - [ ] Fix browser $HOME variable issue <!-- id: 31 --> (FAILED - System Environment Error)
 - [ ] Open JobRight in browser <!-- id: 32 --> (BLOCKED)
