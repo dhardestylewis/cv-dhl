@@ -1,0 +1,50 @@
+﻿
+VISUAL STATE (Expected after compile):
+  - Name: RED, more space at top, NO \textsc
+  - Header bar under name: Default (NOT red)
+  - Section titles: RED, bold, no smallcaps
+  - Section horizontal bars: RED
+  - Subsection titles: RED, bold, no smallcaps
+  - Bullet points: RED
+  - Body font: 9pt
+  - Header spacing: increased (less negative vspace)
+
+
+[2026-01-31 19:34:20] STATE LOG ENTRY
+
+ACTION: Added skill matrix visualization with custom 12-square bars for years
+
+SKILL MATRIX PATCH ADDED (Lines 11-49):
+  - cvSkillMaxLevel=12 (max 12 squares representing years)
+  - cvSkill@ShapeSize=1.0ex (smaller squares for 12 bars)
+  - Redefined \cvskill to draw filled squares in color1 and empty in color2!30
+  - AtBeginDocument recomputes column widths for new bar width
+
+CORE SKILLS SECTION ADDED (Lines 174-182):
+  \section{Core Skills (Years)}
+    \begin{cvskillmatrix}
+      \cvskillentry*{}{5}{Python}{10}{}
+      \cvskillentry*{}{4}{Machine Learning}{6}{}
+      \cvskillentry*{}{4}{PostgreSQL / PostGIS}{8}{}
+      \cvskillentry*{}{5}{Geospatial Analysis}{12}{}
+      \cvskillentry*{}{3}{Deep Learning (VAE, Diffusion)}{3}{}
+      \cvskillentry*{}{3}{Cloud (AWS/Azure)}{5}{}
+    \end{cvskillmatrix}
+
+FORMAT: \cvskillentry*{category}{level 0-5}{skill_name}{years}{comment}
+  - Level: filled circles (1-5 proficiency)
+  - Years: displayed as text in column
+
+VISUAL STATE (Expected after compile):
+  - Core Skills section with proficiency bars (1-5 level squares)
+  - Years displayed next to each skill
+  - Located before Technology Skills section
+
+OTHER STATE (unchanged):
+  - Name: RED, no \textsc
+  - Header bar: Default (not red)
+  - Section/subsection titles: RED, bold, no smallcaps
+  - Section horizontal bars: RED
+  - Body font: 9pt
+  - Header vspace: -2.5em
+
