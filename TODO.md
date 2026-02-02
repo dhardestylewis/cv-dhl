@@ -1,4 +1,7 @@
-# TODO
-
+- [ ] Correctly allocate space to each experience (UNREVIEWED) [Added: 2026-02-01 20:00]
+- [ ] Structure bullet points with consistent ordering and structure (UNREVIEWED) [Added: 2026-02-01 20:00]
+- [ ] Include select publications section (UNREVIEWED) [Added: 2026-02-01 20:00]
+- [ ] Reduce widows and hangers in the document layout (UNREVIEWED) [Added: 2026-02-01 20:00]
+- [ ] Check for word-level repetitions (e.g., "tariff simulation") (UNREVIEWED) [Added: 2026-02-01 20:00]
 - [ ] Fix browser `$HOME` variable issue <!-- id: 31 --> (FAILED - System Environment Error)
 - [ ] Open JobRight in browser <!-- id: 32 --> (BLOCKED)
