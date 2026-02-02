@@ -1,6 +1,6 @@
 ﻿# TODO
 
-- [ ] **CRITICAL**: Review GUIDELINES.md before modifying any repository files (UNREVIEWED) [Added: 2026-02-01 20:04]
+- [ ] **CRITICAL**: Review GUIDELINES.md before modifying any repository files, including this TODO file (UNREVIEWED) [Added: 2026-02-01 20:05]
 - [ ] Correctly allocate space to each experience (UNREVIEWED) [Added: 2026-02-01 20:00]
     - *Guidance: Principal (Properlytic/PoliBOM) 4-5, TACC Lead 4, Earlier 3, Research 2 per PI*
 - [ ] Structure bullet points with consistent ordering and structure (UNREVIEWED) [Added: 2026-02-01 20:00]
