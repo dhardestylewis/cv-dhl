@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  4 FEB 2026 17:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  4 FEB 2026 17:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1071,25 +1071,15 @@ L3 programming layer <2025-09-02>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `resume-dhl-20260201-fullstack-mle.out' ha
-s changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume-dhl-20260201-fullstack-mle.o
-ut':
-(rerunfilecheck)             Before: 3DDEDCC604995254D4BF31ABC0CC0457;1036
-(rerunfilecheck)             After:  70F0059AF1879FFA10EE1CB5AF640716;1131.
+Package rerunfilecheck Info: File `resume-dhl-20260201-fullstack-mle.out' has n
+ot changed.
+(rerunfilecheck)             Checksum: 70F0059AF1879FFA10EE1CB5AF640716;1131.
  ) 
 Here is how much of TeX's memory you used:
- 27693 strings out of 468081
- 535433 string characters out of 5426756
+ 27694 strings out of 468081
+ 535446 string characters out of 5426756
  979165 words of memory out of 5000000
- 55756 multiletter control sequences out of 15000+600000
+ 55757 multiletter control sequences out of 15000+600000
  700816 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,13n,129p,1032b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1107,10 +1097,10 @@ AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/dhl/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/dhl/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb>
-Output written on resume-dhl-20260201-fullstack-mle.pdf (3 pages, 339766 bytes)
+Output written on resume-dhl-20260201-fullstack-mle.pdf (3 pages, 340032 bytes)
 .
 PDF statistics:
- 187 PDF objects out of 1000 (max. 8388607)
+ 190 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)
- 43101 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 43109 words of extra memory for PDF output out of 51595 (max. 10000000)
 
