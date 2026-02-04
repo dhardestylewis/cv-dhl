@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  4 FEB 2026 16:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  4 FEB 2026 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1032,16 +1032,6 @@ LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
 n input line 110.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 11
-0.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `pcr' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -1057,7 +1047,7 @@ ppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/User
 s/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/dhl
 /AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Us
 ers/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.e
-nc}{C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+nc}]
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -1086,13 +1076,13 @@ ot changed.
 (rerunfilecheck)             Checksum: 3DDEDCC604995254D4BF31ABC0CC0457;1036.
  ) 
 Here is how much of TeX's memory you used:
- 27730 strings out of 468081
- 536001 string characters out of 5426756
- 980141 words of memory out of 5000000
- 55790 multiletter control sequences out of 15000+600000
- 701464 words of font info for 136 fonts, out of 8000000 for 9000
+ 27690 strings out of 468081
+ 535402 string characters out of 5426756
+ 979165 words of memory out of 5000000
+ 55756 multiletter control sequences out of 15000+600000
+ 700727 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,13n,129p,1032b,637s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,13n,129p,1032b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/F
 ontAwesome5Brands-Regular.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/dhl/AppData/L
@@ -1106,12 +1096,11 @@ dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/dhl/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/dhl/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/dhl/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb><C:/Users/dhl/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on resume-dhl-20260201-fullstack-mle.pdf (3 pages, 349130 bytes)
+ocal/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb>
+Output written on resume-dhl-20260201-fullstack-mle.pdf (3 pages, 338929 bytes)
 .
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
+ 185 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
- 43613 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 43101 words of extra memory for PDF output out of 51595 (max. 10000000)
 
