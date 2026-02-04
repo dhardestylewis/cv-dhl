@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  4 FEB 2026 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  4 FEB 2026 17:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1009,29 +1009,29 @@ LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
 
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 110.
+nput line 120.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
 free2.fd)
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-10.
+20.
  (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 110.
+nput line 120.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
 free1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 110.
+ input line 120.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
 brands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 110.
+n input line 120.
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -1078,7 +1078,7 @@ ot changed.
 Here is how much of TeX's memory you used:
  27694 strings out of 468081
  535446 string characters out of 5426756
- 979165 words of memory out of 5000000
+ 984165 words of memory out of 5000000
  55757 multiletter control sequences out of 15000+600000
  700816 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1097,7 +1097,7 @@ AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/dhl/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/dhl/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb>
-Output written on resume-dhl-20260201-fullstack-mle.pdf (3 pages, 340257 bytes)
+Output written on resume-dhl-20260201-fullstack-mle.pdf (3 pages, 340124 bytes)
 .
 PDF statistics:
  191 PDF objects out of 1000 (max. 8388607)
