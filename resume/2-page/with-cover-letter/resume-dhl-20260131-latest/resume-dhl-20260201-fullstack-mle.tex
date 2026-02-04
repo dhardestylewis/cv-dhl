@@ -38,8 +38,9 @@
   \homepage{dlewis.ai}
   \social[linkedin]{dhardestylewis}
   \social[github]{dhardestylewis}
-  \social[gitlab]{dhl}
-  \extrainfo{\url{researchgate.net/profile/Daniel-Hardesty-Lewis}}
+
+  \extrainfo{\url{scholar.google.com/citations?user=INSERT_USER_ID}}
+  \title{\large Staff ML Engineer -- production training, inference, evaluation, reliability}
 %% Define \cvdoublecolumn
   \newcommand{\cvdoublecolumn}[2]{
     \cvitem[0.75em]{}{
@@ -55,6 +56,13 @@
   \vspace*{-2.5em}
   \makecvtitle
 
+\vspace{-0.6em}
+\noindent\begin{minipage}{\textwidth}
+\small\raggedright
+Staff ML engineer focused on production reliability: end-to-end training/inference/evaluation systems, regression-catching eval harnesses, and cost-aware distributed execution. Delivered consumer pricing and state-scale resiliency platforms across geospatial + time-series workloads.
+\end{minipage}
+\vspace{0.6em}
+
   \section{Core Expertise}
   \cvitem{8 years}{\textbf{ML Engineering}: Build and operate AI/ML training and inference pipelines, with evaluation harnesses that catch regressions and improve production reliability}
   \cvitem{8~years}{\textbf{Backend \& Data}: Build schemas and ETL; ship API-backed services using Python, SQL, and Postgres/PostGIS}
@@ -69,7 +77,7 @@
   \cvitem{Infra}{Linux/Unix; Bash; Git; Docker; Kubernetes; Ray; Spark; Dask; Airflow; CI/CD; monitoring/observability}
   \cvitem{Additional}{CUDA; C++; TypeScript; React}
 
-
+  
   \section{\textsc{Experience}}
   \subsection{\textsc{Professional}}
     \cventry{Apr.~2025 -- Present}{Co-founder}{Properlytic}{New York, NY}{}{
@@ -105,6 +113,8 @@
         \item Co-founded and launched \href{https://www.summitgeospatial.com}{summitgeospatial.com} to commercialize state-level geomorphology IP, providing precision decision-support for civil engineering and disaster planning.
         \item Led the source-to-frontend data pipeline for the \$40M \href{https://idrt.tamug.edu/tdis/}{Texas Disaster Information System (TDIS)}, integrating large-scale geospatial assets for state-level resiliency.
         \item Scaled climate and flood models on world-leading supercomputers, executing million-node distributed jobs while managing multi-million-dollar compute budgets and federal/state partnerships (NOAA, NSF, USCE, GLO).
+        \item Partnered with the US Army Corps of Engineers to statistically model compound flood hazards in coastal Texas, integrating high-resolution topographic data with hydrological models.
+        \item Developed computationally efficient methods to produce high-resolution (1m) flood inundation maps from National Water Model outputs for the Texas Division of Emergency Management (\href{https://storymaps.arcgis.com/stories/6227f24d6c5047f883d5c3497241f299}{Real-Time Inundation Mapping}).
         \item Contributed fundamental research supporting Paola Passalacqua's 2022 EGU Bagnold Medal, one of geomorphology's highest honors.
     \end{itemize}}
     
@@ -118,7 +128,10 @@
 
   \subsection{\textsc{Research}}
 
-    \cventry{May~2025 -- Present}{Research assistant to Dir. Electrical Engineering Zoran Kostic}{Columbia University}{New York, NY}{}{Targetting theory publications to DeepSeek's GRPO algorithm}
+    \cventry{May~2025 -- Present}{Research assistant to Dir. Electrical Engineering Zoran Kostic}{Columbia University}{New York, NY}{}{
+    \begin{itemize}
+        \item Targetting theory publications to DeepSeek's GRPO algorithm
+    \end{itemize}}
 
     \cventry{Jan.~2025 -- Present}{Research assistant to Dir. Financial Engineering Ali Hirsa}{Columbia University}{New York, NY}{}{
     \begin{itemize}
@@ -126,15 +139,20 @@
         \item Derived a tractable, axiom-compliant per-feature SHAP algorithm using Hessian-based recursive clustering to provide stable temporal regime-dependent attributions for deep learning models.
     \end{itemize}}
     
-    \cventry{July~2019 -- Aug.~2019}{Summer research intern to Pres. AAAI Yolanda Gil}{University of Southern California}{Los Angeles, CA}{}{Integrated hydrological models into the \href{http://mint-project.info/overview.html}{MINT Platform} during a year-long competition with MITRE to provide DARPA the "Airflow for science"}
+    \cventry{July~2019 -- Aug.~2019}{Summer research intern to Pres. AAAI Yolanda Gil}{University of Southern California}{Los Angeles, CA}{}{
+    \begin{itemize}
+        \item Integrated hydrological models into the \href{http://mint-project.info/overview.html}{MINT Platform} during a year-long competition with MITRE to provide DARPA the "Airflow for science"
+    \end{itemize}}
+
+  \subsection{\textsc{Teaching}}
+    \cventry{Jan.~2018 -- Dec.~2020}{Co-instructor}{The University of Texas at Austin}{Austin, TX}{}{
+    \begin{itemize}
+        \item Helped teach graduate-level courses: \emph{Machine Learning for the Geosciences} for Petrobras engineers, \emph{Intelligent Systems for the Geosciences}, and \emph{Scientific Computation}, including C++, CUDA, HPC, \& optimization.
+    \end{itemize}}
 
   \section{\textsc{Select Publications}}
-    \cvitem{2021}{\textbf{Gil, Y.}, et al. "MINT: An Intelligent Interface for Integrating Inundation Mapping and Hydrological Models." \emph{ACM Transactions on Interactive Intelligent Systems (TiiS)}.}
-    \cvitem{2019}{\textbf{Garijo, D.}, et al. "OKG: A Knowledge Graph for Scientific Information." \emph{International Conference on Intelligent User Interfaces (IUI'19)}.}
-    \cvitem{2018}{\textbf{Garijo, D.}, et al. "Automating Model Integration and Calibration across Disciplines." \emph{International Environmental Modelling and Software Society (iEMSs)}.}
-
-  \section{\textsc{Teaching}}
-    \cventry{Jan.~2018 -- Dec.~2020}{Co-instructor}{The University of Texas at Austin}{Austin, TX}{}{Helped teach graduate-level courses: \emph{Machine Learning for the Geosciences}, \emph{Intelligent Systems for the Geosciences}, and \emph{Scientific Computation}, including C++, CUDA, HPC, \& optimization.}
+    \cvitem{2021}{Gil, Y., et al. (incl. \textbf{D. Hardesty Lewis}), ``Artificial Intelligence for Modeling Complex Systems: Taming the Complexity of Expert Models to Improve Decision Making''. \emph{ACM TiiS}, 2021. DOI: \href{https://doi.org/10.1145/3453172}{10.1145/3453172}}
+    \cvitem{2019}{Garijo, D., et al. (incl. \textbf{D. Hardesty Lewis}), ``An intelligent interface for integrating climate, hydrology, agriculture, and socioeconomic models''. \emph{ACM IUI '19}, 2019. DOI: \href{https://doi.org/10.1145/3308557.3308711}{10.1145/3308557.3308711}}
 
   \section{\textsc{Education}}
     \cventry{expected 2026}{M.S., Urban Planning}{Columbia University}{New York City,~NY}{}{}
@@ -143,9 +161,8 @@
 
   \section{\textsc{Key Projects}}
     \cvitem{oppsAlert}{Developed the first property- and owner-level ML model of NIMBYism, using 15+ years of 15,000+ points of individual homeowner protest data provided by the City of Austin.}
-    \cvitem{RegTech}{\textit{Seeking PE investment:} Teaming up with a top-proptech operator to automate municipal permitting compliance by collating public sub-meter imagery against building permit registries.}
-    \cvitem{Flood Hazard Assessment}{Partnered with the US Army Corps of Engineers to statistically model compound flood hazards in coastal Texas, integrating high-resolution topographic data with hydrological models.}
-    \cvitem{\href{https://storymaps.arcgis.com/stories/6227f24d6c5047f883d5c3497241f299}{Real-Time Inundation Mapping}}{Developed computationally efficient methods to produce high-resolution (1m) flood inundation maps from National Water Model outputs for the Texas Division of Emergency Management (TDEM).}
+
+
 
 
 
