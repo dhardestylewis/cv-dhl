@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  4 FEB 2026 22:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  4 FEB 2026 22:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1071,9 +1071,6 @@ L3 programming layer <2025-09-02>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `resume-dhl-20260201-fullstack-mle.out' has n
 ot changed.
 (rerunfilecheck)             Checksum: 70F0059AF1879FFA10EE1CB5AF640716;1131.
@@ -1081,7 +1078,7 @@ ot changed.
 Here is how much of TeX's memory you used:
  27686 strings out of 468081
  535372 string characters out of 5426756
- 984141 words of memory out of 5000000
+ 984165 words of memory out of 5000000
  55757 multiletter control sequences out of 15000+600000
  700460 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1100,7 +1097,7 @@ AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/dhl/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/dhl/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb>
-Output written on resume-dhl-20260201-fullstack-mle.pdf (3 pages, 340316 bytes)
+Output written on resume-dhl-20260201-fullstack-mle.pdf (3 pages, 340320 bytes)
 .
 PDF statistics:
  192 PDF objects out of 1000 (max. 8388607)
