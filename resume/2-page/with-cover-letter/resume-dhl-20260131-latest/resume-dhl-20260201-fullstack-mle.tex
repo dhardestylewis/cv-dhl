@@ -81,14 +81,12 @@ Specializing in automated validation frameworks and scalable distributed infrast
   \section{\textsc{Experience}}
   \subsection{\textsc{Professional}}
     \cventry{Apr.~2025 -- Present}{Co-founder}{Properlytic}{New York, NY}{}{
-    Building a consumer real-estate pricing product focused on individual home price forecasting.
+    Building a consumer real-estate pricing and forecasting product with interactive uncertainty visualization (fan charts) and leakage-safe walk-forward evaluation; owned end-to-end workflow from data ingestion and training through web delivery.
     \begin{itemize}
-        \item Deployed a current-price prediction model for Manhattan condos and co-ops; achieved 12\% MAPE on a holdout set and matched Zillow at 8.4\% MAPE under an internal apples-to-apples evaluation protocol.
-        \item Architected a VAE-based latent representation model over property, transaction, and neighborhood attributes to stabilize learning and improve generalization under sparse and noisy features.
-        \item Prototyped a \href{https://houston-price-prediction.vercel.app/}{diffusion-based forecasting backbone in Houston}; measured 8\% annualized compounding error even through regime shifts such as COVID.
-        \item Migrated market-specific models onto the diffusion backbone for standardized training and evaluation.
-        \item Refined product positioning and execution milestones via strategic feedback from a16z, MetaProp, and others.
-        \item Pitch deck: \href{https://docs.google.com/presentation/d/1HL2zPTLxuGdq9k12Z6J_RQA4Dt64ZKEsSVrTQpbQuNA/edit?usp=sharing}{link}
+        \item Deployed an NYC (Manhattan condos/co-ops) current-price model (12\% holdout error; 8.4\% under an internal apples-to-apples Zillow protocol) as the initial market validation.
+        \item Shipped a Houston diffusion-based forecasting system with fan charts; achieved as low as $\sim$8\% annualized compounding error under leakage-safe walk-forward evaluation in best-performing configurations, with deployed selection trading off error versus trajectory realism, delivered through a production web UI: \href{https://houston-price-prediction.vercel.app/}{houston-price-prediction.vercel.app}
+        \item Built evaluations, backtests, and model-selection protocols to prevent leakage and support architecture selection across markets.
+        \item Repo: \href{https://github.com/dhardestylewis/v0-properlytic-8v}{github.com/dhardestylewis/v0-properlytic-8v}
     \end{itemize}}
 
     \cventry{Nov.~2024 -- Present}{Co-founder}{\href{https://www.polibom.com/}{PoliBOM}}{Seattle, WA}{}{
