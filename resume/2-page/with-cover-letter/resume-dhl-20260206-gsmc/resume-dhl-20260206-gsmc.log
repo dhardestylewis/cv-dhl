@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  6 FEB 2026 20:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  6 FEB 2026 21:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./resume-dhl-20260201-fullstack-mle.tex
-(resume-dhl-20260201-fullstack-mle.tex
+**./resume-dhl-20260206-gsmc.tex
+(resume-dhl-20260206-gsmc.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/moderncv\moderncv.cls
@@ -864,8 +864,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 53.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 53.
- (resume-dhl-20260201-fullstack-mle.aux)
-\openout1 = `resume-dhl-20260201-fullstack-mle.aux'.
+ (resume-dhl-20260206-gsmc.aux)
+\openout1 = `resume-dhl-20260206-gsmc.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
 LaTeX Font Info:    ... okay on input line 53.
@@ -965,73 +965,39 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 53.
-(resume-dhl-20260201-fullstack-mle.out) (resume-dhl-20260201-fullstack-mle.out)
+(resume-dhl-20260206-gsmc.out) (resume-dhl-20260206-gsmc.out)
 \@outlinefile=\write4
-\openout4 = `resume-dhl-20260201-fullstack-mle.out'.
+\openout4 = `resume-dhl-20260206-gsmc.out'.
 
 \makecvheadpicturebox=\box74
 \makecvheadpicturewidth=\skip110
 \makecvheadnamebox=\box75
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
-3.
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 7
+9.
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
-3.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-63.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-63.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 63.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 63.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 63.
-
-
-LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 81.
-
-
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 118.
+nput line 80.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
 free2.fd)
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-18.
- (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 118.
+nput line 80.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
 free1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 118.
+ input line 80.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
 brands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 118.
+n input line 80.
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -1042,22 +1008,66 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 
 {C:/Users/dhl/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/dhl/Ap
 pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/dhl/AppData/
-Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:/Users/dhl/A
-ppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/dhl/App
-Data/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/Users/
-dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/dhl/A
-ppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/User
-s/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc
-}]
+Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/dhl/AppData/Local
+/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/Users/dhl/AppDat
+a/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Users/dhl
+/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
+0.
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
+0.
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+90.
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+90.
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 90.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 90.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 90.
+
+
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 108.
+
+
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
 (fancyhdr)                Make it at least 45.47952pt, for example:
 (fancyhdr)                \setlength{\footskip}{45.47952pt}.
 
-[2{C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
+[2
+
+{C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5fre
+e0.enc}{C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy
+.enc}]
+
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 45.47952pt, for example:
+(fancyhdr)                \setlength{\footskip}{45.47952pt}.
+
+[3{C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
 {C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
-(resume-dhl-20260201-fullstack-mle.aux)
+(resume-dhl-20260206-gsmc.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1066,18 +1076,18 @@ L3 programming layer <2025-09-02>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `resume-dhl-20260201-fullstack-mle.out' has n
-ot changed.
+Package rerunfilecheck Info: File `resume-dhl-20260206-gsmc.out' has not change
+d.
 (rerunfilecheck)             Checksum: 70F0059AF1879FFA10EE1CB5AF640716;1131.
  ) 
 Here is how much of TeX's memory you used:
- 27672 strings out of 468081
- 535241 string characters out of 5426756
- 983164 words of memory out of 5000000
- 55757 multiletter control sequences out of 15000+600000
- 699825 words of font info for 124 fonts, out of 8000000 for 9000
+ 27698 strings out of 468081
+ 535364 string characters out of 5426756
+ 974113 words of memory out of 5000000
+ 55760 multiletter control sequences out of 15000+600000
+ 704302 words of font info for 136 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,13n,129p,1032b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,13n,129p,1023b,602s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/F
 ontAwesome5Brands-Regular.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/dhl/AppData/L
@@ -1093,10 +1103,9 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/dhl/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb><C:/Users/dhl/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb>
-Output written on resume-dhl-20260201-fullstack-mle.pdf (2 pages, 342494 bytes)
-.
+Output written on resume-dhl-20260206-gsmc.pdf (3 pages, 352801 bytes).
 PDF statistics:
- 186 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 43109 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 213 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 47205 words of extra memory for PDF output out of 51595 (max. 10000000)
 

@@ -40,7 +40,7 @@
   \social[github]{dhardestylewis}
 
   \extrainfo{\href{https://scholar.google.com/citations?user=agBdssgAAAAJ}{Google Scholar}}
-  \title{\large Staff ML Engineer -- production training, inference, evaluation, reliability}
+  \title{\large Design Engineer, Analytical Interfaces and AI Workflows}
 %% Define \cvdoublecolumn
   \newcommand{\cvdoublecolumn}[2]{
     \cvitem[0.75em]{}{
@@ -53,6 +53,33 @@
 \begin{document}
   \definecolor{links}{HTML}{0645AD}
   \hypersetup{urlcolor=links}
+  \makecvtitle
+
+%%%-----     letter     -----
+%%% recipient data
+  \recipient{Hiring Team}{GSMC}
+  \date{February 6, 2026}
+  \opening{Dear Hiring Team,}
+  \closing{Sincerely,}
+  \enclosure[]{\href{https://houston-price-prediction.vercel.app}{houston-price-prediction.vercel.app} \textbullet{} \href{https://polibom.com}{polibom.com} \textbullet{} \href{https://summitgeospatial.com}{summitgeospatial.com}}
+  \makelettertitle
+
+I am applying for the Design Engineer, Frontend and Human AI Interaction role. I build high performance analytical interfaces where the user experience is the product, including the workflow, the trust model, the latency budget, and the human decision loop. I do best work when an interface must turn complex quantitative analysis into fast, legible, and inspectable workflows that improve discretionary decisions.
+
+I have shipped end to end systems that match your mission. At Properlytic, I built and deployed interactive uncertainty visualization using fan charts for a diffusion based forecasting system, backed by leakage safe expanding window evaluation and delivered through a live web prototype at \href{https://houston-price-prediction.vercel.app}{houston-price-prediction.vercel.app}. The interface required careful design around uncertainty and model selection tradeoffs, and I am extending it with explanation and evidence views that let a user inspect inputs, sensitivity, and failure modes. That work draws on my industry sponsored research at Columbia, where I derived tractable per feature attribution methods designed for stability across mutual fund market regimes and used them to debug regime dependent model behavior.
+
+At \href{https://polibom.com}{PoliBOM}, I specified agentic workflows and data schemas for bill of materials parsing, retrieval, and tariff simulation using Airflow, embeddings, FastAPI, Supabase, and Redis, and I drove development of a conversational interface that compresses multi step compliance analysis into a single decision surface. At \href{https://summitgeospatial.com}{Summit Geospatial} and previously at \href{https://tacc.utexas.edu}{TACC}, I shipped production data delivery systems where latency, uptime, and provenance were user facing constraints, so stability and observability were part of the product.
+
+In this role, I would prioritize three outcomes. I would build and maintain high performance visualization of analysis that supports discretionary trading research workflows. I would help shape new workflows that integrate Claude and LLM reasoning loops into the research process in a way that is usable and trustworthy. I would deliver production grade frontend systems with strong ownership, emphasizing stability, predictable performance, and reliable operation.
+
+Your focus on the physical world manufacturing economy fits my recent tariffs and supply chain decision support work at \href{https://polibom.com}{PoliBOM}. Your focus also fits my prior safety critical hazard decision support work at \href{https://tacc.utexas.edu}{TACC} during live disasters, where turnaround time and reliability affect public safety and can have life safety consequences. I would welcome the opportunity to walk through my shipped interfaces and the design decisions behind them, including model architecture choices, leakage safe evaluation, and backtests.
+
+I do not require sponsorship to work in the United States.
+
+  \makeletterclosing
+  \clearpage
+
+%% ============ RESUME ============
   \vspace*{-2.5em}
   \makecvtitle
 
@@ -84,7 +111,7 @@ Specializing in automated validation frameworks and scalable distributed infrast
     Consumer real-estate pricing and forecasting platform with interactive uncertainty fancharts and temporal leakage-safe expanding-window evaluation; owned end-to-end workflow from source data to web delivery.
     \begin{itemize}
         \item Deployed an NYC \textbf{semi-supervised VAE} current-price model using \textbf{tax and sales records} to handle \textbf{sparsity and noise}; achieved 12\% holdout error (vs.\ Zillow's 8.4\% internal apples-to-apples).
-        \item Shipped a Houston diffusion-based forecasting system with fan charts; achieved as low as $\sim$8\% annualized compounding error, balancing design choices of error vs.\ trajectory realism, delivered via production web UI: \href{https://houston-price-prediction.vercel.app/}{houston-price-prediction.vercel.app}
+        \item Shipped a Houston diffusion-based forecasting system with fan charts; achieved as low as $\sim$8\% annualized compounding error, balancing design choices of error vs.\ trajectory realism, delivered via prototype: \href{https://houston-price-prediction.vercel.app/}{houston-price-prediction.vercel.app}
         \item Refined product positioning and execution milestones via strategic feedback from a16z, MetaProp, and others.
         \item Repo: \href{https://github.com/dhardestylewis/v0-properlytic-8v}{github.com/dhardestylewis/v0-properlytic-8v}
     \end{itemize}}
@@ -114,6 +141,7 @@ Specializing in automated validation frameworks and scalable distributed infrast
         \item Developed efficient methods to produce high-resolution 1m flood maps from National Water Model outputs for Texas Emergency Management's Real-Time Inundation Mapping.
         \item Partnered with the US Army Corps of Engineers to statistically model compound flood hazards in coastal Texas, integrating high-resolution topographic data with hydrological models.
         \item Contributed fundamental research supporting Paola Passalacqua's 2022 EGU Bagnold Medal, one of geomorphology's highest honors.
+        \item Reviewed \href{https://frontera-portal.tacc.utexas.edu/fellowship/}{Frontera Doctoral Fellows} (2023) and \href{https://frontera-portal.tacc.utexas.edu/allocations/}{Large-Scale Computing Pathways} (2022) applications, allocating millions of dollars in computing resources on one of the world's largest supercomputers.
     \end{itemize}}
     
     \cventry{Feb.~2018 -- Jul.~2021}{Data Scientist \& Research Engineer}{\href{https://www.tacc.utexas.edu/}{Texas Advanced Computing Center (TACC)}}{Austin, TX}{}{
@@ -160,9 +188,6 @@ Specializing in automated validation frameworks and scalable distributed infrast
   \section{\textsc{Key Projects}}
 
     \cvitem{oppsAlert}{Developed the first property- and owner-level ML model of NIMBYism, using 15+ years of 15,000+ points of individual homeowner protest data provided by the City of Austin.}
-
-
-
 
 
   \section{\textsc{Activities}}
