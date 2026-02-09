@@ -20,7 +20,7 @@ Background: Senior Data Scientist and Technical Lead at Texas Advanced Computing
 
 For Photonium's optical design agent, I'd approach it as: models that generate candidate configurations, workflows to interface with simulation tools and extract performance metrics, and learning loops to improve design outcomes over time. This maps to work I've done building diffusion forecasting with uncertainty quantification at Properlytic, where I achieved 12% holdout error on an NYC pricing model.
 
-I also have CUDA and C++ in my stack from my time running climate and flood models at TACC.
+I also have CUDA and C++ in my stack from my time running climate and flood models at TACC. Relevant to Photonium's LiDAR applications: I engineered a statewide Texas DEM mosaic, resampling 0.5m LiDAR sources to 1.2m across 70 state, federal, and local elevation datasets through Summit Geospatial.
 
 I can send a 1-page technical plan covering data structures, simulator interface, and evaluation harness, or jump on a call this week.
 
