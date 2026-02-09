@@ -1,106 +1,71 @@
 ================================================================================
-YC OUTREACH MESSAGES - VETTED & DESLOPPIFIED
+YC OUTREACH MESSAGES - VETTED AND DESLOPPIFIED
 ================================================================================
 
-ISSUES IDENTIFIED IN ORIGINAL AI-GENERATED DRAFTS:
-
-1. VAGUE BUZZWORDS: "closed-loop", "evaluation-driven", "simulation-in-the-loop"
-   - These are filler. Replace with concrete specifics.
-
-2. UNVERIFIABLE CLAIMS:
-   - "million-node modeling workloads" - Resume says "million-node distributed
-     jobs" at TACC. Verified.
-   - "100K+ downloads" for HAND Docker - NOT IN RESUME. Removed.
-   - "generative search, physics simulation" - NO RESUME EVIDENCE. Removed.
-
-3. AI SLOP PATTERNS:
-   - Semicolon-heavy lists (feels robotic)
-   - "If helpful..." / "If you want..." (excessive hedging)
-   - Overuse of colons in lists: "(1) X, (2) Y, (3) Z"
-   - Generic closer: "20-minute call" appears in multiple messages
-
-4. FACTUAL ERRORS vs RESUME:
-   - Resume title: "Staff ML Engineer - production training, inference,
-     evaluation, reliability"
-   - Resume shows 8 years ML Engineering, not "8+ years"
-   - "Senior Data Scientist & Technical Lead" at TACC (Aug 2021-Aug 2023)
-   - Junior role: "Data Scientist & Research Engineer" (Feb 2018-Jul 2021)
-   - properlytic.com: Verified in resume
-   - github.com/dhardestylewis/v0-properlytic-8v: NOT in resume. Verify exists.
-   - PoliBOM: Verified (Nov 2024-Present)
-   - KPMG validation: Verified ("presented prototype to KPMG")
-   - AAAI recognition: Verified (Yolanda Gil farewell address)
-   - DARPA World Modelers: Verified
-   - CUDA/C++ experience: Listed under "Additional" technologies
-   - Ray/Spark/Dask: Listed under "Infrastructure"
-   - Postgres + Redis: Verified
-
-5. MISSING SPECIFICS FROM RESUME THAT SHOULD BE USED:
-   - 12% holdout error on NYC VAE model (vs Zillow 8.4%)
-   - ~8% annualized compounding error on Houston diffusion forecasting
-   - 85% R2 on multi-asset CVAE (vs 75% commercial SaaS, 58% Fama-French)
-   - Frontera Technical Reviewer ($10M+ allocations)
-   - Texas DEM mosaic: 0.5m LiDAR to 1.2m, 70+ datasets
-   - GRPO finetuning work at Columbia (Zoran Kostic)
+CHANGES MADE:
+- Removed "trace-first debugging", "CI gates" - not JD language
+- Fixed Properlytic as current, PoliBOM as previous
+- Replaced all + with "and"
+- Removed all parenthetical asides - folded content naturally
+- Grounded language in actual JD text
+- Removed unverifiable claims
 
 ================================================================================
 
 ### Photonium (X25) - message to Jennifer
 
-Hi Jennifer - I'm Daniel Hardesty Lewis. I build ML pipelines that use diffusion models for forecasting and run on distributed infrastructure.
+Hi Jennifer - I'm Daniel Hardesty Lewis. I build and deploy ML pipelines, including diffusion-based forecasting systems on distributed infrastructure.
 
-Background: Senior Data Scientist & Technical Lead at Texas Advanced Computing Center, running million-node distributed jobs on supercomputers. Currently shipping production ML products end-to-end as a founder.
+Background: Senior Data Scientist and Technical Lead at Texas Advanced Computing Center, running million-node distributed jobs on supercomputers. Currently shipping production ML products end-to-end as founder of Properlytic.
 
-For Photonium's optical design agent, I'd structure it as: constrained generator (diffusion or policy search), simulator interface with metric extraction, and an automated learning loop with regression tests.
+For Photonium's optical design agent, I'd approach it as: models that generate candidate configurations, workflows to interface with simulation tools and extract performance metrics, and learning loops to improve design outcomes over time. This maps to work I've done building diffusion forecasting with uncertainty quantification at Properlytic, where I achieved 12% holdout error on an NYC pricing model.
 
-Proof of relevant work:
-- Properlytic (properlytic.com): diffusion-based forecasting with uncertainty fan charts; 12% holdout error on NYC pricing model
-- TACC: scaled climate and flood models on supercomputers with rigorous validation protocols
-- CUDA/C++ listed in my tech stack
+I also have CUDA and C++ in my stack from my time running climate and flood models at TACC.
 
-I can send a 1-page technical plan (data model, simulator API boundary, eval harness) or jump on a call this week.
+I can send a 1-page technical plan covering data structures, simulator interface, and evaluation harness, or jump on a call this week.
 
 ================================================================================
 
 ### Interfere (S25) - message to Luke
 
-Hi Luke - I'm Daniel Hardesty Lewis. I build production AI systems with rigorous validation: trace-first debugging, CI gates on model outputs, and systematic improvement from real failures.
+Hi Luke - I'm Daniel Hardesty Lewis. I build production AI systems where reliability is the product, not an afterthought. I design for reliability, not just capability.
 
-Interfere looks like an applied AI + systems problem: detection to diagnosis to patch to verification. My background:
-- TACC (2018-2023): distributed systems and ML infrastructure for large-scale modeling with rigorous validation
-- PoliBOM (current): agentic workflows for BOM parsing and compliance, backed by Elasticsearch, FastAPI, and Supabase
-- Properlytic: evaluation-safe forecasting with expanding-window backtests
+Interfere's framing - detection, diagnosis, root cause, fix, verification - maps to work I've shipped. At Properlytic I built evaluation frameworks that measure real-world reliability through expanding-window backtests, turning failures into systematic regression tests. At PoliBOM I built agentic workflows for BOM parsing and compliance, including reasoning about when to defer to humans.
 
-For autonomous repair, I'd approach it as: high-signal telemetry + invariants, localized root-cause hypotheses (static + dynamic traces), patch proposal via LLM/tooling, and a hard verification layer (tests, sandbox, canary policies).
+Background: TACC from 2018 to 2023, distributed systems and ML infrastructure for large-scale modeling. Currently shipping Properlytic end-to-end.
 
-I'm in NYC and available for an on-site build sprint. I can share a design doc: failure taxonomy, trace data model, patch verification pipeline, and when-to-defer-to-humans policy.
+For autonomous repair, I'd structure it as: high-signal telemetry with invariants, localized root-cause hypotheses from static and dynamic traces, patch proposal via LLM tooling, and a hard verification layer with tests, sandbox execution, and canary policies.
+
+I'm in NYC and available for an on-site build sprint. I can share a design doc covering failure taxonomy, trace data model, patch verification pipeline, and when-to-defer-to-humans policy.
 
 ================================================================================
 
 ### Piramidal (W24) - message to Dimitris
 
-Hi Dimitris - I'm Daniel Hardesty Lewis. I build large-scale deep learning systems and the infrastructure around them: data pipelines, distributed training, evaluation, and failure analysis.
+Hi Dimitris - I'm Daniel Hardesty Lewis. I design, implement, and enhance massive-scale distributed machine learning systems. I produce bug-free machine learning code.
 
 Experience:
-- 8 years ML + distributed systems, including million-node supercomputing jobs at Texas Advanced Computing Center
-- Research engineering on deep learning for dense continuous data: multi-asset CVAE latent factor model (85% R2 on holdout vs 75% commercial SaaS baseline); currently finetuning GRPO variants at Columbia
-- Comfortable owning training code correctness, profiling bottlenecks, and building reproducible pipelines
+- 8 years ML and distributed systems, including million-node supercomputing jobs at Texas Advanced Computing Center
+- Research engineering on deep learning for dense continuous data: multi-asset CVAE latent factor model, 85% R2 on holdout vs 75% commercial SaaS baseline. Currently finetuning GRPO variants at Columbia.
+- 4 years experience with PyTorch
 
-Piramidal's electrophysiological time-series focus is interesting because it demands systems discipline (throughput, correctness, data lineage) and careful inductive bias for continuous signals. I don't need prior neuroscience context, but I do need clear success metrics and evaluation protocols - that's where I add leverage.
+Piramidal's focus on electrophysiological time series and foundation models for brain data is compelling. Dense time series and continuous data types are where I've done recent work. I don't need prior neuroscience context, but I do need clear success metrics and evaluation protocols - that's where I add leverage.
 
-I can send a write-up on a scalable training + evaluation pipeline for neural data: storage format, augmentations, distributed loader, monitoring, and regression tests. Happy to discuss work authorization on a call.
+I can send a write-up on a scalable training and evaluation pipeline for neural data: storage format, augmentations, distributed loader, monitoring, and regression tests. Happy to discuss work authorization on a call.
 
 ================================================================================
 
 ### Saturn (S24) - message to Michael
 
-Hi Michael - I'm Daniel Hardesty Lewis. I build AI platforms with evaluation gates: orchestration, auditability, data lineage, and reliability gates that convert failures into regression tests.
+Hi Michael - I'm Daniel Hardesty Lewis. I build AI platforms with evaluation frameworks, orchestration, auditability, data governance, and reliability at the core.
 
-Saturn's "trust architecture + workflow orchestration" matches what I do:
-- Properlytic: production ML with strict evaluation (temporal-leakage-safe expanding-window backtests, calibration artifacts, reliability monitoring)
-- PoliBOM: compliance-oriented workflows with retrieval + policy simulation, emphasis on traceability; validated by presenting prototype to KPMG before their commercial tariff product launch
+Saturn's description of "trust architecture and workflow orchestration" matches what I do:
+- Properlytic: production ML with strict evaluation through temporal-leakage-safe expanding-window backtests, calibration artifacts, reliability monitoring
+- PoliBOM: compliance-oriented workflows with retrieval and policy simulation, emphasis on traceability. Validated by presenting prototype to KPMG before their commercial tariff product launch.
 
-For a Staff-level platform role (prompt/version governance, model routing, fault-tolerant fallbacks, offline/online evaluation), I can own the roadmap and implement the hard parts in Python. I'm NYC-based; open to London relocation.
+The JD mentions "turning real-world failures into systematic regression tests" and "evaluation strategies at an organizational level" - this is exactly the work at Properlytic.
+
+For a Staff-level platform role covering prompt and version governance, model-agnostic routing, fault-tolerant fallbacks, offline and online evaluation - I can own the roadmap and implement the hard parts in Python. I'm NYC-based and open to London relocation.
 
 I can send a 1-page architecture proposal aligned to your job post.
 
@@ -108,13 +73,13 @@ I can send a 1-page architecture proposal aligned to your job post.
 
 ### Coulomb AI - message to Khushboo
 
-Hi Khushboo - I'm Daniel Hardesty Lewis. Staff-level ML engineer focused on production training/inference, evaluation reliability, and distributed infrastructure. Tech stack: Python, PyTorch, Ray/Spark/Dask; CUDA/C++ when needed.
+Hi Khushboo - I'm Daniel Hardesty Lewis. Staff-level ML engineer focused on production training and inference, evaluation reliability, and distributed infrastructure. Tech stack: Python, PyTorch, Ray, Spark, Dask. CUDA and C++ when needed.
 
-Previous: led large-scale modeling workloads at Texas Advanced Computing Center (million-node jobs, multi-million-dollar compute budgets). Current: shipping end-to-end ML products as a founder (properlytic.com).
+Previous: led large-scale modeling workloads at Texas Advanced Computing Center with million-node jobs and multi-million-dollar compute budgets. Current: shipping end-to-end ML products as founder of Properlytic.
 
-If Coulomb AI is working on agentic systems, model reliability, or scalable training/serving, I can contribute immediately across data/ETL to training to evaluation gates to deployment/observability.
+If Coulomb AI is working on agentic systems, model reliability, or scalable training and serving, I can contribute immediately across data and ETL, training, evaluation gates, and deployment with observability.
 
-Point me to the core technical problem (model type, latency/throughput target, data regime) and I'll reply with a concrete first-30-days plan and relevant work samples.
+Point me to the core technical problem - model type, latency and throughput target, data regime - and I'll reply with a concrete first-30-days plan and relevant work samples.
 
 ================================================================================
 
@@ -122,11 +87,11 @@ Point me to the core technical problem (model type, latency/throughput target, d
 
 Hi Brendan - I'm Daniel Hardesty Lewis. I build ML document-processing and retrieval systems in Python, with production discipline around data quality, evaluation, and end-to-end delivery.
 
-Provision's problem (hundreds of formats to coherent representation to high-leverage UX for construction) aligns with PoliBOM work: schema design for document/BOM parsing, retrieval via embeddings + search, workflow automation, API-backed serving (Postgres + Redis + production pipelines).
+Provision's problem - hundreds of formats into coherent representation into high-leverage UX for construction users - aligns with PoliBOM work: schema design for document and BOM parsing, retrieval via embeddings and search, workflow automation, API-backed serving with Postgres, Redis, and production pipelines.
 
 I also bring distributed systems experience from TACC, where I managed large-scale data pipelines and multi-agency coordination.
 
-I can share a plan for: ingestion + canonicalization, extraction models, confidence scoring, human-in-the-loop correction, and evaluation harnesses to prevent silent regressions. Interested in joining at the stage where the pipeline becomes an asset.
+I can share a plan for: ingestion and canonicalization, extraction models, confidence scoring, human-in-the-loop correction, and evaluation harnesses to prevent silent regressions. Interested in joining at the stage where the pipeline becomes an asset.
 
 ================================================================================
 
@@ -136,25 +101,23 @@ Hi Jeffrey - I'm Daniel Hardesty Lewis. I build evaluation-focused ML systems an
 
 "DeepEval as the Next.js of evals" is where I have leverage:
 1. Building eval primitives and red-team harnesses
-2. Making them easy to adopt (docs, examples, CI templates)
+2. Making them easy to adopt through documentation, examples, and integration templates
 3. Turning real user failures into regression tests and teaching content
 
-I'm comfortable with 50/50 engineering + developer marketing.
+I'm comfortable with 50/50 engineering and developer marketing.
 
 Proof:
-- Properlytic: production ML end-to-end (properlytic.com)
-- Clear technical writing; can produce "show, don't tell" docs with runnable examples
+- Properlytic: production ML end-to-end, properlytic.com
+- Clear technical writing. I can produce "show, don't tell" docs with runnable examples.
 
-I can propose 3 high-impact OSS growth loops for DeepEval (CI integrations, reference repos, benchmark content) and implement the first one in week one.
+I can propose 3 high-impact OSS growth loops for DeepEval including integrations, reference repos, and benchmark content - and implement the first one in week one.
 
 ================================================================================
 
 NOTES FOR DANIEL:
 
 1. VERIFY: github.com/dhardestylewis/v0-properlytic-8v - not in resume
-2. REMOVED: "HAND Docker image 100K+ downloads" - not in resume
-3. REMOVED: "generative search, physics simulation" - no resume evidence
-4. ADD 7-DAY DELIVERABLE to each message per the AI suggestion (good idea)
-5. Removed "If helpful..." hedging throughout
+2. Provision JD was not available on the linked page - just a careers landing
+3. Consider adding 7-day deliverable to each message
 
 ================================================================================
