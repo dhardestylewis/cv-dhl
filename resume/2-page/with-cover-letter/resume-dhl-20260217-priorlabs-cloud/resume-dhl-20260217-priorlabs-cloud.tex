@@ -1,0 +1,174 @@
+\documentclass[letterpaper, 10pt,colorlinks,linkcolor=cyan]{moderncv}
+  \usepackage{lmodern}
+  \usepackage[english]{babel}
+  \usepackage{courier}
+  \hyphenpenalty=100000
+  \hbadness=99999
+%% Themes
+  \moderncvstyle{casual}
+  \moderncvcolor{red}
+  \nopagenumbers{}
+
+% --- Name in red (color1) while preserving casual's font weight split ---
+  \colorlet{lastnamecolor}{color1}
+  \colorlet{firstnamecolor}{color1}
+  % Force section titles to red
+  \colorlet{sectioncolor}{color1}
+  \colorlet{subsectioncolor}{color1}
+  % Force horizontal section bar to red
+  \colorlet{bodyrulecolor}{color1}
+  % Override section style to remove small caps and use upshape
+  \renewcommand*{\sectionstyle}[1]{{\Large\bfseries\upshape\textcolor{sectioncolor}{#1}}}
+  % Override subsection style to remove small caps
+  \renewcommand*{\subsectionstyle}[1]{{\large\bfseries\upshape\textcolor{subsectioncolor}{#1}}}
+  % Reduce body font to 9pt
+  \renewcommand{\normalsize}{\fontsize{9}{11}\selectfont}
+%% Encoding
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+%% Margins
+  \usepackage[left=0.65in,right=0.65in,top=0.5in,bottom=1.0in]{geometry}
+  \setlength{\hintscolumnwidth}{2.25cm}
+%% Data
+  \firstname{Daniel}
+  \familyname{Hardesty Lewis}
+  \address{\textsc{500~Riverside~Dr}}{\textsc{New~York,~NY~10027}}{\textsc{United~States}}
+  \phone[mobile]{+1~(713)~371-7875}
+  \email{daniel@summitgeospatial.com}
+  \homepage{dlewis.ai}
+  \social[linkedin]{dhardestylewis}
+  \social[github]{dhardestylewis}
+
+  \extrainfo{\href{https://scholar.google.com/citations?user=agBdssgAAAAJ}{Google Scholar}}
+  \title{\large ML Engineer -- distributed training infrastructure, cloud-scale ML systems, tabular data}
+%% Define \cvdoublecolumn
+  \newcommand{\cvdoublecolumn}[2]{
+    \cvitem[0.75em]{}{
+      \begin{minipage}[t]{\listdoubleitemcolumnwidth}#1\end{minipage}
+      \hfill
+      \begin{minipage}[t]{\listdoubleitemcolumnwidth}#2\end{minipage}
+    }
+  }
+
+\begin{document}
+  \definecolor{links}{HTML}{0645AD}
+  \hypersetup{urlcolor=links}
+  \vspace*{-2.5em}
+  \makecvtitle
+
+\vspace{-0.6em}
+\noindent\begin{minipage}{\textwidth}
+\small\raggedright
+Specializing in scalable cloud infrastructure for ML training and serving. Delivered production systems across tabular, geospatial, and time-series workloads at supercomputer scale.
+\end{minipage}
+\vspace{0.6em}
+
+  \section{Core Expertise}
+  \cvitem{8 years}{\textbf{ML Engineering}: Design and operate ML training and inference infrastructure at scale, from data ingestion through model deployment, monitoring, and retraining}
+  \cvitem{8~years}{\textbf{Backend \& Data}: Build schemas, ETL, and production APIs (Python/FastAPI); manage data-intensive systems with Postgres, Redis, and Elasticsearch}
+  \cvitem{8~years}{\textbf{Distributed Systems}: Scale ML workloads across distributed cloud and HPC systems using containerization and orchestration (Docker, Kubernetes, Ray), with explicit cost-performance tradeoffs}
+  \cvitem{10~years}{\textbf{Geospatial AI}: Spatiotemporal modeling for risk, planning, and hazard decision-support use cases}
+  \cvitem{8~years}{\textbf{Technical Leadership}: Drive cross-functional execution via specifications and governance; mentor engineers through design reviews, code reviews, and instruction}
+
+  \section{Technologies}
+  \cvitem{Modeling}{PyTorch; TensorFlow; scikit-learn; Transformers; LoRA/QLoRA/PEFT}
+  \cvitem{LLM apps}{embeddings; RAG; LangChain; LangGraph; DSPy; FAISS}
+  \cvitem{Data stack}{Python; SQL; Pandas; Polars; PyArrow; Parquet; Postgres; PostGIS; Redis; Elasticsearch; Supabase}
+  \cvitem{Infrastructure}{Linux/Unix; Bash; Git; Docker; Kubernetes; Terraform; Ray; Spark; Dask; Airflow; CI/CD; monitoring \& observability}
+  \cvitem{Additional}{CUDA; C++; TypeScript; React}
+
+  
+  \section{\textsc{Experience}}
+  \subsection{\textsc{Professional}}
+    \cventry{Apr.~2025 -- Present}{Co-founder}{\href{https://www.homecastr.com/}{Homecastr}}{New York, NY}{}{
+    Consumer real-estate pricing and forecasting platform with interactive uncertainty fancharts and temporal leakage-safe expanding-window evaluation; owned end-to-end workflow from source data to web delivery.
+    \begin{itemize}
+        \item Deployed a semi-supervised VAE on \textbf{tabular property records} (tax, sales, permits) to handle \textbf{sparsity and noise} in structured data; achieved 12\% holdout error (vs.\ Zillow's 8.4\% internal apples-to-apples).
+        \item Shipped a Houston diffusion-based forecasting system with fan charts; achieved as low as $\sim$8\% annualized compounding error, balancing design choices of error vs.\ trajectory realism, delivered via production web UI: \href{https://www.homecastr.com/}{homecastr.com}
+        \item Refined product positioning and execution milestones via strategic feedback from a16z, MetaProp, and others.
+    \end{itemize}}
+
+    \cventry{Nov.~2024 -- Present}{Co-founder}{\href{https://www.polibom.com/}{PoliBOM}}{Seattle, WA}{}{
+    AI tariff mitigation and trade compliance product for manufacturers, centered on BOM analysis, retrieval, and policy scenario simulation
+    \begin{itemize}
+      \item Specified an agentic workflow and schema definitions for BOM parsing, retrieval, and tariff simulation using Airflow, Elasticsearch and embeddings, and FastAPI serving backed by Supabase and Redis.
+      \item Directed development of a \textbf{conversational AI interface} simplifying global trade workflows; enabled decision-makers to instantly \textbf{retrieve BOMs and receive proactive compliance alerts}.
+      \item Executing customer discovery with the founder of ScoutyAI and tariff economists at Columbia Business School to validate product-market fit and pricing assumptions.
+      \item Secured market validation by presenting the prototype to KPMG, pre-dating their subsequent launch of a \href{https://kpmg.com/xx/en/home/insights/2024/05/tariff-modeler.html}{commercial tariff-modeling product}.
+    \end{itemize}}
+
+    \cventry{Nov.~2023 -- Present}{Founder}{\href{https://summitgeospatial.com}{Summit Geospatial}}{New York, NY}{}{
+    High-resolution elevation data and web delivery for engineering and hazard workflows.
+    \begin{itemize}
+      \item Engineered a statewide seamless Texas DEM mosaic, resampling 0.5~m LiDAR sources to 1.2~m via nearest-neighbor across 70+ state, federal, and local elevation datasets.
+      \item Developed the web distribution platform end-to-end including data pipeline, tiling, hosting, delivery UX to support engineering and planning use cases.
+      \item Commercial discussions to license elevation datasets to research and AI organizations.
+    \end{itemize}}
+
+    \cventry{Aug.~2021 -- Aug.~2023}{Senior Data Scientist \& Technical Lead}{\href{https://www.tacc.utexas.edu/}{Texas Advanced Computing Center (TACC)}}{Austin, TX}{}{
+    \begin{itemize}
+        \item Co-founded \href{https://www.summitgeospatial.com}{summitgeospatial.com} to commercialize and sustain state-level terrain models developed for the \$40M \href{https://tdis.io/}{Texas Disaster Information System (TDIS)}, delivering precision decision-support for civil engineering.
+        \item Developed inter-agency RFP and MOU frameworks with state and federal partners, translating technical requirements into scope and milestones facilitating \href{https://storymaps.arcgis.com/stories/6227f24d6c5047f883d5c3497241f299}{Real-Time Inundation Mapping} and TDIS.
+        \item Scaled climate and flood models on supercomputers, orchestrating million-node distributed jobs across containerized HPC clusters while managing multi-million-dollar compute budgets.
+        \item Developed efficient methods to produce high-resolution 1m flood maps from National Water Model outputs for Texas Emergency Management's Real-Time Inundation Mapping.
+        \item Partnered with the US Army Corps of Engineers to statistically model compound flood hazards in coastal Texas, integrating high-resolution topographic data with hydrological models.
+        \item Contributed fundamental research supporting Paola Passalacqua's \href{https://www.egu.eu/awards-medals/ralph-alger-bagnold/2022/paola-passalacqua/}{2022 EGU Bagnold Medal}, one of geomorphology's highest honors.
+        % Formal title: Technical Reviewer
+        % NSF Frontera leadership-class computing project (NSF award #1818253): https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1818253
+        % Awardees list: https://frontera-portal.tacc.utexas.edu/allocations/pathways-awardees/
+        \item Served as Technical Reviewer for \href{https://frontera-portal.tacc.utexas.edu/fellowship/}{Frontera Doctoral Fellows} (2023) and \href{https://frontera-portal.tacc.utexas.edu/allocations/pathways-awardees/}{Large-Scale Computing Pathways} (2022) applications, evaluating \$10M+ in computing resource allocations on one of the world's largest supercomputers.
+    \end{itemize}}
+    
+    \cventry{Feb.~2018 -- Jul.~2021}{Data Scientist \& Research Engineer}{\href{https://www.tacc.utexas.edu/}{Texas Advanced Computing Center (TACC)}}{Austin, TX}{}{
+    \begin{itemize}
+        \item Competed in \href{https://www.darpa.mil/program/world-modelers}{DARPA World Modelers} to improve disaster resiliency and food security modeling in East Africa.
+        \item Mentored Petrobras engineers in deep learning and HPC to enable institutional technology transfer.
+        \item Received research recognition from AAAI President Yolanda Gil during her \href{https://youtu.be/3Spk_UOHNxA?t=2377}{farewell address} for contributions to automated scientific modeling.
+    \end{itemize}}
+
+
+  \subsection{\textsc{Research}}
+
+    \cventry{May~2025 -- Aug.~2025}{Research assistant to Dir. Electrical Engineering Zoran Kostic}{Columbia University}{New York, NY}{}{
+    \begin{itemize}
+        \item Math benchmarking and finetuning of Deepseek's GRPO algorithm
+    \end{itemize}}
+
+    \cventry{Jan.~2025 -- Oct.~2025}{Research assistant to Dir. Financial Engineering Ali Hirsa (Industry-sponsored research)}{Columbia University}{New York, NY}{}{
+    \begin{itemize}
+        \item Developed a multi-asset CVAE latent factor model for \textbf{tabular financial data} with Skew-T Mixture priors; achieved 85\% \(R^2\) vs.\ commercial SaaS (75\%) and Fama-French (58\%) on backtested holdout.
+        \item Derived a tractable, axiom-compliant per-feature SHAP algorithm using Hessian-based recursive clustering to provide stable temporal regime-dependent attributions for deep learning models.
+    \end{itemize}}
+    
+    \cventry{July~2019 -- Aug.~2019}{Summer research intern to Pres. AAAI Yolanda Gil}{University of Southern California}{Los Angeles, CA}{}{
+    \begin{itemize}
+        \item Integrated hydrological models into the \href{http://mint-project.info/overview.html}{MINT Platform} during a year-long competition with MITRE to provide DARPA the "Airflow for science"
+    \end{itemize}}
+
+  \subsection{\textsc{Teaching}}
+    \cventry{Jan.~2018 -- Dec.~2020}{Co-instructor}{The University of Texas at Austin}{Austin, TX}{}{
+    \begin{itemize}
+        \item Helped design and teach graduate-level courses: \emph{Machine Learning for the Geosciences} for Petrobras engineers, \emph{Intelligent Systems for the Geosciences}, and \emph{Scientific Computation}, including C++, CUDA, HPC, \& optimization.
+    \end{itemize}}
+
+  \section{\textsc{Select Publications}}
+    \cvitem{2021}{Gil, Y., et al. (incl. \textbf{D. Hardesty Lewis}), ``Artificial Intelligence for Modeling Complex Systems: Taming the Complexity of Expert Models to Improve Decision Making''. \emph{ACM TiiS}, 2021. DOI: \href{https://doi.org/10.1145/3453172}{10.1145/3453172}}
+    \cvitem{2019}{Garijo, D., et al. (incl. \textbf{D. Hardesty Lewis}), ``An intelligent interface for integrating climate, hydrology, agriculture, and socioeconomic models''. \emph{ACM IUI '19}, 2019. DOI: \href{https://doi.org/10.1145/3308557.3308711}{10.1145/3308557.3308711}}
+
+  \section{\textsc{Education}}
+    \cventry{expected 2026}{M.S., Urban Planning}{Columbia University}{New York City,~NY}{}{}
+    \cventry{2017}{B.S., Pure Mathematics}{University of Texas}{Austin,~TX}{}{}
+    \cventry{2017}{Certificate, Scientific~Computation}{University of Texas}{Austin,~TX}{}{}
+
+  \section{\textsc{Key Projects}}
+
+    \cvitem{oppsAlert}{Developed the first property- and owner-level ML model of NIMBYism, using 15+ years of 15,000+ points of individual homeowner protest data provided by the City of Austin.}
+
+
+  \section{\textsc{Activities}}
+    \cvdoubleitem{Sailing}{Volunteer Atlantic SAR of the \href{https://en.wikipedia.org/wiki/Cheeki_Rafiki}{Cheeki Rafiki}}{Bikepacking}{US West \& East Coasts}
+
+  \section{\textsc{Languages}}
+    \cvdoubleitem{Spanish}{Native Proficiency}{French}{Professional Working Proficiency}
+
+\end{document}
