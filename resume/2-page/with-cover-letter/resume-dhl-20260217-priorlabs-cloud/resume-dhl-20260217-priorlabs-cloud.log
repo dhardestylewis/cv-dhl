@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.16)  17 FEB 2026 18:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.16)  17 FEB 2026 19:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -865,8 +865,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 53.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 53.
-
-No file resume-dhl-20260217-priorlabs-cloud.aux.
+ (resume-dhl-20260217-priorlabs-cloud.aux)
 \openout1 = `resume-dhl-20260217-priorlabs-cloud.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
@@ -967,6 +966,8 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 53.
+(resume-dhl-20260217-priorlabs-cloud.out)
+(resume-dhl-20260217-priorlabs-cloud.out)
 \@outlinefile=\write4
 \openout4 = `resume-dhl-20260217-priorlabs-cloud.out'.
 
@@ -975,6 +976,7 @@ Package hyperref Info: Link coloring ON on input line 53.
 \makecvheadnamebox=\box75
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
 3.
+
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1069,26 +1071,16 @@ L3 programming layer <2025-12-24>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `resume-dhl-20260217-priorlabs-cloud.out' 
-has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume-dhl-20260217-priorlabs-cloud
-.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  70F0059AF1879FFA10EE1CB5AF640716;1131.
+Package rerunfilecheck Info: File `resume-dhl-20260217-priorlabs-cloud.out' has
+ not changed.
+(rerunfilecheck)             Checksum: 70F0059AF1879FFA10EE1CB5AF640716;1131.
  ) 
 Here is how much of TeX's memory you used:
- 27676 strings out of 467871
- 534915 string characters out of 5419344
- 988273 words of memory out of 5000000
- 55962 multiletter control sequences out of 15000+600000
- 700466 words of font info for 131 fonts, out of 8000000 for 9000
+ 27694 strings out of 467871
+ 535690 string characters out of 5419344
+ 987208 words of memory out of 5000000
+ 55976 multiletter control sequences out of 15000+600000
+ 700371 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,13n,136p,1034b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/F
@@ -1106,10 +1098,10 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/dhl/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb><C:/Users/dhl/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb>
-Output written on resume-dhl-20260217-priorlabs-cloud.pdf (3 pages, 342375 byte
+Output written on resume-dhl-20260217-priorlabs-cloud.pdf (3 pages, 345578 byte
 s).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
+ 201 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)
- 43021 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 43109 words of extra memory for PDF output out of 51595 (max. 10000000)
 

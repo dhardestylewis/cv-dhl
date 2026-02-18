@@ -12,7 +12,7 @@ Let me know if you'd be interested in chatting.
 
 ### Interfere (S25) - Luke
 
-Hi Luke - I caught critical model failures that standard cross-validation would have missed by backtesting properlytic.com across regime shifts. I want to help Interfere make that level of rigorous reliability measurement the standard.
+Hi Luke - I caught critical model failures that standard cross-validation would have missed by backtesting homecastr.com across regime shifts. I want to help Interfere make that level of rigorous reliability measurement the standard.
 
 Let me know if you'd be interested in chatting.
 
@@ -36,7 +36,7 @@ Let me know if you'd be interested in chatting.
 
 ### Confident AI (W25) - Jeffrey
 
-Hi Jeffrey - I launched the first homeowner-facing property forecasts, available now at properlytic.com, where I built a custom diffusion model to produce them. I had to build my own evaluation framework because one didn't exist in this domain I am working in. I want to help make DeepEval the standard solution.
+Hi Jeffrey - I launched the first homeowner-facing property forecasts, available now at homecastr.com, where I built a custom diffusion model to produce them. I had to build my own evaluation framework because one didn't exist in this domain I am working in. I want to help make DeepEval the standard solution.
 
 Let me know if you'd be interested in chatting.
 
