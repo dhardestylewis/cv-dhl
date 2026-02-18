@@ -1,0 +1,14 @@
+Dear Recruiting Team,
+
+I am drawn to Jane Street's ML Engineering Internship because of something your description names directly: the gap between textbook ML and its application to noisy financial data. That gap is where I have spent most of my time, and it is where I find the most interesting problems.
+
+At Columbia, I worked with Director of Financial Engineering Ali Hirsa on latent factor models for tabular financial data, where the core challenge was not just building models whose predictions generalize across market regimes, but ensuring their explanations remain faithful when conditions shift. I also worked with Director of Electrical Engineering Zoran Kostic on DeepSeek's GRPO algorithm.
+
+Before Columbia, I spent five years at the Texas Advanced Computing Center orchestrating distributed ML and simulation workloads across leadership-class supercomputers, teaching graduate courses in ML, CUDA, and C++, and serving as a technical reviewer for $10M+ in NSF compute allocations.
+
+I also co-founded Homecastr, a real-estate pricing platform where I shipped ML end-to-end. Property records are sparse, noisy, and non-stationary — much like financial data. Designing backtested walk-forward multi-horizon evaluation taught me more about rigorous ML engineering than any course.
+
+My formal background is a B.S. in Pure Mathematics, and I have taught graduate courses in ML, CUDA, and C++ — but I learn fastest in environments where the feedback is real and fast, which is exactly what draws me to Jane Street. A full list of publications is on my Google Scholar; the attached resume has the details.
+
+Sincerely,
+Daniel Hardesty Lewis

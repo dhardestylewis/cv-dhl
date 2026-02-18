@@ -1,0 +1,25 @@
+Machine Learning Engineer Internship
+Jane Street
+New York, New York, United States
+
+About the Program
+Our Machine Learning Engineering Internship is designed to give you a real sense of what it's like to work at Jane Street full-time as a Machine Learning Engineer. Over the course of your program, you will explore ways to approach and solve cutting-edge ML problems through fun and challenging classes, interactive sessions, and group discussions—and then you will have the chance to put those lessons to practical use. Many classes and activities are shared with our Software Engineering interns, while others focus specifically on machine learning applications and techniques.
+
+You will be paired with full-time employees who act as mentors, collaborating with you on real-world ML projects we actually need done. When you're not working on your project, you will have plenty of time to enjoy our office amenities, explore our physical and virtual educational resources, attend guest speakers and social events, and engage with the parts of our work that excite you the most.
+
+If you've never thought about a career in finance, you're in good company. Many of us were in the same position before working here. If you have a curious mind, a collaborative spirit, and a passion for solving interesting problems, we have a feeling you'll fit right in.
+
+About the Position
+Machine learning is a critical pillar of Jane Street's global business. Our ever-changing trading environment serves as a unique, rapid-feedback platform for ML experimentation, allowing us to incorporate new ideas with relatively little friction.
+
+During the program, you'll work on projects mentored closely by the full-time employees who designed them. Some projects consider big-picture questions that we're still trying to figure out, while others involve building something new. You will get access to our growing GPU cluster containing thousands of H100/H200/B200s and gain an understanding of the differences between textbook machine learning and its application to noisy financial data.
+
+The interview process follows the same structure as our Software Engineering Intern interviews, with one key addition: after your initial technical coding interview over Zoom, you'll have an on-site interview with 2-4 technical rounds, including one dedicated to assessing ML engineering skills.
+
+About You
+We don't expect you to have a background in finance—we're more interested in how you think and learn than what you currently know. You should be:
+
+- An undergraduate or PhD student with practical experience training an ML model, working on an ML library, or optimizing an ML workflow
+- A top-notch programmer with a love for technology
+- Intellectually curious, collaborative, and eager to learn
+- Humble and unafraid to ask questions and admit mistakes
