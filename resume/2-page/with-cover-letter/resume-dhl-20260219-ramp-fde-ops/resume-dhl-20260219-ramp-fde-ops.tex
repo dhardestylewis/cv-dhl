@@ -1,0 +1,154 @@
+\documentclass[letterpaper, 10pt,colorlinks,linkcolor=cyan]{moderncv}
+  \usepackage{lmodern}
+  \usepackage[english]{babel}
+  \usepackage{courier}
+  \hyphenpenalty=100000
+  \hbadness=99999
+%% Themes
+  \moderncvstyle{casual}
+  \moderncvcolor{red}
+  \nopagenumbers{}
+
+% --- Name in red (color1) while preserving casual's font weight split ---
+  \colorlet{lastnamecolor}{color1}
+  \colorlet{firstnamecolor}{color1}
+  % Force section titles to red
+  \colorlet{sectioncolor}{color1}
+  \colorlet{subsectioncolor}{color1}
+  % Force horizontal section bar to red
+  \colorlet{bodyrulecolor}{color1}
+  % Override section style to remove small caps and use upshape
+  \renewcommand*{\sectionstyle}[1]{{\Large\bfseries\upshape\textcolor{sectioncolor}{#1}}}
+  % Override subsection style to remove small caps
+  \renewcommand*{\subsectionstyle}[1]{{\large\bfseries\upshape\textcolor{subsectioncolor}{#1}}}
+  % Reduce body font to 9pt
+  \renewcommand{\normalsize}{\fontsize{9}{11}\selectfont}
+%% Encoding
+  \usepackage[utf8]{inputenc}
+  \usepackage[T1]{fontenc}
+%% Margins
+  \usepackage[left=0.65in,right=0.65in,top=0.5in,bottom=1.0in]{geometry}
+  \setlength{\hintscolumnwidth}{2.25cm}
+%% Data
+  \firstname{Daniel}
+  \familyname{Hardesty Lewis}
+  \address{\textsc{500~Riverside~Dr}}{\textsc{New~York,~NY~10027}}{\textsc{United~States}}
+  \phone[mobile]{+1~(713)~371-7875}
+  \email{daniel@summitgeospatial.com}
+  \homepage{dlewis.ai}
+  \social[linkedin]{dhardestylewis}
+  \social[github]{dhardestylewis}
+
+  \extrainfo{\href{https://scholar.google.com/citations?user=agBdssgAAAAJ}{Google Scholar}}
+  \title{\large Forward Deployed Engineer -- full-stack, enterprise operations, AI \& automation}
+%% Define \cvdoublecolumn
+  \newcommand{\cvdoublecolumn}[2]{
+    \cvitem[0.75em]{}{
+      \begin{minipage}[t]{\listdoubleitemcolumnwidth}#1\end{minipage}
+      \hfill
+      \begin{minipage}[t]{\listdoubleitemcolumnwidth}#2\end{minipage}
+    }
+  }
+
+\begin{document}
+  \definecolor{links}{HTML}{0645AD}
+  \hypersetup{urlcolor=links}
+  \vspace*{-2.5em}
+  \makecvtitle
+
+\vspace{-0.6em}
+\noindent\begin{minipage}{\textwidth}
+\small\raggedright
+Engineer and repeat founder specializing in bridging product engineering and enterprise customers. Built full-stack platforms (Python, React, SQL), automated operational workflows, and shipped customer-facing tooling from scoping through launch.
+\end{minipage}
+\vspace{0.6em}
+
+  \section{Core Expertise}
+  \cvitem{8 years}{\textbf{Full-Stack Engineering}: Build and ship production web applications end-to-end using Python, React, SQL, and Postgres; own from data pipeline through user-facing delivery}
+  \cvitem{4~years}{\textbf{Client Engineering \& Onboarding}: Scope requirements, triage requests, and manage technical integrations with enterprise stakeholders across government, financial, and engineering verticals}
+  \cvitem{8~years}{\textbf{Process Automation}: Identify manual bottlenecks and replace them with automated workflows, AI tooling, and repeatable playbooks to scale operations}
+  \cvitem{8~years}{\textbf{Communication \& Education}: Translate technical concepts for non-technical audiences; teach, document, and build institutional knowledge across teams and clients}
+  \cvitem{8~years}{\textbf{Technical Leadership}: Drive cross-functional execution across engineering, product, and external partners; mentor engineers through design reviews, code reviews, and instruction}
+
+  \section{Technologies}
+  \cvitem{Core stack}{Python; SQL; TypeScript; React; Postgres; Redis; Elasticsearch; Supabase; FastAPI}
+  \cvitem{AI \& automation}{LangChain; LangGraph; DSPy; RAG; FAISS; PyTorch; scikit-learn; Airflow}
+  \cvitem{Data}{Pandas; Polars; PyArrow; Parquet; BigQuery; PostGIS; ETL pipelines}
+  \cvitem{Infrastructure}{Linux; Git; Docker; Kubernetes; Terraform; CI/CD; monitoring \& observability}
+  \cvitem{Additional}{CUDA; C++; Ray; Dask; Spark}
+
+  
+  \section{\textsc{Experience}}
+  \subsection{\textsc{Professional}}
+    \cventry{Apr.~2025 -- Present}{Co-founder}{\href{https://www.homecastr.com/}{Homecastr}}{New York, NY}{}{
+    Consumer real-estate pricing platform; owned end-to-end workflow from source data to production web delivery.
+    \begin{itemize}
+        \item Built and shipped a \textbf{full-stack web application} from zero to production using React, Python/FastAPI, and Postgres.
+        \item Deployed ML pricing models on tabular property records; designed evaluation frameworks and \textbf{automated data pipelines} for continuous model updates.
+        \item \textbf{Scoped product requirements}, ran user interviews, and iterated on positioning through feedback from a16z, MetaProp, and other enterprise stakeholders.
+    \end{itemize}}
+
+    \cventry{Nov.~2024 -- Present}{Co-founder}{\href{https://www.polibom.com/}{PoliBOM}}{Seattle, WA}{}{
+    AI tariff mitigation product for manufacturers; led \textbf{customer-facing scoping, demos, and technical onboarding} for enterprise prospects.
+    \begin{itemize}
+      \item Built an \textbf{AI-powered automation workflow} to replace manual BOM analysis, reducing tariff compliance triage from days to minutes.
+      \item Directed a \textbf{conversational AI interface} enabling non-technical decision-makers to retrieve BOMs and receive proactive compliance alerts without engineering support.
+      \item Ran \textbf{customer discovery and live demos} with enterprise stakeholders including KPMG; \textbf{scoped integration requirements} and documented onboarding checklists.
+      \item Executing ongoing discovery with importers, exporters, and tariff economists to iterate on workflows, pricing, and product-market fit.
+    \end{itemize}}
+
+    \cventry{Nov.~2023 -- Present}{Founder}{\href{https://summitgeospatial.com}{Summit Geospatial}}{New York, NY}{}{
+    Geospatial data platform serving engineering and government clients.
+    \begin{itemize}
+      \item Built the \textbf{web distribution platform end-to-end}: data pipeline, tiling, hosting, and delivery UX.
+      \item Managed commercial licensing discussions with research organizations and AI companies.
+    \end{itemize}}
+
+    \cventry{Aug.~2021 -- Aug.~2023}{Senior Data Scientist \& Technical Lead}{\href{https://www.tacc.utexas.edu/}{Texas Advanced Computing Center (TACC)}}{Austin, TX}{}{
+    \begin{itemize}
+        \item \textbf{Triaged and scoped enterprise requests} across 6+ state and federal agencies (NOAA, NSF, USACE, GLO), translating technical requirements into RFP and MOU frameworks with clear launch checklists.
+        \item Served as primary \textbf{technical point of contact} for the \$40M \href{https://tdis.io/}{Texas Disaster Information System (TDIS)}, coordinating between engineering, agency stakeholders, and end-users.
+        \item Built \textbf{repeatable processes and documentation} for data onboarding, enabling partner agencies to self-serve integrations with the platform.
+        \item Managed multi-million-dollar compute budgets and orchestrated distributed workloads, identifying opportunities to \textbf{automate} pipeline steps and reduce manual intervention.
+        \item \textbf{Managed relationships} with federal, state agencies, and universities including NOAA, NSF, USACE, Texas GLO, USC, UT, and A\&M.
+        \item \textbf{Evaluated and accepted} \$10M+ in computing resource requests as Technical Reviewer for \href{https://frontera-portal.tacc.utexas.edu/fellowship/}{Frontera Doctoral Fellows} and \href{https://frontera-portal.tacc.utexas.edu/allocations/pathways-awardees/}{Large-Scale Computing Pathways}, triaging proposals against capacity and impact criteria.
+        \item Co-founded \href{https://www.summitgeospatial.com}{summitgeospatial.com} to commercialize platform outputs, owning the customer-facing product from data pipeline through web delivery.
+    \end{itemize}}
+    
+    \cventry{Feb.~2018 -- Jul.~2021}{Data Scientist \& Research Engineer}{\href{https://www.tacc.utexas.edu/}{Texas Advanced Computing Center (TACC)}}{Austin, TX}{}{
+    \begin{itemize}
+        \item Competed in year-long \href{https://www.darpa.mil/program/world-modelers}{DARPA World Modelers} program, coordinating across distributed engineering and research teams to deliver integrated modeling workflows.
+        \item Received recognition from AAAI President Yolanda Gil during her \href{https://youtu.be/3Spk_UOHNxA?t=2377}{farewell address} for contributions to automated scientific modeling.
+    \end{itemize}}
+
+
+  \subsection{\textsc{Research}}
+    \cventry{Jan.~2025 -- Oct.~2025}{Research assistant to Dir. Financial Engineering Ali Hirsa}{Columbia University}{New York, NY}{}{Developed production ML models for financial data; built evaluation and explainability frameworks for industry-sponsored research.}
+    \cventry{July~2019 -- Aug.~2019}{Summer research intern to Pres. AAAI Yolanda Gil}{University of Southern California}{Los Angeles, CA}{}{Integrated hydrological models into DARPA's scientific orchestration platform.}
+
+  \subsection{\textsc{Teaching}}
+    \cventry{Jan.~2018 -- Dec.~2020}{Co-instructor}{The University of Texas at Austin}{Austin, TX}{}{
+    \begin{itemize}
+        \item Designed and taught graduate-level courses including \emph{Machine Learning for the Geosciences} for Petrobras geoscientists and petroleum engineers, \emph{Intelligent Systems}, and \emph{Scientific Computation}. Developed course materials, documentation, and hands-on exercises.
+    \end{itemize}}
+
+  \section{\textsc{Select Publications}}
+    \cvitem{}{2 peer-reviewed publications in ACM (TiiS 2021, IUI 2019); full list on \href{https://scholar.google.com/citations?user=agBdssgAAAAJ}{Google Scholar}.}
+
+  \section{\textsc{Education}}
+    \cventry{expected 2026}{M.S., Urban Planning}{Columbia University}{New York City,~NY}{}{}
+    \cventry{2017}{B.S., Pure Mathematics}{University of Texas}{Austin,~TX}{}{}
+    \cventry{2017}{Certificate, Scientific~Computation}{University of Texas}{Austin,~TX}{}{}
+
+  \section{\textsc{Key Projects}}
+
+    \cvitem{oppsAlert}{Developed the first property- and owner-level ML model of NIMBYism, using 15+ years of 15,000+ points of individual homeowner protest data provided by the City of Austin.}
+
+
+  \section{\textsc{Activities}}
+    \cvdoubleitem{Sailing}{Volunteer Atlantic SAR of the \href{https://en.wikipedia.org/wiki/Cheeki_Rafiki}{Cheeki Rafiki}}{Bikepacking}{US West \& East Coasts}
+
+  \section{\textsc{Languages}}
+    \cvdoubleitem{Spanish}{Native Proficiency}{French}{Professional Proficiency}
+
+\end{document}
