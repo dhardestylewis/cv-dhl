@@ -44,3 +44,8 @@
 
 ## Outstanding / TODO
 (none currently — awaiting user review of fresh PDF)
+
+### Round 5: "AI & automation" label fix
+- **Request**: "AI & automation" still spans two lines — is "automation" even a category engineers use?
+- **Research**: Looked up FDE/ML engineer resume skill categories — industry standard is "AI/ML", not "AI & automation"
+- **Action**: Changed label to "AI/ML". Added Airflow back since shorter label freed space. Recompiled.
