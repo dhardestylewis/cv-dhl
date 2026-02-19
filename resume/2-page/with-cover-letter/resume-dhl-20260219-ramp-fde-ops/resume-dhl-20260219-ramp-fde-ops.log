@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.16)  19 FEB 2026 16:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.16)  19 FEB 2026 16:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1072,11 +1072,11 @@ t changed.
 (rerunfilecheck)             Checksum: 70F0059AF1879FFA10EE1CB5AF640716;1131.
  ) 
 Here is how much of TeX's memory you used:
- 27711 strings out of 467871
- 536387 string characters out of 5419344
+ 27713 strings out of 467871
+ 536407 string characters out of 5419344
  986145 words of memory out of 5000000
  55976 multiletter control sequences out of 15000+600000
- 701154 words of font info for 138 fonts, out of 8000000 for 9000
+ 701243 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,13n,136p,1133b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/F
@@ -1095,7 +1095,7 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData
 ocal/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb>
 Output written on c:\Users\dhl\data\Portfolio\cv-dhl.git\resume\2-page\with-cov
 er-letter\resume-dhl-20260219-ramp-fde-ops\resume-dhl-20260219-ramp-fde-ops.pdf
- (2 pages, 338544 bytes).
+ (2 pages, 338539 bytes).
 PDF statistics:
  180 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
