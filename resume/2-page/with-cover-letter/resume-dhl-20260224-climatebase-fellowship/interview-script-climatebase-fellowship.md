@@ -14,7 +14,7 @@ One of the more interesting parts of that work was a direct partnership with the
 
 That experience is what radicalized me. I watched climate data either reach or completely fail to reach the people who needed it for life-or-death decisions. That's what made me want to build climate tools — not just run models in a computing center.
 
-Before the senior role, I spent a year on DARPA's World Modelers program building disaster and food-security models for East Africa. That's where I first published on tying climate, hydrology, and socioeconomic systems together into a single platform.
+Before the senior role, I spent a year on DARPA's World Modelers program building disaster and food-security models for East Africa, working under Yolanda Gil — the president of AAAI. That's where I first published on tying climate, hydrology, and socioeconomic systems together into a single platform.
 
 Out of the TDIS work, I founded Summit Geospatial to commercialize the elevation data layer I'd built. It's a statewide Texas DEM stitched from over 70 LiDAR datasets — accurate enough to tell you which side of the street floods. I built the whole web platform end-to-end. It's the kind of foundational infrastructure that every flood modeling and climate adaptation workflow in the state depends on.
 
@@ -43,3 +43,22 @@ On the contribution side — I've taught graduate courses in machine learning an
 - "That experience is what radicalized me" — keep or soften to "that changed everything for me" depending on comfort.
 - If running long, cut Cheeki Rafiki and the USACE compound-flood paragraph first.
 - If running short, add a beat about what it was like seeing your maps used during a real hurricane.
+
+---
+
+## Public evidence (for your eyes only — pull up if asked)
+
+| Claim | Public artifact |
+|-------|-----------------|
+| TDIS ($40M program) | [tdis.io](https://tdis.io/) |
+| Real-Time Inundation Mapping / Pin2Flood | [ArcGIS StoryMap](https://storymaps.arcgis.com/stories/6227f24d6c5047f883d5c3497241f299) |
+| DARPA World Modelers | [darpa.mil/program/world-modelers](https://www.darpa.mil/program/world-modelers) |
+| MINT Platform (Yolanda Gil) | [mint-project.info](http://mint-project.info/overview.html) |
+| Yolanda Gil AAAI farewell address (recognition) | [YouTube @ 39:37](https://youtu.be/3Spk_UOHNxA?t=2377) |
+| ACM 2021 — "AI for Modeling Complex Systems" | [doi.org/10.1145/3453172](https://doi.org/10.1145/3453172) |
+| ACM 2019 — "Intelligent interface for integrating climate, hydrology..." | [doi.org/10.1145/3308557.3308711](https://doi.org/10.1145/3308557.3308711) |
+| Summit Geospatial | [summitgeospatial.com](https://summitgeospatial.com) |
+| Cheeki Rafiki | [Wikipedia](https://en.wikipedia.org/wiki/Cheeki_Rafiki) |
+| USACE compound flood (personal site) | [dlewis.ai](https://dlewis.ai) |
+| Google Scholar profile | [scholar.google.com](https://scholar.google.com/citations?user=Daniel+Hardesty+Lewis) |
+| ResearchGate profile | [researchgate.net](https://www.researchgate.net/profile/Daniel-Hardesty-Lewis) |
