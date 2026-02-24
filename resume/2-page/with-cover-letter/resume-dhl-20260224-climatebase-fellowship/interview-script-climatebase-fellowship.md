@@ -6,7 +6,7 @@ Deadline: 02/24/2026 · Cohort 9: March 16 – June 5 · ~15 min total, both Qs 
 
 ## Q1: "Please tell us about your background"
 
-Hi, I'm Daniel Hardesty Lewis. I'm finishing my Master's in Urban Planning at Columbia, and before that I spent five years at the Texas Advanced Computing Center working on flood and climate modeling. The thing I keep coming back to is a map I built — a one-meter resolution flood map generated from National Water Model outputs for Texas Emergency Management. When a hurricane hits, that's what first responders pull up to decide where to send resources. Their Real-Time Inundation Mapping system runs on the flood maps I built.
+Hi, I'm Daniel Hardesty Lewis. I'm finishing my Master's in Urban Planning at Columbia, and before that I spent five years at the Texas Advanced Computing Center working on flood and climate modeling. The thing I keep coming back to is a map I built — a one-meter resolution flood map generated from National Water Model outputs for Texas Emergency Management. When a hurricane hits, that's what first responders pull up to decide where to send resources. I built the flood maps for their Real-Time Inundation Mapping system.
 
 That was part of a $40 million program called TDIS — the Texas Disaster Information System — where I was the primary technical point of contact between the engineering team, Texas Emergency Management, and first-responder agencies. I was running 800,000-node distributed jobs on leadership-class supercomputers to drive the climate and flood models behind it, managing over a million dollars in compute allocations across NOAA, the Army Corps, and other federal and state agencies.
 
