@@ -43,6 +43,7 @@ On the contribution side — I've taught graduate courses in machine learning an
 - "That experience is what radicalized me" — keep or soften to "that changed everything for me" depending on comfort.
 - If running long, cut Cheeki Rafiki and the USACE compound-flood paragraph first.
 - If running short, add a beat about what it was like seeing your maps used during a real hurricane.
+- If asked "what else have you built?" — Homecastr is your impressive-demo answer: diffusion-based real estate forecasting with climate-risk overlays. Point them to homecastr.com.
 
 ---
 
@@ -59,6 +60,7 @@ On the contribution side — I've taught graduate courses in machine learning an
 | ACM 2019 — "Intelligent interface for integrating climate, hydrology..." | [doi.org/10.1145/3308557.3308711](https://doi.org/10.1145/3308557.3308711) |
 | Summit Geospatial | [summitgeospatial.com](https://summitgeospatial.com) |
 | Cheeki Rafiki | [Wikipedia](https://en.wikipedia.org/wiki/Cheeki_Rafiki) |
+| Homecastr (climate-risk real estate forecasting) | [homecastr.com](https://homecastr.com) |
 | USACE compound flood (personal site) | [dlewis.ai](https://dlewis.ai) |
 | Google Scholar profile | [scholar.google.com](https://scholar.google.com/citations?user=Daniel+Hardesty+Lewis) |
 | ResearchGate profile | [researchgate.net](https://www.researchgate.net/profile/Daniel-Hardesty-Lewis) |
