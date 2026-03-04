@@ -74,7 +74,7 @@ Engineer and founder specializing in bridging product engineering and enterprise
   \cvitem{Core stack}{Python; SQL; TypeScript; React; Postgres; Redis; Elasticsearch; Supabase; FastAPI}
   \cvitem{AI/ML}{LangChain; LangGraph; DSPy; RAG; FAISS; PyTorch; scikit-learn; Airflow}
   \cvitem{Data}{Pandas; Polars; PyArrow; Parquet; BigQuery; PostGIS; ETL pipelines}
-  \cvitem{Infrastructure}{Linux; Git; Docker; Kubernetes; Terraform; CI/CD; monitoring \& observability}
+  \cvitem{Infrastructure}{Linux; Git; Docker; Kubernetes; Terraform; Modal; GCS; CI/CD; monitoring \& observability}
   \cvitem{Additional}{CUDA; C++; Ray; Dask; Spark}
 
   
@@ -83,8 +83,8 @@ Engineer and founder specializing in bridging product engineering and enterprise
     \cventry{Apr.~2025 -- Present}{Co-founder}{\href{https://www.homecastr.com/}{Homecastr}}{New York, NY}{}{
     Real-estate pricing and forecasting platform built end-to-end with React, Python/FastAPI, and Postgres.
     \begin{itemize}
-        \item Deployed a semi-supervised VAE on property records; achieved 12\% holdout error against Zillow's 8.4\% Zestimate.
-        \item Shipped a diffusion-based forecasting system with fan charts; achieved 14\% annual compounding forecast error in production.
+        \item Scoped and shipped a \textbf{diffusion-based forecasting system} end-to-end: data ingestion, model training (Modal), and production web delivery with interactive fan charts, a MapLibre GL JS map (ZIP3$\to$Parcel zoom, Street View, MVT tiles), served at \href{https://www.homecastr.com/}{homecastr.com}.
+        \item Automated multi-jurisdiction data pipelines spanning Harris County TX (HCAD), NYC, and Florida (DOR) tax and sales records, with ACS as a national enrichment layer.
         \item Ran customer discovery and user interviews with a16z, MetaProp, SFR operators, and RE investors to scope requirements and sharpen product direction.
     \end{itemize}}
 

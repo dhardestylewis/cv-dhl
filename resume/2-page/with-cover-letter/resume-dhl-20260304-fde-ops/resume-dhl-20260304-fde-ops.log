@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 17:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 18:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -865,8 +865,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 53.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 53.
-
-No file resume-dhl-20260304-fde-ops.aux.
+ (resume-dhl-20260304-fde-ops.aux)
 \openout1 = `resume-dhl-20260304-fde-ops.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
@@ -967,6 +966,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 53.
+(resume-dhl-20260304-fde-ops.out) (resume-dhl-20260304-fde-ops.out)
 \@outlinefile=\write4
 \openout4 = `resume-dhl-20260304-fde-ops.out'.
 
@@ -975,6 +975,7 @@ Package hyperref Info: Link coloring ON on input line 53.
 \makecvheadnamebox=\box75
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
 3.
+
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1042,11 +1043,12 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 {C:/Users/dhl/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/dhl/Ap
 pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/dhl/AppData/
 Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:/Users/dhl/A
-ppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/User
-s/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/dhl
-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Us
-ers/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.e
-nc}]
+ppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/dhl/App
+Data/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/Users/
+dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/dhl/A
+ppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/User
+s/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc
+}]
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
 (fancyhdr)                Make it at least 45.47952pt, for example:
@@ -1064,23 +1066,20 @@ L3 programming layer <2025-12-24>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package rerunfilecheck Warning: File `resume-dhl-20260304-fde-ops.out' has chan
 ged.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `resume-dhl-20260304-fde-ops.out':
-(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             Before: FF756707D672710C80763C978647C623;1142
 (rerunfilecheck)             After:  70F0059AF1879FFA10EE1CB5AF640716;1131.
  ) 
 Here is how much of TeX's memory you used:
- 27672 strings out of 467871
- 534770 string characters out of 5419344
- 987188 words of memory out of 5000000
- 55962 multiletter control sequences out of 15000+600000
+ 27693 strings out of 467871
+ 535490 string characters out of 5419344
+ 987123 words of memory out of 5000000
+ 55976 multiletter control sequences out of 15000+600000
  700451 words of font info for 130 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,13n,136p,1026b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1097,10 +1096,11 @@ dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/dhl/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/dhl/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/dhl/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb>
-Output written on resume-dhl-20260304-fde-ops.pdf (2 pages, 335962 bytes).
+ocal/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb><C:/Users/dhl/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb>
+Output written on resume-dhl-20260304-fde-ops.pdf (2 pages, 344405 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
+ 188 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
- 43021 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 43109 words of extra memory for PDF output out of 51595 (max. 10000000)
 

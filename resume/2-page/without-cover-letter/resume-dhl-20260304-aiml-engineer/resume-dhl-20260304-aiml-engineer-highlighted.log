@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 17:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 18:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -870,7 +870,7 @@ Package hyperref Info: Option `bookmarksopen' set `true' on input line 54.
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\colorbox' on input line 54.
 
-No file resume-dhl-20260304-aiml-engineer-highlighted.aux.
+(resume-dhl-20260304-aiml-engineer-highlighted.aux)
 \openout1 = `resume-dhl-20260304-aiml-engineer-highlighted.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -971,6 +971,8 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 54.
+(resume-dhl-20260304-aiml-engineer-highlighted.out)
+(resume-dhl-20260304-aiml-engineer-highlighted.out)
 \@outlinefile=\write4
 \openout4 = `resume-dhl-20260304-aiml-engineer-highlighted.out'.
 
@@ -979,6 +981,7 @@ Package hyperref Info: Link coloring ON on input line 54.
 \makecvheadnamebox=\box75
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
 3.
+
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1010,6 +1013,17 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
 (Font)              using `T1/lmr/bx/n' instead on input line 82.
+
+! Undefined control sequence.
+<argument> ...\ Zillow's 8.4\%); evolved to a \hl 
+                                                  {v11 score-based diffusion...
+l.90     \end{itemize}}
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
 nput line 108.
@@ -1074,9 +1088,6 @@ L3 programming layer <2025-12-24>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
 Package rerunfilecheck Warning: File `resume-dhl-20260304-aiml-engineer-highlig
 hted.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
@@ -1084,14 +1095,14 @@ hted.out' has changed.
 
 Package rerunfilecheck Info: Checksums for `resume-dhl-20260304-aiml-engineer-h
 ighlighted.out':
-(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             Before: FF756707D672710C80763C978647C623;1142
 (rerunfilecheck)             After:  70F0059AF1879FFA10EE1CB5AF640716;1131.
  ) 
 Here is how much of TeX's memory you used:
- 27672 strings out of 467871
- 535000 string characters out of 5419344
- 985329 words of memory out of 5000000
- 55962 multiletter control sequences out of 15000+600000
+ 27693 strings out of 467871
+ 535880 string characters out of 5419344
+ 985264 words of memory out of 5000000
+ 55977 multiletter control sequences out of 15000+600000
  700282 words of font info for 129 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,13n,136p,1044b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1111,9 +1122,9 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData
 ocal/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb><C:/Users/dhl/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb>
 Output written on resume-dhl-20260304-aiml-engineer-highlighted.pdf (3 pages, 3
-44006 bytes).
+47257 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
+ 201 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)
- 43021 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 43109 words of extra memory for PDF output out of 51595 (max. 10000000)
 

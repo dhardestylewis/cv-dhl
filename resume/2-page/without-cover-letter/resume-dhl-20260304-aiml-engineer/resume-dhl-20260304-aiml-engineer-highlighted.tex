@@ -84,7 +84,7 @@
     \cventry{Apr.~2025 -- Present}{Co-founder}{\href{https://www.homecastr.com/}{Homecastr}}{New York, NY}{}{
     Consumer real-estate pricing and forecasting platform with interactive uncertainty fancharts and temporal leakage-safe expanding-window evaluation; owned end-to-end workflow from source data to web delivery.
     \begin{itemize}
-        \item Deployed a semi-supervised VAE on \textbf{tabular property records} (tax, sales, permits) to handle \textbf{sparsity and noise} in structured data; achieved 12\% holdout error (vs.\ Zillow's 8.4\% internal apples-to-apples).
+        \item Built an NYC VAE model (12\% error vs.\ Zillow's 8.4\%); evolved to a \hl{v11 score-based diffusion model} (inducing tokens, per-horizon loss, DDIM). Eval via \textbf{Calibration Packet}: PIT histograms, coverage, sharpness.
         \item Shipped a Houston diffusion-based forecasting system with fan charts; achieved as low as $\sim$8\% annualized compounding error, balancing design choices of error vs.\ trajectory realism, delivered via production web UI: \href{https://www.homecastr.com/}{homecastr.com}
         \item Refined product positioning and execution milestones via strategic feedback from a16z, MetaProp, and others.
     \end{itemize}}

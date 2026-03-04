@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 17:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 18:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -865,8 +865,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 53.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 53.
-
-No file resume-dhl-20260304-mle-cloud-infra.aux.
+ (resume-dhl-20260304-mle-cloud-infra.aux)
 \openout1 = `resume-dhl-20260304-mle-cloud-infra.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
@@ -967,6 +966,8 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 53.
+(resume-dhl-20260304-mle-cloud-infra.out)
+(resume-dhl-20260304-mle-cloud-infra.out)
 \@outlinefile=\write4
 \openout4 = `resume-dhl-20260304-mle-cloud-infra.out'.
 
@@ -975,6 +976,7 @@ Package hyperref Info: Link coloring ON on input line 53.
 \makecvheadnamebox=\box75
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
 3.
+
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1072,15 +1074,15 @@ has changed.
 
 Package rerunfilecheck Info: Checksums for `resume-dhl-20260304-mle-cloud-infra
 .out':
-(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             Before: FF756707D672710C80763C978647C623;1142
 (rerunfilecheck)             After:  70F0059AF1879FFA10EE1CB5AF640716;1131.
  ) 
 Here is how much of TeX's memory you used:
- 27672 strings out of 467871
- 534879 string characters out of 5419344
- 988266 words of memory out of 5000000
- 55961 multiletter control sequences out of 15000+600000
- 700371 words of font info for 130 fonts, out of 8000000 for 9000
+ 27696 strings out of 467871
+ 535716 string characters out of 5419344
+ 988177 words of memory out of 5000000
+ 55975 multiletter control sequences out of 15000+600000
+ 700555 words of font info for 132 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,13n,136p,1034b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/F
@@ -1098,10 +1100,10 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/dhl/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb><C:/Users/dhl/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb>
-Output written on resume-dhl-20260304-mle-cloud-infra.pdf (2 pages, 339972 byte
+Output written on resume-dhl-20260304-mle-cloud-infra.pdf (2 pages, 343777 byte
 s).
 PDF statistics:
- 155 PDF objects out of 1000 (max. 8388607)
+ 189 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
- 43021 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 43109 words of extra memory for PDF output out of 51595 (max. 10000000)
 
