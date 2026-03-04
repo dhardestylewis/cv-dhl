@@ -2,8 +2,8 @@ This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./cv-dhl-20230801.tex
-(cv-dhl-20230801.tex
+**./resume-dhl-20260131-latest.tex
+(resume-dhl-20260131-latest.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/moderncv\moderncv.cls
@@ -709,7 +709,9 @@ Package: moderncvcolorred 2024-07-18 v2.4.1 modern curriculum vitae and letter
 color scheme: red
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/moderncv\moderncvcolors.t
-ex)) (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+ex))
+\cvSkillMaxLevel=\count324
+ (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks36
 \inpenc@posthook=\toks37
@@ -728,9 +730,9 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count324
-\Gm@cntv=\count325
-\c@Gm@tempcnt=\count326
+\Gm@cnth=\count325
+\Gm@cntv=\count326
+\c@Gm@tempcnt=\count327
 \Gm@bindingoffset=\dimen271
 \Gm@wd@mp=\dimen272
 \Gm@odd@mp=\dimen273
@@ -784,15 +786,15 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count327
+\c@section@level=\count328
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
 \@linkdim=\dimen279
-\Hy@linkcounter=\count328
-\Hy@pagecounter=\count329
+\Hy@linkcounter=\count329
+\Hy@pagecounter=\count330
  (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
@@ -801,7 +803,7 @@ Now handling font encoding PD1 ...
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count330
+\Hy@SavedSpaceFactor=\count331
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
@@ -817,7 +819,7 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count331
+\c@Hy@tempcnt=\count332
 LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen280
 
@@ -829,7 +831,7 @@ ty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count332
+\Fld@menulength=\count333
 \Field@Width=\dimen281
 \Fld@charsize=\dimen282
 Package hyperref Info: Hyper figures OFF on input line 6078.
@@ -839,16 +841,16 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring ON on input line 6096.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count333
-\c@Item=\count334
-\c@Hfootnote=\count335
+\Hy@abspage=\count334
+\c@Item=\count335
+\c@Hfootnote=\count336
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count336
-\c@bookmark@seq@number=\count337
+\Fld@listcount=\count337
+\c@bookmark@seq@number=\count338
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilec
 heck.sty
@@ -863,42 +865,43 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip109
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 48.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 48.
- (cv-dhl-20230801.aux)
-\openout1 = `cv-dhl-20230801.aux'.
+Package hyperref Info: Option `breaklinks' set `true' on input line 90.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 90.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
+No file resume-dhl-20260131-latest.aux.
+\openout1 = `resume-dhl-20260131-latest.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 90.
+LaTeX Font Info:    ... okay on input line 90.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count338
+\scratchcounter=\count339
 \scratchdimen=\dimen283
 \scratchbox=\box73
-\nofMPsegments=\count339
-\nofMParguments=\count340
+\nofMPsegments=\count340
+\nofMParguments=\count341
 \everyMPshowfont=\toks39
-\MPscratchCnt=\count341
+\MPscratchCnt=\count342
 \MPscratchDim=\dimen284
-\MPnumerator=\count342
-\makeMPintoPDFobject=\count343
+\MPnumerator=\count343
+\makeMPintoPDFobject=\count344
 \everyMPtoPDFconversion=\toks40
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-bas
@@ -910,13 +913,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 48.
-Package microtype Info: Applying patch `item' on input line 48.
-Package microtype Info: Applying patch `toc' on input line 48.
-Package microtype Info: Applying patch `eqnum' on input line 48.
-Package microtype Info: Applying patch `footnote' on input line 48.
-Package microtype Info: Applying patch `verbatim' on input line 48.
-LaTeX Info: Redefining \microtypesetup on input line 48.
+LaTeX Info: Redefining \microtypecontext on input line 90.
+Package microtype Info: Applying patch `item' on input line 90.
+Package microtype Info: Applying patch `toc' on input line 90.
+Package microtype Info: Applying patch `eqnum' on input line 90.
+Package microtype Info: Applying patch `footnote' on input line 90.
+Package microtype Info: Applying patch `verbatim' on input line 90.
+LaTeX Info: Redefining \microtypesetup on input line 90.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -939,15 +942,15 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(46.07025pt, 522.1545pt, 46.07025pt)
-* v-part:(T,H,B)=(47.69626pt, 675.72934pt, 71.54439pt)
+* h-part:(L,W,R)=(46.97505pt, 520.3449pt, 46.97505pt)
+* v-part:(T,H,B)=(36.135pt, 686.565pt, 72.26999pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=522.1545pt
-* \textheight=675.72934pt
-* \oddsidemargin=-26.19974pt
-* \evensidemargin=-26.19974pt
-* \topmargin=-61.57373pt
+* \textwidth=520.3449pt
+* \textheight=686.565pt
+* \oddsidemargin=-25.29494pt
+* \evensidemargin=-25.29494pt
+* \topmargin=-73.135pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -965,82 +968,73 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 48.
-(cv-dhl-20230801.out) (cv-dhl-20230801.out)
+Package hyperref Info: Link coloring ON on input line 90.
 \@outlinefile=\write4
-\openout4 = `cv-dhl-20230801.out'.
+\openout4 = `resume-dhl-20260131-latest.out'.
 
 \makecvheadpicturebox=\box74
 \makecvheadpicturewidth=\skip110
 \makecvheadnamebox=\box75
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/38'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-32.
-
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
+7.
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-32.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
+7.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-132.
+97.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-132.
+97.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 132.
+(Font)              <9> on input line 97.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 132.
+(Font)              <6> on input line 97.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 132.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/14.4'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/12'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/9'.
-(microtype)             Ignoring protrusion settings for this character.
+(Font)              <5> on input line 97.
+
+
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 97.
+
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 304.
+nput line 145.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
 free2.fd)
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 3
-04.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+45.
  (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 304.
+nput line 145.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
 free1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 304.
+ input line 145.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
 brands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 304.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 30
-4.
+n input line 145.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 14
+5.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1052,8 +1046,8 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 60.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{60.0pt}.
+(fancyhdr)                Make it at least 45.47952pt, for example:
+(fancyhdr)                \setlength{\footskip}{45.47952pt}.
 
 [1
 
@@ -1065,82 +1059,65 @@ s/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/dhl
 /AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Us
 ers/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.e
 nc}{C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
-
-Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 60.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{60.0pt}.
-
-[2]
-
-Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 60.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{60.0pt}.
-
-[3]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 514.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 514.
 Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/10'.
+(microtype)             in font `T1/lmr/m/sc/9'.
 (microtype)             Ignoring protrusion settings for this character.
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 60.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{60.0pt}.
+(fancyhdr)                Make it at least 45.47952pt, for example:
+(fancyhdr)                \setlength{\footskip}{45.47952pt}.
 
-[4]
-
-Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 60.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{60.0pt}.
-
-[5]
-
-Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 60.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{60.0pt}.
-
-[6]
-
-Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 60.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{60.0pt}.
-
-[7] (cv-dhl-20230801.aux)
+[2{C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
+{C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
+(resume-dhl-20260131-latest.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-Package rerunfilecheck Info: File `cv-dhl-20230801.out' has not changed.
-(rerunfilecheck)             Checksum: 050F0792EACDF50F414CD6FFF4D2B4A5;2360.
+
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `resume-dhl-20260131-latest.out' has chang
+ed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `resume-dhl-20260131-latest.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  16AC7A77C07AD6FB083ED6C5DE42F92D;805.
  ) 
 Here is how much of TeX's memory you used:
- 27876 strings out of 467871
- 537306 string characters out of 5419344
- 980724 words of memory out of 5000000
- 56038 multiletter control sequences out of 15000+600000
- 716320 words of font info for 188 fonts, out of 8000000 for 9000
+ 27689 strings out of 467871
+ 535099 string characters out of 5419344
+ 976713 words of memory out of 5000000
+ 55997 multiletter control sequences out of 15000+600000
+ 693769 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,14n,136p,1014b,653s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,13n,136p,1025b,641s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/F
 ontAwesome5Brands-Regular.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/dhl/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb
-><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><
-C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C
-:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C
-:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/U
-sers/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users
-/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/dhl
-/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/dhl/A
-ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/dhl/AppDat
-a/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on cv-dhl-20230801.pdf (7 pages, 399786 bytes).
+><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><
+C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/
+Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/U
+sers/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/U
+sers/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/User
+s/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/d
+hl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/dhl/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/dhl/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb><C:/Users/dhl/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb>
+Output written on resume-dhl-20260131-latest.pdf (2 pages, 349707 bytes).
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 49829 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 139 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
+ 39437 words of extra memory for PDF output out of 42996 (max. 10000000)
 

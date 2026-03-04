@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.16)  17 FEB 2026 13:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 17:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1076,7 +1076,7 @@ ot changed.
 Here is how much of TeX's memory you used:
  27682 strings out of 467871
  535484 string characters out of 5419344
- 987124 words of memory out of 5000000
+ 987117 words of memory out of 5000000
  55976 multiletter control sequences out of 15000+600000
  699825 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1096,7 +1096,7 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/dhl/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb><C:/Users/dhl/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb>
-Output written on resume-dhl-20260207-fullstack-mle.pdf (3 pages, 345738 bytes)
+Output written on resume-dhl-20260207-fullstack-mle.pdf (3 pages, 345701 bytes)
 .
 PDF statistics:
  201 PDF objects out of 1000 (max. 8388607)

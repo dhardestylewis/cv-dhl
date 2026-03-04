@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.16)  28 JAN 2026 21:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./resume-dhl-20240124-arity.tex
 (resume-dhl-20240124-arity.tex
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/moderncv\moderncv.cls
 Document Class: moderncv 2024-07-18 v2.4.1 modern curriculum vitae and letter d
 ocument class
@@ -45,7 +45,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen148
 \ar@mcellbox=\box53
 \extrarowheight=\dimen149
@@ -66,7 +66,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
@@ -122,14 +122,14 @@ LaTeX Info: Redefining \addtolength on input line 87.
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.
 sty (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2025-09-02 L3 programming layer (loader) 
+Package: expl3 2025-12-24 L3 programming layer (loader) 
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfte
 x.def
-File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count280
 ))
-Package: xparse 2024-08-16 L3 Experimental document command parser
+Package: xparse 2025-10-09 L3 Experimental document command parser
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
 Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
@@ -218,29 +218,32 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/10/01 v25.13 The multilingual framework for LuaLaTeX, pdfLa
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLa
 TeX and XeLaTeX
 \babel@savecnt=\count289
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
-ne 2045.
+ne 2068.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
-ne 2047.
+ne 2070.
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input lin
-e 2049.
+e 2072.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input lin
-e 2050.
+e 2073.
 LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) 
-on input line 2051.
+on input line 2074.
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) 
-on input line 2053.
+on input line 2076.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) 
-on input line 2078.
+on input line 2101.
 \U@D=\dimen155
 \l@unhyphenated=\language79
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count290
+Package babel Info: Configuration files are deprecated, as
+(babel)             they can break document portability.
+(babel)             Reported on input line 4196.
 
 *************************************
 * Local config file bblopts.cfg used
@@ -249,22 +252,20 @@ on input line 2078.
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-e
+nglish.tex)
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 4320.
+
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-e
-nglish.tex
-Package babel Info: Importing font and identification data for english
-(babel)             from babel-en.ini. Reported on input line 12.
-)
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
 (babel)             (\language73). Reported on input line 108.
-))
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\courier.sty
+)) (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\courier.sty
 Package: courier 2020/03/25 PSNFSS-v9.3 (WaS) 
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/moderncv\moderncvstylecas
@@ -292,7 +293,7 @@ Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3key
 s2e.sty
-Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5
 -generic-helper.sty
@@ -714,7 +715,7 @@ Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@posthook=\toks37
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
 6.
 
@@ -988,8 +989,6 @@ free1.fd)
 LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
 (Font)              using `T1/lmr/bx/n' instead on input line 163.
 
-
-
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
 nput line 164.
 
@@ -1075,7 +1074,6 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
 
 
-
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
 (fancyhdr)                Make it at least 60.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{60.0pt}.
@@ -1085,13 +1083,11 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 {C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5fre
 e0.enc}]
 
-
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
 (fancyhdr)                Make it at least 60.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{60.0pt}.
 
 [3]
-
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
 (fancyhdr)                Make it at least 60.0pt, for example:
@@ -1099,8 +1095,8 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 
 [4] (resume-dhl-20240124-arity.aux)
  ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
  ***********
 
 
@@ -1111,13 +1107,13 @@ ed.
 (rerunfilecheck)             Checksum: ABBAFD86F1F2314EC3CE08FE9AF26EFB;1157.
  ) 
 Here is how much of TeX's memory you used:
- 27753 strings out of 468081
- 536653 string characters out of 5426756
- 967570 words of memory out of 5000000
- 55822 multiletter control sequences out of 15000+600000
+ 27762 strings out of 467871
+ 536998 string characters out of 5419344
+ 971523 words of memory out of 5000000
+ 56041 multiletter control sequences out of 15000+600000
  704405 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,14n,129p,1024b,733s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,14n,136p,1024b,732s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/F
 ontAwesome5Brands-Regular.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/dhl/AppData/L
@@ -1131,7 +1127,7 @@ sers/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users
 hl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/dhl/Ap
 pData/Local/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on resume-dhl-20240124-arity.pdf (4 pages, 336325 bytes).
+Output written on resume-dhl-20240124-arity.pdf (4 pages, 336284 bytes).
 PDF statistics:
  186 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.16)  20 FEB 2026 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 17:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1085,7 +1085,7 @@ t' has not changed.
 Here is how much of TeX's memory you used:
  27706 strings out of 467871
  535995 string characters out of 5419344
- 976031 words of memory out of 5000000
+ 976024 words of memory out of 5000000
  55978 multiletter control sequences out of 15000+600000
  703843 words of font info for 135 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1105,8 +1105,8 @@ ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/dhl/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb><C:/Users/dhl/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb>
-Output written on resume-dhl-20260220-ftchong-ai-consultant.pdf (4 pages, 35392
-3 bytes).
+Output written on resume-dhl-20260220-ftchong-ai-consultant.pdf (4 pages, 35386
+9 bytes).
 PDF statistics:
  217 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)
