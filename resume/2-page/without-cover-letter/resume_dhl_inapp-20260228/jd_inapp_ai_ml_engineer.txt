@@ -1,0 +1,58 @@
+AI ML Engineer (7+ Years)
+InApp
+United States | Full-time | Remote | Senior Level | 7+ years exp
+https://jobright.ai/s/4rl3ww
+
+---
+
+RESPONSIBILITIES
+
+- Integrate APIs from multiple AI platforms (OpenAI, Anthropic, Gemini, Llama, Mistral, etc.) into scalable backend systems
+- Build multi-model orchestration layers balancing cost, latency, and accuracy
+- Fine-tune prompts, manage context windows, and implement RAG (Retrieval-Augmented Generation) solutions for domain-specific use cases
+- Optimize token usage, caching, and filtering strategies to enhance system efficiency and user experience
+- Design and implement AI-enabled workflows seamlessly integrated with web, mobile, or enterprise ecosystems
+- Develop Python-based backends and APIs using frameworks like FastAPI, Flask, or Django
+- Build and deploy microservices and cloud-native services leveraging Docker, Kubernetes, and serverless architectures
+- Collaborate with frontend, DevOps, and product teams to ensure smooth feature delivery and deployment
+- Monitor and evaluate AI responses through metrics, evaluation frameworks, or RLHF-inspired feedback loops
+- Implement AI guardrails for responsible usage including bias detection, toxicity filtering, and compliance enforcement
+- Debug and resolve performance or reliability issues in AI-powered production systems
+- Stay up to date with the evolving AI model landscape, exploring new models, APIs, and orchestration frameworks
+- Experiment with multi-modal AI (vision, text, speech) for applicability in client scenarios
+- Work closely with cross-functional teams to translate business goals into intelligent, automated features
+
+---
+
+REQUIRED QUALIFICATIONS
+
+- Expert in Python backend development with hands-on experience integrating AI models, building cloud-native microservices, and using AI-assisted coding tools for faster, smarter development
+- Proven hands-on experience integrating LLM APIs (OpenAI, Claude, Gemini, Llama, etc.)
+- Strong expertise in AI/ML frameworks (TensorFlow, PyTorch, scikit-learn, Hugging Face, etc.) as essential qualification
+- Practical knowledge of LangChain, LlamaIndex, Codium or similar frameworks for AI workflow orchestration
+- Understanding of prompt engineering, embeddings, vector databases (Pinecone, Weaviate, FAISS, pgvector), and RAG pipelines
+- Strong background in cloud platforms (AWS, GCP, Azure), containerization, and orchestration
+- Deep understanding of REST/GraphQL APIs, async programming, task queues, and caching mechanisms
+- Familiarity with SQL/NoSQL databases (PostgreSQL, MongoDB, Redis)
+- Experience using AI-assisted tools such as GitHub Copilot, ChatGPT API, AutoGen, or OpenDevin for coding and testing automation
+- Exposure to CI/CD pipelines and Infrastructure as Code (Terraform, Pulumi)
+- Knowledge of data preprocessing, NLP/NLU, and model evaluation techniques
+- Data Engineering & Processing: data pipeline development, ETL/ELT processes, batch/stream processing, large-scale data handling with pandas, NumPy, Dask
+
+---
+
+PREFERRED QUALIFICATIONS
+
+- Hands-on with multi-modal AI (vision, text-to-speech, speech-to-text)
+- Experience with MLOps practices including CI/CD for AI pipelines, model monitoring, and drift detection
+- Background in fine-tuning, reinforcement learning, or custom model training
+- Familiarity with enterprise security standards (GDPR, HIPAA, SOC2)
+- Contributions to open-source or personal AI-assisted coding initiatives
+
+---
+
+COMPANY
+
+InApp | Founded 2000 | Palo Alto, CA | 201-500 employees | Growth Stage
+http://www.inapp.com
+H1B Sponsor Likely
