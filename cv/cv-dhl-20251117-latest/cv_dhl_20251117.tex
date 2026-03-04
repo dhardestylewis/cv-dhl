@@ -1,20 +1,25 @@
 \documentclass[letterpaper, 10pt,colorlinks,linkcolor=cyan]{moderncv}
 %% Themes
-  \moderncvcolor{black}
+  \moderncvcolor{red}
   \moderncvstyle{casual}
   \usepackage{lmodern}
   \usepackage[english]{babel}
   \usepackage{courier}
   \hyphenpenalty=100000
   \hbadness=99999
-  % Force section and item titles to red (robust for moderncv >=2.4.1)
-  % \usepackage{xcolor}
-  % \definecolor{myred}{rgb}{0.95,0.20,0.20}
-  % Patch section title color (moderncv >=2.4.1)
-  \makeatletter
-  \renewcommand*{\sectionfont}{\Large\bfseries}
-  \renewcommand*{\subsectionfont}{\large\bfseries}
-  \makeatother
+
+% --- Name in red (color1) while preserving casual's font weight split ---
+  \colorlet{lastnamecolor}{color1}
+  \colorlet{firstnamecolor}{color1}
+  % Force section titles to red
+  \colorlet{sectioncolor}{color1}
+  \colorlet{subsectioncolor}{color1}
+  % Force horizontal section bar to red
+  \colorlet{bodyrulecolor}{color1}
+  % Override section style to remove small caps and use upshape
+  \renewcommand*{\sectionstyle}[1]{{\Large\bfseries\upshape\textcolor{sectioncolor}{#1}}}
+  % Override subsection style to remove small caps
+  \renewcommand*{\subsectionstyle}[1]{{\large\bfseries\upshape\textcolor{subsectioncolor}{#1}}}
   \nopagenumbers{}
 %% Encoding
   \usepackage[utf8]{inputenc}
@@ -43,11 +48,6 @@
   }
 
 \begin{document}
-
-  % Injected moderncvcolorred.sty color definitions
-  \definecolor{color0}{rgb}{0,0,0} % black
-  \definecolor{color1}{rgb}{0,0,0} % red
-  \definecolor{color2}{rgb}{0,0,0} % dark grey
 
   \definecolor{links}{HTML}{0645AD}
   \hypersetup{urlcolor=links}
