@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 17:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 17:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -861,8 +861,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 45.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 45.
-
-No file cv_dhl_20251117.aux.
+ (cv_dhl_20251117.aux)
 \openout1 = `cv_dhl_20251117.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
@@ -963,6 +962,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 45.
+(cv_dhl_20251117.out) (cv_dhl_20251117.out)
 \@outlinefile=\write4
 \openout4 = `cv_dhl_20251117.out'.
 
@@ -974,6 +974,7 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
 6.
+
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1113,23 +1114,14 @@ L3 programming layer <2025-12-24>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `cv_dhl_20251117.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `cv_dhl_20251117.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  B598D10CE351F9288E10AB1152438F7C;2468.
+Package rerunfilecheck Info: File `cv_dhl_20251117.out' has not changed.
+(rerunfilecheck)             Checksum: B598D10CE351F9288E10AB1152438F7C;2468.
  ) 
 Here is how much of TeX's memory you used:
- 27861 strings out of 467871
- 536694 string characters out of 5419344
- 980545 words of memory out of 5000000
- 56016 multiletter control sequences out of 15000+600000
+ 27890 strings out of 467871
+ 537320 string characters out of 5419344
+ 980480 words of memory out of 5000000
+ 56039 multiletter control sequences out of 15000+600000
  722949 words of font info for 195 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,14n,136p,1014b,653s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1151,9 +1143,9 @@ cal/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/dhl/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/dhl/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on cv_dhl_20251117.pdf (7 pages, 445100 bytes).
+Output written on cv_dhl_20251117.pdf (7 pages, 451395 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
+ 304 PDF objects out of 1000 (max. 8388607)
  28 named destinations out of 1000 (max. 500000)
- 53773 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 53933 words of extra memory for PDF output out of 61914 (max. 10000000)
 

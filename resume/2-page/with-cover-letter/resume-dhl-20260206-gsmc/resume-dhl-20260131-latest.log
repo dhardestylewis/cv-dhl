@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 17:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 17:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -867,8 +867,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 90.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 90.
-
-No file resume-dhl-20260131-latest.aux.
+ (resume-dhl-20260131-latest.aux)
 \openout1 = `resume-dhl-20260131-latest.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 90.
@@ -969,6 +968,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 90.
+(resume-dhl-20260131-latest.out) (resume-dhl-20260131-latest.out)
 \@outlinefile=\write4
 \openout4 = `resume-dhl-20260131-latest.out'.
 
@@ -977,6 +977,7 @@ Package hyperref Info: Link coloring ON on input line 90.
 \makecvheadnamebox=\box75
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
 7.
+
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1079,24 +1080,15 @@ L3 programming layer <2025-12-24>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `resume-dhl-20260131-latest.out' has chang
-ed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume-dhl-20260131-latest.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  16AC7A77C07AD6FB083ED6C5DE42F92D;805.
+Package rerunfilecheck Info: File `resume-dhl-20260131-latest.out' has not chan
+ged.
+(rerunfilecheck)             Checksum: 16AC7A77C07AD6FB083ED6C5DE42F92D;805.
  ) 
 Here is how much of TeX's memory you used:
- 27689 strings out of 467871
- 535093 string characters out of 5419344
- 976713 words of memory out of 5000000
- 55997 multiletter control sequences out of 15000+600000
+ 27706 strings out of 467871
+ 535745 string characters out of 5419344
+ 976647 words of memory out of 5000000
+ 56008 multiletter control sequences out of 15000+600000
  693769 words of font info for 120 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,13n,136p,1025b,641s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1115,9 +1107,9 @@ ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/dhl/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb><C:/Users/dhl/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on resume-dhl-20260131-latest.pdf (2 pages, 349707 bytes).
+Output written on resume-dhl-20260131-latest.pdf (2 pages, 352059 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
+ 164 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
- 39437 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 39501 words of extra memory for PDF output out of 42996 (max. 10000000)
 
