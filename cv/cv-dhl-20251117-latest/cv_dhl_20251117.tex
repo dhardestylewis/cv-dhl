@@ -60,15 +60,14 @@
   
   \section{\textsc{Experience}}
   \subsection{\textsc{Professional}}
-    \cventry{Apr. 2025 -- Present}{Co-founder}{Homecastr}{New York, NY}{}{
-    Targetting the last blue ocean in consumer real estate technology: individual home price forecasting
+    \cventry{Nov.~2024 -- Present}{Co-founder}{\href{https://www.homecastr.com/}{Homecastr}}{New York, NY}{}{
+    Consumer real-estate pricing and forecasting platform with interactive uncertainty fancharts and temporal leakage-safe expanding-window evaluation.
     \begin{itemize}
-        \item Here's our \href{https://docs.google.com/presentation/d/1HL2zPTLxuGdq9k12Z6J_RQA4Dt64ZKEsSVrTQpbQuNA/edit?usp=sharing}{pitch}
-        \item Built out a current home price prediction ML model, achieving 12\% MAPE against Zillow's 8.4\% in the hardest US market to do it: Manhattan
-        \item That model stack is identical to some of the recent cutting-edge physics foundation models, using a Variational AutoEncoder (VAE) approach
-        \item Uses a data-driven approach to auto-configure the vast majority of hyperparameters and even some of the model architecture, trains in under 7 min
-        \item Interest from a16z \& MetaProp
-     \end{itemize}}
+        \item Architected and deployed a nationwide, tract-level score-based diffusion forecasting model, achieving an 8\% one-year forecast error that outperforms Zillow's 8.4\% benchmark, and maintaining a highly stable 25\% MdAE at a 4-year horizon.
+        \item Engineered advanced architecture---including spatial inducing tokens, per-horizon loss normalization, and DDIM sampling---to balance high predictive accuracy with highly realistic, probabilistically calibrated price trajectories at scale.
+        \item Developed a rigorous probabilistic evaluation suite (optimizing for PIT uniformity, interval coverage, and sharpness) to strictly validate forecast reliability prior to web delivery.
+        \item Owned the end-to-end pipeline from source data ingestion to real-time serving via a production web UI (\href{https://www.homecastr.com/}{homecastr.com}), and refined product strategy through feedback from a16z and MetaProp.
+    \end{itemize}}
 
     \cventry{Nov. 2024 -- Present}{Co-founder}{PoliBOM}{Seattle, WA}{}{
     Top-5\% YC entrant, KPMG rolled out their \href{https://kpmg.com/us/en/capabilities-services/tax-services/international-tax-trade-and-transfer-pricing/trade-customs/kpmg-tariff-modeler.html}{Tariff Modeller} after we put \href{https://polibom.com}{polibom.com} in front of them

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 18:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 19:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1054,8 +1054,7 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 [2
 
 {C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5fre
-e0.enc}{C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy
-.enc}]
+e0.enc}]
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
 (fancyhdr)                Make it at least 45.47952pt, for example:
@@ -1077,23 +1076,16 @@ L3 programming layer <2025-12-24>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-Package rerunfilecheck Warning: File `resume-dhl-20260304-ai-consultant.out' ha
-s changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume-dhl-20260304-ai-consultant.o
-ut':
-(rerunfilecheck)             Before: FF756707D672710C80763C978647C623;1142
-(rerunfilecheck)             After:  70F0059AF1879FFA10EE1CB5AF640716;1131.
+Package rerunfilecheck Info: File `resume-dhl-20260304-ai-consultant.out' has n
+ot changed.
+(rerunfilecheck)             Checksum: 70F0059AF1879FFA10EE1CB5AF640716;1131.
  ) 
 Here is how much of TeX's memory you used:
- 27710 strings out of 467871
- 535829 string characters out of 5419344
+ 27709 strings out of 467871
+ 535812 string characters out of 5419344
  976000 words of memory out of 5000000
  55978 multiletter control sequences out of 15000+600000
- 704027 words of font info for 137 fonts, out of 8000000 for 9000
+ 704021 words of font info for 137 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,13n,136p,1032b,602s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/F
@@ -1109,12 +1101,11 @@ dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/dhl/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/dhl/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/dhl/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb><C:/Users/dhl/AppData/Loca
-l/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb>
-Output written on resume-dhl-20260304-ai-consultant.pdf (4 pages, 354227 bytes)
+ocal/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb>
+Output written on resume-dhl-20260304-ai-consultant.pdf (4 pages, 349938 bytes)
 .
 PDF statistics:
- 217 PDF objects out of 1000 (max. 8388607)
+ 211 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)
  45157 words of extra memory for PDF output out of 51595 (max. 10000000)
 
