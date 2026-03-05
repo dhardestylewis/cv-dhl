@@ -1,0 +1,7 @@
+resume\2-page\without-cover-letter\resume-dhl-20260304-aiml-engineer\resume-dhl-20260304-aiml-engineer.pdf : 3 pages
+resume\2-page\without-cover-letter\resume-dhl-20260304-aiml-engineer\resume-dhl-20260304-aiml-engineer-highlighted.pdf : 3 pages
+resume\2-page\with-cover-letter\resume-dhl-20260304-ai-consultant\resume-dhl-20260304-ai-consultant.pdf : 4 pages
+resume\2-page\with-cover-letter\resume-dhl-20260304-fde-ops\resume-dhl-20260304-fde-ops.pdf : 3 pages
+resume\2-page\with-cover-letter\resume-dhl-20260304-mle-cloud-infra\resume-dhl-20260304-mle-cloud-infra.pdf : 3 pages
+resume\2-page\with-cover-letter\resume-dhl-20260304-mle-finance\resume-dhl-20260304-mle-finance.pdf : 4 pages
+resume\2-page\with-cover-letter\resume-dhl-20260304-staff-mle\resume-dhl-20260304-staff-mle.pdf : 3 pages

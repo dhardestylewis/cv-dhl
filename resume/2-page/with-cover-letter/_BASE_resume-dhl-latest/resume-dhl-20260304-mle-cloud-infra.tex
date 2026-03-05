@@ -83,40 +83,10 @@ Specializing in scalable cloud infrastructure for ML training and serving. Deliv
     \cventry{Apr.~2025 -- Present}{Co-founder}{\href{https://www.homecastr.com/}{Homecastr}}{New York, NY}{}{
     Consumer real-estate pricing and forecasting platform with interactive uncertainty fancharts and temporal leakage-safe expanding-window evaluation; owned end-to-end workflow from source data to web delivery.
     \begin{itemize}
-        \item Deployed a semi-supervised VAE on \textbf{tabular property records} (tax, sales, permits) to handle \textbf{sparsity and noise} in structured data; achieved 12\% holdout error (vs.\ Zillow's 8.4\% internal apples-to-apples).
-        \item Shipped a Houston diffusion-based forecasting system with fan charts; achieved as low as $\sim$8\% annualized compounding error, balancing design choices of error vs.\ trajectory realism, delivered via production web UI: \href{https://www.homecastr.com/}{homecastr.com}
-        \item Refined product positioning and execution milestones via strategic feedback from a16z, MetaProp, and others.
-    \end{itemize}}
-
-    \cventry{Nov.~2024 -- Present}{Co-founder}{\href{https://www.polibom.com/}{PoliBOM}}{Seattle, WA}{}{
-    AI tariff mitigation and trade compliance product for manufacturers, centered on BOM analysis, retrieval, and policy scenario simulation
-    \begin{itemize}
-      \item Specified an agentic workflow and schema definitions for BOM parsing, retrieval, and tariff simulation using Airflow, Elasticsearch and embeddings, and FastAPI serving backed by Supabase and Redis.
-      \item Directed development of a \textbf{conversational AI interface} simplifying global trade workflows; enabled decision-makers to instantly \textbf{retrieve BOMs and receive proactive compliance alerts}.
-      \item Executing customer discovery with the founder of ScoutyAI and tariff economists at Columbia Business School to validate product-market fit and pricing assumptions.
-      \item Secured market validation by presenting the prototype to KPMG, pre-dating their subsequent launch of a \href{https://kpmg.com/xx/en/home/insights/2024/05/tariff-modeler.html}{commercial tariff-modeling product}.
-    \end{itemize}}
-
-    \cventry{Nov.~2023 -- Present}{Founder}{\href{https://summitgeospatial.com}{Summit Geospatial}}{New York, NY}{}{
-    High-resolution elevation data and web delivery for engineering and hazard workflows.
-    \begin{itemize}
-      \item Engineered a statewide seamless Texas DEM mosaic, resampling 0.5~m LiDAR sources to 1.2~m via nearest-neighbor across 70+ state, federal, and local elevation datasets.
-      \item Developed the web distribution platform end-to-end including data pipeline, tiling, hosting, delivery UX to support engineering and planning use cases.
-      \item Commercial discussions to license elevation datasets to research and AI organizations.
-    \end{itemize}}
-
-    \cventry{Aug.~2021 -- Aug.~2023}{Senior Data Scientist \& Technical Lead}{\href{https://www.tacc.utexas.edu/}{Texas Advanced Computing Center (TACC)}}{Austin, TX}{}{
-    \begin{itemize}
-        \item Co-founded \href{https://www.summitgeospatial.com}{summitgeospatial.com} to commercialize and sustain state-level terrain models developed for the \$40M \href{https://tdis.io/}{Texas Disaster Information System (TDIS)}, delivering precision decision-support for civil engineering.
-        \item Developed inter-agency RFP and MOU frameworks with state and federal partners, translating technical requirements into scope and milestones facilitating \href{https://storymaps.arcgis.com/stories/6227f24d6c5047f883d5c3497241f299}{Real-Time Inundation Mapping} and TDIS.
-        \item Scaled climate and flood models on supercomputers, orchestrating million-node distributed jobs across containerized HPC clusters while managing multi-million-dollar compute budgets.
-        \item Developed efficient methods to produce high-resolution 1m flood maps from National Water Model outputs for Texas Emergency Management's Real-Time Inundation Mapping.
-        \item Partnered with the US Army Corps of Engineers to statistically model compound flood hazards in coastal Texas, integrating high-resolution topographic data with hydrological models.
-        \item Contributed fundamental research supporting Paola Passalacqua's \href{https://www.egu.eu/awards-medals/ralph-alger-bagnold/2022/paola-passalacqua/}{2022 EGU Bagnold Medal}, one of geomorphology's highest honors.
-        % Formal title: Technical Reviewer
-        % NSF Frontera leadership-class computing project (NSF award #1818253): https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1818253
-        % Awardees list: https://frontera-portal.tacc.utexas.edu/allocations/pathways-awardees/
-        \item Served as Technical Reviewer for \href{https://frontera-portal.tacc.utexas.edu/fellowship/}{Frontera Doctoral Fellows} (2023) and \href{https://frontera-portal.tacc.utexas.edu/allocations/pathways-awardees/}{Large-Scale Computing Pathways} (2022) applications, evaluating \$10M+ in computing resource allocations on one of the world's largest supercomputers.
+        \item Architected a nationwide tract-level diffusion forecasting model, \textbf{beating Zillow's 8.4\% one-year error benchmark at 8\%} and maintaining a \textbf{stable 25\% MdAE over a 4-year horizon}.
+        \item Engineered architecture incorporating \textbf{spatial inducing tokens}, \textbf{per-horizon loss normalization}, and \textbf{DDIM sampling} to balance predictive precision with calibrated price trajectories.
+        \item Developed a probabilistic evaluation suite optimizing PIT uniformity, interval coverage, and sharpness to \textbf{rigorously validate forecast reliability} before production delivery.
+        \item Owned the end-to-end pipeline from data ingestion to real-time serving and refined product strategy through direct feedback from \textbf{a16z and MetaProp}.
     \end{itemize}}
     
     \cventry{Feb.~2018 -- Jul.~2021}{Data Scientist \& Research Engineer}{\href{https://www.tacc.utexas.edu/}{Texas Advanced Computing Center (TACC)}}{Austin, TX}{}{
