@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 21:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 23:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1008,29 +1008,29 @@ LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
 (Font)              using `T1/lmr/bx/n' instead on input line 81.
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 119.
+nput line 120.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
 free2.fd)
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-19.
+20.
  (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 119.
+nput line 120.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
 free1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 119.
+ input line 120.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
 brands0.fd)
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 119.
+n input line 120.
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
@@ -1068,11 +1068,11 @@ ot changed.
 (rerunfilecheck)             Checksum: 70F0059AF1879FFA10EE1CB5AF640716;1131.
  ) 
 Here is how much of TeX's memory you used:
- 27690 strings out of 467871
- 535623 string characters out of 5419344
- 986135 words of memory out of 5000000
+ 27700 strings out of 467871
+ 535727 string characters out of 5419344
+ 987135 words of memory out of 5000000
  55976 multiletter control sequences out of 15000+600000
- 700323 words of font info for 129 fonts, out of 8000000 for 9000
+ 700780 words of font info for 134 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,13n,136p,1032b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/F
@@ -1089,7 +1089,7 @@ AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/dhl/AppD
 ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/dhl/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb>
-Output written on resume-dhl-20260304-aiml-engineer.pdf (2 pages, 340005 bytes)
+Output written on resume-dhl-20260304-aiml-engineer.pdf (2 pages, 342539 bytes)
 .
 PDF statistics:
  181 PDF objects out of 1000 (max. 8388607)
