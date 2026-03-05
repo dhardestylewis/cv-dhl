@@ -1,0 +1,51 @@
+================================================================================
+YC OUTREACH MESSAGES - FINAL - 2026-02-08
+================================================================================
+
+### Photonium (X25) - Jennifer
+
+Hi Jennifer - I scaled climate models by designing and launching 800,000-node distributed jobs on some of the world's largest supercomputers at TACC. I want to apply that same ability to scale large physics-based simulations to Photonium's optical design agent.
+
+Let me know if you'd be interested in chatting.
+
+================================================================================
+
+### Interfere (S25) - Luke
+
+Hi Luke - I caught critical model failures that standard cross-validation would have missed by backtesting homecastr.com across regime shifts. I want to help Interfere make that level of rigorous reliability measurement the standard.
+
+Let me know if you'd be interested in chatting.
+
+================================================================================
+
+### Piramidal (W24) - Dimitris
+
+Hi Dimitris - I scaled climate models by designing and launching 800,000-node distributed jobs on some of the world's largest supercomputers at TACC. I'm happy to help Piramidal scale its distributed neural systems.
+
+Let me know if you'd be interested in chatting.
+
+================================================================================
+
+### Saturn (S24) - Michael
+
+Hi Michael - My cofounders and I pitched polibom.com's agentic compliance platform to KPMG, who subsequently launched their own commercial tariff modeler. I hope to bring that same level of trust and reliability to Saturn's financial advisor OS.
+
+Let me know if you'd be interested in chatting.
+
+================================================================================
+
+### Confident AI (W25) - Jeffrey
+
+Hi Jeffrey - I launched the first homeowner-facing property forecasts, available now at homecastr.com, where I built a custom diffusion model to produce them. I had to build my own evaluation framework because one didn't exist in this domain I am working in. I want to help make DeepEval the standard solution.
+
+Let me know if you'd be interested in chatting.
+
+================================================================================
+
+### Provision (S22) - Brendan
+
+Hi Brendan - My cofounders and I pitched polibom.com's agentic compliance platform to KPMG, who subsequently launched their own commercial tariff modeler. Provision seems like the perfect place to follow up my success with agentic-driven document representation and retrieval.
+
+Let me know if you'd be interested in chatting.
+
+================================================================================
