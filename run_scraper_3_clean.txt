@@ -1,0 +1,97 @@
+﻿python : 
+(node:81220) 
+[DEP0169] 
+DeprecationWarning: 
+`url.parse()` 
+behavior is not 
+standardized and 
+prone to errors that 
+have security 
+implications. Use 
+the WHATWG URL API 
+instead. CVEs are 
+not issued for 
+`url.parse()` 
+vulnerabilities.
+At line:1 char:32
++ ... NG="utf-8"; 
+python C:\Users\dhl\.
+openclaw\workspace\jo
+bright_apply.py ...
++                 ~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: ((node:8   
+ 1220) [D...ulner    
+abilities.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+(Use `node 
+--trace-deprecation 
+...` to show where 
+the warning was 
+created)
+
+============================================================
+  Jobright Auto-Apply Pipeline ΓÇö ≡ƒƒó DRY-RUN
+  Max jobs: 5 | Min match: 85%
+============================================================
+
+≡ƒöî Connecting to Chrome at http://127.0.0.1:9222...
+≡ƒôä On page: https://jobright.ai/
+
+≡ƒôï Scraping job listings...
+  Found 3 unique listings
+
+≡ƒôè Rankings (min match: 85%):
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  ΓÅ¡∩╕Å 1. NO.1 AI
+JOB HUNTING PLATFORM @ Never feel stuck in your job search again. Get 24
+     Match: 80% | Variant: aiml-engineer |  ΓåÉ SKIP (below 85%)
+  Γ£à 2. 1,250,000+
+HAPPY USERSΓÇÖ LOVE @ ItΓÇÖs a 10
+     Match: 0% | Variant: aiml-engineer | 
+  Γ£à 3. FIND YOUR PERFECT JOB IN A CLICK! @ 
+     Match: 100% | Variant: aiml-engineer | 
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Applying to 2 / 3 listings
+
+
+============================================================
+  [1/2] 1,250,000+
+HAPPY USERSΓÇÖ LOVE @ ItΓÇÖs a 10
+  Variant: aiml-engineer | Match: 0%
+============================================================
+  ≡ƒöä Navigating to listings page...
+  ≡ƒôî Clicking job: 1,250,000+
+HAPPY USERSΓÇÖ LOVE
+  Γ¥î Could not find job card for: 1,250,000+
+HAPPY USERSΓÇÖ LOVE
+
+============================================================
+  [2/2] FIND YOUR PERFECT JOB IN A CLICK! @ 
+  Variant: aiml-engineer | Match: 100%
+============================================================
+  ≡ƒöä Navigating to listings page...
+  ≡ƒôî Clicking job: FIND YOUR PERFECT JOB IN A CLICK!
+  Γ¥î Could not find job card for: FIND YOUR PERFECT JOB IN A CLICK!
+
+
+============================================================
+  Summary ΓÇö ≡ƒƒó DRY-RUN
+============================================================
+  ΓÜá∩╕Å 1,250,000+
+HAPPY USERSΓÇÖ LOVE @ ItΓÇÖs a 10 ΓåÆ card_not_found
+  ΓÜá∩╕Å FIND YOUR PERFECT JOB IN A CLICK! @  ΓåÆ card_not_found
+
+  Submitted on ATS: 0 | Total: 2
+  Log: C:\Users\dhl\.openclaw\workspace\job-applications.jsonl
+  Screenshots: C:\Users\dhl\.openclaw\workspace\screenshots

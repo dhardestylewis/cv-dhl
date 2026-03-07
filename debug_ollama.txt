@@ -1,0 +1,3 @@
+≡ƒñû Using Ollama (llama3.2:3b) to analyze form...
+≡ƒôï Extracted 26771 chars of form structure
+ΓÜá∩╕Å Ollama error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=60) ΓÇö falling back

@@ -1,0 +1,67 @@
+﻿python : 
+(node:40600) 
+[DEP0169] 
+DeprecationWarning: 
+`url.parse()` 
+behavior is not 
+standardized and 
+prone to errors that 
+have security 
+implications. Use 
+the WHATWG URL API 
+instead. CVEs are 
+not issued for 
+`url.parse()` 
+vulnerabilities.
+At line:1 char:32
++ ... NG="utf-8"; 
+python C:\Users\dhl\.
+openclaw\workspace\jo
+bright_apply.py ...
++                 ~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: ((node:4   
+ 0600) [D...ulner    
+abilities.:Strin    
+g) [], RemoteExc    
+eption
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+(Use `node 
+--trace-deprecation 
+...` to show where 
+the warning was 
+created)
+
+============================================================
+  Jobright Auto-Apply Pipeline ΓÇö ≡ƒƒó DRY-RUN
+  Max jobs: 5 | Min match: 85%
+============================================================
+
+≡ƒöî Connecting to Chrome at http://127.0.0.1:9222...
+≡ƒôä On page: https://jobright.ai/
+
+≡ƒôï Scraping job listings...
+  Found 3 unique listings
+
+≡ƒôè Rankings (min match: 85%):
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  ΓÅ¡∩╕Å 1. NO.1 AI
+JOB HUNTING PLATFORM @ Never feel stuck in your job search again. Get 24
+     Match: 80% | Variant: aiml-engineer |  ΓåÉ SKIP (below 85%)
+  ΓÅ¡∩╕Å 2. 1,250,000+
+HAPPY USERSΓÇÖ LOVE @ ItΓÇÖs a 10
+     Match: 0% | Variant: aiml-engineer |  ΓåÉ SKIP (already applied)
+  ΓÅ¡∩╕Å 3. FIND YOUR PERFECT JOB IN A CLICK! @ 
+     Match: 100% | Variant: aiml-engineer |  ΓåÉ SKIP (already applied)
+
+ΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇΓöÇ
+  Applying to 0 / 3 listings
+
+  Nothing to apply to. Try lowering --min-match or check your filters.

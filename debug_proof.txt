@@ -1,0 +1,7 @@
+oteException
+andError
+≡ƒñû Using Ollama (llama3.2:3b) to analyze form...
+Γ¥î Error: Page.evaluate: Execution context was destroyed, most likely because of a navigation
+≡ƒñû Using Ollama (llama3.2:3b) to analyze form...
+≡ƒñû Ollama response: 1209 chars
+≡ƒºá Ollama generated 10 commands:

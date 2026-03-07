@@ -1,0 +1,10 @@
+ErrorId : Native
+CommandError
+≡ƒñû Using Ollama (llama3.2:3b) to analyze form...
+≡ƒôï Extracted 9741 chars of form structure
+≡ƒñû Ollama response: 1115 chars
+≡ƒºá Ollama generated 11 commands:
+ΓÜá∩╕Å Failed to fill Authorized to work in US: Locator.is_visible: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '#job_application[answers_attributes][1][boolean_value]' is not a valid selector.
+ΓÜá∩╕Å Failed to fill Needs sponsorship: Locator.is_visible: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '#job_application[answers_attributes][2][boolean_value]' is not a valid selector.
+ΓÜá∩╕Å Failed to fill How heard about job: Locator.is_visible: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '#job_application[answers_attributes][1][question_id]' is not a valid selector.
+ΓÜá∩╕Å Failed to fill How heard about job: Locator.is_visible: SyntaxError: Failed to execute 'querySelectorAll' on 'Document': '#job_application[answers_attributes][2][question_id]' is not a valid selector.

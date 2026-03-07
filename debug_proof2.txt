@@ -1,0 +1,38 @@
+≡ƒºá Ollama generated 10 commands:
+"value": "Daniel Hardesty Lewis",
+"field_name": "Full name"
+"value": "daniel@homecastr.com",
+"field_name": "Email"
+"value": "+1 (713) 371-7875",
+"field_name": "Phone"
+"value": "https://linkedin.com/in/dhardestylewis",
+"field_name": "LinkedIn"
+"value": "https://dlewis.ai",
+"field_name": "Website"
+"value": "New York, NY 10027",
+"field_name": "Location"
+"value": "8",
+"field_name": "Years of experience"
+"value": "Yes",
+"field_name": "Authorized to work in US"
+"value": "No",
+"field_name": "Needs sponsorship"
+"value": "Jobright",
+"field_name": "How heard about job"
+ΓÜá∩╕Å AI filled 0 fields ΓÇö falling back to selectors
+≡ƒîÉ ATS URL: https://www.linkedin.com/jobs/view/4380283888/
+≡ƒÅ╖∩╕Å ATS type: generic
+Γ£à Filled 0 fields:
+ΓÜá∩╕Å Screenshot timed out ΓÇö continuing
+ΓÜá∩╕Å Could not find submit button on ATS
+
+
+============================================================
+Summary ΓÇö ≡ƒö┤ LIVE
+============================================================
+ΓÜá∩╕Å Architect - Machine Learning @  ΓåÆ error: Page.evaluate: Execution context was destroyed, most likely because of a navigation
+ΓÜá∩╕Å Principal Architect Navigation @  ΓåÆ filled_not_submitted
+
+Submitted on ATS: 0 | Total: 2
+Log: C:\Users\dhl\.openclaw\workspace\job-applications.jsonl
+Screenshots: C:\Users\dhl\.openclaw\workspace\screenshots
