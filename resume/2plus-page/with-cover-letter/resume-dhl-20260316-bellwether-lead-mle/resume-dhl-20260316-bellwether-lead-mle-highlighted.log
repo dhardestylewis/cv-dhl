@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 21:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  16 MAR 2026 20:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./resume-dhl-20260304-mle-cloud-infra.tex
-(resume-dhl-20260304-mle-cloud-infra.tex
+**./resume-dhl-20260316-bellwether-lead-mle-highlighted.tex
+(resume-dhl-20260316-bellwether-lead-mle-highlighted.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/moderncv\moderncv.cls
@@ -624,15 +624,14 @@ y variant: 1
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/moderncv\moderncvskillmat
 rix.sty
-! Interruption.
-l.2 
-    %% Copyright 2021 David Seus (cryptointerest@posteo.de).
-? cd 'c:\Users\dhl\data\Portfolio\cv-dhl.git'
-Type <return> to proceed, S to scroll future error messages,
-R to run without stopping, Q to run quietly,
-I to insert something, E to edit your file,
-H for help, X to quit.
-? =\skip79
+Package: moderncvskillmatrix 2024-07-18 v2.4.1 modern curriculum vitae and lett
+er skill matrix
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
+\multirow@colwidth=\skip78
+\multirow@cntb=\count312
+\multirow@dima=\skip79
 \bigstrutjot=\dimen262
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/arydshln\arydshln.sty
@@ -864,29 +863,29 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip109
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 53.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 53.
- (resume-dhl-20260304-mle-cloud-infra.aux)
-\openout1 = `resume-dhl-20260304-mle-cloud-infra.aux'.
+Package hyperref Info: Option `breaklinks' set `true' on input line 64.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 64.
+ (resume-dhl-20260316-bellwether-lead-mle-highlighted.aux)
+\openout1 = `resume-dhl-20260316-bellwether-lead-mle-highlighted.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 53.
-LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -911,13 +910,13 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 53.
-Package microtype Info: Applying patch `item' on input line 53.
-Package microtype Info: Applying patch `toc' on input line 53.
-Package microtype Info: Applying patch `eqnum' on input line 53.
-Package microtype Info: Applying patch `footnote' on input line 53.
-Package microtype Info: Applying patch `verbatim' on input line 53.
-LaTeX Info: Redefining \microtypesetup on input line 53.
+LaTeX Info: Redefining \microtypecontext on input line 64.
+Package microtype Info: Applying patch `item' on input line 64.
+Package microtype Info: Applying patch `toc' on input line 64.
+Package microtype Info: Applying patch `eqnum' on input line 64.
+Package microtype Info: Applying patch `footnote' on input line 64.
+Package microtype Info: Applying patch `verbatim' on input line 64.
+LaTeX Info: Redefining \microtypesetup on input line 64.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -966,75 +965,22 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 53.
-(resume-dhl-20260304-mle-cloud-infra.out)
-(resume-dhl-20260304-mle-cloud-infra.out)
+Package hyperref Info: Link coloring ON on input line 64.
+(resume-dhl-20260316-bellwether-lead-mle-highlighted.out)
+(resume-dhl-20260316-bellwether-lead-mle-highlighted.out)
 \@outlinefile=\write4
-\openout4 = `resume-dhl-20260304-mle-cloud-infra.out'.
-
-\makecvheadpicturebox=\box74
-\makecvheadpicturewidth=\skip110
-\makecvheadnamebox=\box75
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 6
-3.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 6
-3.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-63.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-63.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 63.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 63.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 63.
-
-
-LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
-(Font)              using `T1/lmr/bx/n' instead on input line 81.
+\openout4 = `resume-dhl-20260316-bellwether-lead-mle-highlighted.out'.
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 119.
+nput line 86.
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
 free2.fd)
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-19.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 8
+6.
  (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 119.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
-free1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 119.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
-brands0.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
-vailable
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 119.
-
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
 (fancyhdr)                Make it at least 45.47952pt, for example:
@@ -1044,20 +990,63 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 
 {C:/Users/dhl/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/dhl/Ap
 pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/dhl/AppData/
-Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:/Users/dhl/A
-ppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/User
-s/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/dhl
-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Us
-ers/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.e
-nc}]
+Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/Users/dhl/A
+ppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]
+\makecvheadpicturebox=\box74
+\makecvheadpicturewidth=\skip110
+\makecvheadnamebox=\box75
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
+5.
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
+5.
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+95.
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+95.
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 95.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 95.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 95.
+
+
+LaTeX Font Warning: Font shape `T1/lmr/bx/sc' undefined
+(Font)              using `T1/lmr/bx/n' instead on input line 113.
+
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
 (fancyhdr)                Make it at least 45.47952pt, for example:
 (fancyhdr)                \setlength{\footskip}{45.47952pt}.
 
-[2{C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
+[2
+
+{C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5fre
+e0.enc}]
+
+Package fancyhdr Warning: \footskip is too small (30.0pt): 
+(fancyhdr)                Make it at least 45.47952pt, for example:
+(fancyhdr)                \setlength{\footskip}{45.47952pt}.
+
+[3{C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
 {C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
-(resume-dhl-20260304-mle-cloud-infra.aux)
+(resume-dhl-20260316-bellwether-lead-mle-highlighted.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1066,46 +1055,36 @@ L3 programming layer <2025-12-24>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `resume-dhl-20260304-mle-cloud-infra.out' 
-has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `resume-dhl-20260304-mle-cloud-infra
-.out':
-(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
-(rerunfilecheck)             After:  70F0059AF1879FFA10EE1CB5AF640716;1131.
+Package rerunfilecheck Info: File `resume-dhl-20260316-bellwether-lead-mle-high
+lighted.out' has not changed.
+(rerunfilecheck)             Checksum: 70F0059AF1879FFA10EE1CB5AF640716;1131.
  ) 
 Here is how much of TeX's memory you used:
- 27680 strings out of 467871
- 535539 string characters out of 5419344
- 986266 words of memory out of 5000000
- 55964 multiletter control sequences out of 15000+600000
- 700412 words of font info for 130 fonts, out of 8000000 for 9000
+ 27670 strings out of 467871
+ 534883 string characters out of 5419344
+ 977218 words of memory out of 5000000
+ 55944 multiletter control sequences out of 15000+600000
+ 707022 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,13n,136p,1034b,598s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,13n,136p,1050b,592s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/F
-ontAwesome5Brands-Regular.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/dhl/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb
-><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><
-C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/
-Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/
-Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Use
-rs/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/
-dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/dhl/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/dhl/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/lm/lmro12.pfb><C:/Users/dhl/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/lm/lmro9.pfb>
-Output written on resume-dhl-20260304-mle-cloud-infra.pdf (2 pages, 335643 byte
-s).
+ontAwesome5Free-Regular.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Users/dhl/AppData/Local
+/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/dhl/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/Users/dhl/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/lm/lmbxo10.pfb><C:/Users/dhl/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C:/Users/dhl/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Users/dhl/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/dhl/AppData/Local/Programs/Mi
+KTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/lm/lmr9.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/lm/lmro12.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/public/lm/lmro9.pfb>
+Output written on resume-dhl-20260316-bellwether-lead-mle-highlighted.pdf (3 pa
+ges, 362237 bytes).
 PDF statistics:
- 147 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
- 43021 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 184 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 49253 words of extra memory for PDF output out of 51595 (max. 10000000)
 
