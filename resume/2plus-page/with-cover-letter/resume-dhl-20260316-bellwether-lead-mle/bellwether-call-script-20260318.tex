@@ -1,0 +1,217 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[margin=0.7in]{geometry}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{mdframed}
+
+% Define colors
+\definecolor{xblue}{HTML}{1A73E8}
+\definecolor{xgreen}{HTML}{0B8043}
+\definecolor{xred}{HTML}{C5221F}
+\definecolor{xdark}{HTML}{202124}
+\definecolor{xgray}{HTML}{5F6368}
+\definecolor{gabebg}{HTML}{F1F3F4}
+\definecolor{youbg}{HTML}{E8F0FE}
+
+% Format sections
+\titleformat{\section}{\Large\bfseries\color{xblue}}{}{0em}{}[\vspace{-0.5em}\rule{\textwidth}{1pt}]
+\titleformat{\subsection}{\large\bfseries\color{xdark}}{}{0em}{}
+
+% Gabe's lines
+\newenvironment{gabe}{\begin{mdframed}[backgroundcolor=gabebg,linewidth=0pt,innertopmargin=8pt,innerbottommargin=8pt]\textbf{\color{xred}GABE:} }{\end{mdframed}}
+% Your lines
+\newenvironment{you}{\begin{mdframed}[backgroundcolor=youbg,linewidth=0pt,innertopmargin=8pt,innerbottommargin=8pt]\textbf{\color{xblue}YOU:} }{\end{mdframed}}
+% Stage directions
+\newcommand{\stage}[1]{{\small\color{xgray}\textit{#1}}}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \textbf{Project Bellwether}} \\[0.3em]
+    {\LARGE \textbf{30-Minute Recruiter Screen Script}} \\[0.3em]
+    {\large Gabe Schook $\vert$ Talent Sourcer, X the Moonshot Factory}
+\end{center}
+
+\vspace{0.3em}
+\noindent\textit{\textbf{How to use:} {\color{xred}Red} = Gabe's likely dialogue (anticipate, don't memorize). {\color{xblue}Blue} = your scripted responses (practice out loud). Gray = stage directions. The script branches at Phase 4---follow whichever path Gabe takes. Total speaking time budgeted at $\sim$2,100 words per person ($\sim$15 min each at 140 wpm).}
+
+%--------------------------------------------------------------
+\section*{PHASE 1: Intro \& Rapport \hfill {\color{xgray}\normalsize 0:00--3:00}}
+
+\begin{gabe}
+``Hey Daniel, this is Gabe Schook calling from X. How's it going? Is now still a good time to chat?''
+\end{gabe}
+
+\begin{you}
+``Hey Gabe, yeah absolutely, great to hear from you. Thanks for setting this up. I've been looking forward to it---I've actually been following Bellwether's work for a while now. Read the AlphaEarth paper when it dropped and was genuinely impressed by what the team is building. So yeah, I'm excited to learn more.''
+\end{you}
+
+\begin{gabe}
+``Oh awesome, that's great to hear! So yeah, I'm a talent sourcer here at X, the moonshot factory. I focus on our climate and sustainability portfolio. Before I dive into Bellwether, have you had any exposure to X before, or is this your first time engaging with us?''
+\end{gabe}
+
+\begin{you}
+``I'm familiar with the model---the moonshot factory structure where projects start as bets and graduate into standalone Alphabet companies if they prove out. I know Waymo and Loon came out of X. Bellwether is the one that caught my eye specifically because of the geospatial ML angle. But I'd love to hear your perspective on where the project is right now.''
+\end{you}
+
+%--------------------------------------------------------------
+\section*{PHASE 2: Gabe Pitches Bellwether \hfill {\color{xgray}\normalsize 3:00--10:00}}
+
+\stage{Gabe will spend 5--7 minutes explaining X and Bellwether. Listen carefully for details about team size, reporting structure, and what ``Lead'' means to them. Take notes on anything you can reference later.}
+
+\begin{gabe}
+``Perfect, so let me tell you a bit about what we're building. X is Alphabet's moonshot factory. We take on really hard problems---things that sound almost impossible---and try to build 10x solutions rather than incremental improvements. We've graduated things like Waymo, Verily, Wing, and a few others into independent Alphabet companies.
+
+Bellwether is one of our active moonshots focused on building what we call a prediction engine for the Earth. The core idea is: can we use AI and machine learning to actually forecast natural disasters---wildfires, floods, hurricanes---with enough accuracy and lead time to meaningfully change how governments and organizations respond?
+
+We've made really strong progress. We were named one of TIME's Best Inventions of 2024, which was a huge validation. On the wildfire side, we're building models that can forecast fire risk up to five years into the future. On the disaster response side, we've partnered with the Defense Innovation Unit---that's the DoD's commercial technology arm---and the National Guard. When a hurricane or wildfire hits, the Guard flies aerial survey missions, and our AI analyzes those images in seconds to identify damaged infrastructure. That used to take days of manual review.
+
+We're also working with the U.S. Forest Service on fire-spread simulation, and more recently we've started partnering with SwissRe on the reinsurance side---helping the insurance industry actually quantify climate risk using our models.
+
+The team itself is relatively small---it's a moonshot, so we operate lean. We have a world-class group of research scientists. Folks with PhDs from Berkeley, MIT, Cornell---people like Ali Ahmadalipour who leads our climate ML work, Caroline Jaffe on the geospatial side, Behzad Vahedi on spatial deep learning. They've been publishing incredible work, including building on top of Google DeepMind's AlphaEarth foundation model.
+
+But what we really need right now is engineering leadership. We have the science, but we need someone who can take that science and build the production infrastructure around it---the pipelines, the serving layer, the evaluation frameworks, the operational reliability. That's what this Machine Learning Software Engineering Lead role is about.''
+\end{gabe}
+
+\stage{Wait for a natural pause. If Gabe asks ``Does that resonate?'' or ``Any initial questions?'' transition with:}
+
+\begin{you}
+``That resonates really strongly, actually. The combination of foundation models plus real government deployment pressure is exactly the kind of problem I've been drawn to my entire career. And the fact that you're simultaneously serving defense partners, state emergency agencies, and enterprise clients like SwissRe---that's a fascinating infrastructure challenge. I'd love to walk you through my background and how it maps to what you just described.''
+\end{you}
+
+%--------------------------------------------------------------
+\section*{PHASE 3: Your Background Pitch \hfill {\color{xgray}\normalsize 10:00--15:00}}
+
+\stage{This is your 4--5 minute ``Tell Me About Yourself.'' Three acts: (1) the TACC/government foundation, (2) the startup scaling chapter, (3) the Bellwether convergence. Practice this until it flows conversationally---don't read it robotically.}
+
+\begin{you}
+``Sure. My career has been organized around one thread: building production ML systems that predict physical-world outcomes for high-stakes decision-makers.
+
+I spent five years at the Texas Advanced Computing Center, which is UT Austin's supercomputing facility. I was a Senior Data Scientist and Technical Lead working on federal disaster resilience. The project I'm most proud of there was building real-time flood inundation models for Texas Emergency Management. We took raw outputs from the National Water Model and I developed methods to produce 1-meter resolution flood maps that directly informed evacuation decisions during active storm events. When your model is wrong in that context, people get hurt---so I developed a deep respect for rigorous evaluation and operational reliability.
+
+I also competed in DARPA World Modelers during that period, which was a head-to-head competition with MITRE to build what DARPA called `the Airflow for science'---automated pipelines for disaster and food security modeling in East Africa. We were scaling climate simulation workloads across 800,000-node distributed jobs on Frontera, which was one of the top five supercomputers in the world at the time. And I partnered directly with the Army Corps of Engineers, NOAA, NSF, and the Texas General Land Office on compound flood hazard modeling. So I learned how to translate between research scientists who want flexibility and government stakeholders who need production reliability on a fixed timeline.
+
+After TACC, I founded two geospatial companies. Summit Geospatial came directly out of my research there---we spun it out alongside UT's Vice Presidents of IP. I built a statewide seamless Texas DEM mosaic, stitching together over 70 federal, state, and local LiDAR elevation datasets into a single high-resolution terrain model for engineering and hazard workflows. That's the exact kind of foundational geospatial data layer that feeds into wildfire and flood risk models.
+
+Then at Homecastr, which is my current primary focus, I built the entire ML stack from scratch. It's a nationwide property forecasting platform. The core architecture uses a diffusion model with custom spatial inducing tokens---learned embeddings that capture neighborhood-level environmental context---and per-horizon loss normalization to balance accuracy across different forecast windows. We got our median absolute error down to 25\% on a 4-year horizon, which is competitive with major commercial providers. I own the full production stack: data ingestion from Census and county assessors, distributed training, a probabilistic evaluation suite that enforces temporal leakage prevention before any model gets promoted, inference APIs, and monitoring---all on GCP.
+
+I've also been building agentic RAG workflows in parallel, so I'm very comfortable with that orchestration pattern.
+
+When I saw that Bellwether is using AlphaEarth foundation models to embed the Earth at 10-meter resolution, and deploying the results to the DIU and SwissRe simultaneously---it felt like the exact convergence of everything I've built. You have world-class scientists building the models. What I bring is the engineering leadership to make those models reliable, scalable, and shippable across very different customer profiles.''
+\end{you}
+
+%--------------------------------------------------------------
+\section*{PHASE 4: Follow-up Dialogue \hfill {\color{xgray}\normalsize 15:00--23:00}}
+
+\stage{Gabe will ask 2--3 follow-up questions. Follow whichever path matches. Aim for 2--3 minutes per answer.}
+
+\subsection*{Path A: ``Tell me more about the technical architecture''}
+
+\begin{gabe}
+``That's really impressive. Can you go a bit deeper on the ML architecture at Homecastr? What were the hardest technical challenges?''
+\end{gabe}
+
+\begin{you}
+``Sure. The core challenge was building a model that generalizes across 30,000-plus neighborhoods nationwide without overfitting to local market dynamics. A model that works great in Austin but fails silently in rural Ohio is useless at scale.
+
+The architecture I designed uses what I call spatial inducing tokens. These are learned embeddings that compress neighborhood-level context---things like density, land use composition, price distribution shape---into a fixed-dimensional representation that conditions the diffusion backbone. Combined with per-horizon loss normalization, this lets the model balance accuracy across 1-year versus 4-year forecast windows without one dominating the loss.
+
+But what really made it production-ready was the evaluation infrastructure. I built an expanding-window evaluation suite---meaning every model version gets tested on strictly out-of-sample future data with no temporal leakage. We measure interval coverage, sharpness, and calibration, not just point accuracy. No model ships without passing those gates. That discipline is directly transferable to what you'd need at Bellwether---you can't deploy a wildfire risk forecast to the National Guard without rigorous probabilistic validation.
+
+On the infrastructure side, training runs on Modal for distributed compute, the data layer is Postgres and Supabase, Redis for caching, and a Next.js frontend serving interactive forecast visualizations with uncertainty fan charts. I operate the entire pipeline from training to customer-facing delivery.''
+\end{you}
+
+\begin{gabe}
+``And how does that map to what we're building with AlphaEarth? Have you worked with foundation models before?''
+\end{gabe}
+
+\begin{you}
+``The spatial inducing token pattern maps almost directly to AlphaEarth's 64-dimensional embeddings. You're compressing multi-modal Earth observation data into dense vector representations at 10-meter resolution; I'm doing something conceptually similar at the neighborhood level for built-environment forecasting. The difference is scale and modality---you're ingesting satellite, radar, and LiDAR simultaneously, which is a much harder data fusion problem, but the downstream architecture patterns are very similar.
+
+I haven't worked with AlphaEarth specifically, but I've been working with large pretrained models for fine-tuning and inference at scale---including some GRPO fine-tuning work on reasoning models at Columbia this summer. And at TACC, I was working with multi-modal geospatial data at petabyte scale, so the data engineering patterns are very familiar.''
+\end{you}
+
+\subsection*{Path B: ``Tell me about your leadership experience''}
+
+\begin{gabe}
+``Since this is a Lead role, can you talk more about how you've led teams or driven technical direction?''
+\end{gabe}
+
+\begin{you}
+``At TACC, I led cross-agency technical initiatives spanning NOAA, NSF, the Army Corps of Engineers, and the Texas General Land Office. That was a deeply cross-functional environment---I was the bridge between university researchers who wanted flexibility and government program managers who needed production deliverables on a fixed timeline with real accountability. I wrote the RFPs, defined the MOUs, and drove execution against milestones across distributed teams. I also managed over a million dollars in compute budgets on Frontera.
+
+I served as a Technical Reviewer for the Frontera Doctoral Fellowship program, evaluating over ten million dollars in computing resource allocations. And I co-instructed graduate courses on ML for the Geosciences, including a technology transfer program for Petrobras engineers.
+
+At Homecastr, I own the entire technical roadmap end-to-end. Every architecture decision, every infrastructure trade-off, every model promotion---it runs through me. I've also refined our product strategy through direct feedback from venture partners at a16z, MetaProp, and Forum Ventures, and enterprise leaders at Mapbox. So I'm comfortable operating at the intersection of deep technical work and business-level stakeholder communication.
+
+The pattern that defines my leadership style is: I go deep enough technically to make the right architecture calls, but I also translate fluently for non-technical stakeholders. At Bellwether, that means I can sit with Ali and Behzad and debate spatial loss functions, and then turn around and explain to a DIU program officer exactly why the model is reliable enough to deploy operationally.''
+\end{you}
+
+\subsection*{Path C: ``Why X? Why now?''}
+
+\begin{gabe}
+``What specifically is drawing you to X and Bellwether? Why are you looking to make a move right now?''
+\end{gabe}
+
+\begin{you}
+``I love what I've built at Homecastr, but I'm looking for a problem with higher stakes and deeper infrastructure complexity. Forecasting housing prices is a real business, but predicting wildfires and deploying those predictions to the National Guard and the Defense Innovation Unit---that's a fundamentally different magnitude of impact.
+
+What specifically draws me to Bellwether over other climate-tech opportunities is the combination of world-class science and real deployment pressure. You're not writing papers and stopping---you've partnered with the DIU, you deployed tools during Hurricane Helene recovery, you're integrating with SwissRe for the global reinsurance market. That means you need engineering leadership that can build systems reliable enough for all three of those very different customer profiles at the same time. That's a genuinely hard multi-tenant infrastructure problem, and it's exactly the kind of challenge I thrive on.
+
+I also competed in DARPA World Modelers earlier in my career, so I already understand how to navigate the government technology acquisition ecosystem. I know how to scope deliverables for a DoD partner versus an enterprise client. That's not something you can teach quickly---it takes years of working in that environment.
+
+And honestly, finishing my Master's at Columbia this year feels like a natural inflection point. I've been building the skills and the track record for exactly this kind of role.''
+\end{you}
+
+%--------------------------------------------------------------
+\section*{PHASE 5: Your Questions \hfill {\color{xgray}\normalsize 23:00--28:00}}
+
+\stage{Ask 2--3 questions. Let Gabe talk---his answers give you intelligence for later rounds.}
+
+\begin{you}
+``I have a few questions, if we have time.''
+\end{you}
+
+\begin{gabe}
+``Yeah absolutely, go for it.''
+\end{gabe}
+
+\begin{you}
+\textit{Pick 2--3 from this menu:}
+\begin{enumerate}[leftmargin=*]
+    \item ``As Bellwether moves toward scaling its external deployments---DIU, SwissRe, state agencies---what does the engineering infrastructure roadmap look like over the next 12 to 18 months? Is this Lead role expected to own that deployment strategy end-to-end?''
+
+    \item ``What does day-to-day collaboration look like between the ML engineers and the research scientists? Is the Lead expected to drive the research agenda, or is the focus more on productionizing what the scientists build and building the infrastructure around it?''
+
+    \item ``You mentioned you're serving some very different customer profiles simultaneously---government defense, state emergency, and enterprise reinsurance. How does the team think about architecting infrastructure that serves all three of those reliably?''
+
+    \item ``What does the interview process look like from here? How many rounds, and who would I be meeting with?''
+\end{enumerate}
+\end{you}
+
+\stage{Gabe will likely answer each for 1--2 minutes. Listen for names of hiring managers and interviewers---write them down.}
+
+%--------------------------------------------------------------
+\section*{PHASE 6: The Close \& Compensation {\color{xgray}\normalsize[28:00--30:00]}}
+
+\stage{If Gabe asks about your compensation expectations, use the verified Bellwether ML Lead posting numbers to anchor your response.}
+
+\begin{gabe}
+``Before we wrap up, what are your compensation expectations for your next role?''
+\end{gabe}
+
+\begin{you}
+``I'm flexible and happy to align with how X levels this role. I know the posted base range for this specific Bellwether MLE Lead position is \$197,000 to \$311,000. Depending on how the equity and bonus structure is modeled for a moonshot, a base in that range works perfectly for me.''
+\end{you}
+
+\begin{gabe}
+``Great. Well, I think this has been a really strong conversation. Let me take this back to the team and we'll figure out next steps.''
+\end{gabe}
+
+\begin{you}
+``Thanks Gabe, I really appreciate the time. Everything you've described maps very closely to what I've been building toward for the last several years. I'm genuinely excited about this and I'd love to move forward.''
+\end{you}
+
+\end{document}

@@ -1,0 +1,474 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  19 MAR 2026 00:33
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./bellwether-call-script-20260318.tex
+(bellwether-call-script-20260318.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count275
+\c@section=\count276
+\c@subsection=\count277
+\c@subsubsection=\count278
+\c@paragraph=\count279
+\c@subparagraph=\count280
+\c@figure=\count281
+\c@table=\count282
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen148
+)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+))
+\Gm@cnth=\count283
+\Gm@cntv=\count284
+\c@Gm@tempcnt=\count285
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
+\Gm@dimlist=\toks18
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefineke
+ys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.s
+ty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettitle
+string.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count286
+) (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count287
+)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen157
+\Hy@linkcounter=\count288
+\Hy@pagecounter=\count289
+ (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count290
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count291
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen158
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc.s
+ty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count292
+\Field@Width=\dimen159
+\Fld@charsize=\dimen160
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count293
+\c@Item=\count294
+\c@Hfootnote=\count295
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
+\Fld@listcount=\count296
+\c@bookmark@seq@number=\count297
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilec
+heck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquecou
+nter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip51
+)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip52
+\enit@outerparindent=\dimen161
+\enit@toks=\toks19
+\enit@inbox=\box53
+\enit@count@id=\count298
+\enitdp@description=\count299
+)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+Package: titlesec 2025/01/04 v2.17 Sectioning titles
+\ttl@box=\box54
+\beforetitleunit=\skip53
+\aftertitleunit=\skip54
+\ttl@plus=\dimen162
+\ttl@minus=\dimen163
+\ttl@toksa=\toks20
+\titlewidth=\dimen164
+\titlewidthlast=\dimen165
+\titlewidthfirst=\dimen166
+)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\mdframed.sty
+Package: mdframed 2013/07/01 1.9b: mdframed
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.
+sty (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-12-24 L3 programming layer (loader) 
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfte
+x.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count300
+))
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-abspage.sty
+Package: zref-abspage 2025-06-08 v2.36 Module abspage for zref (HO)
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/zref\zref-base.sty
+Package: zref-base 2025-06-08 v2.36 Module base for zref (HO)
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+Package zref Info: New property list: main on input line 767.
+Package zref Info: New property: default on input line 768.
+Package zref Info: New property: page on input line 769.
+)
+\c@abspage=\count301
+Package zref Info: New property: abspage on input line 67.
+)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/needspace\needspace.sty
+Package: needspace 2025/03/13 v1.3e reserve vertical space
+)
+\mdf@templength=\skip55
+\c@mdf@globalstyle@cnt=\count302
+\mdf@skipabove@length=\skip56
+\mdf@skipbelow@length=\skip57
+\mdf@leftmargin@length=\skip58
+\mdf@rightmargin@length=\skip59
+\mdf@innerleftmargin@length=\skip60
+\mdf@innerrightmargin@length=\skip61
+\mdf@innertopmargin@length=\skip62
+\mdf@innerbottommargin@length=\skip63
+\mdf@splittopskip@length=\skip64
+\mdf@splitbottomskip@length=\skip65
+\mdf@outermargin@length=\skip66
+\mdf@innermargin@length=\skip67
+\mdf@linewidth@length=\skip68
+\mdf@innerlinewidth@length=\skip69
+\mdf@middlelinewidth@length=\skip70
+\mdf@outerlinewidth@length=\skip71
+\mdf@roundcorner@length=\skip72
+\mdf@footenotedistance@length=\skip73
+\mdf@userdefinedwidth@length=\skip74
+\mdf@needspace@length=\skip75
+\mdf@frametitleaboveskip@length=\skip76
+\mdf@frametitlebelowskip@length=\skip77
+\mdf@frametitlerulewidth@length=\skip78
+\mdf@frametitleleftmargin@length=\skip79
+\mdf@frametitlerightmargin@length=\skip80
+\mdf@shadowsize@length=\skip81
+\mdf@extratopheight@length=\skip82
+\mdf@subtitleabovelinewidth@length=\skip83
+\mdf@subtitlebelowlinewidth@length=\skip84
+\mdf@subtitleaboveskip@length=\skip85
+\mdf@subtitlebelowskip@length=\skip86
+\mdf@subtitleinneraboveskip@length=\skip87
+\mdf@subtitleinnerbelowskip@length=\skip88
+\mdf@subsubtitleabovelinewidth@length=\skip89
+\mdf@subsubtitlebelowlinewidth@length=\skip90
+\mdf@subsubtitleaboveskip@length=\skip91
+\mdf@subsubtitlebelowskip@length=\skip92
+\mdf@subsubtitleinneraboveskip@length=\skip93
+\mdf@subsubtitleinnerbelowskip@length=\skip94
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/mdframed\md-frame-0.mdf
+File: md-frame-0.mdf 2013/07/01\ 1.9b: md-frame-0
+)
+\mdf@frametitlebox=\box55
+\mdf@footnotebox=\box56
+\mdf@splitbox@one=\box57
+\mdf@splitbox@two=\box58
+\mdf@splitbox@save=\box59
+\mdfsplitboxwidth=\skip95
+\mdfsplitboxtotalwidth=\skip96
+\mdfsplitboxheight=\skip97
+\mdfsplitboxdepth=\skip98
+\mdfsplitboxtotalheight=\skip99
+\mdfframetitleboxwidth=\skip100
+\mdfframetitleboxtotalwidth=\skip101
+\mdfframetitleboxheight=\skip102
+\mdfframetitleboxdepth=\skip103
+\mdfframetitleboxtotalheight=\skip104
+\mdffootnoteboxwidth=\skip105
+\mdffootnoteboxtotalwidth=\skip106
+\mdffootnoteboxheight=\skip107
+\mdffootnoteboxdepth=\skip108
+\mdffootnoteboxtotalheight=\skip109
+\mdftotallinewidth=\skip110
+\mdfboundingboxwidth=\skip111
+\mdfboundingboxtotalwidth=\skip112
+\mdfboundingboxheight=\skip113
+\mdfboundingboxdepth=\skip114
+\mdfboundingboxtotalheight=\skip115
+\mdf@freevspace@length=\skip116
+\mdf@horizontalwidthofbox@length=\skip117
+\mdf@verticalmarginwhole@length=\skip118
+\mdf@horizontalspaceofbox=\skip119
+\mdfsubtitleheight=\skip120
+\mdfsubsubtitleheight=\skip121
+\c@mdfcountframes=\count303
+
+****** mdframed patching \endmdf@trivlist
+
+****** -- success******
+
+\mdf@envdepth=\count304
+\c@mdf@env@i=\count305
+\c@mdf@env@ii=\count306
+\c@mdf@zref@counter=\count307
+Package zref Info: New property: mdf@pagevalue on input line 895.
+) (bellwether-call-script-20260318.aux)
+\openout1 = `bellwether-call-script-20260318.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: letterpaper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(50.58878pt, 513.11745pt, 50.58878pt)
+* v-part:(T,H,B)=(50.58878pt, 693.79243pt, 50.58878pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=513.11745pt
+* \textheight=693.79243pt
+* \oddsidemargin=-21.68121pt
+* \evensidemargin=-21.68121pt
+* \topmargin=-58.68121pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count308
+\scratchdimen=\dimen167
+\scratchbox=\box60
+\nofMPsegments=\count309
+\nofMParguments=\count310
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count311
+\MPscratchDim=\dimen168
+\MPnumerator=\count312
+\makeMPintoPDFobject=\count313
+\everyMPtoPDFconversion=\toks22
+)
+Package hyperref Info: Link coloring OFF on input line 29.
+ (bellwether-call-script-20260318.out) (bellwether-call-script-20260318.out)
+\@outlinefile=\write3
+\openout3 = `bellwether-call-script-20260318.out'.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 34.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 34.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 34.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 38.
+
+[1
+
+{C:/Users/dhl/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
+Package mdframed Info: Not enough space on this page on input line 134.
+ [3]
+Package mdframed Info: Not enough space on this page on input line 134.
+
+[4]
+Package mdframed Info: Not enough space on this page on input line 207.
+ [5]
+Package mdframed Info: Not enough space on this page on input line 207.
+ [6] (bellwether-call-script-20260318.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+ ***********
+Package rerunfilecheck Info: File `bellwether-call-script-20260318.out' has not
+ changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
+Here is how much of TeX's memory you used:
+ 10591 strings out of 467871
+ 170375 string characters out of 5419344
+ 631920 words of memory out of 5000000
+ 39355 multiletter control sequences out of 15000+600000
+ 635197 words of font info for 64 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 76i,5n,79p,828b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\dhl\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm10
+95.pk><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmbx10.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmbxti10.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmr10.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/dhl/AppData/Local/Programs/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/dhl/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on bellwether-call-script-20260318.pdf (6 pages, 136423 bytes).
+PDF statistics:
+ 77 PDF objects out of 1000 (max. 8388607)
+ 11 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
