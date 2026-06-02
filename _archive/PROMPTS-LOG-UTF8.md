@@ -1532,3 +1532,10 @@ Work type*
 Contribution*
 Save
 Cancel
+
+[2026-06-02 19:32]
+their example summary is no longer than this many characters "Consumer AI forecasting platform serving thousands of monthly active users. Owned the end-to-end ML architecture from data ingestion to web delivery. Key Achievements:
+- Architected a nationwide tract-level diffusion forecasting model, beating Zillow's 8.4% one-"
+
+[2026-06-02 19:32 (2)]
+continue
