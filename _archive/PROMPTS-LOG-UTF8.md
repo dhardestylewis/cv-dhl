@@ -724,3 +724,6 @@ can you do this Restart your IDE / Session: Now that the configuration uses a st
 
 [2026-06-02 18:51]
 bring up in chat the various bios i was considering
+
+[2026-06-02 18:56]
+where did you source these?
