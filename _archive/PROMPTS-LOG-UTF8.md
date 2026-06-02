@@ -1558,3 +1558,238 @@ where are we making this claim? 8% 1-yr error vs 8.4%).
 
 [2026-06-02 19:43]
 go look into that using search
+
+[2026-06-02 19:47]
+so seems we should revise our figures? Homecastr
+Methodology
+Markets
+Company
+Download PDF
+Engineering Blog
+Machine Learning
+Production Systems
+Probabilistic Machine Learning for Parcel Forecasting at National Scale
+A technical overview of the Homecastr forecasting stack: data ingestion, temporal alignment, model training, calibration, serving, and reliability at parcel scale.
+
+Additional implementation details, equations, training diagnostics, and references are provided in the linked technical note (PDF).
+
+Author Headshot
+Daniel Hardesty Lewis
+
+ML Engineer & Founder
+
+Last updated March 2026
+
+1.Problem
+2.Why Naive Approaches Fail
+3.Data System
+4.Model Architecture
+5.Evaluation
+6.Serving
+7.Monitoring
+8.Limitations
+9.Roadmap
+1. Problem
+Most public-facing home valuation products collapse an uncertain path into one number. A single value is easy to display, but it does not communicate downside risk, upside potential, or forecast uncertainty.
+
+Homecastr produces parcel-level forecast distributions: P10, P50, and P90 trajectories at 1- to 5-year horizons for U.S. parcels. Building this required solving several problems that shaped the architecture:
+
+Per-parcel calibration. Most probabilistic forecasts are calibrated in aggregate. Making an 80% prediction interval actually contain 80% of outcomes for each geography and horizon, across parcels ranging from $50K rural lots to $10M urban condos, is a harder problem. Miscalibration compounds across horizons and is difficult to detect without structured evaluation infrastructure.
+Cross-jurisdiction generalization. Every U.S. county publishes property data in a different schema with different identifiers, vintages, and suppression rules. Building one model that generalizes across these sources required a canonical panel design that absorbs schema heterogeneity at the data layer rather than the model layer.
+Regime sensitivity. The model learns transition dynamics from historical data. When the current macro environment diverges from training history, as during the 2021 to 2022 rate shock, forecasts can degrade silently. The system needs to detect this and flag it rather than serve overconfident yet inaccurate distributions.
+Trajectory coherence. Forecast paths need to look like realistic extensions of a parcel's historical curve, not flat or linearized extrapolations. Independent per-horizon regressors produce trajectories that lack the curvature, momentum, and volatility present in actual price histories. This motivated a generative architecture that samples jointly coherent multi-year paths.
+2. Why Naive Approaches Fail
+The challenges in Section 1 ruled out simpler approaches. Each limitation below directly motivated a component of the current architecture (Section 4).
+
+Point Forecasts Miss the Distribution
+A point forecast cannot tell a homeowner whether their downside risk is 5% or 25%. Post-hoc prediction intervals wrapped around a point estimate assume symmetric, fixed-width uncertainty, but real property value distributions are heavy-tailed and vary by geography and price segment. Calibrated intervals require learning the distribution directly, which motivated the diffusion decoder described in Section 4.
+
+Independent Horizons Produce Incoherent Paths
+Training separate regressors for each forecast horizon (year 1, year 2, through year 5) produces trajectories that are not jointly coherent: a parcel might show 10% growth in year 2 but only 3% cumulative by year 3. A stochastic process model generates paths that respect temporal dependencies and look like realistic extensions of observed price histories. Critically, this enables the model to forecast corrections - growth in years 1-2 followed by mean reversion in year 3 - which independent horizon regressors cannot represent.
+
+3. Data System
+The pipeline ingests county assessment rolls from multiple jurisdictions, including Texas statewide via TxGIO, Florida statewide via DOR, Harris County via HCAD, and New York City via DOF RPAD. These are joined with ACS census-tract demographics and FRED macroeconomic series covering mortgage rates, CPI, unemployment, and other indicators. All sources are standardized into a canonical parcel-year schema that absorbs differences in identifiers, vintages, and suppression rules at the data layer. Source-specific characteristics and schema details are documented in the technical note.
+
+Transformed features are stored across PostGIS/Supabase (geospatially indexed), GCS (Parquet bulk storage), and Redis (low-latency feature retrieval).
+
+End-to-end system architecture: source data flows through a canonical panel into the model stack, with results streaming to serving infrastructure
+Figure 1. End-to-end system architecture. Source data flows through a canonical panel into the model stack. The FT-Transformer produces a trend estimate; the Diffusion Decoder generates calibrated distributions conditioned on both the backbone output and spatial token paths. Results stream to GCS as a write-ahead buffer before bulk upsert to Supabase.
+
+4. Model Architecture
+Why a Generative Architecture
+The failure modes described in Section 2 each map to a specific architectural response. Incoherent horizons motivated joint trajectory sampling via the diffusion decoder. Missing distributional shape motivated learning the full predictive distribution rather than post-hoc intervals. And unobserved neighborhood dynamics motivated the inducing token mechanism.
+
+Current Production Architecture
+The current system has three components, trained jointly. An FT-Transformer backbone [1], a self-attention encoder over heterogeneous tabular features, outputs a deterministic trend prediction and a context embedding. Shared inducing tokens [2] with learned persistence capture neighborhood-level dynamics that are not identifiable from parcel features alone. A diffusion decoder [3] using DDIM sampling [4] generates the full predictive distribution conditioned on the backbone's trend estimate and the inducing token paths.
+
+The model predicts year-over-year log-growth changes rather than absolute levels, which stabilizes learning across parcels with different price scales. The diffusion loss uses min-SNR weighting [5] so that the model learns distributional shape rather than collapsing to conditional means, and is normalized independently per horizon to prevent forecast attenuation at longer lead times. Architecture details, equations, and training diagnostics are in the technical note.
+
+AI-Native Interaction Layer
+Traditional real estate platforms rely on rigid filters and map bounds. Homecastr surfaces its probabilistic outputs via an AI-Native Interaction Layer designed for both human and agentic consumption:
+
+Semantic Omnibar: A natural language gateway that parses complex queries (e.g., "Show me areas in Austin with >15% upside and highly-rated schools"), maps them to neighborhood geometries, and instantly retrieves the relevant forecast distributions.
+Model Context Protocol (MCP) API: Homecastr operates as an MCP server, exposing forecast distributions, appreciation outlooks, and comparable market data as standardized tools. This allows external reasoning models (like Claude or custom agentic swarms) to pull raw probabilistic context directly into their context windows for advanced downstream analysis.
+5. Evaluation
+We evaluate each model candidate on genuinely held-out origin years using an expanding-window protocol. Macro features are lagged by one year relative to the origin to prevent look-ahead contamination.
+
+Baseline Comparison
+Each model candidate is compared against a persistence baseline [6]: a forecast that simply repeats the last known value. The model must beat persistence on median absolute error for each origin-horizon combination.
+
+Training Diagnostics
+Tracked per-origin: final loss, effective token count, learned coherence scale, and token persistence. Details in the downloadable PDF.
+
+Calibration Diagnostics
+Before a model candidate enters production, it is evaluated against the diagnostic targets below [6]. These thresholds are not strict pass/fail gates. Actual results routinely fall outside these ranges, particularly during regime breaks. They serve as reference points that guide development decisions rather than automated acceptance criteria. A model that improves point accuracy but severely degrades calibration does not ship. These same diagnostics are re-run continuously as described in Section 7.
+
+Test	What It Checks	Target	Threshold
+Anchor Integrity	Forecast starting value matches the last observed price	Median log-ratio is small	< 0.10
+Interval Coverage	Realized outcomes fall inside the 80% prediction band	Coverage in the expected range	65–95%
+Horizon Scaling	Uncertainty grows at the expected rate over longer horizons	Variance ratio near √horizon	±30%
+Point Accuracy	Median absolute error of P50 vs. realized value	MdAE within acceptable range	< 10% at h=1
+Baseline Beat	Model outperforms naive persistence forecast	Wins on more parcels than loses	> 50%
+Tail Accuracy	Extreme outcomes occur at the expected rate	Each tail near nominal rate	≈ 5%
+Variance Ratio	Forecast spread proportional to historical spread	Ratio in plausible range	0.3–3.0
+Distribution Match	Forecast growth resembles historical growth	KS test does not reject similarity	p > 0.01
+We classify calibration failures into three common cases. Forecast attenuation: step deltas drop to near-zero beyond the first year, producing flat trajectories. Miscalibrated dispersion: prediction intervals are too narrow (overconfident) or too wide (uninformative) to match realized outcome rates. Mean bias: systematic over- or under-prediction, typically caused by regime drift. Each case has a separate diagnostic and a corresponding remediation path.
+
+Backtest Results
+Each row reports the longest verifiable horizon for that origin year — the furthest point at which we can compare the model's forecast against realized values. MdAE is the median absolute percentage error of the P50 forecast versus realized values. Model Wins shows the fraction of parcels where the model beats a naive persistence baseline. Bold values meet horizon-adjusted diagnostic targets (MdAE < 10% × √h, Coverage 65–95%, Wins > 50%). Full per-horizon breakdowns are in the technical note.
+
+Jurisdiction	Origin	h	MdAE	Coverage 80%	Model Wins
+NYC RPAD	2025	1	7.0%	87.2%	56.7%
+NYC RPAD	2024	2	8.5%	96.7%	51.8%
+NYC RPAD	2023	3	9.8%	94.2%	63.6%
+NYC RPAD	2022	4	12.6%	94.0%	73.6%
+NYC RPAD	2021	5	16.1%	87.9%	59.1%
+NYC RPAD	2020	5	12.6%	90.2%	72.0%
+NYC RPAD	2019	5	48.6%	89.1%	12.4%
+ACS Nationwide	2023	1	7.3%	71.2%	41.7%
+ACS Nationwide	2022	2	12.7%	68.6%	87.1%
+ACS Nationwide	2021	3	30.2%%	40.4%	88.8%
+ACS Nationwide	2020	4	35.6%	46.8%	93.2%
+ACS Nationwide	2019	5	42.8%	52.9%	87.9%
+Each row reports results at the longest verifiable horizon (h) for that origin. Coverage 80% measures the fraction of realized values falling within the predicted P10–P90 band. Bold values meet horizon-adjusted targets: MdAE < 10% × √h, Coverage 65–95%, Wins > 50%. The 2019 origins span the 2021–22 rate shock; elevated MdAE at h=5 for those vintages is expected given the regime break.
+
+Backtest Coverage: NYC Upper West Side (ZCTA 10025)
+Each colored band shows what the model predicted (P10 to P90) from a given origin year. The solid line shows what actually happened. Well-calibrated predictions should consistently cover the actuals. Click legend items to toggle vintages.
+
+Now
+'16
+'18
+'20
+'22
+'24
+'26
+'28
+'30
+$1.0M
+$1.5M
+$2.0M
+$2.5M
+$3.0M
+
+Actual
+
+o=2019
+
+o=2020
+
+o=2021
+
+o=2022
+
+o=2023
+
+o=2024
+6. Serving
+The serving layer separates three concerns:
+
+Batch Inference
+Modal A100 Sharded
+Deterministic shards, watchdog streaming to GCS, database-level resume on failure.
+
+Cached Aggregations
+Supabase, PostGIS
+Pre-materialized geographic rollups (ZCTA, Tract, Neighborhood) for sub-second map tooltips.
+
+Live Queries
+Redis, LRU Caches
+Feature retrieval for search and comparisons, with tiered caching for images.
+
+Infrastructure powered by
+Modal
+Google Cloud
+Supabase
+Redis
+7. Monitoring
+Continuous Calibration
+The calibration diagnostics from Section 5 are not one-time. As new actuals arrive, the same tests run against the production model to detect calibration drift. If interval coverage, tail accuracy, or horizon scaling degrades below its target threshold, the model is flagged for retraining.
+
+The pattern of which tests fail is diagnostic. Coverage dropping while anchor integrity holds suggests miscalibrated dispersion. Anchor integrity failing suggests mean bias from regime drift. Horizon scaling failing while short-term metrics hold suggests forecast attenuation. Each pattern maps to a different remediation path.
+
+8. Limitations
+Appraisal vs. transaction prices: The model trains on county-appraised values, not recorded sale prices. Appraised values can lag market movements, smooth over short-term volatility, and diverge from actual transaction prices in rapidly changing markets.
+
+ACS self-reporting: Census tract demographics from the American Community Survey are self-reported survey estimates, not administrative records. They carry sampling error and non-response bias, particularly in small geographies and hard-to-reach populations.
+
+Data coverage: Not all U.S. jurisdictions publish property assessment data in machine-readable formats. Prediction intervals are wider in data-sparse regions because the input signal is weaker.
+
+Regime sensitivity: The model learns transition dynamics across its training history. Sudden macro regime breaks (e.g., the 2021 to 2022 rate shock) can cause systematic bias when the current regime diverges significantly from historical patterns.
+
+Attribution gap: Feature attributions are computed from the deterministic backbone, not the full stochastic pipeline. There is a gap between the sum of explained drivers and the calibrated trajectory.
+
+9. Roadmap
+Broader Jurisdiction Coverage
+Onboarding additional state-level assessment databases beyond the four jurisdictions currently in production.
+
+Real-Time Macro Conditioning
+Shifting from annual macro snapshots to higher-frequency conditioning to capture intra-year rate movements.
+
+Causal Feature Integration
+Incorporating structured indicators of local policy changes (zoning, permitting) to improve regime-change sensitivity.
+
+Interactive Scenario Analysis
+Enabling users to condition forecasts on hypothetical macro scenarios ("What if rates drop 200bp?").
+
+Explainable Forecasts Coming Soon
+Post-hoc feature attribution from the deterministic backbone, surfacing directional driver summaries (rate expectations, supply-demand, regime shifts) in the UI.
+
+References
+[1] Y. Gorishniy et al. Revisiting Deep Learning Models for Tabular Data. NeurIPS 2021. arXiv:2106.11959
+
+[2] J. Lee et al. Set Transformer: A Framework for Attention-based Permutation-Invariant Input. ICML 2019. arXiv:1810.00825
+
+[3] J. Ho, A. Jain, P. Abbeel. Denoising Diffusion Probabilistic Models. NeurIPS 2020. arXiv:2006.11239
+
+[4] J. Song, C. Meng, S. Ermon. Denoising Diffusion Implicit Models. ICLR 2021. arXiv:2010.02502
+
+[5] T. Hang et al. Efficient Diffusion Training via Min-SNR Weighting Strategy. ICCV 2023. arXiv:2303.09556
+
+[6] T. Gneiting, A. E. Raftery. Strictly Proper Scoring Rules, Prediction, and Estimation. JASA, 102(477):359–378, 2007. doi:10.1198/016214506000001437
+
+Data source references and full citation details are in the technical note (PDF).
+
+Interested in the engineering challenges behind Homecastr? Connect on LinkedIn · About the team
+
+Ready to see your forecast?
+Look up a home and see where its value may be headed over the next five years.
+
+Get My Forecast
+Browse Markets
+Homecastr
+Forecast where a home is headed, not just what it is worth today.
+
+Product
+Forecast Map
+Browse Markets
+API
+Company
+About
+Methodology
+FAQ
+Support
+Legal
+Privacy
+Terms
+© 2026 Homecastr. All rights reserved.
+Probabilistic Machine Learning for Parcel Forecasting at National Scale | Homecastr Engineering https://www.homecastr.com/methodology
