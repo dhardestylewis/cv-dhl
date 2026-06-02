@@ -721,3 +721,6 @@ mcp_config.json
 
 [2026-06-02 18:50]
 can you do this Restart your IDE / Session: Now that the configuration uses a stdio command wrapper, the client will spawn the bridge process.
+
+[2026-06-02 18:51]
+bring up in chat the various bios i was considering
