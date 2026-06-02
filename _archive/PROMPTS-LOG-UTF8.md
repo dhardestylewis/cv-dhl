@@ -1552,3 +1552,6 @@ how would we recharacterize probabilistic evaluation as a swap in replacement
 
 [2026-06-02 19:39]
 Option A: predictive validation (Highly Recommended) and do we need to use the word "suite"? that is telltale ai language
+
+[2026-06-02 19:40]
+where are we making this claim? 8% 1-yr error vs 8.4%).
