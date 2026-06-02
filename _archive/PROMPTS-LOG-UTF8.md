@@ -1545,3 +1545,7 @@ is "probabilistic evaluation" meaningful to anyone?
 
 [2026-06-02 19:34]
 are we using those words probabilistic evaluation or tract-level as opposed to neighborhood-level anywhere else? Founder of consumer AI forecasting platform. Built nationwide neighborhood-level diffusion model beating Zillow's benchmark (8% 1-yr error vs 8.4%). Shipped end-to-end ML stack: ingestion, training on Modal, FastAPI serving, and accuracy validation.
+
+[2026-06-02 19:36]
+swap to neighborhood level everywhere so long as doesnt push anything over to number more lines per bullet than before
+how would we recharacterize probabilistic evaluation as a swap in replacement
