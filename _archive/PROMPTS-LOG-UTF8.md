@@ -784,3 +784,37 @@ Go Back
 Terms
 Privacy
 Destroy
+
+[2026-06-02 19:08]
+why cant i select my primary role? edge.fullstory.com/s/fs.js:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+/site_media/static/images/site.webmanifest/:1  Failed to load resource: the server responded with a status of 404 ()
+/app/join-us/?v=basic-information:1 Manifest fetch from https://app.gun.io/site_media/static/images/site.webmanifest/ failed, code 404
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+console.js:36 [LaunchDarkly] LaunchDarkly client initialized
+console.js:36 [LaunchDarkly] Opening stream connection to https://clientstream.launchdarkly.com/eval/653bf7e01ae17a1260c129c3/eyJhbm9ueW1vdXMiOnRydWUsImtpbmQiOiJ1c2VyIiwia2V5IjoiZTk4OWM3YTAtNWVkMi0xMWYxLTk3NjItZDcyM2E3YjY0OWZmIn0
+console.js:36 [LaunchDarkly] Closing stream connection
+console.js:36 [LaunchDarkly] Opening stream connection to https://clientstream.launchdarkly.com/eval/653bf7e01ae17a1260c129c3/eyJlbWFpbCI6ImRhbmllbEBob21lY2FzdHIuY29tIiwiaGFzQ29tcGFueSI6ZmFsc2UsImhhc0ZyZWVtYWlsIjpmYWxzZSwiaXNGcmVlbGFuY2VyIjp0cnVlLCJpc1N0YWZmIjpmYWxzZSwia2V5IjoiNzUzNmE5ODgtNGQxNy00YjRjLWFlNjItYTQzNmE3NDFmM2M3Iiwia2luZCI6InVzZXIiLCJuYW1lIjoiRGFuaWVsIEwuIiwiZGF0ZUpvaW5lZCI6IjIwMjYtMDMtMTBUMTk6Mjc6MDYuMjM1NjM0KzAwOjAwIn0
+console.js:36 [FullStory] Identifying user in FullStory: uid=7536a988-4d17-4b4c-ae62-a436a741f3c7, properties= Object
+(anonymous) @ console.js:36
+/site_media/static/images/site.webmanifest/:1  Failed to load resource: the server responded with a status of 404 ()
+/app/join-us/:1 Manifest fetch from https://app.gun.io/site_media/static/images/site.webmanifest/ failed, code 404
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+events.launchdarkly.com/events/bulk/653bf7e01ae17a1260c129c3:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+events.launchdarkly.com/events/bulk/653bf7e01ae17a1260c129c3:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+events.launchdarkly.com/events/diagnostic/653bf7e01ae17a1260c129c3:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+events.launchdarkly.com/events/diagnostic/653bf7e01ae17a1260c129c3:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+site.webmanifest/:1  Failed to load resource: the server responded with a status of 404 ()
