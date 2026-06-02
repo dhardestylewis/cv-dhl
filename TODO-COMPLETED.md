@@ -14,3 +14,4 @@
 - [x] Include select publications section (Completed: 2026-02-01 20:10)
 - [x] Reduce widows and hangers in the document layout (Completed: 2026-02-01 20:10)
 - [x] Check for word-level repetitions (e.g., "tariff simulation") (Completed: 2026-02-01 20:10)
+- [x] (UNREVIEWED) Audit and update root, cv, and resume READMEs to match the actual folder contents [Added: 2026-06-02 18:31] (Completed: 2026-06-02 18:33)

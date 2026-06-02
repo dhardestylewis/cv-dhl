@@ -8,12 +8,15 @@ This repository contains Daniel Hardesty Lewis's CVs and resumes, organized by d
 cv-dhl.git/
 ├── cv/                          # Curriculum Vitae
 ├── resume/                      # Resumes
-│   ├── 1-page-TODO/            # Empty - needs population
+│   ├── 1-page/                  # 1-page resumes
+│   │   ├── with-cover-letter/
+│   │   └── without-cover-letter/
 │   ├── 2-page/                 # 2-page resumes
 │   │   ├── with-cover-letter/
 │   │   └── without-cover-letter/
 │   └── 2plus-page/             # 2+ page resumes
-│       └── with-cover-letter/
+│       ├── with-cover-letter/
+│       └── without-cover-letter/
 ├── _archive/                   # Archived/legacy contents
 ├── dhardestylewis/             # GitHub profile README submodule
 ├── GUIDELINES.md               # Project guidelines

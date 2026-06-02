@@ -5,8 +5,9 @@ This directory contains all CV versions, organized chronologically with the most
 ## Current CVs
 
 - **cv-dhl-20251117-latest** - Most recent CV (November 2025)
+- **cv-dhl-20231231** - December 2023 version
 - **cv-dhl-20230831** - August 2023 version
-- **cv-dhl-20230331** - March 2023 version
+- **cv-dhl-20230801** - August 2023 early version
 
 ## Files
 
