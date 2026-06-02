@@ -1,4 +1,4 @@
-﻿
+
 review prompts logs against completed todo sure you reflected everything in either todo file? [2026-01-28 21:34]
 
 have you placed appropriate README in every folder [2026-01-28 21:35]
@@ -501,3 +501,143 @@ OTHER STATE (unchanged):
   - Body font: 9pt
   - Header vspace: -2.5em
 
+
+[2026-06-02 18:29]
+are you sure this is up to date Skip to content
+dhardestylewis
+cv-dhl
+Repository navigation
+Code
+Issues
+Pull requests
+Agents
+Actions
+Projects
+Wiki
+Security and quality
+Insights
+Settings
+Owner avatar
+cv-dhl
+Public
+dhardestylewis/cv-dhl
+Name		
+dhardestylewis
+dhardestylewis
+Update README: fix typos and update structure
+a6bb762
+ · 
+6 minutes ago
+_archive
+update bellwether application materials
+3 months ago
+cv
+Incorporate 4-year horizon metric (25% MdAE) across CV and active res…
+3 months ago
+dhardestylewis
+Add Climatebase Fellowship Cohort 9 interview script
+4 months ago
+resume
+Resolve merge conflicts
+7 minutes ago
+GUIDELINES.md
+Compliance: Add GUIDELINES, TODO, PROMPTS-LOG; Organize CVs and Resumes
+5 months ago
+README.md
+Update README: fix typos and update structure
+6 minutes ago
+TODO-COMPLETED.md
+docs: Archive completed resume refinement tasks and finalize metadata…
+4 months ago
+TODO.md
+Fix infra line overflow, update leadership language for startup context
+4 months ago
+repos.txt
+update bellwether application materials
+3 months ago
+Repository files navigation
+README
+CV and Resume Repository
+This repository contains Daniel Hardesty Lewis's CVs and resumes, organized by document type, page count, and cover letter status.
+
+Structure
+cv-dhl.git/
+├── cv/                          # Curriculum Vitae
+├── resume/                      # Resumes
+│   ├── 1-page-TODO/            # Empty - needs population
+│   ├── 2-page/                 # 2-page resumes
+│   │   ├── with-cover-letter/
+│   │   └── without-cover-letter/
+│   └── 2plus-page/             # 2+ page resumes
+│       └── with-cover-letter/
+├── _archive/                   # Archived/legacy contents
+├── dhardestylewis/             # GitHub profile README submodule
+├── GUIDELINES.md               # Project guidelines
+├── TODO.md                     # Current tasks
+└── TODO-COMPLETED.md           # Completed tasks archive
+Naming Schema
+CVs: cv-dhl-YYYYMMDD[-latest]
+Resumes: resume-dhl-YYYYMMDD-[descriptor]
+Use hyphens (-), not underscores (_), except in legacy descriptors like columbia_assistantship
+Current CVs
+cv-dhl-20251117-latest - Most recent CV
+cv-dhl-20231231 - December 2023 version
+cv-dhl-20230831 - August 2023 version
+cv-dhl-20230801 - August 2023 early version
+Documentation
+See GUIDELINES.md for project-wide guidelines and best practices.
+
+About
+No description, website, or topics provided.
+Resources
+ Readme
+ Activity
+Stars
+ 0 stars
+Watchers
+ 0 watching
+Forks
+ 0 forks
+Releases
+No releases published
+Create a new release
+Packages
+No packages published
+Publish your first package
+Contributors
+1
+@dhardestylewis
+dhardestylewis Daniel Hardesty Lewis
+Languages
+Jupyter Notebook
+78.8%
+ 
+TeX
+16.6%
+ 
+Python
+4.6%
+Suggested workflows
+Based on your tech stack
+SLSA Generic generator logo
+SLSA Generic generator
+Generate SLSA3 provenance for your existing release workflows
+Python Package using Anaconda logo
+Python Package using Anaconda
+Create and test a Python package on multiple Python versions using Anaconda for package management.
+Django logo
+Django
+Build and Test a Django Project
+More workflows
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
