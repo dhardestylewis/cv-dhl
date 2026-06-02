@@ -37,6 +37,13 @@ cv-dhl.git/
 - `cv-dhl-20230831` - August 2023 version
 - `cv-dhl-20230801` - August 2023 early version
 
+## Current Resumes
+
+See [resume/README.md](resume/README.md) for the full directory of targeted resumes.
+
+- `resume-dhl-20260602-staff-mle` - Latest Staff MLE Resume (June 2026)
+- `_BASE_resume-dhl-latest` - Base/template version
+
 ## Documentation
 
 See `GUIDELINES.md` for project-wide guidelines and best practices.

@@ -654,3 +654,10 @@ cv-dhl-20230801 - August 2023 early version
 
 [2026-06-02 18:39]
 did you revise the readme
+
+[2026-06-02 18:41]
+then why is the focus still on CVs only? Current CVs
+cv-dhl-20251117-latest - Most recent CV
+cv-dhl-20231231 - December 2023 version
+cv-dhl-20230831 - August 2023 version
+cv-dhl-20230801 - August 2023 early version
