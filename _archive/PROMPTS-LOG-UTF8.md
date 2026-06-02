@@ -730,3 +730,6 @@ where did you source these?
 
 [2026-06-02 18:57]
 when was this created C:\Users\dhl\data\Portfolio\career-ops\data\bio.md
+
+[2026-06-02 18:58]
+give me a link to that one or bring it up in preview
