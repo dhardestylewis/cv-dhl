@@ -1539,3 +1539,6 @@ their example summary is no longer than this many characters "Consumer AI foreca
 
 [2026-06-02 19:32 (2)]
 continue
+
+[2026-06-02 19:33]
+is "probabilistic evaluation" meaningful to anyone? 
