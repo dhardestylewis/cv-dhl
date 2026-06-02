@@ -661,3 +661,6 @@ cv-dhl-20251117-latest - Most recent CV
 cv-dhl-20231231 - December 2023 version
 cv-dhl-20230831 - August 2023 version
 cv-dhl-20230801 - August 2023 early version
+
+[2026-06-02 18:42]
+we had a recent chat about read ai mcp follow up on that
