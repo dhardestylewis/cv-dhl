@@ -664,3 +664,49 @@ cv-dhl-20230801 - August 2023 early version
 
 [2026-06-02 18:42]
 we had a recent chat about read ai mcp follow up on that
+
+[2026-06-02 18:47]
+Skip to main content
+Try the Read AI Web Extension
+Unlock instant meeting detection and effortless scheduling right from your web browser.
+
+Account Settings
+
+
+
+
+
+
+
+
+
+
+
+
+Report Sharing
+Manage how reports are shared with meeting participants
+Sharing Preferences
+
+Keep in mind: Anyone who adds Read to the meeting will get editor access, and editors can share the report regardless of your settings.
+
+Internal Participant Access
+Automatically grant report access for internal meeting participants
+Internal access not available
+The domain associated with your Read account (@gmail.com) is generic, so all participants are considered external. Use the external participant access setting below to control report access.
+External Participant Access
+Automatically grant report access for external meeting participants
+viewer_full
+
+One-Click Sharing
+Share reports instantly with a single click for quicker collaboration.
+Send an email to the recipient when a report is shared using one-click.
+Report Distribution
+
+
+
+Live Meeting Dashboard Access
+
+The dashboard provides a real-time view of the meeting notes, transcription, and metrics.
+When this setting is:
+On: Anyone with the link can see the dashboard during the meeting, even without a Read account.
+Off: Only people with access to the meeting report can view it via Read's browser extension or app.
