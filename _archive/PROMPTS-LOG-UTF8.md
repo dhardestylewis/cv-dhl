@@ -727,3 +727,6 @@ bring up in chat the various bios i was considering
 
 [2026-06-02 18:56]
 where did you source these?
+
+[2026-06-02 18:57]
+when was this created C:\Users\dhl\data\Portfolio\career-ops\data\bio.md
