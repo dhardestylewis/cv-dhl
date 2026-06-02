@@ -1549,3 +1549,6 @@ are we using those words probabilistic evaluation or tract-level as opposed to n
 [2026-06-02 19:36]
 swap to neighborhood level everywhere so long as doesnt push anything over to number more lines per bullet than before
 how would we recharacterize probabilistic evaluation as a swap in replacement
+
+[2026-06-02 19:39]
+Option A: predictive validation (Highly Recommended) and do we need to use the word "suite"? that is telltale ai language
