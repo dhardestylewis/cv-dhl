@@ -1050,3 +1050,6 @@ Go Back
  37% completed
 Terms
 Privacy
+
+[2026-06-02 19:21]
+when i try to select the menu closes and doesnt ended up selecting anything
