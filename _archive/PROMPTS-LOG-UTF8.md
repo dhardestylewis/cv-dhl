@@ -1555,3 +1555,6 @@ Option A: predictive validation (Highly Recommended) and do we need to use the w
 
 [2026-06-02 19:40]
 where are we making this claim? 8% 1-yr error vs 8.4%).
+
+[2026-06-02 19:43]
+go look into that using search
