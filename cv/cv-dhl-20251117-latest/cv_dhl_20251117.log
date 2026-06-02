@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  2 JUN 2026 19:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  2 JUN 2026 19:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1129,11 +1129,11 @@ Package rerunfilecheck Info: File `cv_dhl_20251117.out' has not changed.
 (rerunfilecheck)             Checksum: B598D10CE351F9288E10AB1152438F7C;2468.
  ) 
 Here is how much of TeX's memory you used:
- 27897 strings out of 467871
- 537983 string characters out of 5419344
+ 27899 strings out of 467871
+ 538003 string characters out of 5419344
  981563 words of memory out of 5000000
  56039 multiletter control sequences out of 15000+600000
- 723127 words of font info for 197 fonts, out of 8000000 for 9000
+ 723216 words of font info for 198 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  129i,14n,136p,1040b,653s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/F
@@ -1155,7 +1155,7 @@ l/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/dhl/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb>
 Output written on C:\Users\dhl\data\Portfolio\cv-dhl.git\cv\cv-dhl-20251117-lat
-est\cv_dhl_20251117.pdf (7 pages, 452169 bytes).
+est\cv_dhl_20251117.pdf (7 pages, 452184 bytes).
 PDF statistics:
  305 PDF objects out of 1000 (max. 8388607)
  28 named destinations out of 1000 (max. 500000)
