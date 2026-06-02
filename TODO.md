@@ -1,4 +1,4 @@
-﻿# TODO
+# TODO
 
 ## P1 - High Priority
 - [ ] **CRITICAL**: Review GUIDELINES.md before modifying any repository files, including this TODO file (UNREVIEWED) [Added: 2026-02-01 20:05]
@@ -8,6 +8,7 @@
 ## P2 - Normal Priority
 - [ ] Verify stability and prominence of Homecastr link (homecastr.com) (UNREVIEWED) [Added: 2026-02-01 20:12]
 - [ ] Final consistency check for Action->Context->Impact in Education/Teaching sections (UNREVIEWED) [Added: 2026-02-01 20:12]
+- [ ] Audit and update root, cv, and resume READMEs to match the actual folder contents (UNREVIEWED) [Added: 2026-06-02 18:31]
 
 ## P3 - Deferred / Blocked
 - [ ] Fix browser $HOME variable issue <!-- id: 31 --> (FAILED - System Environment Error) [Added: 2026-02-01 20:12]
