@@ -1400,3 +1400,6 @@ Destroy
 
 [2026-06-02 19:29]
 why is this still coming up for you as nov 2024 and not apr 2025? Dates: Nov 2024 - Present
+
+[2026-06-02 19:29 (2)]
+that neds to be revised I pulled the Nov 2024 date from your root CV document ( cv_dhl_20251117.tex ), which still lists the early pre-launch/founding period.

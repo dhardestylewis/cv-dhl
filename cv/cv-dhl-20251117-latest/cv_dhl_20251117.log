@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 19:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  2 JUN 2026 19:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./cv_dhl_20251117.tex
-(cv_dhl_20251117.tex
+**./cv/cv-dhl-20251117-latest/cv_dhl_20251117.tex
+(cv/cv-dhl-20251117-latest/cv_dhl_20251117.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/moderncv\moderncv.cls
@@ -865,7 +865,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 50.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 50.
- (cv_dhl_20251117.aux)
+
+(C:\Users\dhl\data\Portfolio\cv-dhl.git\cv\cv-dhl-20251117-latest\cv_dhl_202511
+17.aux)
 \openout1 = `cv_dhl_20251117.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
@@ -966,7 +968,11 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 50.
-(cv_dhl_20251117.out) (cv_dhl_20251117.out)
+
+(C:\Users\dhl\data\Portfolio\cv-dhl.git\cv\cv-dhl-20251117-latest\cv_dhl_202511
+17.out)
+(C:\Users\dhl\data\Portfolio\cv-dhl.git\cv\cv-dhl-20251117-latest\cv_dhl_202511
+17.out)
 \@outlinefile=\write4
 \openout4 = `cv_dhl_20251117.out'.
 
@@ -978,8 +984,7 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 5
 6.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+ (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 5
@@ -1109,7 +1114,9 @@ Package fancyhdr Warning: \footskip is too small (30.0pt):
 (fancyhdr)                Make it at least 60.0pt, for example:
 (fancyhdr)                \setlength{\footskip}{60.0pt}.
 
-[7] (cv_dhl_20251117.aux)
+[7]
+(C:\Users\dhl\data\Portfolio\cv-dhl.git\cv\cv-dhl-20251117-latest\cv_dhl_202511
+17.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1122,13 +1129,13 @@ Package rerunfilecheck Info: File `cv_dhl_20251117.out' has not changed.
 (rerunfilecheck)             Checksum: B598D10CE351F9288E10AB1152438F7C;2468.
  ) 
 Here is how much of TeX's memory you used:
- 27898 strings out of 467871
- 537557 string characters out of 5419344
+ 27899 strings out of 467871
+ 538001 string characters out of 5419344
  980563 words of memory out of 5000000
  56039 multiletter control sequences out of 15000+600000
  723216 words of font info for 198 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,14n,136p,1014b,653s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 129i,14n,136p,1040b,653s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/F
 ontAwesome5Brands-Regular.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts
 /type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/dhl/AppData/L
@@ -1147,7 +1154,8 @@ cal/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/dhl/AppData/Loca
 l/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData/Local/P
 rograms/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/dhl/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on cv_dhl_20251117.pdf (7 pages, 452162 bytes).
+Output written on C:\Users\dhl\data\Portfolio\cv-dhl.git\cv\cv-dhl-20251117-lat
+est\cv_dhl_20251117.pdf (7 pages, 452168 bytes).
 PDF statistics:
  305 PDF objects out of 1000 (max. 8388607)
  28 named destinations out of 1000 (max. 500000)
