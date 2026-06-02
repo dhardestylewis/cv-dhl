@@ -818,3 +818,235 @@ o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640
 o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
 o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
 site.webmanifest/:1  Failed to load resource: the server responded with a status of 404 ()
+
+[2026-06-02 19:12]
+even in incognito still cant click thru all these menus /api/v2/user/:1  Failed to load resource: the server responded with a status of 401 ()
+/api/v2/user/:1  Failed to load resource: the server responded with a status of 401 ()
+console.js:36 [LaunchDarkly] LaunchDarkly client initialized
+console.js:36 [LaunchDarkly] Opening stream connection to https://clientstream.launchdarkly.com/eval/653bf7e01ae17a1260c129c3/eyJhbm9ueW1vdXMiOnRydWUsImtpbmQiOiJ1c2VyIiwia2V5IjoiMzg5MjYwYTAtNWVkOC0xMWYxLTk2NzMtNTUzMjg2ZDgxMWU4In0
+/?next=/app/join-us/?v=skills:1 [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) <input data-v-d5da1923 class id="password" name="password" required type="password" data-test="password" data-gtm-form-interact-field-id="1">
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+
+[2026-06-02 18:32]
+address it all
+
+[2026-06-02 18:35]
+is this true / should our focus be on cvs or resumes? Current CVs
+cv-dhl-20251117-latest - Most recent CV
+cv-dhl-20231231 - December 2023 version
+cv-dhl-20230831 - August 2023 version
+cv-dhl-20230801 - August 2023 early version
+
+[2026-06-02 18:39]
+did you revise the readme
+
+[2026-06-02 18:41]
+then why is the focus still on CVs only? Current CVs
+cv-dhl-20251117-latest - Most recent CV
+cv-dhl-20231231 - December 2023 version
+cv-dhl-20230831 - August 2023 version
+cv-dhl-20230801 - August 2023 early version
+
+[2026-06-02 18:42]
+we had a recent chat about read ai mcp follow up on that
+
+[2026-06-02 18:47]
+Skip to main content
+Try the Read AI Web Extension
+Unlock instant meeting detection and effortless scheduling right from your web browser.
+
+Account Settings
+
+
+
+
+
+
+
+
+
+
+
+
+Report Sharing
+Manage how reports are shared with meeting participants
+Sharing Preferences
+
+Keep in mind: Anyone who adds Read to the meeting will get editor access, and editors can share the report regardless of your settings.
+
+Internal Participant Access
+Automatically grant report access for internal meeting participants
+Internal access not available
+The domain associated with your Read account (@gmail.com) is generic, so all participants are considered external. Use the external participant access setting below to control report access.
+External Participant Access
+Automatically grant report access for external meeting participants
+viewer_full
+
+One-Click Sharing
+Share reports instantly with a single click for quicker collaboration.
+Send an email to the recipient when a report is shared using one-click.
+Report Distribution
+
+
+
+Live Meeting Dashboard Access
+
+The dashboard provides a real-time view of the meeting notes, transcription, and metrics.
+When this setting is:
+On: Anyone with the link can see the dashboard during the meeting, even without a Read account.
+Off: Only people with access to the meeting report can view it via Read's browser extension or app.
+
+[2026-06-02 18:48]
+if thats true can you read all my transcripts?
+
+[2026-06-02 18:49]
+i already initiated a new session for this In this current session: Although we updated the server endpoint in 
+mcp_config.json
+, the Antigravity client has not initialized/connected to it, and I do not have the tools of the read-ai MCP server loaded in my runtime environment. I only have access to standard local files and system shell execution tools.
+
+[2026-06-02 18:50]
+can you do this Restart your IDE / Session: Now that the configuration uses a stdio command wrapper, the client will spawn the bridge process.
+
+[2026-06-02 18:51]
+bring up in chat the various bios i was considering
+
+[2026-06-02 18:56]
+where did you source these?
+
+[2026-06-02 18:57]
+when was this created C:\Users\dhl\data\Portfolio\career-ops\data\bio.md
+
+[2026-06-02 18:58]
+give me a link to that one or bring it up in preview
+
+[2026-06-02 18:59]
+need a primary headline too when you get a chance Gun.io
+Daniel Lewis
+Status:
+Settings
+Help
+Logout
+Gun.io
+Logout
+Tell us a bit about yourself
+Upload a profile picture
+IMG-20250526-WA0060.jpg Upload IMG-20250526-WA0060.jpg
+Click here or drag the file (JPG and PNG).
+Add a primary headline
+Example: I'm a software engineer with over 5 years of experience specializing in small startups.
+What is your level of fluency in English?
+Basic
+I can read, write, and speak basic English
+Fluent
+I have an advanced level of proficiency and excellent speaking skill
+Native
+English is my first and primary language
+Subscribe to the Wayfarer newsletter
+Next
+ 12% completed
+Terms
+Privacy
+Destroy
+
+[2026-06-02 19:03]
+cant be any longer than this many characters "I'm a senior machine learning engineer with 5+ years of experience specializing in high-performance AI systems and predictive fo"
+
+[2026-06-02 19:05]
+Gun.io
+Status:
+Settings
+Help
+Logout
+Gun.io
+Logout
+Tell us a bit about your skills
+What is your primary role?
+What languages, frameworks and technologies are you an expert in? (Pick your Top 3)
+e.g Python, Javascript, React Native
+Next
+Go Back
+ 25% completed
+Terms
+Privacy
+Destroy
+
+[2026-06-02 19:08]
+why cant i select my primary role? edge.fullstory.com/s/fs.js:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+/site_media/static/images/site.webmanifest/:1  Failed to load resource: the server responded with a status of 404 ()
+/app/join-us/?v=basic-information:1 Manifest fetch from https://app.gun.io/site_media/static/images/site.webmanifest/ failed, code 404
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+console.js:36 [LaunchDarkly] LaunchDarkly client initialized
+console.js:36 [LaunchDarkly] Opening stream connection to https://clientstream.launchdarkly.com/eval/653bf7e01ae17a1260c129c3/eyJhbm9ueW1vdXMiOnRydWUsImtpbmQiOiJ1c2VyIiwia2V5IjoiZTk4OWM3YTAtNWVkMi0xMWYxLTk3NjItZDcyM2E3YjY0OWZmIn0
+console.js:36 [LaunchDarkly] Closing stream connection
+console.js:36 [LaunchDarkly] Opening stream connection to https://clientstream.launchdarkly.com/eval/653bf7e01ae17a1260c129c3/eyJlbWFpbCI6ImRhbmllbEBob21lY2FzdHIuY29tIiwiaGFzQ29tcGFueSI6ZmFsc2UsImhhc0ZyZWVtYWlsIjpmYWxzZSwiaXNGcmVlbGFuY2VyIjp0cnVlLCJpc1N0YWZmIjpmYWxzZSwia2V5IjoiNzUzNmE5ODgtNGQxNy00YjRjLWFlNjItYTQzNmE3NDFmM2M3Iiwia2luZCI6InVzZXIiLCJuYW1lIjoiRGFuaWVsIEwuIiwiZGF0ZUpvaW5lZCI6IjIwMjYtMDMtMTBUMTk6Mjc6MDYuMjM1NjM0KzAwOjAwIn0
+console.js:36 [FullStory] Identifying user in FullStory: uid=7536a988-4d17-4b4c-ae62-a436a741f3c7, properties= Object
+(anonymous) @ console.js:36
+/site_media/static/images/site.webmanifest/:1  Failed to load resource: the server responded with a status of 404 ()
+/app/join-us/:1 Manifest fetch from https://app.gun.io/site_media/static/images/site.webmanifest/ failed, code 404
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+events.launchdarkly.com/events/bulk/653bf7e01ae17a1260c129c3:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+events.launchdarkly.com/events/bulk/653bf7e01ae17a1260c129c3:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+events.launchdarkly.com/events/diagnostic/653bf7e01ae17a1260c129c3:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+events.launchdarkly.com/events/diagnostic/653bf7e01ae17a1260c129c3:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+o304145.ingest.sentry.io/api/5226240/envelope/?sentry_version=7&sentry_key=c5640a703d58453e94c8c4e905189af4&sentry_client=sentry.javascript.vue%2F8.47.0:1  Failed to load resource: net::ERR_BLOCKED_BY_CLIENT
+site.webmanifest/:1  Failed to load resource: the server responded with a status of 404 ()
+
+[2026-06-02 19:12]
+even in incognito still cant click thru all these menus /api/v2/user/:1  Failed to load resource: the server responded with a status of 401 ()
+/api/v2/user/:1  Failed to load resource: the server responded with a status of 401 ()
+console.js:36 [LaunchDarkly] LaunchDarkly client initialized
+console.js:36 [LaunchDarkly] Opening stream connection to https://clientstream.launchdarkly.com/eval/653bf7e01ae17a1260c129c3/eyJhbm9ueW1vdXMiOnRydWUsImtpbmQiOiJ1c2VyIiwia2V5IjoiMzg5MjYwYTAtNWVkOC0xMWYxLTk2NzMtNTUzMjg2ZDgxMWU4In0
+/?next=/app/join-us/?v=skills:1 [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) <input data-v-d5da1923 class id="password" name="password" required type="password" data-test="password" data-gtm-form-interact-field-id="1">
+console.js:36 [LaunchDarkly] Closing stream connection
+console.js:36 [LaunchDarkly] Opening stream connection to https://clientstream.launchdarkly.com/eval/653bf7e01ae17a1260c129c3/eyJlbWFpbCI6ImRhbmllbEBob21lY2FzdHIuY29tIiwiaGFzQ29tcGFueSI6ZmFsc2UsImhhc0ZyZWVtYWlsIjpmYWxzZSwiaXNGcmVlbGFuY2VyIjp0cnVlLCJpc1N0YWZmIjpmYWxzZSwia2V5IjoiNzUzNmE5ODgtNGQxNy00YjRjLWFlNjItYTQzNmE3NDFmM2M3Iiwia2luZCI6InVzZXIiLCJuYW1lIjoiRGFuaWVsIEwuIiwiZGF0ZUpvaW5lZCI6IjIwMjYtMDMtMTBUMTk6Mjc6MDYuMjM1NjM0KzAwOjAwIn0
+console.js:36 [FullStory] Identifying user in FullStory: uid=7536a988-4d17-4b4c-ae62-a436a741f3c7, properties= Object
+(anonymous) @ console.js:36
+site.webmanifest/:1  Failed to load resource: the server responded with a status of 404 ()
+CLIENT
+site.webmanifest/:1  Failed to load resource: the server responded with a status of 404 ()
+
+[2026-06-02 19:12 (2)]
+Gun.io
+Gun.ioLogout
+Tell us a bit about your Experience
+In which year did you begin your professional career in software or technology?
+2018
+In which year did you begin freelancing?
+Are you actively looking for work now?
+Yes, I'm actively looking for work now
+I'm passively looking for the right opportunity
+No, I'm not currently looking for new work
+What types of employment opportunities are you looking for?
+Freelance or contract work
+Full-time salaried employee
+How many hours per week do you have available?
+
+40 hrs/wk
+Next
+Go Back
+ 37% completed
+Terms
+Privacy
