@@ -1282,6 +1282,121 @@ Resume
 Upload resume
 External links
 Update links
+[2026-06-02 19:27]
+Gun.io
+Status: Ready to interview
+Settings
+Help
+Logout
+Your profile contains conflicting information.
+Some of the information provided doesn’t meet Gun.io’s standards. Once you’ve made the updates, we’ll reverify your information.
+69%
+Heads up! Our profile requirements have changed.
+Please update all the fields below to get your profile to 100%. Only complete profiles can see and apply for open jobs.
+
+Add at least 3 work experiences
+Add experience
+Add 3 Top Skills
+Python, Docker, PyTorch
+You must have used your top skills in at least 3 work experiences
+
+Set your working hours (Your local time)
+
+Enter your work hours
+Upload your resume
+Upload
+View how clients will see you
+
+Edit avatar
+
+
+Daniel Lewis
+
+I'm a senior ML engineer with 5+ years of experience specializing in high-performance AI systems and predictive models.
+
+New York, NY, USA
+Software professional since
+2018
+Freelancing since
+2023
+Preferred roles
+
+Select your preferred roles
+Primary role
+Machine Learning Engineer
+Top skills
+Python, Docker, PyTorch
+Experience
+
+Heads-up! Experience is the heart of your profile.
+We don't show resumes to clients, so please add as much detail as possible.
+
+We require at least 3 entries to present your profile to hiring companies.See how your profile looks to clients
+
+No experience has been added
+
+Skills * Required
+Please add skills to your profile
+
+Having a complete set of skills on your profile helps our talent team and ranking technology match you with the best opportunities.
+
+Add skills
+Ignored skills Only visible to you and Gun.io staff
+Add any skills here that you don't want to work with. We won't match you with jobs that use these.
+
+You have not selected any ignored skills
+
+WorkStyle assessment
+You have not completed your workstyle assessment
+The WorkStyle assessment helps articulate how you approach your work. From core motivations, to energy drains, to down time needs, everyone is a little different.
+
+We exist to help you find quality, consistent engagements - this assessment will help us match you with highly compatible work culture opportunities, a critically important factor in building long-term client relationships.
+
+Start WorkStyle
+This section below is only visible to you and Gun.io staff
+Job search status
+
+Ready to interview
+You're actively looking for new remote work and are ready to interview in the next 30 days.
+
+Open to offers
+You're not actively looking for new remote work, but you are interested in hearing about new opportunities.
+
+Unavailable for jobs
+You're not looking for new work at the moment.
+
+Interested in
+Contract/freelance
+No
+Yes
+Full-time salaried
+No
+Yes
+Max hours per week available for contract gigs
+40 hrs/wk
+Rates
+
+Hourly rate
+$80
+Monthly rate
+$11,400
+Salary
+$135,000
+Additional information
+Phone number
+(713) 371-7875
+Work hours
+(Your Local Time)
+
+Enter your work hours
+Resume
+
+Upload resume
+External links
+Update links
 Terms
 Privacy
 Destroy
+
+[2026-06-02 19:29]
+why is this still coming up for you as nov 2024 and not apr 2025? Dates: Nov 2024 - Present
