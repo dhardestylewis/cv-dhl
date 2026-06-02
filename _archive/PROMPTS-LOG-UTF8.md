@@ -765,3 +765,22 @@ Destroy
 
 [2026-06-02 19:03]
 cant be any longer than this many characters "I'm a senior machine learning engineer with 5+ years of experience specializing in high-performance AI systems and predictive fo"
+
+[2026-06-02 19:05]
+Gun.io
+Status:
+Settings
+Help
+Logout
+Gun.io
+Logout
+Tell us a bit about your skills
+What is your primary role?
+What languages, frameworks and technologies are you an expert in? (Pick your Top 3)
+e.g Python, Javascript, React Native
+Next
+Go Back
+ 25% completed
+Terms
+Privacy
+Destroy
