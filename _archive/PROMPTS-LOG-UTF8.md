@@ -1107,9 +1107,65 @@ Enter your hourly rate
 USD / Hour
 The hourly rate must be between 10 and 1,000.
 
+[2026-06-02 19:25]
+Gun.io
+Status:
+Settings
+Help
+Logout
+Gun.io
+Logout
+How much does it typically cost to hire you?
+Base Salary
+Required
+The total annual salary if brought on as a full-time employee (W2).
+
+Gun.io Salary Recommendation
+Based on your experience and location, we recommend the following rate range to remain competitive with similar talent.
+
+The recommended salary is $124,950 to $136,850 USD per year.
+
+$
+Base Salary (no benefits, equity, or other compensation)
+USD / Year
+No benefits, equity, or other compensation.
+
+The salary must be between 10,000 and 1,000,000.
+
+Monthly rate
+Required
+The fixed amount you earn each month, regardless of the number of hours you work in a week (typically around 40).
+
+Gun.io Rates Recommendation
+Based on your experience and location, we recommend the following rate range to remain competitive with similar talent.
+
+The recommended rate is $10,413 to $11,404 USD per month.
+
+$
+Enter your monthly rate
+USD / Month
+The monthly rate must be between 1,000 and 100,000.
+
+Hourly rate
+Required
+The hourly amount you earn per worked hour.
+
+Gun.io Rates Recommendation
+Based on your experience and location, we recommend the following rate range to remain competitive with similar talent.
+
+The recommended rate is $68 to $81 USD per hour.
+
+$
+Enter your hourly rate
+USD / Hour
+The hourly rate must be between 10 and 1,000.
+
 Next
 Go Back
  75% completed
 Terms
 Privacy
 Destroy
+
+[2026-06-02 19:26]
+really? are you sure i should be using these figures?
