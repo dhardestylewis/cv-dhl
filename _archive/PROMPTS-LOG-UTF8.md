@@ -733,3 +733,32 @@ when was this created C:\Users\dhl\data\Portfolio\career-ops\data\bio.md
 
 [2026-06-02 18:58]
 give me a link to that one or bring it up in preview
+
+[2026-06-02 18:59]
+need a primary headline too when you get a chance Gun.io
+Daniel Lewis
+Status:
+Settings
+Help
+Logout
+Gun.io
+Logout
+Tell us a bit about yourself
+Upload a profile picture
+IMG-20250526-WA0060.jpg Upload IMG-20250526-WA0060.jpg
+Click here or drag the file (JPG and PNG).
+Add a primary headline
+Example: I'm a software engineer with over 5 years of experience specializing in small startups.
+What is your level of fluency in English?
+Basic
+I can read, write, and speak basic English
+Fluent
+I have an advanced level of proficiency and excellent speaking skill
+Native
+English is my first and primary language
+Subscribe to the Wayfarer newsletter
+Next
+ 12% completed
+Terms
+Privacy
+Destroy
