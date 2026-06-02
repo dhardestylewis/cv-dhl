@@ -710,3 +710,6 @@ The dashboard provides a real-time view of the meeting notes, transcription, and
 When this setting is:
 On: Anyone with the link can see the dashboard during the meeting, even without a Read account.
 Off: Only people with access to the meeting report can view it via Read's browser extension or app.
+
+[2026-06-02 18:48]
+if thats true can you read all my transcripts?
