@@ -644,3 +644,10 @@ Do not share my personal information
 
 [2026-06-02 18:32]
 address it all
+
+[2026-06-02 18:35]
+is this true / should our focus be on cvs or resumes? Current CVs
+cv-dhl-20251117-latest - Most recent CV
+cv-dhl-20231231 - December 2023 version
+cv-dhl-20230831 - August 2023 version
+cv-dhl-20230801 - August 2023 early version
