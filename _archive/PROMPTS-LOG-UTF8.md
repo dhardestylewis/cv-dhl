@@ -1808,3 +1808,8 @@ will our audience know what mdae means or should we instead simply say median er
 
 [2026-06-02 22:39]
 pr merge
+
+[2026-06-02 23:07]
+why does this one have a different naming scheme? resume_dhl_20250825-latest
+Update all resume filenames to 20260304 date; recompile PDFs
+3 months ago
