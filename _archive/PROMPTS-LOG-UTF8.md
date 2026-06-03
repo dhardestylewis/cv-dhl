@@ -1813,3 +1813,6 @@ pr merge
 why does this one have a different naming scheme? resume_dhl_20250825-latest
 Update all resume filenames to 20260304 date; recompile PDFs
 3 months ago
+
+[2026-06-02 23:08]
+Rename it to follow the current hyphenated naming scheme?

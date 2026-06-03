@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.2.23)  4 MAR 2026 17:43
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.2.23)  2 JUN 2026 23:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./resume_dhl_20250825.tex
-(resume_dhl_20250825.tex
+**./resume-dhl-20250825.tex
+(resume-dhl-20250825.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/moderncv\moderncv.cls
@@ -14,7 +14,7 @@ File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count275
+\etb@tempcnta=\count271
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
@@ -25,14 +25,13 @@ Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 274.
+Package xcolor Info: Driver file: xetex.def on input line 274.
 
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
@@ -56,7 +55,7 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 )
 \everycr=\toks18
 \minrowclearance=\skip51
-\rownum=\count276
+\rownum=\count272
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
@@ -64,9 +63,6 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-)
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
@@ -84,7 +80,7 @@ Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 106.
+Package graphics Info: Driver file: xetex.def on input line 106.
 )
 \Gin@req@height=\dimen150
 \Gin@req@width=\dimen151
@@ -109,25 +105,27 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 ) (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/moderncv\tweaklist.sty)
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
-\calc@Acount=\count277
-\calc@Bcount=\count278
+\calc@Acount=\count273
+\calc@Bcount=\count274
 \calc@Adimen=\dimen152
 \calc@Bdimen=\dimen153
 \calc@Askip=\skip66
 \calc@Bskip=\skip67
 LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
-\calc@Ccount=\count279
+\calc@Ccount=\count275
 \calc@Cskip=\skip68
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.
 sty (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2025-12-24 L3 programming layer (loader) 
 
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdfte
-x.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count280
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xetex
+.def
+File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
+\g__graphics_track_int=\count276
+\g__pdfannot_backend_int=\count277
+\g__pdfannot_backend_link_int=\count278
 ))
 Package: xparse 2025-10-09 L3 Experimental document command parser
 )
@@ -135,7 +133,7 @@ Package: xparse 2025-10-09 L3 Experimental document command parser
 Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
 \MT@toks=\toks21
 \MT@tempbox=\box55
-\MT@count=\count281
+\MT@count=\count279
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1087.
 LaTeX Info: Redefining \leftprotrusion on input line 1088.
 \MT@prot@toks=\toks22
@@ -144,14 +142,13 @@ LaTeX Info: Redefining \textls on input line 1449.
 \MT@outer@kern=\dimen154
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
-\MT@listname@count=\count282
+\MT@listname@count=\count280
 
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdfte
-x.def
-File: microtype-pdftex.def 2025/07/09 v3.2b Definitions specific to pdftex (RS)
-
-LaTeX Info: Redefining \lsstyle on input line 944.
-LaTeX Info: Redefining \lslig on input line 944.
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-xetex
+.def
+File: microtype-xetex.def 2025/07/09 v3.2b Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 443.
+LaTeX Info: Redefining \lslig on input line 451.
 \MT@outer@space=\skip69
 )
 Package microtype Info: Loading configuration file microtype.cfg.
@@ -164,18 +161,18 @@ LaTeX Info: Redefining \microtypesetup on input line 3065.
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/moderncv\moderncvcollecti
 on.sty
 Package: moderncvcollection 2024-07-18 v2.4.1 moderncv collections
-\c@collection@iterator=\count283
+\c@collection@iterator=\count281
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/moderncv\moderncvcompatib
 ility.sty
 Package: moderncvcompatibility 2024-07-18 v2.4.1 modern curriculum vitae and le
 tter compatibility patches
 )
-\c@collection@phones@count=\count284
-\c@collection@socials@count=\count285
-\c@cvcolumnscounter=\count286
-\c@cvcolumnsautowidthcounter=\count287
-\c@tmpiteratorcounter=\count288
+\c@collection@phones@count=\count282
+\c@collection@socials@count=\count283
+\c@cvcolumnscounter=\count284
+\c@cvcolumnsautowidthcounter=\count285
+\c@tmpiteratorcounter=\count286
 \cvcolumnsdummywidth=\skip70
 \cvcolumnswidth=\skip71
 \cvcolumnsautowidth=\skip72
@@ -220,7 +217,7 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLa
 TeX and XeLaTeX
-\babel@savecnt=\count289
+\babel@savecnt=\count287
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input li
 ne 2068.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input li
@@ -238,9 +235,9 @@ on input line 2101.
 \U@D=\dimen155
 \l@unhyphenated=\language79
 
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/babel\xebabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count290
+\bbl@dirlevel=\count288
 Package babel Info: Configuration files are deprecated, as
 (babel)             they can break document portability.
 (babel)             Reported on input line 4196.
@@ -278,10 +275,6 @@ bols.sty
 Package: moderncviconssymbols 2021-12-12 v2.2.0 modern curriculum vitae icons s
 elector
 
-
-moderncv: academicons requires XeTeX/LuaTeX to work. Using alternatives.
-
-
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/moderncv\moderncviconsawe
 some.sty
 Package: moderncviconsawesome 2024-07-18 v2.4.1 modern curriculum vitae icons: 
@@ -296,12 +289,83 @@ s2e.sty
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5
--generic-helper.sty
-Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fon
-tawesome5
+-utex-helper.sty
+Package: fontawesome5-utex-helper 2022/05/02 v5.15.4 uTeX helper for fontawesom
+e5
+LaTeX Font Info:    Trying to load font information for TU+fontawesomefree on i
+nput line 69.
 
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\fontawesome5
--mapping.def)))
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\tufontawesom
+efree.fd)
+LaTeX Font Info:    Trying to load font information for TU+fontawesomebrands on
+ input line 70.
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\tufontawesom
+ebrands.fd)))
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/moderncv\moderncvcolors.t
+ex))
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/moderncv\moderncviconsaca
+demic.sty
+Package: moderncviconsacademic 2024-07-18 v2.4.1 modern curriculum vitae icons:
+ academicons
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/fonts/academicons\academicons.s
+ty
+Package: academicons 2025/09/20 v1.9.6-2 Academicons Icons
+ (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
+Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xetex.s
+ty
+Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count289
+\l__fontspec_language_int=\count290
+\l__fontspec_strnum_int=\count291
+\l__fontspec_tmp_int=\count292
+\l__fontspec_tmpa_int=\count293
+\l__fontspec_tmpb_int=\count294
+\l__fontspec_tmpc_int=\count295
+\l__fontspec_em_int=\count296
+\l__fontspec_emdef_int=\count297
+\l__fontspec_strong_int=\count298
+\l__fontspec_strongdef_int=\count299
+\l__fontspec_tmpa_dim=\dimen156
+\l__fontspec_tmpb_dim=\dimen157
+\l__fontspec_tmpc_dim=\dimen158
+ (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
+)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg)))
+
+Package fontspec Info: 
+(fontspec)             Font family 'academicons(0)' created for font
+(fontspec)             'academicons' with options [UprightFont =
+(fontspec)             academicons,BoldFont = academicons,ItalicFont =
+(fontspec)             academicons,BoldItalicFont = academicons].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"academicons"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"academicons"
+(fontspec)             - 'bold' (b/n) with NFSS spec.: <->"academicons"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.:
+(fontspec)             <->"academicons"
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"academicons"
+(fontspec)             - 'italic small caps'  (m/scit) with NFSS spec.:
+(fontspec)             <->"academicons"
+(fontspec)             - 'bold italic' (b/it) with NFSS spec.:
+(fontspec)             <->"academicons"
+(fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.:
+(fontspec)             <->"academicons"
+
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/fonts/academicons\academicons-x
+eluatex.tex)
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/fonts/academicons\academicons-g
+eneric.tex))
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/moderncv\moderncvcolors.t
 ex))
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/moderncv\moderncviconstik
@@ -315,8 +379,8 @@ y (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-c
 ommon.tex
 \pgfutil@everybye=\toks23
-\pgfutil@tempdima=\dimen156
-\pgfutil@tempdimb=\dimen157
+\pgfutil@tempdima=\dimen159
+\pgfutil@tempdimb=\dimen160
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-l
 atex.def
@@ -346,45 +410,51 @@ ode.tex
 braryfiltered.code.tex
 \pgfkeys@tmptoks=\toks26
 ))
-\pgf@x=\dimen158
-\pgf@y=\dimen159
-\pgf@xa=\dimen160
-\pgf@ya=\dimen161
-\pgf@xb=\dimen162
-\pgf@yb=\dimen163
-\pgf@xc=\dimen164
-\pgf@yc=\dimen165
-\pgf@xd=\dimen166
-\pgf@yd=\dimen167
+\pgf@x=\dimen161
+\pgf@y=\dimen162
+\pgf@xa=\dimen163
+\pgf@ya=\dimen164
+\pgf@xb=\dimen165
+\pgf@yb=\dimen166
+\pgf@xc=\dimen167
+\pgf@yc=\dimen168
+\pgf@xd=\dimen169
+\pgf@yd=\dimen170
 \w@pgf@writea=\write3
 \r@pgf@reada=\read3
-\c@pgf@counta=\count291
-\c@pgf@countb=\count292
-\c@pgf@countc=\count293
-\c@pgf@countd=\count294
+\c@pgf@counta=\count300
+\c@pgf@countb=\count301
+\c@pgf@countc=\count302
+\c@pgf@countd=\count303
 \t@pgf@toka=\toks27
 \t@pgf@tokb=\toks28
 \t@pgf@tokc=\toks29
-\pgf@sys@id@count=\count295
+\pgf@sys@id@count=\count304
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.cfg
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
-Driver file for pgf: pgfsys-pdftex.def
+Driver file for pgf: pgfsys-xetex.def
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-
-pdftex.def
-File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
+xetex.def
+File: pgfsys-xetex.def 2025-08-29 v3.1.11a (3.1.11a)
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-
+dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2025-08-29 v3.1.11a (3.1.11a)
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-
 common-pdf.def
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
+)
+\pgfsys@objnum=\count305
 )))
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsyss
 oftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfsyssoftpath@smallbuffer@items=\count296
-\pgfsyssoftpath@bigbuffer@items=\count297
+\pgfsyssoftpath@smallbuffer@items=\count306
+\pgfsyssoftpath@bigbuffer@items=\count307
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsysp
 rotocol.code.tex
@@ -400,8 +470,8 @@ ex
 de.tex)
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparser.
 code.tex
-\pgfmath@dimen=\dimen168
-\pgfmath@count=\count298
+\pgfmath@dimen=\dimen171
+\pgfmath@count=\count308
 \pgfmath@box=\box57
 \pgfmath@toks=\toks30
 \pgfmath@stack@operand=\toks31
@@ -429,39 +499,39 @@ ns.integerarithmetics.code.tex)
 de.tex)
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat.c
 ode.tex
-\c@pgfmathroundto@lastzeros=\count299
+\c@pgfmathroundto@lastzeros=\count309
 ))
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.te
 x)
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorep
 oints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen169
-\pgf@picmaxx=\dimen170
-\pgf@picminy=\dimen171
-\pgf@picmaxy=\dimen172
-\pgf@pathminx=\dimen173
-\pgf@pathmaxx=\dimen174
-\pgf@pathminy=\dimen175
-\pgf@pathmaxy=\dimen176
-\pgf@xx=\dimen177
-\pgf@xy=\dimen178
-\pgf@yx=\dimen179
-\pgf@yy=\dimen180
-\pgf@zx=\dimen181
-\pgf@zy=\dimen182
+\pgf@picminx=\dimen172
+\pgf@picmaxx=\dimen173
+\pgf@picminy=\dimen174
+\pgf@picmaxy=\dimen175
+\pgf@pathminx=\dimen176
+\pgf@pathmaxx=\dimen177
+\pgf@pathminy=\dimen178
+\pgf@pathmaxy=\dimen179
+\pgf@xx=\dimen180
+\pgf@xy=\dimen181
+\pgf@yx=\dimen182
+\pgf@yy=\dimen183
+\pgf@zx=\dimen184
+\pgf@zy=\dimen185
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorep
 athconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen183
-\pgf@path@lasty=\dimen184
+\pgf@path@lastx=\dimen186
+\pgf@path@lasty=\dimen187
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorep
 athusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen185
-\pgf@shorten@start@additional=\dimen186
+\pgf@shorten@end@additional=\dimen188
+\pgf@shorten@start@additional=\dimen189
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcores
 copes.code.tex
@@ -469,19 +539,19 @@ File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box58
 \pgf@hbox=\box59
 \pgf@layerbox@main=\box60
-\pgf@picture@serial@count=\count300
+\pgf@picture@serial@count=\count310
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreg
 raphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen187
+\pgflinewidth=\dimen190
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoret
 ransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen188
-\pgf@pt@y=\dimen189
-\pgf@pt@temp=\dimen190
+\pgf@pt@x=\dimen191
+\pgf@pt@y=\dimen192
+\pgf@pt@temp=\dimen193
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreq
 uick.code.tex
@@ -498,14 +568,14 @@ File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorea
 rrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen191
+\pgfarrowsep=\dimen194
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcores
 hade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen192
-\pgf@sys@shading@range@num=\count301
-\pgf@shadingcount=\count302
+\pgf@max=\dimen195
+\pgf@sys@shading@range@num=\count311
+\pgf@shadingcount=\count312
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcorei
 mage.code.tex
@@ -544,8 +614,8 @@ File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp
 -version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen193
-\pgf@nodesepend=\dimen194
+\pgf@nodesepstart=\dimen196
+\pgf@nodesepend=\dimen197
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfcomp
 -version-1-18.sty
@@ -562,8 +632,8 @@ ex))
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.co
 de.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen195
-\pgffor@skip=\dimen196
+\pgffor@iter=\dimen198
+\pgffor@skip=\dimen199
 \pgffor@stack=\toks33
 \pgffor@toks=\toks34
 ))
@@ -574,34 +644,34 @@ Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibrar
 yplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@plot@mark@count=\count303
-\pgfplotmarksize=\dimen197
+\pgf@plot@mark@count=\count313
+\pgfplotmarksize=\dimen256
 )
-\tikz@lastx=\dimen198
-\tikz@lasty=\dimen199
-\tikz@lastxsaved=\dimen256
-\tikz@lastysaved=\dimen257
-\tikz@lastmovetox=\dimen258
-\tikz@lastmovetoy=\dimen259
-\tikzleveldistance=\dimen260
-\tikzsiblingdistance=\dimen261
+\tikz@lastx=\dimen257
+\tikz@lasty=\dimen258
+\tikz@lastxsaved=\dimen259
+\tikz@lastysaved=\dimen260
+\tikz@lastmovetox=\dimen261
+\tikz@lastmovetoy=\dimen262
+\tikzleveldistance=\dimen263
+\tikzsiblingdistance=\dimen264
 \tikz@figbox=\box63
 \tikz@figbox@bg=\box64
 \tikz@tempbox=\box65
 \tikz@tempbox@bg=\box66
-\tikztreelevel=\count304
-\tikznumberofchildren=\count305
-\tikznumberofcurrentchild=\count306
-\tikz@fig@count=\count307
+\tikztreelevel=\count314
+\tikznumberofchildren=\count315
+\tikznumberofcurrentchild=\count316
+\tikz@fig@count=\count317
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodulema
 trix.code.tex
 File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfmatrixcurrentrow=\count308
-\pgfmatrixcurrentcolumn=\count309
-\pgf@matrix@numberofcolumns=\count310
+\pgfmatrixcurrentrow=\count318
+\pgfmatrixcurrentcolumn=\count319
+\pgf@matrix@numberofcolumns=\count320
 )
-\tikz@expandcount=\count311
+\tikz@expandcount=\count321
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tikz/
 libraries\tikzlibrarytopaths.code.tex
@@ -630,36 +700,36 @@ er skill matrix
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip78
-\multirow@cntb=\count312
+\multirow@cntb=\count322
 \multirow@dima=\skip79
-\bigstrutjot=\dimen262
+\bigstrutjot=\dimen265
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/arydshln\arydshln.sty
 Package: arydshln 2019/02/21 v1.76 
-\dashlinedash=\dimen263
-\dashlinegap=\dimen264
+\dashlinedash=\dimen266
+\dashlinegap=\dimen267
 \adl@box=\box69
-\adl@height=\dimen265
-\adl@heightsave=\dimen266
-\adl@depth=\dimen267
-\adl@depthsave=\dimen268
-\adl@finaldepth=\dimen269
-\adl@columns=\count313
-\adl@ncol=\count314
-\adl@currentcolumn=\count315
-\adl@currentcolumnsave=\count316
-\adl@totalheight=\count317
-\adl@totalheightsave=\count318
-\adl@dash=\count319
-\adl@gap=\count320
-\adl@cla=\count321
-\adl@clb=\count322
+\adl@height=\dimen268
+\adl@heightsave=\dimen269
+\adl@depth=\dimen270
+\adl@depthsave=\dimen271
+\adl@finaldepth=\dimen272
+\adl@columns=\count323
+\adl@ncol=\count324
+\adl@currentcolumn=\count325
+\adl@currentcolumnsave=\count326
+\adl@totalheight=\count327
+\adl@totalheightsave=\count328
+\adl@dash=\count329
+\adl@gap=\count330
+\adl@cla=\count331
+\adl@clb=\count332
 \adl@everyvbox=\toks35
-\adl@LTpagetotal=\dimen270
+\adl@LTpagetotal=\dimen273
 )
 ==> First Aid for arydshln.sty applied!
 \cvSkill@ShapeSize=\skip80
-\my@repeat@count=\count323
+\my@repeat@count=\count333
 \cvskill@width=\skip81
 \cvskill@descriptorwidth=\skip82
 \cvskill@experiencewidth=\skip83
@@ -681,11 +751,6 @@ Package: arydshln 2019/02/21 v1.76
 \doubleitemcolumnwidth=\skip98
 \tripleitemcolumnwidth=\skip99
 \listitemsymbolwidth=\skip100
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 50.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
-free0.fd)
 \listitemcolumnwidth=\skip101
 \listdoubleitemcolumnwidth=\skip102
 \listitemsymbolspace=\skip103
@@ -713,8 +778,11 @@ ex)) (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks36
 \inpenc@posthook=\toks37
-)
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
 6.
@@ -728,17 +796,17 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count324
-\Gm@cntv=\count325
-\c@Gm@tempcnt=\count326
-\Gm@bindingoffset=\dimen271
-\Gm@wd@mp=\dimen272
-\Gm@odd@mp=\dimen273
-\Gm@even@mp=\dimen274
-\Gm@layoutwidth=\dimen275
-\Gm@layoutheight=\dimen276
-\Gm@layouthoffset=\dimen277
-\Gm@layoutvoffset=\dimen278
+\Gm@cnth=\count334
+\Gm@cntv=\count335
+\c@Gm@tempcnt=\count336
+\Gm@bindingoffset=\dimen274
+\Gm@wd@mp=\dimen275
+\Gm@odd@mp=\dimen276
+\Gm@even@mp=\dimen277
+\Gm@layoutwidth=\dimen278
+\Gm@layoutheight=\dimen279
+\Gm@layouthoffset=\dimen280
+\Gm@layoutvoffset=\dimen281
 \Gm@dimlist=\toks38
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
@@ -767,7 +835,7 @@ Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
+Package pdftexcmds Info: \pdfdraftmode not found.
 )) (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
@@ -784,29 +852,25 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 ))
-\c@section@level=\count327
+\c@section@level=\count337
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/stringenc\stringenc.sty
 Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
 )
 )
-\@linkdim=\dimen279
-\Hy@linkcounter=\count328
-\Hy@pagecounter=\count329
+\@linkdim=\dimen282
+\Hy@linkcounter=\count338
+\Hy@pagecounter=\count339
  (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
 )
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-\Hy@SavedSpaceFactor=\count330
+\Hy@SavedSpaceFactor=\count340
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 4066.
 Package hyperref Info: Option `unicode' set `true' on input line 4066.
@@ -817,9 +881,9 @@ Package hyperref Info: Plain pages OFF on input line 4210.
 Package hyperref Info: Backreferencing OFF on input line 4215.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4462.
-\c@Hy@tempcnt=\count331
+\c@Hy@tempcnt=\count341
 LaTeX Info: Redefining \url on input line 4801.
-\XeTeXLinkMargin=\dimen280
+\XeTeXLinkMargin=\dimen283
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -829,9 +893,9 @@ ty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count332
-\Field@Width=\dimen281
-\Fld@charsize=\dimen282
+\Fld@menulength=\count342
+\Field@Width=\dimen284
+\Fld@charsize=\dimen285
 Package hyperref Info: Hyper figures OFF on input line 6078.
 Package hyperref Info: Link nesting OFF on input line 6083.
 Package hyperref Info: Hyper index ON on input line 6086.
@@ -839,16 +903,18 @@ Package hyperref Info: backreferencing OFF on input line 6093.
 Package hyperref Info: Link coloring ON on input line 6096.
 Package hyperref Info: Link coloring with OCG OFF on input line 6103.
 Package hyperref Info: PDF/A mode OFF on input line 6108.
-\Hy@abspage=\count333
-\c@Item=\count334
-\c@Hfootnote=\count335
+\Hy@abspage=\count343
+\c@Item=\count344
+\c@Hfootnote=\count345
 )
-Package hyperref Info: Driver (autodetected): hpdftex.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
-\Fld@listcount=\count336
-\c@bookmark@seq@number=\count337
+Package hyperref Info: Driver (autodetected): hxetex.
+ (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hxetex.def
+File: hxetex.def 2025-07-12 v7.01o Hyperref driver for XeTeX
+\pdfm@box=\box73
+\c@Hy@AnnotLevel=\count346
+\HyField@AnnotCount=\count347
+\Fld@listcount=\count348
+\c@bookmark@seq@number=\count349
 
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfilec
 heck.sty
@@ -865,8 +931,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 37.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 37.
- (resume_dhl_20250825.aux)
-\openout1 = `resume_dhl_20250825.aux'.
+ (resume-dhl-20250825.aux)
+\openout1 = `resume-dhl-20250825.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
@@ -878,6 +944,8 @@ LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
@@ -886,30 +954,6 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
 LaTeX Font Info:    ... okay on input line 37.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count338
-\scratchdimen=\dimen283
-\scratchbox=\box73
-\nofMPsegments=\count339
-\nofMParguments=\count340
-\everyMPshowfont=\toks39
-\MPscratchCnt=\count341
-\MPscratchDim=\dimen284
-\MPnumerator=\count342
-\makeMPintoPDFobject=\count343
-\everyMPtoPDFconversion=\toks40
-)
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-bas
-e.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
 LaTeX Info: Redefining \microtypecontext on input line 37.
 Package microtype Info: Applying patch `item' on input line 37.
 Package microtype Info: Applying patch `toc' on input line 37.
@@ -917,24 +961,26 @@ Package microtype Info: Applying patch `eqnum' on input line 37.
 Package microtype Info: Applying patch `footnote' on input line 37.
 Package microtype Info: Applying patch `verbatim' on input line 37.
 LaTeX Info: Redefining \microtypesetup on input line 37.
-Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
-Package microtype Info: Automatic font expansion enabled (level 2),
-(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
-Package microtype Info: Using default expansion set `alltext-nott'.
-Package microtype Info: Patching command `\showhyphens'.
 Package microtype Info: No adjustment of tracking.
-Package microtype Info: No adjustment of interword spacing.
-Package microtype Info: No adjustment of character kerning.
- (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-LatinModernR
+oman.cfg
+File: mt-LatinModernRoman.cfg 2021/02/21 v1.1 microtype config. file: Latin Mod
+ern Roman (RS)
 )
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmr' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: xetex
 * paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -966,9 +1012,13 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 37.
-(resume_dhl_20250825.out) (resume_dhl_20250825.out)
+(resume-dhl-20250825.out) (resume-dhl-20250825.out)
 \@outlinefile=\write4
-\openout4 = `resume_dhl_20250825.out'.
+\openout4 = `resume-dhl-20250825.out'.
+
+
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
 
 \makecvheadpicturebox=\box74
 \makecvheadpicturewidth=\skip110
@@ -978,10 +1028,13 @@ Package microtype Info: Character `029' is missing
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4
 2.
-
 (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmr' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 4
 2.
 
@@ -1012,107 +1065,61 @@ Package microtype Info: Character `029' is missing
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
+
+(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-TU-empty.cfg
+File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonsta
+ndard glyph set (RS)
+)
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <9> on input line 96.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 96.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
-nput line 97.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
-free2.fd)
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 9
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmr' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 9
 7.
- (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 97.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
-free1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
- input line 97.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\ufontawesome
-brands0.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
-vailable
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 97.
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 97
-.
-
-(C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+ (C:\Users\dhl\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `pcr' (encoding: T1).
+(microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 60.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{60.0pt}.
+(fancyhdr)                Make it at least 48.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{48.0pt}.
 
 [1
 
-{C:/Users/dhl/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/dhl/Ap
-pData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/dhl/AppData/
-Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:/Users/dhl/A
-ppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/User
-s/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{C:/Users/dhl
-/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Us
-ers/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.e
-nc}{C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}]
+]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10'.
 (microtype)             Ignoring protrusion settings for this character.
 
 
 Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 60.0pt, for example:
-(fancyhdr)                \setlength{\footskip}{60.0pt}.
+(fancyhdr)                Make it at least 48.0pt, for example:
+(fancyhdr)                \setlength{\footskip}{48.0pt}.
 
-[2{C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}
-{C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
-(resume_dhl_20250825.aux)
+[2] (resume-dhl-20250825.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-Package rerunfilecheck Info: File `resume_dhl_20250825.out' has not changed.
+Package rerunfilecheck Info: File `resume-dhl-20250825.out' has not changed.
 (rerunfilecheck)             Checksum: D505E7AD5FD56C2B3153A1AEF54635F2;805.
  ) 
 Here is how much of TeX's memory you used:
- 27764 strings out of 467871
- 536380 string characters out of 5419344
- 980564 words of memory out of 5000000
- 56020 multiletter control sequences out of 15000+600000
- 706333 words of font info for 146 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 129i,13n,136p,1018b,647s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/fontawesome5/F
-ontAwesome5Brands-Regular.pfb><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/dhl/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb
-><C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><
-C:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C
-:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsco10.pfb><C
-:/Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/
-Users/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi9.pfb><C:/Use
-rs/dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/
-dhl/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/dhl/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/dhl/AppD
-ata/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/dhl/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/dhl/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/lm/lmri9.pfb><C:/Users/dhl/AppData/Local
-/Programs/MiKTeX/fonts/type1/public/lm/lmro10.pfb><C:/Users/dhl/AppData/Local/P
-rograms/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb>
-Output written on resume_dhl_20250825.pdf (2 pages, 369291 bytes).
-PDF statistics:
- 173 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 45645 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 28003 strings out of 402987
+ 554178 string characters out of 5448938
+ 1065791 words of memory out of 5000000
+ 56263 multiletter control sequences out of 15000+600000
+ 697058 words of font info for 87 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 129i,13n,136p,1018b,635s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
+Output written on resume-dhl-20250825.pdf (2 pages).
