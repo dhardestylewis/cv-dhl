@@ -1793,3 +1793,15 @@ Privacy
 Terms
 © 2026 Homecastr. All rights reserved.
 Probabilistic Machine Learning for Parcel Forecasting at National Scale | Homecastr Engineering https://www.homecastr.com/methodology
+
+[2026-06-02 19:50]
+shouldnt we focus on acs nationwide figures rather than nyc rpad figures for comparability?
+
+[2026-06-02 19:50 (2)]
+dont you mean relative to zillows 7.3% benchmark for 0-year horizon? 1-Year Horizon: 7.3% MdAE (which outperforms Zillow's 8.4% benchmark).
+
+[2026-06-02 19:51]
+is it sufficiently clear that achieving similar to zillow's but 1 year out is harder/achievement/accomplishment? because zillow's would presumably be worse 1 year out?
+
+[2026-06-02 19:53]
+will our audience know what mdae means or should we instead simply say median error?
