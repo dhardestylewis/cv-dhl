@@ -1805,3 +1805,6 @@ is it sufficiently clear that achieving similar to zillow's but 1 year out is ha
 
 [2026-06-02 19:53]
 will our audience know what mdae means or should we instead simply say median error?
+
+[2026-06-02 22:39]
+pr merge
