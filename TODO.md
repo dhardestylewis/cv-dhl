@@ -1,7 +1,6 @@
 # TODO
 
 ## P1 - High Priority
-- [ ] **CRITICAL**: Review GUIDELINES.md before modifying any repository files, including this TODO file (UNREVIEWED) [Added: 2026-02-01 20:05]
 - [ ] Verify exact bullet counts for all Research PIs (Target: 2 per PI) (UNREVIEWED) [Added: 2026-02-01 20:12]
 - [ ] Final layout audit for widows/hangers after structural refinements (UNREVIEWED) [Added: 2026-02-01 20:12]
 
