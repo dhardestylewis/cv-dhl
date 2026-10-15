@@ -30,3 +30,7 @@ This archive preserves 10 verified local PDF snapshots of Daniel Hardesty Lewis'
 The prior repository held two byte-identical names for the June 13, 2026 snapshot. The precise canonical filename is now `linkedin-profile-v08-20260613-141733.pdf`; the duplicate name was removed from the active tree. Git history retains the prior copy.
 
 Files identified only by the generic `Profile*.pdf` filename, but whose first pages named other people, were excluded from this archive. Their original Downloads copies were left untouched. All retained PDFs were verified against their source with SHA-256 before being added. No authenticated LinkedIn session or profile page was opened to make this archive.
+
+## Claim provenance audit
+
+`profile-claim-ledger-v1.json` records normalized profile and résumé claims with exact source text, evidence type, timestamp provenance, confidence, and unresolved facts. `tech-holding-provenance-audit.md` applies that ledger to the Tech Holding application without identifying any résumé as the one retained by Tech Holding. Both files distinguish historical exports, the current public CV retrieval, authenticated mail evidence, and unavailable facts.
