@@ -33,7 +33,8 @@ cv-dhl.git/
 
 ## Current CVs
 
-- `cv-dhl-20251117-latest` - Most recent CV
+- `cv-dhl-20261015-latest` - Current CV: 2026-07-26 resume content on the 2026-10-15 LinkedIn dates (see its `PROVENANCE.md`)
+- `cv-dhl-20251117-latest` - Historical November 2025 CV source and PDF
 - `cv-dhl-20231231` - December 2023 version
 - `cv-dhl-20230831` - August 2023 version
 - `cv-dhl-20230801` - August 2023 early version

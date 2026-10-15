@@ -34,3 +34,5 @@ Files identified only by the generic `Profile*.pdf` filename, but whose first pa
 ## Claim provenance audit
 
 `profile-claim-ledger-v1.json` records normalized profile and résumé claims with exact source text, evidence type, timestamp provenance, confidence, and unresolved facts. `tech-holding-provenance-audit.md` applies that ledger to the Tech Holding application without identifying any résumé as the one retained by Tech Holding. Both files distinguish historical exports, the current public CV retrieval, authenticated mail evidence, and unavailable facts.
+
+The audit also records the local February 28, 2026 `inapp` résumé as the strongest candidate for the March application. Tech Holding's retained file remains unverified. The new October 15 CV (`cv/cv-dhl-20261015-latest`) is an updated local document, sourced from the 2026-07-26 two-page resume and the November 2025 CV with dates reconciled to the v10 export, and is not evidence that the public site or Tech Holding received it.

@@ -1,5 +1,8 @@
 # TODO-COMPLETED
 
+- [x] (UNREVIEWED) Create a dated CV aligned to the October 15 LinkedIn export and record the strongest local March résumé candidate without claiming it was uploaded [Added: 2026-10-15 19:06] (Completed: 2026-10-15T19:06)
+- [x] (UNREVIEWED) Rebuild cv-dhl-20261015 from the 2026-07-26 two-page resume and the November 2025 CV instead of LinkedIn wording, keeping every substantive bullet and reconciling only the dates and titles LinkedIn v10 forces; render and verify page breaks [Added: 2026-10-15 19:30] (Completed: 2026-10-15 19:45)
+
 - [x] (UNREVIEWED) Correct date of cv_dhl_20260128 to 20230831 [Added: 2026-01-28 21:22] (Completed: 2026-01-28 21:33)
 - [x] (UNREVIEWED) Correct date of cv_dhl_20240523 to 20230331 [Added: 2026-01-28 21:22] (Completed: 2026-01-28 21:33)
 - [x] (UNREVIEWED) Ensure naming schema uses hyphens not underscores [Added: 2026-01-28 21:22] (Completed: 2026-01-28 21:33)
