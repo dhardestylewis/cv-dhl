@@ -20,6 +20,14 @@ These are the items the public LinkedIn profile forces a reader to reconcile, an
 6. **Columbia degree.** LinkedIn shows 2024 to 2026; the July resume lists the thesis as 2026 and no longer says "expected". The CV uses 2024 to 2026 with the thesis title.
 7. **Sep. to Nov. 2025.** Left unannotated. No explanation belongs in the CV.
 
+## Second pass, same day
+
+- Address changed to 34 West 128th St, New York, NY 10027 in the CV and the two-pager footer.
+- Columbia line is now "2026" with the thesis title hyperlinked to github.com/dhardestylewis/thesis; the thesis entry in publications carries the Columbia Academic Commons DOI 10.7916/1swr-4871 (OpenAlex, published 2026-06-10).
+- Worldcastr blurb is the canonical overview with the leading "Worldcastr is building a" clause dropped so it fits two lines; each Worldcastr bullet was cut to two rendered lines in the CV. The 12.6% four-year MdAE keeps its NYC qualifier.
+- A two-page variant exists at `resume/2-page/without-cover-letter/resume-dhl-20261015-latest/`: the 2026-07-26 Anthropic Fellows two-pager with the same Worldcastr entry, SPC as Member Jun. to Sep. 2026, the new address and email, and the thesis DOI. Title line "Research Engineer" and the Core Expertise and Technologies blocks are carried unchanged.
+- Google Scholar and OpenAlex check: OpenAlex lists nine works under both author records; all are on the CV except a 2017 Springer chapter, "Big Data Analytics and Customs Throughput: The Case of Jamaica" (doi 10.1007/978-3-319-56538-5_52), which is likely a misattribution and was not added. Peer comparison in `artifacts/peer-cv-comparison-20261015.md`.
+
 ## Assumptions to overturn
 
 - Homecastr is presented as Worldcastr's first product rather than as a separate company. If Homecastr should stand as its own dated entry, the latest resume's dates are Sep. 2025 to Present.

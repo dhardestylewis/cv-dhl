@@ -27,6 +27,9 @@ Example: `2-page/with-cover-letter/resume-dhl-20240124-arity/`
 
 ### 2-Page
 
+**Without Cover Letter (current):**
+- `resume-dhl-20261015-latest` - October 2026 base/latest version, reconciled to the 2026-10-15 LinkedIn export; see `cv/cv-dhl-20261015-latest/PROVENANCE.md`
+
 **With Cover Letter:**
 - `resume-dhl-20260429-oxman` - Oxman application
 - `resume-dhl-20260428-outbreak-labs` - Outbreak Labs application

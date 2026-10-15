@@ -43,7 +43,8 @@ cv-dhl.git/
 
 See [resume/README.md](resume/README.md) for the full directory of targeted resumes.
 
-- `resume-dhl-20260726-anthropic-fellows` - Latest targeted résumé (July 2026)
+- `resume-dhl-20261015-latest` - Current two-page résumé (October 2026): the July 2026 two-pager with roles reconciled to the 2026-10-15 LinkedIn export
+- `resume-dhl-20260726-anthropic-fellows` - July 2026 targeted résumé (Anthropic Fellows)
 - `_BASE_resume-dhl-latest` - Base/template version
 
 ## Recovered Historical Documents

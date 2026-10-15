@@ -31,7 +31,7 @@
 %% Data
   \firstname{\textsc{Daniel}}
   \familyname{\textsc{Hardesty Lewis}}
-  \address{\textsc{155~Claremont~Ave}}{\textsc{New~York,~NY~10027}}{\textsc{United~States}}
+  \address{\textsc{34~West~128th~St}}{\textsc{New~York,~NY~10027}}{\textsc{United~States}}
   \phone[mobile]{+1~(713)~371-7875}
   \email{daniel@worldcastr.com}
   % \homepage{tacc.utexas.edu/about/directory/daniel-lewis}
@@ -55,19 +55,19 @@
   \makecvtitle
 
   \section{\textsc{Education}}
-    \cventry{2024 -- 2026}{M.S., Urban Planning}{Columbia University}{New York City,~NY}{}{Thesis: \emph{Predicting Formal Protest Petitions Against Housing Development: Evidence from Austin, Texas} (\href{https://github.com/dhardestylewis/thesis}{github.com/dhardestylewis/thesis})}
+    \cventry{2026}{M.S., Urban Planning}{Columbia University}{New York City,~NY}{}{Thesis: \href{https://github.com/dhardestylewis/thesis}{\emph{Predicting Formal Protest Petitions Against Housing Development: Evidence from Austin, Texas}}}
     \cventry{2017}{B.S., Pure Mathematics}{University of Texas}{Austin,~TX}{}{}
     \cventry{2017}{Certificate, Scientific~Computation}{University of Texas}{Austin,~TX}{}{}
 
   \section{\textsc{Experience}}
   \subsection{\textsc{Professional}}
     \cventry{Dec. 2025 -- Present}{Founder}{\href{https://worldcastr.com}{Worldcastr}}{New York, NY}{}{
-    Worldcastr is building a spatiotemporal foundation model of the real world, and the platform that puts it behind high-stakes decisions: one model from the individual parcel or condo unit to the nation, and from days to decades. It is trained only on real public data, so every forecast is backtestable and benchmarkable against the published forecasts it competes with.
+    Spatiotemporal foundation model of the real world, and the platform that puts it behind high-stakes decisions: one model from the individual parcel or condo unit to the nation, and from days to decades.
     \begin{itemize}
-        \item Architected a nationwide parcel-scale diffusion forecasting model trained on 50M+ parcel-year observations, achieving 7.0\% one-year error, competitive with Zillow's current valuation accuracy on a strictly harder forward-looking task, and 12.6\% median absolute error at 4-year horizons on NYC parcel-scale data.
-        \item Engineered the architecture with spatial inducing tokens, per-horizon loss normalization, and DDIM sampling; validated forecast reliability via PIT uniformity, interval coverage, and sharpness diagnostics before web delivery.
-        \item Built an LLM chat engine with 30+ function-calling tools integrating geographic data and comparables, with dual-model routing between Claude and GPT-4o Mini optimized for cost and latency.
-        \item Owned the end-to-end pipeline from data ingestion to real-time serving through the first product, \href{https://www.homecastr.com/}{Homecastr} (roughly 14M production requests weekly), and refined product strategy through direct feedback from a16z and MetaProp.
+        \item Built a parcel-scale diffusion forecaster on 50M+ parcel-year observations: 7.0\% one-year error, competitive with Zillow's valuation accuracy on a harder forward-looking task; 12.6\% MdAE at 4 years, NYC.
+        \item Engineered spatial inducing tokens, per-horizon loss normalization, and DDIM sampling; validated forecast reliability via PIT uniformity, interval coverage, and sharpness diagnostics before web delivery.
+        \item Built an LLM chat engine with 30+ function-calling tools over geographic data and comparables, with dual-model routing between Claude and GPT-4o Mini optimized for cost and latency.
+        \item Owned the pipeline from data ingestion to real-time serving through the first product, \href{https://www.homecastr.com/}{Homecastr} (roughly 14M production requests weekly); refined product strategy through direct feedback from a16z and MetaProp.
     \end{itemize}}
 
     \cventry{Jun. 2026 -- Sep. 2026}{Member}{\href{https://www.southparkcommons.com/}{South Park Commons}}{New York, NY}{}{
@@ -154,7 +154,7 @@
 
   \Needspace{5\baselineskip}
   \section{\textsc{Thesis}}
-    \cvitem{2026}{\emph{Hardesty~Lewis,~D.}. "Predicting Formal Protest Petitions Against Housing Development: Evidence from Austin, Texas". {\small M.S. Thesis, Columbia University GSAPP.}}
+    \cvitem{2026}{\emph{Hardesty~Lewis,~D.}. "Predicting Formal Protest Petitions Against Housing Development: Evidence from Austin, Texas". {\small M.S. Thesis, Columbia University GSAPP. DOI: \href{https://doi.org/10.7916/1swr-4871}{10.7916/1swr-4871}}}
   \section{\textsc{Peer-reviewed~articles}}
     \cvitem{2021~July}{Gil,~Y., D.~Garijo, D.~Khider, C.~A.~Knoblock, M.~Osorio, H.~Vargas, M.~Pham, J.~Pujara, B.~Shbita, B.~Vu, Y.~Chiang, D.~Feldman, Y.~Lin, H.~Song, V.~Kumar, A.~Khandelwal, M.~Steinbach, K.~Tayal, S.~Xu, S.~A.~Pierce, L.~Pearson, \emph{D.~Hardesty~Lewis}, E.~Deelman, R.~F.~da~Silva, R.~Mayani, A.~R.~Kemanian, Y.~Shi, L.~Leonard, S.~.D.~Peckham, M.~Stoica, K.~M.~Cobourn, Z.~Zhang, C.~Duffy, L.~Shu. "Artificial Intelligence for Modeling Complex Systems: Taming the Complexity of Expert Models to Improve Decision Making". {\small The ACM Transactions on Interactive Intelligent Systems 11(2):11.}}
   \section{\textsc{Conference~papers}}
