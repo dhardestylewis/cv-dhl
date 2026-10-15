@@ -18,6 +18,7 @@ cv-dhl.git/
 │       ├── with-cover-letter/
 │       └── without-cover-letter/
 ├── _archive/                   # Archived/legacy contents
+├── artifacts/                  # Saved profile and supporting artifacts
 ├── dhardestylewis/             # GitHub profile README submodule
 ├── GUIDELINES.md               # Project guidelines
 ├── TODO.md                     # Current tasks
@@ -47,6 +48,10 @@ See [resume/README.md](resume/README.md) for the full directory of targeted resu
 ## Recovered Historical Documents
 
 Distinct CV and résumé artifacts recovered from the Jobsearch and PhD Applications directories are recorded in [IMPORT-20261015.md](IMPORT-20261015.md). They retain the established document-type, page-count, and cover-letter hierarchy.
+
+## Saved LinkedIn Profile Exports
+
+Twenty distinct local LinkedIn profile exports are kept in [`artifacts/`](artifacts/), ordered by the PDF-embedded Eastern timestamp and numbered `v01` through `v20`. See [artifacts/README.md](artifacts/README.md) for provenance, hashes, and source mapping.
 
 ## Documentation
 
