@@ -51,7 +51,7 @@ Distinct CV and résumé artifacts recovered from the Jobsearch and PhD Applicat
 
 ## Saved LinkedIn Profile Exports
 
-Twenty distinct local LinkedIn profile exports are kept in [`artifacts/`](artifacts/), ordered by the PDF-embedded Eastern timestamp and numbered `v01` through `v20`. See [artifacts/README.md](artifacts/README.md) for provenance, hashes, and source mapping.
+Ten verified local LinkedIn profile exports are kept in [`artifacts/`](artifacts/), ordered by the PDF-embedded Eastern timestamp and numbered `v01` through `v10`. See [artifacts/README.md](artifacts/README.md) for provenance, hashes, and source mapping.
 
 ## Documentation
 
