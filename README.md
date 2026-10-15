@@ -41,8 +41,12 @@ cv-dhl.git/
 
 See [resume/README.md](resume/README.md) for the full directory of targeted resumes.
 
-- `resume-dhl-20260602-staff-mle` - Latest Staff MLE Resume (June 2026)
+- `resume-dhl-20260726-anthropic-fellows` - Latest targeted résumé (July 2026)
 - `_BASE_resume-dhl-latest` - Base/template version
+
+## Recovered Historical Documents
+
+Distinct CV and résumé artifacts recovered from the Jobsearch and PhD Applications directories are recorded in [IMPORT-20261015.md](IMPORT-20261015.md). They retain the established document-type, page-count, and cover-letter hierarchy.
 
 ## Documentation
 

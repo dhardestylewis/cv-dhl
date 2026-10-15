@@ -44,6 +44,9 @@ Example: `2-page/with-cover-letter/resume-dhl-20240124-arity/`
 - `_BASE_resume-dhl-latest` - Template/base version
 
 **Without Cover Letter:**
+- `resume-dhl-20260228-inapp` - In-app application version
+- `resume-dhl-20260207-fullstack-mle` - Full-stack MLE version
+- `resume-dhl-20260201-fullstack-mle` - Full-stack MLE version
 - `resume-dhl-20260602-staff-mle` - June 2026 Staff MLE (with SPC Residency)
 - `resume-dhl-20260430-staff-mle` - April 2026 Staff MLE
 - `resume-dhl-20260421-staff-mle` - April 2026 Staff MLE
@@ -53,7 +56,7 @@ Example: `2-page/with-cover-letter/resume-dhl-20240124-arity/`
 - `resume-dhl-20260420-fde-ops` - April 2026 FDE Ops
 - `resume-dhl-20260420-aiml-engineer` - April 2026 AIML Engineer
 - `resume-dhl-20260420-ai-consultant` - April 2026 AI Consultant
-- `resume_dhl_20250825-latest` - August 2025 latest version
+- `resume-dhl-20250825-phd-applications` - August 2025 PhD applications version
 
 ### 2-Plus Page
 
@@ -63,4 +66,7 @@ Example: `2-page/with-cover-letter/resume-dhl-20240124-arity/`
 - `resume-dhl-20240515-columbia_assistantship` - Columbia Assistantship application
 
 **Without Cover Letter:**
+- `resume-dhl-20240102-general` - January 2024 general version
+- `resume-dhl-20231116-dataaffect` - DataAffect version
+- `resume-dhl-20230613-columbia-gsapp` - Columbia GSAPP version
 - `resume-dhl-20240523` - May 2024 version
