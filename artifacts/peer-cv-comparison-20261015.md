@@ -57,6 +57,59 @@ Foreground these in the two-pager's Core Expertise and Technologies blocks.
 - A founder already shipping to energy customers (Gupta; Keisler and Rothenberg)
 - An itemized technical-skills section naming supercomputers and tools (Rothenberg); others let a publication list carry the signal
 
+## Second pass: best-in-class comparables (14 more, fetched 2026-10-15)
+
+| # | Person, title, org | Page | What they list | Education |
+|---|---|---|---|---|
+| 15 | Rémi Lam, Staff Research Scientist, Google DeepMind | https://orc.mit.edu/calendar_event/lam26/ | GraphCast, GenCast, FGN, DGMR; GNNs, diffusion, functional generative nets; model-validation pitfalls; Science Breakthrough runner-up 2023; Nature's 10 (2024) | PhD CSE, MIT |
+| 16 | Paris Perdikaris, Assoc. Prof. Penn; Aurora co-lead | https://penntoday.upenn.edu/news/cloudy-chance-lifesaving-and-more-cost-effective-weather-predictions | Aurora (Nature 2025): pretrained on 1M+ hours of geophysical data, fine-tuned to air quality, waves, cyclones; GPU-parallel | Not on page |
+| 17 | Christopher F. Brown, Research Engineer, Google DeepMind | https://arxiv.org/abs/2507.22291 | AlphaEarth Foundations: 10 m global embedding field, optical, radar, lidar, climate sims; 64-dim, annual layers 2017 to 2024 in Earth Engine; tested with 50+ organizations | Not on page |
+| 18 | Karthik Kashinath, Principal Engineer and Scientist, NVIDIA Earth-2 | https://developer.nvidia.com/blog/author/kkashinath/ | FourCastNet, Earth-2; spherical Fourier neural operators, generative super-resolution, hindcast validation; DOE, NOAA, NWS users | PhD Cambridge |
+| 19 | Aditya Grover, Asst. Prof. UCLA; CTO Inception | https://aditya-grover.github.io/ | ClimaX, Stormer (beat GraphCast; best paper CCAI at ICLR 2024), Mercury diffusion LLMs; NSF CAREER, Schmidt AI2050 | PhD Stanford |
+| 20 | Johannes Jakubik, Research Scientist, IBM Research Europe | https://research.ibm.com/people/johannes-jakubik | Prithvi-EO-1.0/2.0, Prithvi-WxC-1.0-2300M (MERRA-2, 160 variables), TerraMind, TerraTorch; HF cards and Spaces; ICCV, CVPR; NASA Agency Group Award | PhD KIT and ETH |
+| 21 | Gautam Prasad, SWE, Google Research (PDFM) | https://research.google/blog/insights-into-population-dynamics-a-foundation-model-for-geospatial-inference/ | PDFM: self-supervised GNN over counties and ZIPs; tasks interpolation, extrapolation, forecasting, super-resolution; baselines SatCLIP, GeoCLIP, IDW, ARIMA; 29-variable benchmark; embeddings dataset and Colab recipes | Not on page |
+| 22 | Stan Humphries, former Chief Analytics Officer, Zillow | https://www.cxotalk.com/bio/stan-humphries-chief-analytics-officer-zillow-group | Zestimate creator; nightly runs at scale; median error 14% to 5% | PhD UVA |
+| 23 | Daryl Fairweather, Chief Economist, Redfin | https://www.dallasfed.org/people/fed/councils/academic/fairweather | US housing, behavioral economics; Dallas Fed advisory council | PhD Economics, Chicago |
+| 24 | Abe Stanway, co-founder and CTO, Amperon | https://www.amperon.co/blog/introducing-amperon | Smart-meter load and net-load forecasting: 76M+ meters, 5-minute settlements, PJM, CAISO, MISO, ERCOT; 15-day sub-hourly; probabilistic solar and wind; cnMAE; public accuracy calls vs ERCOT | Not on page |
+| 25 | Max Kanter, CEO, Grid Status | https://www.gridstatus.io/about | Open US grid data and analytics; wholesale-market design; cited by FT, Bloomberg, NYT, Dallas Fed; $8M round | Not on page |
+| 26 | Nikhil Shankar, co-founder, Silurian AI (YC S24) | https://silurian.ai/blog/gft-api-announce | GFT: 1.5B parameters, 14-day global at about 11 km, hourly; up to 30% better than NOAA and ECMWF; Earth API with Python and TypeScript SDKs; full-year 2023 evaluation vs stations, HRES, GraphCast, HRRR, ICON; 100 m wind and GHI for energy | Left applied-math PhD |
+| 27 | Marvin Gabler, Founder and CEO, Jua | https://jua.ai/blog/scaling-ai-weather-models/ | EPT-2 family; 1,000+ H100 training, 100+ TB/hour ingest, petabytes of observations; FSDP/DDP, BF16, Rust serving, Slurm on Kubernetes; public skill table vs GenCast, Aurora, FourCastNet 3, HRES; customers Shell, EDF, Hydro-Quebec, Vitol | RWTH dropout |
+| 28 | Tejal Patwardhan, Researcher, OpenAI, frontier evals lead | https://www.alphaxiv.org/@tejal-patwardhan | GDPval, PaperBench (8,316 gradable tasks, judge benchmark, open code), MLE-bench, SWE-Lancer; system cards | BA Statistics, Harvard |
+
+Planet Labs chief scientist: no usable page found. Google Scholar returned 429 throughout.
+
+## The bar: what the Worldcastr entry must contain to read at their level
+
+Scored against Worldcastr's own verified record (preprint claims ledger of 2026-10-13, evidence scoreboard of 2026-10-07, release package). "Have" means a durable record supports the claim today.
+
+| # | Bar, and who sets it | Worldcastr status | What can be written now |
+|---|---|---|---|
+| 1 | Named, versioned model with parameters, resolution, horizon (Silurian GFT 1.5B, Jua EPT-2, Prithvi-WxC-2300M) | Partial. Name FMTSFlow and origin-specific checkpoints per information cutoff 2019 to 2023 are in the repo registry; parameter count not in any record I read | Name and cutoffs; tract and county resolution; 1 to 4 year scored horizons. No parameter count |
+| 2 | Training-data scale in concrete units (Aurora 1M+ hours, Jua petabytes, AlphaEarth 10 m global) | Have, with caveat (manifest on R2 not re-read on 2026-10-13) | 388,106,452-row panel, 16 jurisdictions, 4 countries, 32-target registry |
+| 3 | Compute scale and stack (Jua 1,000+ H100, FSDP, Rust) | Not in hand for FMTSFlow | Nothing for Worldcastr; TACC-era 1M-node jobs stay under TACC |
+| 4 | Scored comparison vs named incumbents under a fixed protocol with ground truth and period (Silurian vs HRES over 2023; PDFM vs SatCLIP, ARIMA) | Have, pre-registered, county-clustered bootstrap, but the 2020 county test is not information-matched (ledger C1, abstract) | 59.8% [58.4, 61.1] of 3,134 counties vs 18 published sources on 2020 Census counts; 54.9% of 11,466 tract cells vs 30 agencies, 44 vintages; must carry the information-matching caveat and that state demographers win at county (47.0%) |
+| 5 | Benchmark as a product: task count, gradable units, leaderboard, scorer code, pre-registration (PaperBench, MLE-bench) | Have as a package, not public | 131 agency sources, 3,065 files, 27 normalized publication-dated vintages (6.96M native rows); three pre-registration records; GitHub scorer with leaderboard file and tests |
+| 6 | Release URLs: arXiv ID, HF dataset and model card, GitHub, Colab (AlphaEarth, Prithvi, PDFM) | Prepared, none uploaded; arXiv id pending; publication needs Daniel's approval | "Prepared for release" only |
+| 7 | Named architecture components with lineage (Lam: GNN, diffusion, FGN) | Have for the parcel model (diffusion, DDIM, spatial inducing tokens); FMTSFlow internals not read | Keep the existing architecture bullet |
+| 8 | Downstream task list with per-task metric (PDFM four tasks; Aurora three) | Have | Population, households, housing units, occupied units at tract and county, 1 to 4 years; parcel value 1 to 4 years |
+| 9 | Production evidence: API, cadence, named customers (Silurian Earth API; Amperon 15-day) | Partial | Homecastr serving at roughly 14M weekly requests (July resume); API-only model card drafted; no named customers, discovery only |
+| 10 | External validation: venue, award, press, partner count (AlphaEarth 50+ orgs; GraphCast Science runner-up) | Not yet | PAA ADC abstract due 2026-11-07; a16z and MetaProp feedback is the only external marker |
+
+## Draft Worldcastr entry at that bar (not yet applied to the CV)
+
+Blurb unchanged. Bullets, each sourced to the ledger row in brackets:
+
+- Trained FMTSFlow, a multi-target spatiotemporal forecaster, on a 388M-row panel of real public data across 16 jurisdictions in 4 countries and 32 targets (population, households, housing, rents, home values, income, employment, migration), one checkpoint per information cutoff, 2019 to 2023. [B4, A3, A4]
+- Built a pre-registered benchmark scoring published U.S. projections against 2020 Census counts with county-clustered bootstrap intervals: 59.8% county win rate vs 18 agency and national sources (3,134 counties); 54.9% at tract vs 30 agencies and 44 vintages; held-flat and gradient-boosted baselines reported alongside; information-matched 2025 test under way. [C1, C2, C11, C14]
+- Assembled the publication-dated archive behind it (131 agency sources, 3,065 files, 27 normalized vintages) and packaged an arXiv preprint, Hugging Face dataset, GitHub scorer with leaderboard, and API model card for release. [B1, B2, release/]
+- Built a parcel-scale diffusion forecaster on 50M+ parcel-year observations: 7.0% one-year error, competitive with Zillow's valuation accuracy on a harder forward-looking task; 12.6% MdAE at 4 years, NYC. [July resume]
+- Engineered spatial inducing tokens, per-horizon loss normalization, and DDIM sampling; validated via PIT uniformity, interval coverage, and sharpness before web delivery. [July resume]
+- Owned the pipeline from data ingestion to real-time serving through the first product, Homecastr (roughly 14M production requests weekly); refined product strategy through direct feedback from a16z and MetaProp. [July resume]
+
+Moves to Key Projects: the LLM chat engine with 30+ function-calling tools.
+
+Assumptions to overturn: that FMTSFlow is the name to use publicly; that "information-matched 2025 test under way" is acceptable on a handout; that the 388M-row figure may be cited although the R2 manifest was not re-read on 2026-10-13.
+
 ## Implications for the CV
 
 1. The Worldcastr benchmark preprint and the Hugging Face and GitHub releases prepared under the credit-request package would close the two largest gaps (open-source release, benchmark authorship) once approved for publication.
