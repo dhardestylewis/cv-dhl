@@ -31,6 +31,12 @@ cv-dhl.git/
 - **Resumes**: `resume-dhl-YYYYMMDD-[descriptor]`
 - Use hyphens (`-`), not underscores (`_`), except in legacy descriptors like `columbia_assistantship`
 
+## Current versions (read first)
+
+- Full CV: `cv/cv-dhl-20261015-latest` (8 pages). Two-pager: `resume/2-page/without-cover-letter/resume-dhl-20261015-latest`. Both built 2026-10-15; provenance and reconciliation decisions in `cv/cv-dhl-20261015-latest/PROVENANCE.md`.
+- Comparables and the bar: `artifacts/comparables-ladder-20261015.md` (who evaluates Daniel, up to DeepMind), `artifacts/comparables/` (40 pulled profiles, four tiers, plus `writing/` with 77 sources on what makes a strong profile), `artifacts/comparison-theirs-vs-mine-20261015.md` (14-dimension comparison, role bars, bullet audit, ranked gaps).
+- Open work: the P1 block at the top of `TODO.md`, dated 2026-10-15. Items needing Daniel are marked Owner: Daniel.
+
 ## Current CVs
 
 - `cv-dhl-20261015-latest` - Current CV: 2026-07-26 resume content on the 2026-10-15 LinkedIn dates (see its `PROVENANCE.md`)

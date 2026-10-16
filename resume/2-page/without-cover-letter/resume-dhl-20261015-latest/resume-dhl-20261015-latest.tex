@@ -90,24 +90,23 @@ Specializing in causal inference, automated validation, and scalable distributed
     \cventry{Dec. 2025 -- Present}{Founder}{\href{https://worldcastr.com}{Worldcastr}}{New York, NY}{}{
     Spatiotemporal foundation model of the real world, and the platform that puts it behind high-stakes decisions: one model from the individual parcel or condo unit to the nation, and from days to decades.
     \begin{itemize}
+      \item Trained FMTSFlow, a multi-target spatiotemporal forecaster, on a 388M-row panel of real public data across 16 jurisdictions in 4 countries and 32 targets (population, households, housing, rents, home values, income, employment, migration), one checkpoint per information cutoff, 2019 to 2023.
+      \item Built a pre-registered benchmark scoring published U.S. projections against 2020 Census counts with county-clustered bootstrap intervals: 59.8\% county win rate vs 18 agency and national sources (3,134 counties); 54.9\% at tract vs 30 agencies and 44 vintages; held-flat and gradient-boosted baselines reported alongside; information-matched 2025 test under way.
       \item Built a parcel-scale diffusion forecaster on 50M+ parcel-year observations: 7.0\% one-year error, competitive with Zillow's valuation accuracy on a harder forward-looking task; 12.6\% MdAE at 4 years, NYC.
-      \item Engineered spatial inducing tokens, per-horizon loss normalization, and DDIM sampling; validated forecast reliability via PIT uniformity, interval coverage, and sharpness diagnostics before web delivery.
-      \item Built an LLM chat engine with 30+ function-calling tools over geographic data and comparables, with dual-model routing between Claude and GPT-4o Mini optimized for cost and latency.
-      \item Owned the pipeline from data ingestion to real-time serving through the first product, \href{https://www.homecastr.com/}{Homecastr} (roughly 14M production requests weekly); refined product strategy through direct feedback from a16z and MetaProp.
+      \item Owned the pipeline from data ingestion to real-time serving through the first product, \href{https://www.homecastr.com/}{Homecastr} (roughly 14M production requests weekly).
     \end{itemize}}
 
     \cventry{Jun.~2026 -- Sep.~2026}{Member}{\href{https://www.southparkcommons.com/}{South Park Commons}}{New York, NY}{}{
     Selective technology community for founders at a leading venture capital firm.
     \begin{itemize}
       \item Designed and implemented the next iteration of the Worldcastr machine learning architecture: a full-sequence inpainting editable world model.
-      \item Conducted customer discovery with potential ICPs, including Parcl, Crusoe, and Cushman \& Wakefield, to align predictive capabilities with enterprise requirements.
     \end{itemize}}
 
     \cventry{Oct.~2024 -- Sep.~2025}{Technical Advisor}{\href{https://www.polibom.com/}{PoliBOM}}{Seattle, WA}{}{
     AI tariff mitigation and trade compliance product for manufacturers, centered on agentic BOM analysis and policy scenario simulation.
     \begin{itemize}
       \item Engineered an agentic retrieval-augmented pipeline for BOM parsing and tariff simulation, replacing manual trade-compliance analysis with predictable multi-step reasoning.
-      \item Directed development of a \textbf{conversational AI interface} enabling decision-makers to instantly \textbf{retrieve BOMs and receive proactive compliance alerts}.
+      \item Advised on the \textbf{conversational AI interface} enabling decision-makers to instantly \textbf{retrieve BOMs and receive proactive compliance alerts}.
       \item Executing customer discovery with ScoutyAI and Columbia economists, and secured early market validation by presenting the prototype to KPMG.
     \end{itemize}}
 
@@ -122,10 +121,10 @@ Specializing in causal inference, automated validation, and scalable distributed
     \begin{itemize}
         \item Spun out Summit Geospatial alongside UT's VPs of IP to commercialize state-level terrain models from the \$40M \href{https://tdis.io/}{Texas Disaster Information System (TDIS)}, delivering precision decision-support for civil engineering.
         \item Developed inter-agency RFP and MOU frameworks with state and federal partners, translating technical requirements into scope and milestones facilitating \href{https://storymaps.arcgis.com/stories/6227f24d6c5047f883d5c3497241f299}{Real-Time Inundation Mapping} and TDIS.
-        \item Scaled climate and flood models through \textbf{1M-node-scale jobs} on \textbf{Frontera, a top-5 most powerful supercomputer in the world}; managed \$1M+ compute budgets and NOAA, NSF, USACE, and GLO partnerships.
+        \item Scaled climate and flood models to system-scale, million-task jobs on Frontera (then a top-5 supercomputer, about 450K cores); managed \$1M+ compute budgets and NOAA, NSF, USACE, and GLO partnerships.
         \item Developed efficient methods to produce high-resolution 1m flood maps from National Water Model outputs for Texas Emergency Management's Real-Time Inundation Mapping.
         \item Partnered with the US Army Corps of Engineers to statistically model compound flood hazards in coastal Texas, integrating high-resolution topographic data with hydrological models.
-        \item Contributed research supporting Paola Passalacqua's \href{https://www.egu.eu/awards-medals/ralph-alger-bagnold/2022/paola-passalacqua/}{2022 EGU Bagnold Medal}, one of geomorphology's highest honors.
+        \item Co-authored the inundation-mapping research presented to NOAA with Paola Passalacqua (\href{https://www.egu.eu/awards-medals/ralph-alger-bagnold/2022/paola-passalacqua/}{2022 EGU Bagnold Medal}).
         % Formal title: Technical Reviewer
         % NSF Frontera leadership-class computing project (NSF award #1818253): https://www.nsf.gov/awardsearch/show-award/?AWD_ID=1818253
         % Awardees list: https://frontera-portal.tacc.utexas.edu/allocations/pathways-awardees/
@@ -136,7 +135,6 @@ Specializing in causal inference, automated validation, and scalable distributed
     \begin{itemize}
         \item Competed in \href{https://www.darpa.mil/program/world-modelers}{DARPA World Modelers} to improve disaster resiliency and food security modeling in East Africa.
         \item Mentored Petrobras engineers in deep learning and HPC to enable institutional technology transfer.
-        \item Cited by AAAI President Yolanda Gil in her \href{https://youtu.be/3Spk_UOHNxA?t=2377}{farewell address} for contributions to automated scientific modeling.
     \end{itemize}}
 
 
@@ -178,7 +176,7 @@ Specializing in causal inference, automated validation, and scalable distributed
 
   \section{\textsc{Key Projects}}
 
-    \cvitem{\href{https://github.com/dhardestylewis/thesis}{Predicting Zoning}\newline\href{https://github.com/dhardestylewis/thesis}{Opposition}}{Developed the first property- and owner-level causal ML model of NIMBYism: Double Machine Learning (DML) over a 193k case-period panel to isolate the spatial tax of formal protest petitions on allowable building height.}
+    \cvitem{\href{https://github.com/dhardestylewis/thesis}{Predicting Zoning}\newline\href{https://github.com/dhardestylewis/thesis}{Opposition}}{Developed, to our knowledge, the first property- and owner-level causal ML model of NIMBYism: Double Machine Learning (DML) over a 193k case-period panel to isolate the spatial tax of formal protest petitions on allowable building height.}
     \cvitem{M\&A predictor}{Built M\&A prediction model (Oct.--Dec.~2025) with Prof. Eric Talley on 1.5M Compustat firm-quarters; long-only portfolio beat S\&P 500 by 2\%/yr (2004--2020), peaking at 6\%/yr.}
 
 

@@ -28,6 +28,18 @@ These are the items the public LinkedIn profile forces a reader to reconcile, an
 - A two-page variant exists at `resume/2-page/without-cover-letter/resume-dhl-20261015-latest/`: the 2026-07-26 Anthropic Fellows two-pager with the same Worldcastr entry, SPC as Member Jun. to Sep. 2026, the new address and email, and the thesis DOI. Title line "Research Engineer" and the Core Expertise and Technologies blocks are carried unchanged.
 - Google Scholar and OpenAlex check: OpenAlex lists nine works under both author records; all are on the CV except a 2017 Springer chapter, "Big Data Analytics and Customs Throughput: The Case of Jamaica" (doi 10.1007/978-3-319-56538-5_52), which is likely a misattribution and was not added. Peer comparison in `artifacts/peer-cv-comparison-20261015.md`.
 
+## Third pass, same day: edits against the comparables bar
+
+Sources: `artifacts/comparison-theirs-vs-mine-20261015.md` and the Worldcastr preprint claims ledger of 2026-10-13 (rows A3, A4, B1, B2, B4, C1, C2, C11, C14).
+
+- Worldcastr entry now leads with the named model and ledger-sourced scale: FMTSFlow on a 388M-row panel, 16 jurisdictions, 4 countries, 32 targets, one checkpoint per information cutoff 2019 to 2023; then the pre-registered benchmark (59.8% county win rate vs 18 sources on 3,134 counties; 54.9% tract vs 30 agencies, 44 vintages; held-flat and GBM baselines; information-matched 2025 test under way); then the archive and release package (131 sources, 3,065 files, 27 vintages; preprint, HF dataset, GitHub scorer, model card, pending approval). The diffusion forecaster, architecture and serving bullets follow. The two-pager carries four of the six for space.
+- The LLM chat engine moved to Key Projects in the full CV and was dropped from the two-pager.
+- TACC Frontera line reworded from "1M-node-scale jobs" to "system-scale, million-task jobs on Frontera (then a top-5 supercomputer, about 450K cores)"; the true node-hour figure is a TODO for Daniel.
+- The Gil farewell-address bullet was removed; the Bagnold bullet now states the specific contribution (the inundation-mapping research presented to NOAA, which is on the Presentations list).
+- PoliBOM "Directed development" became "Advised on", matching the Technical Advisor title. "The first ... model of NIMBYism" became "to our knowledge, the first".
+- The thesis methods line links the repo. The full CV's Technology Skills block was replaced with an itemized stack (modeling, causal inference, LLM applications, data, geospatial, HPC and infrastructure naming Frontera, Stampede2, Lonestar).
+- The two-pager dropped the SPC customer-discovery bullet to stay at two pages.
+
 ## Assumptions to overturn
 
 - Homecastr is presented as Worldcastr's first product rather than as a separate company. If Homecastr should stand as its own dated entry, the latest resume's dates are Sep. 2025 to Present.
