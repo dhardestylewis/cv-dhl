@@ -40,6 +40,10 @@ Sources: `artifacts/comparison-theirs-vs-mine-20261015.md` and the Worldcastr pr
 - The thesis methods line links the repo. The full CV's Technology Skills block was replaced with an itemized stack (modeling, causal inference, LLM applications, data, geospatial, HPC and infrastructure naming Frontera, Stampede2, Lonestar).
 - The two-pager dropped the SPC customer-discovery bullet to stay at two pages.
 
+## Fourth pass, same day: cross-target results replace the housing-only headline
+
+Daniel's call: the 7.0% one-year error and the Zillow comparison described the Homecastr-era parcel-value model scored alone, and are out of date now that FMTSFlow scores housing alongside the other targets. The Worldcastr entry now reports the cross-target standing from the evidence scoreboard (2026-10-07) and the claims ledger: beats official projections in 6 of 10 pooled target-level comparisons and ties the rest; county population 59.8% vs 18 sources; tract 54.9% vs 30 agencies with the per-target split (households 60.1%, housing 52.5%, population 48.0%); the gradient-boosted lag baseline still leads at tract; the information-matched 2025 test is under way. Housing appears as one target among the 32 in the registry and one of the three scored today. Homecastr is kept as the first product with its architecture named and its serving volume, with no accuracy figure. The former TODO item on the Zillow basis is marked superseded.
+
 ## Assumptions to overturn
 
 - Homecastr is presented as Worldcastr's first product rather than as a separate company. If Homecastr should stand as its own dated entry, the latest resume's dates are Sep. 2025 to Present.
