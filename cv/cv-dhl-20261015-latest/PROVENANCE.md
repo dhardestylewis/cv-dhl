@@ -44,6 +44,13 @@ Sources: `artifacts/comparison-theirs-vs-mine-20261015.md` and the Worldcastr pr
 
 Daniel's call: the 7.0% one-year error and the Zillow comparison described the Homecastr-era parcel-value model scored alone, and are out of date now that FMTSFlow scores housing alongside the other targets. The Worldcastr entry now reports the cross-target standing from the evidence scoreboard (2026-10-07) and the claims ledger: beats official projections in 6 of 10 pooled target-level comparisons and ties the rest; county population 59.8% vs 18 sources; tract 54.9% vs 30 agencies with the per-target split (households 60.1%, housing 52.5%, population 48.0%); the gradient-boosted lag baseline still leads at tract; the information-matched 2025 test is under way. Housing appears as one target among the 32 in the registry and one of the three scored today. Homecastr is kept as the first product with its architecture named and its serving volume, with no accuracy figure. The former TODO item on the Zillow basis is marked superseded.
 
+## Fifth pass, same day: two-line bullets; Homecastr result checked against the deck and one-pager
+
+- Checked the latest sources on the parcel-level front. The pitch deck (v76, 2026-08-31) carries no scored parcel result; Florida (100,000 parcels) and Vancouver (1.52M rows) are at the candidate-scoring stage. The model-and-backtesting one-pager (2026-09-19) leads with the ACS-evaluated 80.3% over 23,419 comparisons, which the 2026-10-13 preprint demoted to secondary because ACS truth overstates skill. So the Homecastr accuracy figure earns no line; Homecastr stays as the first product with its architecture and serving volume.
+- The deck's source note records the basis the superseded TODO asked for: the 7% was a one-year-ahead median error, compared with Zillow's 7.01% nationwide median error for current off-market Zestimates. Not used on the CV by Daniel's decision.
+- Serving volume corrected from the July resume's "roughly 14M requests weekly" to the deck's July 28 context: 9M per week representative, 14M peak. The deck also attributes 8.8M requests to one automated Tencent Singapore cluster; the CV states the peak and typical figures only.
+- First two Worldcastr bullets cut to two rendered lines each; the per-target split (households 60.1%, housing 52.5%, population 48.0%) moved out of the CV and stays in the ledger and the comparison file.
+
 ## Assumptions to overturn
 
 - Homecastr is presented as Worldcastr's first product rather than as a separate company. If Homecastr should stand as its own dated entry, the latest resume's dates are Sep. 2025 to Present.

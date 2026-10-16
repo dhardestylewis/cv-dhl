@@ -64,11 +64,10 @@
     \cventry{Dec. 2025 -- Present}{Founder}{\href{https://worldcastr.com}{Worldcastr}}{New York, NY}{}{
     Spatiotemporal foundation model of the real world, and the platform that puts it behind high-stakes decisions: one model from the individual parcel or condo unit to the nation, and from days to decades.
     \begin{itemize}
-        \item Trained FMTSFlow, a multi-target spatiotemporal forecaster, on a 388M-row panel of real public data across 16 jurisdictions in 4 countries and 32 targets (population, households, housing, rents, home values, income, employment, migration), one checkpoint per information cutoff, 2019 to 2023.
-        \item Built a pre-registered benchmark that scores every target the same way: against published agency projections, a held-flat estimate and a gradient-boosted lag baseline, on later Census counts, 1 to 4 years ahead at tract and county, with county-clustered bootstrap intervals and an information-matching rule (an entry meets only projections published after its own cutoff).
-        \item Across the scored targets (population, households, housing units) the model beats official projections in 6 of 10 pooled target-level comparisons and ties the rest; county population 59.8\% win rate vs 18 sources (3,134 counties); tract 54.9\% vs 30 agencies (households 60.1\%, housing 52.5\%, population 48.0\%); the lag baseline still leads at tract; matched 2025 test under way.
-        \item Assembled the publication-dated archive behind it (131 agency sources, 3,065 files, 27 normalized vintages) and packaged an arXiv preprint, Hugging Face dataset, GitHub scorer with leaderboard, and API model card for release (pending approval).
-        \item Shipped the first product, \href{https://www.homecastr.com/}{Homecastr}, a parcel-value diffusion forecaster (spatial inducing tokens, per-horizon loss normalization, DDIM sampling; PIT, coverage and sharpness checks before release) serving roughly 14M production requests weekly.
+        \item Trained FMTSFlow, a multi-target spatiotemporal forecaster, on a 388M-row panel (16 jurisdictions, 4 countries, 32 targets: population, housing, rents, income, migration), checkpoints per cutoff, 2019 to 2023.
+        \item Pre-registered, information-matched benchmark on Census counts: beats agency forecasts in 6 of 10 comparisons; county 59.8\% vs 18 sources, tract 54.9\% vs 30 agencies; lag baseline leads at tract.
+        \item Assembled the publication-dated archive (131 agency sources, 27 vintages) and packaged an arXiv preprint, Hugging Face dataset, GitHub scorer and leaderboard, and API model card (release pending approval).
+        \item Shipped the first product, \href{https://www.homecastr.com/}{Homecastr}, a parcel-value diffusion forecaster (spatial inducing tokens, DDIM sampling, PIT and coverage checks), peaking at 14M requests per week (about 9M typical).
     \end{itemize}}
 
     \cventry{Jun. 2026 -- Sep. 2026}{Member}{\href{https://www.southparkcommons.com/}{South Park Commons}}{New York, NY}{}{
